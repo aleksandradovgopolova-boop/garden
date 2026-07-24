@@ -34,9 +34,9 @@ Garden не строит универсальную сеть смыслов.
 - какое пользовательское воспоминание с ней связано;
 - откуда она появилась.
 
-### Core principle
+### Основной принцип
 
-> **Garden supports situated context, not semantic expansion.**
+> **Garden поддерживает ситуативный контекст, а не семантическое расширение.**
 
 ---
 
@@ -53,8 +53,8 @@ Garden не строит универсальную сеть смыслов.
 - документы;
 - аргументы;
 - исследование;
-- semantic retrieval;
-- backlinks;
+- семантический поиск;
+- обратные ссылки (backlinks);
 - граф связей;
 - развитие интеллектуального контекста.
 
@@ -71,13 +71,13 @@ Garden не строит универсальную сеть смыслов.
 - возвращение;
 - личное пространство.
 
-### Boundary
+### Граница
 
-Garden does not compete with «Нити» on knowledge organization.
+Garden не конкурирует с «Нити» в организации знаний.
 
 ---
 
-## 4. Context is not graph
+## 4. Контекст — не граф
 
 Контекст отвечает:
 
@@ -100,7 +100,7 @@ Garden нужен первый слой.
 
 ---
 
-## 5. Allowed relations
+## 5. Разрешённые связи
 
 В Alpha допустимы только типизированные связи.
 
@@ -115,59 +115,59 @@ allowed_relation_types:
   - belongs_to_lineage
 ```
 
-Examples:
+Примеры:
 
 - объект расположен в месте;
 - ритуал происходит в месте;
 - объект используется в ритуале;
 - память относится к месту;
 - версия происходит от предыдущей;
-- ритуал принадлежит lineage.
+- ритуал принадлежит родословной.
 
 ---
 
-## 6. Disallowed relations
+## 6. Запрещённые связи
 
 В Garden Alpha не создаются:
 
-- related_to;
-- similar_to;
-- reminds_me_of;
-- conceptually_connected_to;
-- supports;
-- contradicts;
-- caused;
-- symbolizes;
-- emotionally_related_to.
+- related_to (связано с);
+- similar_to (похоже на);
+- reminds_me_of (напоминает о);
+- conceptually_connected_to (концептуально связано с);
+- supports (поддерживает);
+- contradicts (противоречит);
+- caused (вызвало);
+- symbolizes (символизирует);
+- emotionally_related_to (эмоционально связано с).
 
 Причина:
 
-эти связи быстро превращают продукт в semantic graph и требуют интерпретации.
+эти связи быстро превращают продукт в семантический граф и требуют интерпретации.
 
 ---
 
-## 7. No arbitrary edges
+## 7. Никаких произвольных рёбер
 
 Пользователь не рисует произвольные линии между всем подряд.
 
 Нет:
 
-- canvas графа;
-- node map;
-- backlinks panel;
-- related entities sidebar;
-- cluster visualization;
-- graph density;
-- centrality;
-- automatic edges.
+- холста графа;
+- карты узлов;
+- панели обратных ссылок;
+- сайдбара связанных сущностей;
+- визуализации кластеров;
+- плотности графа;
+- центральности;
+- автоматических рёбер.
 
-### Product rule
+### Продуктовое правило
 
-> Every relation must have a concrete product function.
+> У каждой связи должна быть конкретная продуктовая функция.
 
 ---
 
-## 8. Place as container, not node
+## 8. Место как контейнер, а не узел
 
 Место может удерживать рядом:
 
@@ -176,111 +176,111 @@ Examples:
 - память;
 - атмосферу.
 
-Но место не является узлом knowledge graph.
+Но место не является узлом графа знаний.
 
 Оно не получает:
 
-- semantic weight;
-- influence score;
-- graph centrality;
-- relevance rank.
+- семантический вес;
+- балл влияния;
+- центральность в графе;
+- ранг релевантности.
 
 Место — среда и контекст.
 
 ---
 
-## 9. Adjacency
+## 9. Соседство (adjacency)
 
-Garden may use spatial adjacency.
+Garden может использовать пространственное соседство.
 
-Examples:
+Примеры:
 
 - лавка рядом с водой;
 - ритуал доступен из конкретного места;
 - память открывается через объект;
 - два места соединены тропой.
 
-Adjacency is:
+Соседство:
 
-- visible;
-- literal;
-- local;
-- user-authored.
+- видимо;
+- буквально;
+- локально;
+- задано пользователем.
 
-It is not automatically interpreted as meaning.
-
----
-
-## 10. Co-presence
-
-Several entities may coexist in one place.
-
-Garden can show:
-
-- object;
-- ritual;
-- memory;
-- atmosphere.
-
-But co-presence does not imply:
-
-- causality;
-- emotional relation;
-- conceptual similarity;
-- narrative sequence.
-
-### Principle
-
-> Being together in Garden does not mean meaning the same thing.
+Оно не интерпретируется автоматически как смысл.
 
 ---
 
-## 11. Composition instead of graph
+## 10. Со-присутствие (co-presence)
 
-Garden’s organizing metaphor is composition.
+Несколько сущностей могут сосуществовать в одном месте.
 
-A composition may include:
+Garden может показать:
 
-- spatial arrangement;
-- sequence;
-- rhythm;
-- density;
-- distance;
-- visibility;
-- layering.
+- объект;
+- ритуал;
+- память;
+- атмосферу.
 
-This is different from graph structure.
+Но со-присутствие не подразумевает:
 
-### Graph asks
+- причинность;
+- эмоциональную связь;
+- концептуальное сходство;
+- нарративную последовательность.
 
-> What is connected?
+### Принцип
 
-### Composition asks
-
-> What is present together, and how is it experienced?
+> Быть вместе в Garden не значит означать одно и то же.
 
 ---
 
-## 12. Limited navigation
+## 11. Композиция вместо графа
 
-Navigation may move:
+Организующая метафора Garden — композиция.
 
-- Garden → Place;
-- Place → Object;
-- Place → Ritual;
-- Place → Memory;
-- Ritual → selected Place;
-- Memory → primary Place.
+Композиция может включать:
 
-It does not expand indefinitely through related content.
+- пространственное расположение;
+- последовательность;
+- ритм;
+- плотность;
+- расстояние;
+- видимость;
+- слоистость.
 
-No endless rabbit holes.
+Это отличается от структуры графа.
+
+### Граф спрашивает
+
+> Что связано?
+
+### Композиция спрашивает
+
+> Что присутствует вместе и как это переживается?
 
 ---
 
-## 13. No recommendation chain
+## 12. Ограниченная навигация
 
-Garden does not say:
+Навигация может двигаться:
+
+- Garden → Место;
+- Место → Объект;
+- Место → Ритуал;
+- Место → Память;
+- Ритуал → выбранное Место;
+- Память → основное Место.
+
+Она не расширяется бесконечно через связанный контент.
+
+Никаких бесконечных «кроличьих нор».
+
+---
+
+## 13. Никакой цепочки рекомендаций
+
+Garden не говорит:
 
 - «Это напоминает другое воспоминание».
 - «Возможно, эти ритуалы связаны».
@@ -288,58 +288,58 @@ Garden does not say:
 - «Лавка и дождь часто встречаются вместе».
 - «Вот что ещё может быть важно».
 
-Unless the user explicitly asks for a bounded search.
+Если только пользователь явно не запросил ограниченный поиск.
 
 ---
 
-## 14. Search boundary
+## 14. Граница поиска
 
-Search may retrieve entities matching:
+Поиск может извлекать сущности, соответствующие:
 
-- user words;
-- literal labels;
-- date;
-- place;
-- ritual;
-- observable media content.
+- словам пользователя;
+- буквальным подписям;
+- дате;
+- месту;
+- ритуалу;
+- наблюдаемому содержимому медиа.
 
-Search does not automatically create permanent relations.
+Поиск не создаёт автоматически постоянные связи.
 
-A search result is not a graph edge.
-
----
-
-## 15. AI boundary
-
-AI may:
-
-- help locate;
-- explain existing relation types;
-- identify broken references;
-- suggest one direct link after user request;
-- preserve provenance;
-- detect duplicate objects.
-
-AI may not:
-
-- construct a life graph;
-- infer hidden themes;
-- generate a personal ontology;
-- identify core beliefs;
-- connect memories into a psychological narrative;
-- migrate Garden content into a second-brain structure by default.
+Результат поиска — не ребро графа.
 
 ---
 
-## 16. User meaning remains text, not ontology
+## 15. Граница ИИ
+
+ИИ может:
+
+- помочь найти;
+- объяснить существующие типы связей;
+- выявить сломанные ссылки;
+- предложить одну прямую связь после запроса пользователя;
+- сохранить происхождение;
+- обнаружить дубликаты объектов.
+
+ИИ не может:
+
+- строить граф жизни;
+- выводить скрытые темы;
+- генерировать личную онтологию;
+- определять ключевые убеждения;
+- связывать воспоминания в психологический нарратив;
+- по умолчанию мигрировать содержимое Garden в структуру «второго мозга».
+
+---
+
+## 16. Смысл пользователя остаётся текстом, а не онтологией
 
 Пользователь может написать:
 
 > «Это место напоминает мне о начале новой жизни».
 
-Garden stores this as user-authored text.
+Garden хранит это как текст, написанный пользователем.
 
-It does not automatically create entities:
+Он не создаёт автоматически сущности:
 
 - начало;
 - новая жизнь;
@@ -347,61 +347,61 @@ It does not automatically create entities:
 - идентичность;
 - трансформация.
 
-Meaning remains expression, not schema.
+Смысл остаётся выражением, а не схемой.
 
 ---
 
-## 17. Tags
+## 17. Теги
 
-Tags in Garden are optional and limited.
+Теги в Garden опциональны и ограниченны.
 
-Allowed uses:
+Разрешённые применения:
 
-- literal filtering;
-- accessibility;
-- import provenance;
-- media description;
-- user-defined grouping.
+- буквальная фильтрация;
+- доступность;
+- происхождение импорта;
+- описание медиа;
+- заданная пользователем группировка.
 
-No default tag cloud.
+Никакого облака тегов по умолчанию.
 
-No tag graph.
+Никакого графа тегов.
 
-No automatic hierarchy.
+Никакой автоматической иерархии.
 
-### Alpha limits
+### Пределы Alpha
 
-- flat tags only;
-- no nested ontology;
-- no inferred emotional tags;
-- no tag recommendations unless requested.
+- только плоские теги;
+- никакой вложенной онтологии;
+- никаких выведенных эмоциональных тегов;
+- никаких рекомендаций тегов без запроса.
 
 ---
 
-## 18. Collections
+## 18. Коллекции
 
-Garden may later support simple user-created collections.
+Garden позже может поддерживать простые созданные пользователем коллекции.
 
-Examples:
+Примеры:
 
 - места для тишины;
 - вечерние ритуалы;
 - сохранённые фотографии.
 
-But collections are:
+Но коллекции:
 
-- explicit;
-- flat;
-- user-authored;
-- optional.
+- явные;
+- плоские;
+- созданы пользователем;
+- опциональны.
 
-They do not become dynamic semantic clusters.
+Они не становятся динамическими семантическими кластерами.
 
 ---
 
-## 19. Context cards
+## 19. Контекстные карточки
 
-A contextual card may show:
+Контекстная карточка может показать:
 
 ```text
 Место: Берег
@@ -410,41 +410,41 @@ A contextual card may show:
 Память: Дождь после работы
 ```
 
-This gives orientation.
+Это даёт ориентацию.
 
-It does not show:
+Она не показывает:
 
-- “related memories”;
-- “similar rituals”;
-- “hidden connections”;
-- “themes detected by AI”.
-
----
-
-## 20. Export and interoperability
-
-Garden and «Нити» may later interoperate.
-
-Possible future boundary-safe actions:
-
-- export a user-selected memory as a note;
-- send a user-authored text to «Нити»;
-- link back to Garden place by URL;
-- import a selected note as literal text.
-
-But:
-
-- no automatic two-way graph sync;
-- no merging data models;
-- no shared ontology;
-- no silent copying;
-- no assumption that every Garden entity belongs in «Нити».
-
-Separate research is required before integration.
+- «связанные воспоминания»;
+- «похожие ритуалы»;
+- «скрытые связи»;
+- «темы, обнаруженные ИИ».
 
 ---
 
-## 21. Data model separation
+## 20. Экспорт и совместимость
+
+Garden и «Нити» позже могут взаимодействовать.
+
+Возможные будущие действия, безопасные для границы:
+
+- экспортировать выбранное пользователем воспоминание как заметку;
+- отправить написанный пользователем текст в «Нити»;
+- сослаться обратно на место Garden по URL;
+- импортировать выбранную заметку как буквальный текст.
+
+Но:
+
+- никакой автоматической двусторонней синхронизации графа;
+- никакого слияния моделей данных;
+- никакой общей онтологии;
+- никакого молчаливого копирования;
+- никакого предположения, что каждая сущность Garden принадлежит «Нити».
+
+Отдельное исследование требуется до интеграции.
+
+---
+
+## 21. Разделение модели данных
 
 ```yaml
 garden_context_relation:
@@ -459,37 +459,37 @@ garden_context_relation:
   provenance:
 ```
 
-Allowed relation types remain enumerated.
+Разрешённые типы связей остаются перечислимыми.
 
-No custom semantic relation type in Alpha.
-
----
-
-## 22. Relation lifecycle
-
-A relation may be:
-
-- created;
-- edited where applicable;
-- removed;
-- restored;
-- migrated.
-
-Removing a relation does not delete the linked entities.
-
-Example:
-
-detaching a memory from a place does not delete the memory.
+Никакого пользовательского семантического типа связи в Alpha.
 
 ---
 
-## 23. Explainable consequences
+## 22. Жизненный цикл связи
 
-Before removing a relation, Garden explains literally:
+Связь может быть:
 
-> «Воспоминание останется в архиве, но больше не будет открываться из места “Берег”.»
+- создана;
+- отредактирована, где применимо;
+- удалена;
+- восстановлена;
+- мигрирована.
 
-Not:
+Удаление связи не удаляет связанные сущности.
+
+Пример:
+
+отвязывание воспоминания от места не удаляет воспоминание.
+
+---
+
+## 23. Объяснимые последствия
+
+Перед удалением связи Garden объясняет буквально:
+
+> «Воспоминание останется в архиве, но больше не будет открываться из места „Берег“.»
+
+Не:
 
 > «Ты потеряешь важную связь».
 
@@ -497,156 +497,156 @@ Not:
 
 ## 24. Trigger Round
 
-### Problem
+### Проблема
 
-How can Garden hold meaningful context without becoming «Нити»?
+Как Garden может удерживать значимый контекст, не становясь «Нити»?
 
-### Trigger 1 — Human-centric
+### Триггер 1 — Human-centric
 
-**Prompt:** «А что если убрать всё лишнее?»
+**Карточка:** «А что если убрать всё лишнее?»
 
-**Hypothesis:** Keep only relation types necessary for orientation, use and provenance.
+**Гипотеза:** Сохранить только типы связей, необходимые для ориентации, использования и происхождения.
 
-**Outcome:** accepted architecture.
+**Результат:** принятая архитектура.
 
-### Trigger 2 — Graphic Design
+### Триггер 2 — Графический дизайн
 
-**Prompt:** «А что если работать с композицией, а не с элементами?»
+**Карточка:** «А что если работать с композицией, а не с элементами?»
 
-**Hypothesis:** Spatial composition becomes Garden’s organizing model instead of graph topology.
+**Гипотеза:** Пространственная композиция становится организующей моделью Garden вместо топологии графа.
 
-**Outcome:** accepted product metaphor.
+**Результат:** принятая продуктовая метафора.
 
-### Trigger 3 — Innovation
+### Триггер 3 — Инновации
 
-**Prompt:** «А что если ограничение — это преимущество?»
+**Карточка:** «А что если ограничение — это преимущество?»
 
-**Hypothesis:** Enumerated relation types protect Garden from feature drift and cognitive overload.
+**Гипотеза:** Перечислимые типы связей защищают Garden от дрейфа функций и когнитивной перегрузки.
 
-**Outcome:** accepted boundary.
+**Результат:** принятая граница.
 
-### Trigger 4 — Business Design
+### Триггер 4 — Бизнес-дизайн
 
-**Prompt:** «А что если два продукта не должны сливаться?»
+**Карточка:** «А что если два продукта не должны сливаться?»
 
-**Hypothesis:** Garden and «Нити» remain separate products and may later interoperate only through explicit user actions.
+**Гипотеза:** Garden и «Нити» остаются раздельными продуктами и могут позже взаимодействовать только через явные действия пользователя.
 
-**Outcome:** accepted strategic decision.
+**Результат:** принятое стратегическое решение.
 
-### Trigger 5 — Naming
+### Триггер 5 — Именование
 
-**Prompt:** «А что если назвать буквально?»
+**Карточка:** «А что если назвать буквально?»
 
-**Hypothesis:** UI uses concrete relation labels: «находится в», «используется в», «относится к».
+**Гипотеза:** UI использует конкретные подписи связей: «находится в», «используется в», «относится к».
 
-**Outcome:** accepted language direction.
+**Результат:** принятое языковое направление.
 
-### Rejected interpretation
+### Отвергнутая интерпретация
 
-Building a “living network of meanings” inside Garden is rejected because it reproduces the core domain of «Нити».
-
----
-
-## 25. Alpha context set
-
-1. Place contains object.
-2. Place may host ritual.
-3. Memory may have one primary place.
-4. Object may be used in ritual.
-5. Versions preserve derivation.
-6. Rituals preserve lineage.
-7. Context card.
-8. Literal breadcrumbs.
-9. Flat user tags.
-10. No graph view.
-11. No backlinks.
-12. No automatic related entities.
-13. No semantic clustering.
-14. No custom relation types.
+Построение «живой сети смыслов» внутри Garden отвергается, потому что оно воспроизводит основной домен «Нити».
 
 ---
 
-## 26. Alpha experiments
+## 25. Набор контекста Alpha
 
-### A — Context card vs related-content panel
-
-Measure orientation, distraction and perceived complexity.
-
-### B — Composition vs graph map
-
-Verify that composition supports Garden use without creating knowledge-management expectations.
-
-### C — Enumerated vs custom links
-
-Measure clarity and misuse.
-
-### D — Flat tags vs no tags
-
-Measure retrieval without ontology growth.
-
-### E — Garden-to-«Нити» manual export concept
-
-Test whether users understand the products as separate.
+1. Место содержит объект.
+2. Место может принимать ритуал.
+3. У памяти может быть одно основное место.
+4. Объект может использоваться в ритуале.
+5. Версии сохраняют происхождение.
+6. Ритуалы сохраняют родословную.
+7. Контекстная карточка.
+8. Буквальные «хлебные крошки».
+9. Плоские пользовательские теги.
+10. Никакого вида графа.
+11. Никаких обратных ссылок.
+12. Никаких автоматических связанных сущностей.
+13. Никакой семантической кластеризации.
+14. Никаких пользовательских типов связей.
 
 ---
 
-## 27. Candidate principles
+## 26. Эксперименты Alpha
 
-1. Context is not graph.
-2. Garden uses typed, limited relations.
-3. Every relation has a concrete function.
-4. Place is a container, not a semantic node.
-5. Co-presence does not imply meaning.
-6. Composition replaces graph topology.
-7. Search results do not create relations.
-8. User meaning remains expression, not ontology.
-9. No arbitrary edges.
-10. No backlinks.
-11. No automatic related content.
-12. No semantic clustering.
-13. Garden and «Нити» remain separate.
-14. Integration, if any, is explicit and user-controlled.
-15. Removing a relation does not delete entities.
-16. Literal language precedes interpretation.
+### A — Контекстная карточка против панели связанного контента
 
----
+Измерять ориентацию, отвлечение и воспринимаемую сложность.
 
-## 28. What Garden must not claim
+### B — Композиция против карты графа
 
-- more connections create more meaning;
-- all personal data belongs in one graph;
-- spatial adjacency reveals emotional relation;
-- AI can discover hidden themes safely;
-- every memory should connect to multiple entities;
-- graph navigation is inherently insightful;
-- Garden should organize thoughts;
-- Garden should become an external mind;
-- Garden and «Нити» benefit from merging;
-- user meaning should be converted into structured concepts.
+Проверить, что композиция поддерживает использование Garden, не создавая ожиданий управления знаниями.
+
+### C — Перечислимые против пользовательских связей
+
+Измерять ясность и злоупотребление.
+
+### D — Плоские теги против отсутствия тегов
+
+Измерять извлечение без роста онтологии.
+
+### E — Концепция ручного экспорта Garden → «Нити»
+
+Тестировать, понимают ли пользователи продукты как раздельные.
 
 ---
 
-## 29. Claim Registry
+## 27. Принципы-кандидаты
 
-| Claim | Confidence | Status |
+1. Контекст — не граф.
+2. Garden использует типизированные, ограниченные связи.
+3. У каждой связи есть конкретная функция.
+4. Место — контейнер, а не семантический узел.
+5. Со-присутствие не подразумевает смысл.
+6. Композиция заменяет топологию графа.
+7. Результаты поиска не создают связи.
+8. Смысл пользователя остаётся выражением, а не онтологией.
+9. Никаких произвольных рёбер.
+10. Никаких обратных ссылок.
+11. Никакого автоматического связанного контента.
+12. Никакой семантической кластеризации.
+13. Garden и «Нити» остаются раздельными.
+14. Интеграция, если она есть, явная и контролируемая пользователем.
+15. Удаление связи не удаляет сущности.
+16. Буквальный язык предшествует интерпретации.
+
+---
+
+## 28. Что Garden не должен заявлять
+
+- больше связей создаёт больше смысла;
+- все личные данные принадлежат одному графу;
+- пространственное соседство раскрывает эмоциональную связь;
+- ИИ может безопасно обнаруживать скрытые темы;
+- каждое воспоминание должно связываться с несколькими сущностями;
+- навигация по графу по своей природе даёт инсайты;
+- Garden должен организовывать мысли;
+- Garden должен стать внешним разумом;
+- Garden и «Нити» выигрывают от слияния;
+- смысл пользователя следует преобразовывать в структурированные понятия.
+
+---
+
+## 29. Реестр утверждений
+
+| Утверждение | Уверенность | Статус |
 |---|---:|---|
-| Typed relations can support orientation | high | foundation |
-| Arbitrary semantic linking is necessary for Garden | low | rejected |
-| Spatial composition may provide enough structure | medium | Alpha hypothesis |
-| Co-presence implies conceptual relation | low | rejected |
-| Enumerated relation types can reduce feature drift | high | product architecture principle |
-| Search results should become permanent links | low | rejected |
-| Garden and «Нити» should share one data model | low | rejected |
-| Explicit export may support interoperability | medium | future hypothesis |
-| User-authored meaning should remain readable text | high | foundation |
-| Local context is sufficient for Alpha | medium-high | accepted scope |
+| Типизированные связи могут поддерживать ориентацию | высокая | основа |
+| Произвольное семантическое связывание необходимо Garden | низкая | отвергнуто |
+| Пространственная композиция может давать достаточно структуры | средняя | гипотеза Alpha |
+| Со-присутствие подразумевает концептуальную связь | низкая | отвергнуто |
+| Перечислимые типы связей могут снижать дрейф функций | высокая | принцип продуктовой архитектуры |
+| Результаты поиска должны становиться постоянными ссылками | низкая | отвергнуто |
+| Garden и «Нити» должны разделять одну модель данных | низкая | отвергнуто |
+| Явный экспорт может поддерживать совместимость | средняя | будущая гипотеза |
+| Написанный пользователем смысл должен оставаться читаемым текстом | высокая | основа |
+| Локального контекста достаточно для Alpha | средняя–высокая | принятый охват |
 
 ---
 
-## 30. Verdict
+## 30. Вердикт
 
-Garden does not need to reveal a hidden network beneath a person’s life.
+Garden не нужно раскрывать скрытую сеть под жизнью человека.
 
-It needs to let places, objects, rituals and selected memories remain together without explaining them away.
+Ему нужно позволить местам, объектам, ритуалам и выбранным воспоминаниям оставаться вместе, не объясняя их до конца.
 
-> **Garden holds things in context. «Нити» may connect ideas. They are not the same work.**
+> **Garden удерживает вещи в контексте. «Нити» могут связывать идеи. Это не одна и та же работа.**
