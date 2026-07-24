@@ -26,7 +26,7 @@ source_of_truth: false
 
 Место становится «своим» не только потому, что оно красиво.
 
-Place attachment обычно связывают с несколькими взаимосвязанными компонентами:
+Привязанность к месту (place attachment) обычно связывают с несколькими взаимосвязанными компонентами:
 
 - эмоциональной связью;
 - личными и социальными значениями;
@@ -42,13 +42,13 @@ Place attachment обычно связывают с несколькими вз�
 
 ---
 
-## 3. Space и place
+## 3. Пространство и место (space и place)
 
-`Space` — доступная среда.
+`Space` (пространство) — доступная среда.
 
-`Place` — среда, которая приобрела значение.
+`Place` (место) — среда, которая приобрела значение.
 
-Цифровой сад может быть technically persistent, visually polished and interactive, но оставаться чужим, если:
+Цифровой сад может быть технически постоянным, визуально отточенным и интерактивным, но оставаться чужим, если:
 
 - всё уже оформлено;
 - значения назначены продуктом;
@@ -60,28 +60,28 @@ Place attachment обычно связывают с несколькими вз�
 
 ### Принцип
 
-> Garden должен давать не готовое место, а возможность place-making.
+> Garden должен давать не готовое место, а возможность его создавать (place-making).
 
 ---
 
-## 4. Place attachment
+## 4. Привязанность к месту (place attachment)
 
-Scannell and Gifford’s tripartite framework рассматривает place attachment через:
+Трёхчастная рамка Скэннелл и Гиффорда рассматривает привязанность к месту через:
 
-- **Person** — кто привязан: индивидуально или коллективно;
-- **Process** — affective, cognitive and behavioral processes;
-- **Place** — physical and social characteristics.
+- **Человек (Person)** — кто привязан: индивидуально или коллективно;
+- **Процесс (Process)** — аффективные, когнитивные и поведенческие процессы;
+- **Место (Place)** — физические и социальные характеристики.
 
 Для Garden:
 
-### Person
+### Человек
 
 - личная история;
 - вкусы;
 - собственные слова;
 - добровольные ритуалы.
 
-### Process
+### Процесс
 
 - эмоциональное удовольствие;
 - узнавание;
@@ -90,7 +90,7 @@ Scannell and Gifford’s tripartite framework рассматривает place a
 - изменение;
 - забота без обязанности.
 
-### Place
+### Место
 
 - визуальный сад;
 - его звук;
@@ -101,11 +101,11 @@ Scannell and Gifford’s tripartite framework рассматривает place a
 
 ---
 
-## 5. Place identity, dependence and meaning
+## 5. Идентичность места, зависимость и смысл
 
 Нужно различать:
 
-### Place identity
+### Идентичность места (place identity)
 
 Место становится частью того, как человек понимает себя.
 
@@ -117,7 +117,7 @@ Scannell and Gifford’s tripartite framework рассматривает place a
 
 > сад хранит выбранные человеком следы, но не заявляет, кем человек является.
 
-### Place dependence
+### Зависимость от места (place dependence)
 
 Место поддерживает определённую деятельность лучше альтернатив.
 
@@ -135,11 +135,11 @@ Garden может стать удобным для:
 - почувствовать связь;
 - помнить свою жизнь.
 
-### Place meaning
+### Смысл места (place meaning)
 
 Пользователь сам назначает смысл объектам и зонам.
 
-AI не создаёт универсальный словарь символов.
+ИИ не создаёт универсальный словарь символов.
 
 ---
 
@@ -157,17 +157,17 @@ AI не создаёт универсальный словарь символо�
 - возвращать;
 - контролировать доступ.
 
-### Garden implication
+### Следствие для Garden
 
-Пользователь должен иметь больше власти над садом, чем game designer над «правильным прохождением».
+Пользователь должен иметь больше власти над садом, чем гейм-дизайнер над «правильным прохождением».
 
 ### Требования
 
 - свободное размещение;
 - редактирование без штрафа;
-- reversible transformations;
-- отсутствие единственно правильного layout;
-- empty state as valid design;
+- обратимые трансформации;
+- отсутствие единственно правильной раскладки;
+- пустое состояние как допустимый дизайн;
 - возможность отключить анимацию/звук;
 - экспорт истории;
 - удаление объектов.
@@ -202,7 +202,7 @@ AI не создаёт универсальный словарь символо�
 
 ---
 
-## 8. Familiarity и novelty
+## 8. Знакомость и новизна (familiarity и novelty)
 
 Полностью неизменное место может стать незаметным.
 
@@ -210,7 +210,7 @@ AI не создаёт универсальный словарь символо�
 
 Garden нужен баланс:
 
-### Familiarity
+### Знакомость
 
 - стабильная география;
 - сохранённые объекты;
@@ -218,13 +218,13 @@ Garden нужен баланс:
 - постоянные точки;
 - предсказуемые правила.
 
-### Gentle novelty
+### Мягкая новизна
 
 - небольшая естественная анимация;
 - смена света;
 - редкие животные;
 - визуальные детали;
-- optional discoveries;
+- опциональные открытия;
 - пользовательские изменения.
 
 ### Запрет
@@ -233,34 +233,34 @@ Garden нужен баланс:
 
 ---
 
-## 9. Restorative environments
+## 9. Восстановительные среды (restorative environments)
 
-Attention Restoration Theory связывает восстановительный потенциал среды с:
+Теория восстановления внимания связывает восстановительный потенциал среды с:
 
-- being away;
-- soft fascination;
-- extent/coherence;
-- compatibility.
+- удалённостью (being away);
+- мягкой завороженностью (soft fascination);
+- протяжённостью/связностью (extent/coherence);
+- совместимостью (compatibility).
 
-Evidence on actual nature and restorative environments is mixed and context-dependent; R-003 already forbids transferring nature evidence directly to Garden.
+Данные о реальной природе и восстановительных средах смешаны и зависят от контекста; R-003 уже запрещает переносить доказательства о природе напрямую на Garden.
 
-Для world design эти характеристики могут быть **дизайн-вдохновением**, а не health claim.
+Для дизайна мира эти характеристики могут быть **вдохновением для дизайна**, а не заявлением о пользе для здоровья.
 
-### Garden translation
+### Перевод для Garden
 
-#### Being away
+#### Удалённость
 
 Сад визуально отличается от списков задач и чатов.
 
-#### Soft fascination
+#### Мягкая завороженность
 
-Вода, листья, свет and ambient motion привлекают без требования.
+Вода, листья, свет и фоновое движение привлекают без требования.
 
-#### Extent
+#### Протяжённость
 
 Мир кажется связным и допускает исследование.
 
-#### Compatibility
+#### Совместимость
 
 Среда не мешает цели человека и настраивается под него.
 
@@ -270,7 +270,7 @@ Evidence on actual nature and restorative environments is mixed and context-depe
 
 ---
 
-## 10. Sensory coherence
+## 10. Сенсорная согласованность
 
 Звук, движение и визуальная среда должны соответствовать друг другу.
 
@@ -283,321 +283,321 @@ Evidence on actual nature and restorative environments is mixed and context-depe
 
 ### Требования
 
-- sound off by default or explicit choice;
-- independent volume controls;
-- no sudden sounds;
-- no notification sound inside ambient world;
-- visual and audio consistency;
-- reduced motion;
-- captions/literal equivalents where needed.
+- звук выключен по умолчанию или по явному выбору;
+- независимые регуляторы громкости;
+- никаких внезапных звуков;
+- никакого звука уведомлений внутри фонового мира;
+- визуальная и звуковая согласованность;
+- уменьшенное движение;
+- субтитры/буквальные эквиваленты, где нужно.
 
 ---
 
-## 11. Cozy game logic
+## 11. Логика уютных игр (cozy game logic)
 
-Cozy games commonly use:
+Уютные игры обычно используют:
 
-- constructive rather than destructive activity;
-- low skill barriers;
-- customization;
-- personal pace;
-- gentle routine;
-- collecting;
-- community;
-- safe repetition;
-- aesthetically coherent worlds.
+- созидательную, а не разрушительную деятельность;
+- низкие барьеры навыка;
+- кастомизацию;
+- личный темп;
+- мягкую рутину;
+- коллекционирование;
+- сообщество;
+- безопасное повторение;
+- эстетически согласованные миры.
 
-Но «cozy» может скрывать:
+Но «уют» может скрывать:
 
-- grind;
-- daily timers;
-- scarcity;
-- paid cosmetics;
-- endless chores;
-- emotionally coded retention.
+- гринд;
+- ежедневные таймеры;
+- дефицит;
+- платную косметику;
+- бесконечные хлопоты;
+- эмоционально закодированное удержание.
 
-### Garden position
+### Позиция Garden
 
-Garden borrows:
+Garden заимствует:
 
-- ownership;
-- creative sandbox;
-- gentle discovery;
-- atmosphere;
-- playfulness.
+- владение;
+- творческую песочницу;
+- мягкое открытие;
+- атмосферу;
+- игривость.
 
-Garden rejects:
+Garden отвергает:
 
-- grind;
-- obligation;
-- farm maintenance;
-- resource anxiety;
-- artificial scarcity;
-- seasonal FOMO;
-- monetized protection.
-
----
-
-## 12. Persistence
-
-A world feels real when changes persist.
-
-But persistence creates data and identity risks.
-
-### Garden rules
-
-Persist:
-
-- user placement;
-- chosen transformations;
-- names;
-- explicit memories;
-- archive decisions.
-
-Do not persist by default:
-
-- inferred emotional states;
-- accidental draft;
-- AI symbolic interpretation;
-- hidden behavioral profile;
-- passive activity.
-
-### User controls
-
-- undo;
-- version history;
-- reset area;
-- export snapshot;
-- selective deletion;
-- full reset.
+- гринд;
+- обязанность;
+- обслуживание фермы;
+- ресурсную тревогу;
+- искусственный дефицит;
+- сезонный FOMO;
+- монетизированную защиту.
 
 ---
 
-## 13. Places before rituals?
+## 12. Постоянство (persistence)
 
-A useful world model:
+Мир ощущается реальным, когда изменения сохраняются.
+
+Но постоянство создаёт риски данных и идентичности.
+
+### Правила Garden
+
+Сохранять:
+
+- размещение пользователя;
+- выбранные трансформации;
+- имена;
+- явные воспоминания;
+- решения об архивировании.
+
+Не сохранять по умолчанию:
+
+- выведенные эмоциональные состояния;
+- случайный черновик;
+- символическую интерпретацию ИИ;
+- скрытый поведенческий профиль;
+- пассивную активность.
+
+### Средства контроля пользователя
+
+- отмена;
+- история версий;
+- сброс области;
+- экспорт снимка;
+- выборочное удаление;
+- полный сброс.
+
+---
+
+## 13. Места прежде ритуалов?
+
+Полезная модель мира:
 
 ```text
 Garden
-  ├── Places
-  │     ├── Rituals
-  │     ├── Memories
-  │     └── Objects
-  └── Paths between places
+  ├── Места
+  │     ├── Ритуалы
+  │     ├── Воспоминания
+  │     └── Объекты
+  └── Пути между местами
 ```
 
-But Alpha should not assume places are always the primary object.
+Но Alpha не должна предполагать, что места всегда являются основным объектом.
 
-Two competing models must be tested:
+Нужно протестировать две конкурирующие модели:
 
-### Model A — Ritual-first
+### Модель A — Ритуал прежде всего
 
-Create ritual → choose its garden form → place it.
+Создать ритуал → выбрать его садовую форму → разместить.
 
-### Model B — Place-first
+### Модель B — Место прежде всего
 
-Create or choose place → decide what may live there → create ritual.
+Создать или выбрать место → решить, что может там жить → создать ритуал.
 
-### Research hypothesis
+### Исследовательская гипотеза
 
-- ritual-first may be easier to understand;
-- place-first may create stronger ownership and continuity.
+- «ритуал прежде всего» может быть легче для понимания;
+- «место прежде всего» может создавать более сильное владение и непрерывность.
 
-No final decision yet.
-
----
-
-## 14. Types of places
-
-Possible place primitives:
-
-- clearing;
-- grove;
-- pond edge;
-- path;
-- house;
-- greenhouse;
-- hill;
-- fire circle;
-- meadow;
-- quiet corner.
-
-These should not have fixed psychological meanings.
-
-Example suggestions are allowed:
-
-> «Some people use a clearing for something they want to keep spacious».
-
-Not:
-
-> «The clearing represents emotional openness».
+Окончательного решения пока нет.
 
 ---
 
-## 15. Home
+## 14. Типы мест
 
-A house can create:
+Возможные примитивы мест:
 
-- privacy;
-- shelter;
-- interiority;
-- continuity;
-- a place for archive or letters.
+- поляна;
+- роща;
+- край пруда;
+- путь;
+- дом;
+- теплица;
+- холм;
+- круг у костра;
+- луг;
+- тихий уголок.
 
-Risks:
+У них не должно быть фиксированных психологических значений.
 
-- turns Garden into a total life simulation;
-- creates excessive scope;
-- implies a normative home;
-- may feel culturally or personally alien.
+Примеры-предложения допустимы:
 
-### Alpha decision
+> «Некоторые люди используют поляну для того, что хотят держать просторным».
 
-Do not make a house mandatory.
+Не:
 
-Test it as one place/object option.
-
----
-
-## 16. Animals
-
-Animals can make the world feel alive.
-
-They must not:
-
-- assign quests;
-- suffer after user absence;
-- require feeding;
-- speak as AI personas;
-- reward compliance;
-- create emotional debt.
-
-They may:
-
-- appear;
-- move;
-- rest;
-- interact lightly with environment;
-- remain independent.
-
-### Principle
-
-> Life exists in the garden without becoming another responsibility.
+> «Поляна представляет эмоциональную открытость».
 
 ---
 
-## 17. Weather and seasons
+## 15. Дом
 
-Weather should not automatically represent mood.
+Дом может создавать:
 
-Allowed sources:
+- приватность;
+- укрытие;
+- внутренность;
+- непрерывность;
+- место для архива или писем.
 
-- random ambient variation;
-- local weather only after explicit opt-in;
-- user choice;
-- story/world setting;
-- seasonal art direction.
+Риски:
 
-Not allowed:
+- превращает Garden в тотальную симуляцию жизни;
+- создаёт чрезмерный охват;
+- подразумевает нормативный дом;
+- может ощущаться культурно или лично чуждым.
 
-- inferred sadness = rain;
-- missed ritual = winter;
-- successful ritual = sun;
-- low score = storm.
+### Решение Alpha
 
-### Time
+Не делать дом обязательным.
 
-Real time may influence lighting, but must be optional.
-
-Users with night shifts, different timezones or sensory preferences should control it.
+Тестировать его как один из вариантов места/объекта.
 
 ---
 
-## 18. Third-place analogy
+## 16. Животные
 
-Third places are informal environments outside home and work that support low-pressure repeated presence and social connection.
+Животные могут делать мир живым.
 
-Garden is not a public third place in Alpha.
+Они не должны:
 
-However, relevant design qualities include:
+- назначать квесты;
+- страдать после отсутствия пользователя;
+- требовать кормления;
+- говорить как ИИ-персоны;
+- вознаграждать за послушание;
+- создавать эмоциональный долг.
 
-- low pressure;
-- permission to stay without productivity;
-- accessibility;
-- familiarity;
-- casual repeated presence;
-- no appointment required.
+Они могут:
 
-### Social boundary
+- появляться;
+- двигаться;
+- отдыхать;
+- легко взаимодействовать со средой;
+- оставаться независимыми.
 
-Do not use third-place theory to justify community before moderation and privacy architecture.
+### Принцип
 
----
-
-## 19. Digital place attachment and dependence
-
-Research on virtual worlds suggests users can form meaningful attachment to digital environments.
-
-This can provide:
-
-- belonging;
-- continuity;
-- identity expression;
-- shared memory;
-- comfort.
-
-It can also increase:
-
-- avoidance;
-- displacement of offline life;
-- spending pressure;
-- separation distress;
-- compulsive return.
-
-### Garden metric distinction
-
-Healthy place attachment may look like:
-
-- ownership;
-- delight;
-- creative use;
-- voluntary return;
-- capacity to leave.
-
-Risky dependence may look like:
-
-- anxiety when absent;
-- obligation;
-- inability to act without Garden;
-- replacement of human/place relationships;
-- fear of losing the world;
-- escalating time and spend.
+> Жизнь существует в саду, не становясь ещё одной обязанностью.
 
 ---
 
-## 20. The right to leave a place
+## 17. Погода и сезоны
 
-A humane digital place must support departure.
+Погода не должна автоматически представлять настроение.
 
-Garden provides:
+Разрешённые источники:
 
-- snapshots;
-- export;
-- archive;
-- local copy where feasible;
-- deletion;
-- reset;
-- absence without decay;
-- no guilt message;
-- no irreversible loss.
+- случайная фоновая вариация;
+- локальная погода только после явного согласия;
+- выбор пользователя;
+- сюжет/сеттинг мира;
+- сезонная арт-дирекция.
 
-### Strong principle
+Не разрешено:
 
-> A place is more truly yours when you can leave it without the product destroying it or using its loss against you.
+- выведенная грусть = дождь;
+- пропущенный ритуал = зима;
+- успешный ритуал = солнце;
+- низкий балл = буря.
+
+### Время
+
+Реальное время может влиять на освещение, но должно быть опциональным.
+
+Пользователи с ночными сменами, другими часовыми поясами или сенсорными предпочтениями должны это контролировать.
 
 ---
 
-## 21. World ownership model
+## 18. Аналогия «третьего места»
+
+Третьи места — неформальные среды вне дома и работы, поддерживающие повторяющееся присутствие без давления и социальную связь.
+
+Garden не является публичным третьим местом в Alpha.
+
+Однако релевантные качества дизайна включают:
+
+- низкое давление;
+- разрешение оставаться без продуктивности;
+- доступность;
+- знакомость;
+- непринуждённое повторяющееся присутствие;
+- отсутствие необходимости записи.
+
+### Социальная граница
+
+Не использовать теорию третьего места, чтобы оправдать сообщество до архитектуры модерации и приватности.
+
+---
+
+## 19. Привязанность к цифровому месту и зависимость
+
+Исследования виртуальных миров показывают, что пользователи могут формировать значимую привязанность к цифровым средам.
+
+Это может давать:
+
+- принадлежность;
+- непрерывность;
+- выражение идентичности;
+- общую память;
+- утешение.
+
+Это также может увеличивать:
+
+- избегание;
+- вытеснение офлайн-жизни;
+- давление трат;
+- дистресс разлуки;
+- компульсивное возвращение.
+
+### Различение метрик Garden
+
+Здоровая привязанность к месту может выглядеть как:
+
+- владение;
+- радость;
+- творческое использование;
+- добровольное возвращение;
+- способность уйти.
+
+Рискованная зависимость может выглядеть как:
+
+- тревога при отсутствии;
+- обязанность;
+- неспособность действовать без Garden;
+- замена человеческих/местных отношений;
+- страх потерять мир;
+- рост времени и трат.
+
+---
+
+## 20. Право покинуть место
+
+Гуманное цифровое место должно поддерживать уход.
+
+Garden предоставляет:
+
+- снимки;
+- экспорт;
+- архив;
+- локальную копию, где осуществимо;
+- удаление;
+- сброс;
+- отсутствие без увядания;
+- никакого сообщения с виной;
+- никакой необратимой потери.
+
+### Сильный принцип
+
+> Место более по-настоящему твоё, когда ты можешь покинуть его, а продукт не уничтожает его и не использует его потерю против тебя.
+
+---
+
+## 21. Модель владения миром
 
 ```yaml
 garden_id:
@@ -614,95 +614,95 @@ version_history:
 export_state:
 ```
 
-Every element has:
+У каждого элемента есть:
 
-- creator;
-- meaning owner;
-- edit rights;
-- delete rights;
-- persistence rule.
-
----
-
-## 22. World-design principles
-
-1. Begin with enough emptiness.
-2. Let meaning emerge from use.
-3. Make user choices persistent and reversible.
-4. Keep rules predictable.
-5. Add gentle life, not obligations.
-6. Separate ambient state from moral state.
-7. Preserve quiet.
-8. Avoid FOMO.
-9. Make accessibility part of place ownership.
-10. Let the garden remember only with permission.
-11. Support both ritual-first and place-first creation.
-12. Make leaving safe.
+- создатель;
+- владелец смысла;
+- права редактирования;
+- права удаления;
+- правило постоянства.
 
 ---
 
-## 23. Alpha implications
+## 22. Принципы дизайна мира
 
-Alpha should add:
-
-- a small but not fully decorated garden;
-- place naming;
-- stable geography;
-- free placement;
-- one ambient setting;
-- optional sound;
-- one independent animal/ambient life element;
-- snapshot/history;
-- explicit reset;
-- place-first prototype variant.
-
-Alpha should measure:
-
-- ownership;
-- meaning;
-- familiarity;
-- comfort;
-- delight;
-- compulsion;
-- fear of loss;
-- visual judgment;
-- desire to return without notification;
-- ability to leave.
+1. Начинать с достаточной пустоты.
+2. Позволять смыслу возникать из использования.
+3. Делать выборы пользователя постоянными и обратимыми.
+4. Держать правила предсказуемыми.
+5. Добавлять мягкую жизнь, а не обязанности.
+6. Отделять фоновое состояние от морального состояния.
+7. Сохранять тишину.
+8. Избегать FOMO.
+9. Делать доступность частью владения местом.
+10. Позволять саду помнить только с разрешения.
+11. Поддерживать создание и «ритуал прежде всего», и «место прежде всего».
+12. Делать уход безопасным.
 
 ---
 
-## 24. Claim Registry
+## 23. Следствия для Alpha
 
-| Claim | Evidence | Confidence | Garden status |
+Alpha следует добавить:
+
+- небольшой, но не полностью декорированный сад;
+- именование мест;
+- стабильную географию;
+- свободное размещение;
+- одну фоновую настройку;
+- опциональный звук;
+- один независимый элемент животного/фоновой жизни;
+- снимок/историю;
+- явный сброс;
+- прототип-вариант «место прежде всего».
+
+Alpha следует измерять:
+
+- владение;
+- смысл;
+- знакомость;
+- комфорт;
+- радость;
+- компульсию;
+- страх потери;
+- визуальную оценку;
+- желание вернуться без уведомления;
+- способность уйти.
+
+---
+
+## 24. Реестр утверждений
+
+| Утверждение | Доказательства | Уверенность | Статус в Garden |
 |---|---|---:|---|
-| Place attachment involves person, process and place dimensions | environmental psychology frameworks | high | foundation |
-| Place identity, meaning and dependence are distinct but related | place research | high | foundation |
-| Customization and repeated experience can support virtual place attachment | virtual world and HCI studies | medium | design hypothesis |
-| Beautiful visuals alone create ownership | no | rejected |
-| Nature-like digital environments inherit real-nature health benefits | no | rejected |
-| Stable place plus gentle novelty may support familiarity and interest | synthesis | medium-low | hypothesis |
-| Animals improve retention safely | no | rejected |
-| Place-first architecture will outperform ritual-first | no | unknown |
-| A digital place can become emotionally meaningful | virtual-world evidence | medium-high | foundation |
-| Place attachment is always beneficial | no | rejected |
-| Safe departure reduces harmful dependence | ethics/product synthesis | medium | principle |
-| Garden can become a digital third place in Alpha | no | rejected/deferred |
+| Привязанность к месту включает измерения человека, процесса и места | рамки экологической психологии | высокая | основа |
+| Идентичность, смысл и зависимость от места различны, но связаны | исследования места | высокая | основа |
+| Кастомизация и повторный опыт могут поддерживать привязанность к виртуальному месту | исследования виртуальных миров и HCI | средняя | дизайнерская гипотеза |
+| Одни красивые визуалы создают владение | нет | отвергнуто |
+| Природоподобные цифровые среды наследуют пользу реальной природы для здоровья | нет | отвергнуто |
+| Стабильное место плюс мягкая новизна могут поддерживать знакомость и интерес | синтез | средняя–низкая | гипотеза |
+| Животные безопасно улучшают удержание | нет | отвергнуто |
+| Архитектура «место прежде всего» превзойдёт «ритуал прежде всего» | нет | неизвестно |
+| Цифровое место может стать эмоционально значимым | данные виртуальных миров | средняя–высокая | основа |
+| Привязанность к месту всегда полезна | нет | отвергнуто |
+| Безопасный уход снижает вредную зависимость | синтез этики/продукта | средняя | принцип |
+| Garden может стать цифровым третьим местом в Alpha | нет | отвергнуто/отложено |
 
 ---
 
-## 25. Verdict
+## 25. Вердикт
 
-Garden should not be designed as a dashboard covered with plants.
+Garden не должен проектироваться как дашборд, покрытый растениями.
 
-It should be designed as a small persistent world where:
+Он должен проектироваться как небольшой постоянный мир, где:
 
-- the person has territory;
-- choices leave visible traces;
-- meanings are not assigned from above;
-- quiet is legitimate;
-- life exists without demanding care;
-- history accumulates only with consent;
-- the user may reshape everything;
-- departure is safe.
+- у человека есть территория;
+- выборы оставляют видимые следы;
+- значения не назначаются сверху;
+- тишина легитимна;
+- жизнь существует, не требуя заботы;
+- история накапливается только с согласия;
+- пользователь может переформировать всё;
+- уход безопасен.
 
-> **A garden becomes “mine” not when it perfectly represents me, but when it gives me room to leave a trace without turning that trace into a verdict.**
+> **Сад становится «моим» не тогда, когда он идеально меня представляет, а когда даёт мне место оставить след, не превращая этот след в приговор.**
