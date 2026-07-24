@@ -1,5 +1,5 @@
 ---
-title: "Research Index"
+title: "Индекс исследований"
 status: accepted
 owner: "Research"
 updated: 2026-07-18
@@ -7,9 +7,9 @@ review_cycle: quarterly
 source_of_truth: false
 ---
 
-# Research Index
+# Индекс исследований
 
-| ID | Topic | File |
+| ID | Тема | Файл |
 |---|---|---|
 | R-001 | R-001 — Почему люди меняются? | `R-001_why_people_change.md` |
 | R-002 | R-002 — Забота против контроля | `R-002_care_vs_control.md` |
@@ -45,9 +45,9 @@ source_of_truth: false
 | R-032 | R-032 — Ритуалы, привычки и свобода | `R-032_rituals_habits_and_freedom.md` |
 | R-033 | R-033 — Память, воспоминания и право на тишину | `R-033_memory_remembrance_and_right_to_silence.md` |
 | R-034 | R-034 — Связи без графа: контекст, соседство и граница с «Нитями» | `R-034_context_relations_without_graph.md` |
-| R-035 | R-035 — Privacy, Ownership and Boundaries | `R-035_privacy_ownership_and_boundaries.md` |
-| R-036 | R-036 — Presence of Other People Without a Social Network | `R-036_presence_of_other_people.md` |
-| R-037 | R-037 — Emotion Without Interpretation | `R-037_emotion_without_interpretation.md` |
-| R-038 | R-038 — Notification Constitution | `R-038_notification_constitution.md` |
-| R-039 | R-039 — First Garden | `R-039_first_garden_onboarding.md` |
-| R-040 | R-040 — Garden Alpha Constitution | `R-040_alpha_constitution.md` |
+| R-035 | R-035 — Приватность, владение и границы | `R-035_privacy_ownership_and_boundaries.md` |
+| R-036 | R-036 — Присутствие других людей без социальной сети | `R-036_presence_of_other_people.md` |
+| R-037 | R-037 — Эмоция без интерпретации | `R-037_emotion_without_interpretation.md` |
+| R-038 | R-038 — Конституция уведомлений | `R-038_notification_constitution.md` |
+| R-039 | R-039 — Первый Garden | `R-039_first_garden_onboarding.md` |
+| R-040 | R-040 — Конституция Alpha Garden | `R-040_alpha_constitution.md` |

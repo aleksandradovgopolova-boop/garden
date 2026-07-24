@@ -1,5 +1,5 @@
 ---
-title: "Garden Constitution"
+title: "Конституция Garden"
 status: accepted
 owner: "Product"
 updated: 2026-07-18
@@ -7,13 +7,13 @@ review_cycle: quarterly
 source_of_truth: true
 ---
 
-# Garden Constitution
+# Конституция Garden
 
 ---
 
-## Imported source: `01_human_premise.md`
+## Импортированный источник: `01_human_premise.md`
 
-# Garden — Human Premise
+# Garden — Человеческая предпосылка
 
 **Дата:** 16 июля 2026  
 **Статус:** каноническая преамбула
@@ -63,9 +63,9 @@ Garden — это личный сад человека.
 
 ---
 
-## Imported source: `02_garden_declaration_v1.md`
+## Импортированный источник: `02_garden_declaration_v1.md`
 
-# Garden Declaration v1
+# Декларация Garden v1
 
 **Дата:** 16 июля 2026  
 **Статус:** `accepted candidate after OWNER-DECISION-001`
@@ -128,91 +128,91 @@ Garden уважает:
 
 ---
 
-## Imported source: `03_human_experience_amendment.md`
+## Импортированный источник: `03_human_experience_amendment.md`
 
-# Garden Canon — Human Experience Amendment
+# Канон Garden — Поправка о человеческом опыте
 
 **Дата:** 16 июля 2026  
 **Статус:** `accepted amendment`
 
-## 1. Human-centered product principle
+## 1. Принцип продукта, ориентированного на человека
 
-Garden is not a compliance exercise built from research.
+Garden — не упражнение по соблюдению требований, собранное из исследований.
 
-Research is a form of care used by humans who want to create a better experience for other humans.
+Исследование — это форма заботы, которую используют люди, желающие создать лучший опыт для других людей.
 
-Scientific precision and emotional beauty are not opponents.
+Научная точность и эмоциональная красота не являются противниками.
 
-Garden must preserve both:
+Garden должен сохранять и то, и другое:
 
-- intellectual honesty;
-- warmth, play, imagination and delight.
+- интеллектуальную честность;
+- теплоту, игру, воображение и радость.
 
-## 2. Ritual as user language
+## 2. Ритуал как язык пользователя
 
-The user-facing core object is `Ritual`.
+Основной объект, обращённый к пользователю, — `Ritual`.
 
-A ritual may be:
+Ритуал может быть:
 
-- one-time;
-- recurring;
-- seasonal;
-- symbolic;
-- practical;
-- resting;
-- completed.
+- разовым;
+- повторяющимся;
+- сезонным;
+- символическим;
+- практическим;
+- покоящимся;
+- завершённым.
 
-Internally, engineering may use `Practice` as a parent schema. This technical abstraction must not flatten the emotional meaning of the ritual.
+Внутри инженерия может использовать `Practice` как родительскую схему. Эта техническая абстракция не должна сглаживать эмоциональный смысл ритуала.
 
-## 3. Garden as core world
+## 3. Сад как основной мир
 
-The visual garden is part of the core product proposition.
+Визуальный сад — часть основного продуктового предложения.
 
-It is not:
+Это не:
 
-- a hidden score;
-- a compliance dashboard;
-- a punishment system;
-- an AI-owned model of the person.
+- скрытый score;
+- дашборд соответствия;
+- система наказания;
+- принадлежащая ИИ модель человека.
 
-It is:
+Это:
 
-- a creative sandbox;
-- a visual memory;
-- a personal world;
-- a source of calm and play;
-- a representation controlled by its owner.
+- творческая песочница;
+- визуальная память;
+- личный мир;
+- источник спокойствия и игры;
+- отображение, контролируемое своим владельцем.
 
-## 4. Ownership invariant
+## 4. Инвариант владения
 
-The person controls:
+Человек контролирует:
 
-- placement;
-- form;
-- naming;
-- decoration;
-- transformation;
-- archiving;
-- deletion;
-- empty space.
+- размещение;
+- форму;
+- именование;
+- украшение;
+- трансформацию;
+- архивирование;
+- удаление;
+- пустое пространство.
 
-No object decays because the user did not return.
+Ни один объект не увядает из-за того, что пользователь не вернулся.
 
-## 5. Research purpose
+## 5. Цель исследования
 
-Research must answer:
+Исследование должно отвечать на вопрос:
 
-> How can this experience become more humane, useful, beautiful and safe?
+> Как этот опыт может стать более человечным, полезным, красивым и безопасным?
 
-It must not automatically answer:
+Оно не должно автоматически отвечать на вопрос:
 
-> How can we reduce the experience to the least risky functional interface?
+> Как свести опыт к наименее рискованному функциональному интерфейсу?
 
 ---
 
-## Imported source: `04_living_canon_v1.md`
+## Импортированный источник: `04_living_canon_v1.md`
 
-# Garden Living Canon v1
+# Живой канон Garden v1
 
 **Дата:** 16 июля 2026  
 **Статус:** `accepted working canon`  
@@ -816,9 +816,9 @@ Garden не удерживает человека искусственно.
 
 ---
 
-## Imported source: `05_garden_constitution_v1.md`
+## Импортированный источник: `05_garden_constitution_v1.md`
 
-# Garden Constitution v1
+# Конституция Garden v1
 
 **Дата:** 16 июля 2026  
 **Статус:** `working constitutional canon`  
