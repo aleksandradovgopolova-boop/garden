@@ -23,9 +23,9 @@ source_of_truth: false
 
 > **В саду может жить жизнь, которая не принадлежит пользователю и не нуждается в его обслуживании.**
 
-## 3. Ambient wildlife и digital pet
+## 3. Фоновая живность (ambient wildlife) и цифровой питомец
 
-### Ambient wildlife
+### Фоновая живность (ambient wildlife)
 
 - живёт независимо;
 - появляется и исчезает;
@@ -34,7 +34,7 @@ source_of_truth: false
 - не нуждается в кормлении;
 - не страдает из-за отсутствия.
 
-### Digital pet
+### Цифровой питомец (digital pet)
 
 - узнаёт пользователя;
 - формирует постоянную связь;
@@ -51,7 +51,7 @@ source_of_truth: false
 
 Исследования virtual и mixed-reality animals показывают, что люди способны ощущать присутствие, psychological ownership и эмоциональную связь. Небольшие эксперименты иногда находят краткосрочные положительные эмоции или снижение stress, но это не доказывает длительного эффекта и не оправдывает pet-like retention design.
 
-## 5. Anthropomorphism
+## 5. Антропоморфизм (anthropomorphism)
 
 Антропоморфизм усиливается, если существо:
 
@@ -73,7 +73,7 @@ source_of_truth: false
 - птицы, передающей сообщения AI;
 - животного, скучающего по пользователю.
 
-## 6. Independent life
+## 6. Независимая жизнь (independent life)
 
 Допустимые поведения:
 
@@ -96,7 +96,7 @@ source_of_truth: false
 - смерть;
 - исчезновение из-за поведения пользователя.
 
-## 7. Presence without reciprocity
+## 7. Присутствие без взаимности (presence without reciprocity)
 
 Сильная модель Garden:
 
@@ -231,7 +231,7 @@ Ambient wildlife безымянна по умолчанию. Пользоват�
 
 Если вид удаляется из продукта, причина объясняется технически, а не как «животное покинуло пользователя».
 
-## 17. Alpha set
+## 17. Набор Alpha
 
 Рекомендуется:
 
@@ -250,57 +250,57 @@ Ambient wildlife безымянна по умолчанию. Пользоват�
 - потомство;
 - смерть.
 
-## 18. Alpha experiments
+## 18. Эксперименты Alpha
 
-### A — no animals vs ambient life
+### A — без животных против фоновой жизни
 
 Измерять liveliness, comfort, distraction, ownership и желание вернуться.
 
-### B — acknowledging vs non-acknowledging
+### B — реагирующие против нереагирующих
 
 Проверить, создают ли взгляд и реакция лишнее relational expectation.
 
-### C — recurring visitor
+### C — повторяющийся посетитель
 
 Измерить память места, attachment, expectation и disappointment.
 
-### D — controls
+### D — элементы управления
 
 Проверить on/off, density, sound и insects separately.
 
-### E — animal absent
+### E — животное отсутствует
 
 Проверить, не интерпретирует ли пользователь отсутствие как вред, abandonment или ошибку.
 
 ## 19. Принципы
 
-1. Ambient wildlife before digital pets.
-2. Life without care obligation.
-3. No suffering or decay.
-4. No AI animal persona.
-5. No response to absence.
-6. No rarity or collection economy.
-7. User controls density and sound.
-8. No universal symbolism.
-9. Ecological coherence for real species.
-10. Attachment is a guardrail.
-11. The creature may leave.
-12. The user does not own every life in the garden.
-13. No profiling from preferences.
-14. Quiet garden remains complete.
+1. Фоновая живность прежде цифровых питомцев.
+2. Жизнь без обязанности заботиться.
+3. Никакого страдания или распада.
+4. Никакой ИИ-персоны животного.
+5. Никакой реакции на отсутствие.
+6. Никакой редкости или коллекционной экономики.
+7. Пользователь контролирует плотность и звук.
+8. Никакой универсальной символики.
+9. Экологическая согласованность для реальных видов.
+10. Привязанность — это ограничитель.
+11. Существо может уйти.
+12. Пользователь не владеет всякой жизнью в саду.
+13. Никакого профилирования по предпочтениям.
+14. Тихий сад остаётся полноценным.
 
 ## 20. Что Garden не утверждает
 
-- virtual animals reliably reduce stress;
-- animals improve mental health;
-- more biodiversity makes a user happier;
-- attachment to a virtual animal is beneficial;
-- digital pets replace companionship;
-- species have universal psychological meaning;
-- Garden animals are conscious or emotionally dependent.
+- виртуальные животные надёжно снижают стресс;
+- животные улучшают психическое здоровье;
+- бо́льшее биоразнообразие делает пользователя счастливее;
+- привязанность к виртуальному животному полезна;
+- цифровые питомцы заменяют компаньонство;
+- виды имеют универсальное психологическое значение;
+- животные Garden сознательны или эмоционально зависимы.
 
-## 21. Verdict
+## 21. Вердикт
 
-Garden can be alive without placing another dependent being into the user’s care.
+Garden может быть живым, не помещая ещё одно зависимое существо под опеку пользователя.
 
 > **Живые существа делают мир больше человека. Они не делают человека обязанным миру.**
