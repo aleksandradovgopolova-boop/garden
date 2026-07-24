@@ -1,26 +1,26 @@
 site:
   title: Garden
-  description: A private digital place that can wait.
+  description: Личное цифровое место, которое может подождать.
   content_root: public
   homepage: README.md
-  language: en
+  language: ru
   visibility: public
 navigation:
-  - label: Introduction
+  - label: Введение
     path: 01-introduction
-  - label: Philosophy
+  - label: Философия
     path: 02-philosophy
-  - label: Principles
+  - label: Принципы
     path: 03-principles
-  - label: World
+  - label: Мир
     path: 04-world
-  - label: Atlas
+  - label: Атлас
     path: 05-atlas
-  - label: Research
+  - label: Исследования
     path: 06-research
-  - label: Roadmap
+  - label: Дорожная карта
     path: 07-roadmap
-  - label: FAQ
+  - label: Частые вопросы
     path: 08-faq
 render:
   show_source_link: true

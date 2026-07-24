@@ -1,5 +1,5 @@
 ---
-title: "Garden Entities"
+title: "Сущности Garden"
 status: accepted
 owner: "Product"
 updated: 2026-07-18
@@ -7,23 +7,23 @@ review_cycle: quarterly
 source_of_truth: true
 ---
 
-# Garden Entities
+# Сущности Garden
 
 ---
 
-## Imported source: `P-006_entity_schemas_v0_1.md`
+## Импортированный источник: `P-006_entity_schemas_v0_1.md`
 
-# P-006 — Entity Schemas
+# P-006 — Схемы сущностей
 
-Required entities: Garden, Place, ObjectInstance, Atmosphere, Ritual, RitualOccurrence, Memory, Version, Snapshot, ContextRelation, Preference, AuditEvent.
+Обязательные сущности: Garden, Place, ObjectInstance, Atmosphere, Ritual, RitualOccurrence, Memory, Version, Snapshot, ContextRelation, Preference, AuditEvent.
 
-## Key invariants
-- no automatic lifecycle transition;
-- no semantic graph edges;
-- no emotional inference fields;
-- no streak or popularity fields;
-- no autonomous AI commit;
-- archive and delete remain distinct.
+## Ключевые инварианты
+- никаких автоматических переходов жизненного цикла;
+- никаких семантических рёбер графа;
+- никаких полей вывода эмоций;
+- никаких полей серий (streak) или популярности;
+- никакой автономной фиксации со стороны ИИ;
+- архивирование и удаление остаются разными действиями.
 
 ## Version
 ```yaml
@@ -48,13 +48,13 @@ ritual_occurrence:
   note:
   media:
 ```
-No completion score or missed state.
+Нет оценки завершения или состояния «пропущено».
 
 ---
 
-## Imported source: `garden_place_and_object_schema_v1.md`
+## Импортированный источник: `garden_place_and_object_schema_v1.md`
 
-# Garden Place and Object Schema v1
+# Схема Места и Объекта Garden v1
 
 **Статус:** `implementation draft`
 
@@ -108,20 +108,20 @@ created_at: datetime
 updated_at: datetime
 ```
 
-## Rules
+## Правила
 
-- AI suggestions require explicit confirmation.
-- `user_meaning` is never inferred.
-- Deleting an object does not delete a ritual by default.
-- Deleting a ritual does not delete an object by default.
-- Archive preserves user ownership.
-- Destructive actions require undo or confirmation.
+- Предложения ИИ требуют явного подтверждения.
+- `user_meaning` никогда не выводится автоматически.
+- Удаление объекта по умолчанию не удаляет ритуал.
+- Удаление ритуала по умолчанию не удаляет объект.
+- Архивирование сохраняет право собственности пользователя.
+- Разрушительные действия требуют отмены или подтверждения.
 
 ---
 
-## Imported source: `garden_context_relation_architecture_v1.md`
+## Импортированный источник: `garden_context_relation_architecture_v1.md`
 
-# Garden Context Relation Architecture v1
+# Архитектура контекстных связей Garden v1
 
 **Статус:** `implementation proposal`
 
@@ -139,12 +139,12 @@ garden_context_relation:
   provenance:
 ```
 
-## Invariants
+## Инварианты
 
-- relation type must be enumerated;
-- no custom semantic edges;
-- no graph visualization;
-- no auto-created relation from search;
-- no emotional or symbolic relation inference;
-- deleting relation does not delete either entity;
-- Garden and «Нити» schemas remain separate.
+- тип связи должен быть перечислимым;
+- никаких пользовательских семантических рёбер;
+- никакой визуализации графа;
+- никаких связей, создаваемых автоматически из поиска;
+- никакого вывода эмоциональных или символических связей;
+- удаление связи не удаляет ни одну из сущностей;
+- схемы Garden и «Нити» остаются раздельными.

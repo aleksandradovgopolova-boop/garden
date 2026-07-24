@@ -1,5 +1,5 @@
 ---
-title: "Garden FAQ"
+title: "Частые вопросы о Garden"
 status: accepted
 owner: "Product"
 updated: 2026-07-18
@@ -9,21 +9,21 @@ wowrepo:
   order: 1
   visibility: public
 ---
-# Garden FAQ
-## Is Garden a notes app?
-No. Garden is organized around Places, atmosphere, objects, rituals, memory and return.
+# Частые вопросы о Garden
+## Garden — это приложение для заметок?
+Нет. Garden организован вокруг Мест, атмосферы, объектов, ритуалов, памяти и возвращения.
 
-## Is Garden a second brain?
-No. It does not build an automatic semantic graph of a person's life or thoughts.
+## Garden — это «второй мозг»?
+Нет. Он не строит автоматический семантический граф жизни или мыслей человека.
 
-## Does AI change Garden by itself?
-No. AI creates an inspectable Preview. The user decides what to apply.
+## Меняет ли ИИ Garden сам по себе?
+Нет. ИИ создаёт Предпросмотр, который можно изучить. Пользователь решает, что применить.
 
-## Is Garden a game?
-No. It has no levels, streaks, maintenance debt or performance scoring.
+## Garden — это игра?
+Нет. В нём нет уровней, серий (streaks), долга по «уходу» и оценки результативности.
 
-## What happens when I stop using it?
-Nothing is lost and no debt appears. A Garden may wait.
+## Что происходит, когда я перестаю им пользоваться?
+Ничего не теряется и не возникает никакого долга. Garden может подождать.
 
-## Why is the website part of the repository?
-Garden has no separate marketing site. WowRepo renders its public Canon, principles, world, research and roadmap from this repository.
+## Почему сайт является частью репозитория?
+У Garden нет отдельного маркетингового сайта. WowRepo отображает его публичный Канон, принципы, мир, исследования и дорожную карту из этого репозитория.

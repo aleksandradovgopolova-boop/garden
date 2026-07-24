@@ -1,5 +1,5 @@
 ---
-title: "Credits"
+title: "Благодарности"
 status: accepted
 owner: "Product"
 updated: 2026-07-18
@@ -9,5 +9,5 @@ wowrepo:
   order: 1
   visibility: public
 ---
-# Credits
-Garden is created through a human-led, AI-assisted product process. The public site is generated from this repository with WowRepo.
+# Благодарности
+Garden создаётся в рамках продуктового процесса под руководством человека и с помощью ИИ. Публичный сайт генерируется из этого репозитория с помощью WowRepo.

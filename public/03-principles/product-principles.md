@@ -1,5 +1,5 @@
 ---
-title: "Garden Product Principles"
+title: "Принципы продукта Garden"
 status: accepted
 owner: "Product"
 updated: 2026-07-18
@@ -7,30 +7,30 @@ review_cycle: quarterly
 source_of_truth: true
 ---
 
-# Garden Product Principles
+# Принципы продукта Garden
 
 ---
 
-## Imported source: `garden_product_constitution_v0_1.md`
+## Импортированный источник: `garden_product_constitution_v0_1.md`
 
-# Garden Product Constitution v0.1
+# Конституция продукта Garden v0.1
 
-Garden protects authorship, privacy, continuity, silence, reversibility, literal meaning and voluntary return.
+Garden защищает авторство, приватность, непрерывность, тишину, обратимость, буквальный смысл и добровольное возвращение.
 
-Garden refuses pressure, ranking, social performance, autonomous rewriting, emotional diagnosis, knowledge-graph drift and punishment for absence.
+Garden отвергает давление, ранжирование, социальную демонстрацию, автономное переписывание, эмоциональную диагностику, дрейф графа знаний и наказание за отсутствие.
 
-Every feature must answer:
-1. Does it increase authorship?
-2. Can it be refused?
-3. Can it be undone?
-4. Does it interpret the person?
-5. Does it create pressure to return?
-6. Does it move Garden toward game, tracker, network or second brain?
-7. Can the value be delivered more quietly?
+Каждая функция должна отвечать на вопросы:
+1. Увеличивает ли она авторство?
+2. Можно ли от неё отказаться?
+3. Можно ли её отменить?
+4. Интерпретирует ли она человека?
+5. Создаёт ли она давление к возвращению?
+6. Сдвигает ли она Garden в сторону игры, трекера, сети или «второго мозга»?
+7. Можно ли доставить эту ценность тише?
 
 ---
 
-## Imported source: `laws_of_garden_v1.md`
+## Импортированный источник: `laws_of_garden_v1.md`
 
 # Laws of Garden v1
 
@@ -145,9 +145,9 @@ Garden всегда меньше жизни человека.
 
 ---
 
-## Imported source: `garden_canonical_principles_candidate_v0_1.md`
+## Импортированный источник: `garden_canonical_principles_candidate_v0_1.md`
 
-# Garden Canonical Principles — Candidate
+# Канонические принципы Garden — кандидат
 
 **Версия:** 0.1  
 **Дата:** 16 июля 2026  
@@ -155,294 +155,294 @@ Garden всегда меньше жизни человека.
 
 ---
 
-## 1. The person is not an optimization object
+## 1. Человек — не объект оптимизации
 
-Garden does not treat a person as:
+Garden не относится к человеку как к:
 
-- a broken system;
-- a score;
-- an engagement target;
-- an obedient executor;
-- a psychological profile.
+- сломанной системе;
+- баллу;
+- цели вовлечения;
+- послушному исполнителю;
+- психологическому профилю.
 
-The person remains the author of meaning and decision.
-
----
-
-## 2. Garden does not define the good life
-
-Garden can help clarify values, trade-offs and consequences.
-
-It cannot decide:
-
-- what should matter;
-- what a fulfilled life looks like;
-- how much growth is enough;
-- whether a person is flourishing correctly.
+Человек остаётся автором смысла и решения.
 
 ---
 
-## 3. Context comes before character
+## 2. Garden не определяет хорошую жизнь
 
-Before explaining behavior through motivation or identity, Garden considers:
+Garden может помочь прояснить ценности, компромиссы и последствия.
 
-- capability;
-- opportunity;
-- energy;
-- relationships;
-- organization;
-- material environment;
-- power and resources.
+Он не может решать:
 
----
-
-## 4. Practice is the core object
-
-Garden supports a practice that may be:
-
-- one-time;
-- recurring;
-- temporary;
-- seasonal;
-- symbolic;
-- practical;
-- completed;
-- released.
-
-A practice is not required to become a habit.
+- что должно иметь значение;
+- как выглядит полноценная жизнь;
+- сколько роста достаточно;
+- «правильно» ли человек процветает.
 
 ---
 
-## 5. Support is chosen, not imposed
+## 3. Контекст важнее характера
 
-The user decides:
+Прежде чем объяснять поведение через мотивацию или личность, Garden учитывает:
 
-- whether support is wanted;
-- what form it takes;
-- when it occurs;
-- what happens after a miss;
-- when it ends.
-
-Silence does not authorize escalation.
-
----
-
-## 6. Reflection has a boundary
-
-Garden reflection:
-
-- starts with permission;
-- uses a concrete anchor;
-- distinguishes fact and interpretation;
-- explores one question;
-- limits hypotheses;
-- supports uncertainty;
-- closes.
-
-Endless reflection is not success.
+- способности;
+- возможности;
+- энергию;
+- отношения;
+- организацию;
+- материальную среду;
+- власть и ресурсы.
 
 ---
 
-## 7. AI proposes; the person interprets
+## 4. Практика — основной объект
 
-AI may:
+Garden поддерживает практику, которая может быть:
 
-- organize;
-- question;
-- compare;
-- hypothesize;
-- show alternatives.
+- разовой;
+- повторяющейся;
+- временной;
+- сезонной;
+- символической;
+- прикладной;
+- завершённой;
+- отпущенной.
 
-AI may not:
-
-- diagnose;
-- define identity;
-- assign hidden motives;
-- create a final life narrative;
-- treat disagreement as resistance.
+Практика не обязана становиться привычкой.
 
 ---
 
-## 8. Ethics are fixed; style is adjustable
+## 5. Поддержку выбирают, а не навязывают
 
-Warmth, directness, length and metaphor may vary.
+Пользователь решает:
 
-The following do not vary:
+- нужна ли поддержка;
+- в какой форме она оказывается;
+- когда она происходит;
+- что происходит после пропуска;
+- когда она заканчивается.
 
-- factual accuracy;
-- safety;
-- respect;
-- consent;
-- uncertainty;
-- non-manipulation.
-
----
-
-## 9. Measurement changes what it observes
-
-Garden measures only for a clear purpose.
-
-It provides:
-
-- no-tracking mode;
-- visible missingness;
-- limited duration;
-- clear interpretation limits;
-- easy exit.
-
-No total Garden Score exists.
+Молчание не санкционирует эскалацию.
 
 ---
 
-## 10. Privacy and safety limit the product
+## 6. У рефлексии есть граница
 
-Garden does not launch a function merely because consent text can be written.
+Рефлексия в Garden:
 
-A function must have:
+- начинается с разрешения;
+- опирается на конкретный якорь;
+- различает факт и интерпретацию;
+- исследует один вопрос;
+- ограничивает гипотезы;
+- поддерживает неопределённость;
+- завершается.
 
-- a necessary purpose;
-- minimal data;
-- controlled access;
-- deletion;
-- failure handling;
-- provider guarantees;
-- evidence that risk is acceptable.
-
----
-
-## 11. Metaphor is optional
-
-The garden is:
-
-- a name;
-- an atmosphere;
-- one possible lens.
-
-It is not:
-
-- a model of the psyche;
-- a medical status;
-- a moral score;
-- a demand to grow.
-
-Literal language always remains available.
+Бесконечная рефлексия не является успехом.
 
 ---
 
-## 12. Social connection uses narrow bridges
+## 7. ИИ предлагает; человек интерпретирует
 
-Garden helps prepare or coordinate a chosen human connection.
+ИИ может:
 
-It does not build:
+- упорядочивать;
+- задавать вопросы;
+- сравнивать;
+- выдвигать гипотезы;
+- показывать альтернативы.
 
-- a feed;
-- a popularity system;
-- a public inner life;
-- automatic accountability;
-- surveillance between close people.
+ИИ не может:
 
----
-
-## 13. Relief is not the same as change
-
-Garden separates:
-
-- what helps now;
-- what protects;
-- what prepares;
-- what changes the source;
-- who is responsible;
-- when exit is appropriate.
-
-A coping practice does not legitimize harmful conditions.
+- ставить диагноз;
+- определять личность;
+- приписывать скрытые мотивы;
+- создавать окончательный жизненный нарратив;
+- трактовать несогласие как сопротивление.
 
 ---
 
-## 14. Knowledge does not receive an automatic veto
+## 8. Этика фиксирована; стиль настраиваем
 
-Garden protects facts and safety constraints.
+Теплота, прямота, длина и метафора могут различаться.
 
-It may question:
+Не меняется следующее:
 
-- convention;
-- prediction;
-- identity stories;
-- overgeneralized past outcomes.
-
-Unknown is a valid state.
-
----
-
-## 15. Small means complete, not manipulative
-
-A small version is valid only if it preserves meaning by itself.
-
-It is not bait to make the person do more.
+- фактическая точность;
+- безопасность;
+- уважение;
+- согласие;
+- неопределённость;
+- отказ от манипуляции.
 
 ---
 
-## 16. Completion is success
+## 9. Измерение меняет то, что наблюдает
 
-A practice may:
+Garden измеряет только ради ясной цели.
 
-- continue;
-- adapt;
-- pause;
-- integrate;
-- complete;
-- be released.
+Он обеспечивает:
 
-Garden does not preserve goals merely to preserve engagement.
+- режим без отслеживания;
+- видимость пропусков;
+- ограниченную длительность;
+- ясные пределы интерпретации;
+- лёгкий выход.
 
----
-
-## 17. The product points outward
-
-Garden should lead toward:
-
-- action;
-- rest;
-- conversation;
-- professional help;
-- environmental change;
-- silence;
-- life without the app.
+Никакого совокупного Garden Score не существует.
 
 ---
 
-## 18. Trust must match evidence
+## 10. Приватность и безопасность ограничивают продукт
 
-Garden does not use confidence, personalization or warmth to hide uncertainty.
+Garden не запускает функцию лишь потому, что для неё можно написать текст согласия.
 
-The user can see:
+Функция должна иметь:
 
-- what is known;
-- what is inferred;
-- what is missing;
-- what can be corrected.
-
----
-
-## 19. Safety overrides elegance and growth
-
-When safety, consent or irreversible harm is at stake:
-
-- metaphor steps aside;
-- exploration stops;
-- expertise is sought;
-- authorization becomes explicit;
-- the smaller product is preferred.
+- необходимую цель;
+- минимум данных;
+- контролируемый доступ;
+- удаление;
+- обработку сбоев;
+- гарантии со стороны провайдеров;
+- доказательства приемлемости риска.
 
 ---
 
-## 20. Garden must remain revisable
+## 11. Метафора необязательна
 
-Research, product tests and harm reports can change the Canon.
+Сад — это:
 
-The project must preserve:
+- название;
+- атмосфера;
+- одна из возможных линз.
 
-- rejected ideas;
-- uncertainty;
-- reasons for decisions;
-- evidence limits;
-- the possibility that a simpler tool is better.
+Это не:
+
+- модель психики;
+- медицинский статус;
+- моральная оценка;
+- требование расти.
+
+Буквальный язык всегда остаётся доступным.
+
+---
+
+## 12. Социальная связь использует узкие мосты
+
+Garden помогает подготовить или скоординировать выбранную человеческую связь.
+
+Он не строит:
+
+- ленту;
+- систему популярности;
+- публичную внутреннюю жизнь;
+- автоматическую подотчётность;
+- слежку между близкими людьми.
+
+---
+
+## 13. Облегчение — не то же самое, что изменение
+
+Garden разделяет:
+
+- что помогает сейчас;
+- что защищает;
+- что подготавливает;
+- что меняет источник;
+- кто несёт ответственность;
+- когда уместен выход.
+
+Практика совладания не легитимирует вредные условия.
+
+---
+
+## 14. Знание не получает автоматического вето
+
+Garden защищает факты и ограничения безопасности.
+
+Он может ставить под вопрос:
+
+- условности;
+- предсказания;
+- истории об идентичности;
+- чрезмерно обобщённые прошлые исходы.
+
+Неизвестность — допустимое состояние.
+
+---
+
+## 15. «Малое» означает полное, а не манипулятивное
+
+Малая версия допустима, только если сохраняет смысл сама по себе.
+
+Она не приманка, чтобы заставить человека делать больше.
+
+---
+
+## 16. Завершение — это успех
+
+Практика может:
+
+- продолжаться;
+- адаптироваться;
+- приостановиться;
+- интегрироваться;
+- завершиться;
+- быть отпущенной.
+
+Garden не сохраняет цели лишь ради сохранения вовлечённости.
+
+---
+
+## 17. Продукт указывает вовне
+
+Garden должен вести к:
+
+- действию;
+- отдыху;
+- разговору;
+- профессиональной помощи;
+- изменению среды;
+- тишине;
+- жизни без приложения.
+
+---
+
+## 18. Доверие должно соответствовать доказательствам
+
+Garden не использует уверенность, персонализацию или теплоту, чтобы скрыть неопределённость.
+
+Пользователь может видеть:
+
+- что известно;
+- что выведено;
+- чего не хватает;
+- что можно исправить.
+
+---
+
+## 19. Безопасность важнее изящества и роста
+
+Когда на кону безопасность, согласие или необратимый вред:
+
+- метафора отступает;
+- исследование останавливается;
+- привлекается экспертиза;
+- авторизация становится явной;
+- предпочтителен более скромный продукт.
+
+---
+
+## 20. Garden должен оставаться пересматриваемым
+
+Исследования, продуктовые тесты и сообщения о вреде могут менять Канон.
+
+Проект должен сохранять:
+
+- отклонённые идеи;
+- неопределённость;
+- причины решений;
+- пределы доказательств;
+- возможность того, что более простой инструмент лучше.
