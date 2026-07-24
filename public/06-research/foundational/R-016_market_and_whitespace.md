@@ -19,7 +19,7 @@ source_of_truth: false
 
 ## 1. Главный вопрос
 
-> Существует ли для Garden реальное продуктово-рыночное пространство — или сочетание дневника, AI, практик, настроения, инсайтов и личного роста уже полностью занято?
+> Существует ли для Garden реальное продуктово-рыночное пространство — или сочетание дневника, ИИ, практик, настроения, инсайтов и личного роста уже полностью занято?
 
 Подвопросы:
 
@@ -30,55 +30,55 @@ source_of_truth: false
 - где рынок создаёт риски зависимости, контроля и ложной интерпретации;
 - что Garden способен предложить иначе;
 - какая категория и формулировка понятны пользователю;
-- какой начальный use case реалистичен;
+- какой начальный сценарий использования реалистичен;
 - что не следует строить;
-- какой business model меньше конфликтует с этикой;
+- какая бизнес-модель меньше конфликтует с этикой;
 - какие гипотезы нужно проверить до большого продукта.
 
 ---
 
 ## 2. Главный вывод
 
-Рынок перенасыщен на уровне **feature bundle**:
+Рынок перенасыщен на уровне **набора функций** (feature bundle):
 
-- journaling;
-- mood tracking;
-- habits and goals;
-- guided prompts;
-- AI companion;
-- long-term memory;
-- personalized insights;
-- emotion analysis;
-- voice;
-- weekly summaries;
-- meditation and breathwork;
-- pattern detection;
-- correlations;
-- streaks and rewards.
+- ведение дневника;
+- отслеживание настроения;
+- привычки и цели;
+- направляемые подсказки;
+- ИИ-компаньон;
+- долговременная память;
+- персонализированные инсайты;
+- анализ эмоций;
+- голос;
+- еженедельные сводки;
+- медитация и дыхательные практики;
+- обнаружение паттернов;
+- корреляции;
+- серии (streaks) и награды.
 
 Поэтому Garden не может позиционироваться как:
 
-- AI journal;
-- self-care companion;
-- habit tracker with reflection;
-- mental wellness toolkit;
-- second brain for life;
-- AI coach that understands you;
-- garden-themed wellbeing app.
+- ИИ-дневник;
+- компаньон для заботы о себе;
+- трекер привычек с рефлексией;
+- набор инструментов ментального благополучия;
+- «второй мозг» для жизни;
+- ИИ-коуч, который вас понимает;
+- приложение благополучия в садовой теме.
 
 Все эти формулы уже имеют множество сильных и узнаваемых представителей.
 
 Реальное возможное пространство находится не в отдельной функции, а в **интегрированной системе ограничений и ответственности**:
 
-> **Garden помогает человеку превращать важное в выбранные практики, исследовать опыт без присвоения смысла AI, учитывать реальные условия и возвращаться в жизнь — без streaks, скрытого score, зависимости и бесконечного самоанализа.**
+> **Garden помогает человеку превращать важное в выбранные практики, исследовать опыт без присвоения смысла со стороны ИИ, учитывать реальные условия и возвращаться в жизнь — без серий (streaks), скрытого балла, зависимости и бесконечного самоанализа.**
 
-Это стратегическая гипотеза, а не доказанный product–market fit.
+Это стратегическая гипотеза, а не доказанное соответствие продукта рынку (product–market fit).
 
 ---
 
 ## 3. Семь рыночных категорий
 
-### 3.1. Traditional and memory-first journals
+### 3.1. Традиционные дневники и дневники «память прежде всего»
 
 Основная работа:
 
@@ -96,21 +96,21 @@ source_of_truth: false
 
 Сильные стороны:
 
-- понятный mental model;
+- понятная ментальная модель;
 - свободное письмо;
-- multimedia;
+- мультимедиа;
 - поиск;
-- privacy and export;
-- низкая степень AI authority.
+- приватность и экспорт;
+- низкая степень авторитета ИИ.
 
 Ограничения относительно Garden:
 
 - запись не обязательно превращается в выбранную практику;
-- мало помощи с intention–action gap;
-- архив может накапливаться без closure;
-- контекст и структурные причины не становятся action model.
+- мало помощи с разрывом между намерением и действием;
+- архив может накапливаться без завершения;
+- контекст и структурные причины не становятся моделью действия.
 
-### 3.2. AI journals and self-discovery companions
+### 3.2. ИИ-дневники и компаньоны для самопознания
 
 Основная работа:
 
@@ -125,34 +125,34 @@ source_of_truth: false
 - Reflection;
 - Mindsera;
 - Liven;
-- emerging AI journals.
+- новые ИИ-дневники.
 
 Сильные стороны:
 
-- низкий blank-page barrier;
-- adaptive prompts;
-- voice;
-- summaries;
-- cross-entry memory;
-- high perceived relevance.
+- низкий барьер «пустой страницы»;
+- адаптивные подсказки;
+- голос;
+- сводки;
+- память между записями;
+- высокая воспринимаемая релевантность.
 
 Ограничения:
 
-- AI легко становится главным толкователем;
-- «hidden patterns» звучат сильнее доказательств;
-- беседа может не иметь stop rules;
-- emotional analysis превращает опыт в score;
-- subscription может зависеть от continued disclosure;
-- growth language часто не допускает completion or non-growth.
+- ИИ легко становится главным толкователем;
+- «скрытые паттерны» звучат сильнее доказательств;
+- беседа может не иметь правил остановки;
+- анализ эмоций превращает опыт в балл;
+- подписка может зависеть от продолжающегося раскрытия;
+- язык роста часто не допускает завершения или отсутствия роста.
 
-### 3.3. Habit, routine and gamified self-care
+### 3.3. Привычки, рутины и геймифицированная забота о себе
 
 Основная работа:
 
 - заставить начать;
 - поддерживать повторение;
 - дать внешнюю мотивацию;
-- сделать self-care игровой.
+- сделать заботу о себе игровой.
 
 Представители:
 
@@ -165,29 +165,29 @@ source_of_truth: false
 
 Сильные стороны:
 
-- concrete action;
-- reminders;
-- visual progress;
-- reward;
-- routines;
-- immediate feedback.
+- конкретное действие;
+- напоминания;
+- визуальный прогресс;
+- награда;
+- рутины;
+- немедленная обратная связь.
 
 Ограничения:
 
-- streak and compliance logic;
+- логика серий и соблюдения;
 - практика приравнивается к повторению;
-- missed action становится потерей;
-- product engagement совпадает с product success;
-- relationship with pet/avatar can create moral pressure;
-- little room for changed values, rest and completion.
+- пропущенное действие становится потерей;
+- вовлечённость в продукт совпадает с успехом продукта;
+- отношения с питомцем/аватаром могут создавать моральное давление;
+- мало места для изменившихся ценностей, отдыха и завершения.
 
-### 3.4. Mood, symptom and personal analytics
+### 3.4. Настроение, симптомы и личная аналитика
 
 Основная работа:
 
 - быстро зафиксировать состояние;
-- увидеть patterns;
-- подготовить data for decisions or care.
+- увидеть паттерны;
+- подготовить данные для решений или помощи.
 
 Представители:
 
@@ -195,34 +195,34 @@ source_of_truth: false
 - How We Feel;
 - Bearable;
 - Exist;
-- Apple Health state-of-mind features.
+- функции state-of-mind в Apple Health.
 
 Сильные стороны:
 
-- low-friction capture;
-- useful vocabulary;
-- trend visibility;
-- personal experiments;
-- doctor/therapist preparation.
+- захват с низким трением;
+- полезный словарь;
+- видимость трендов;
+- личные эксперименты;
+- подготовка к визиту к врачу/терапевту.
 
 Ограничения:
 
-- correlation may be interpreted as cause;
-- repeated measurement changes attention;
-- score becomes identity;
-- missing data appears as failure;
-- tracking can become burden;
-- insights may be stronger than data quality.
+- корреляция может интерпретироваться как причина;
+- повторное измерение меняет внимание;
+- балл становится идентичностью;
+- пропущенные данные выглядят как неудача;
+- отслеживание может стать нагрузкой;
+- инсайты могут быть сильнее качества данных.
 
-### 3.5. Meditation and content platforms
+### 3.5. Медитация и контент-платформы
 
 Основная работа:
 
-- offer state-regulation content;
-- sleep;
-- meditation;
-- stress relief;
-- psychoeducation.
+- предлагать контент для регуляции состояния;
+- сон;
+- медитация;
+- снятие стресса;
+- психообразование.
 
 Представители:
 
@@ -233,31 +233,31 @@ source_of_truth: false
 
 Тренд:
 
-Headspace added Ebb, an AI companion that processes thoughts and recommends exercises from the wider content library.
+Headspace добавил Ebb — ИИ-компаньона, который обрабатывает мысли и рекомендует упражнения из более широкой библиотеки контента.
 
 Сильные стороны:
 
-- extensive content;
-- trusted brands;
-- immediate exercises;
-- distribution;
-- institutional partnerships.
+- обширный контент;
+- доверенные бренды;
+- немедленные упражнения;
+- дистрибуция;
+- институциональные партнёрства.
 
 Ограничения:
 
-- relief can substitute for source change;
-- library recommendation can be mistaken for personalized understanding;
-- content consumption does not create practice ownership;
-- B2B distribution creates governance questions.
+- облегчение может подменять изменение источника;
+- рекомендация из библиотеки может быть принята за персонализированное понимание;
+- потребление контента не создаёт владения практикой;
+- B2B-дистрибуция порождает вопросы управления.
 
-### 3.6. AI mental-health support and companion products
+### 3.6. ИИ-поддержка психического здоровья и продукты-компаньоны
 
 Основная работа:
 
-- always-available conversation;
-- emotional processing;
-- CBT-style tools or coaching;
-- continuity and relationship.
+- всегда доступный разговор;
+- эмоциональная переработка;
+- инструменты в стиле КПТ или коучинг;
+- непрерывность и отношения.
 
 Представители:
 
@@ -267,926 +267,926 @@ Headspace added Ebb, an AI companion that processes thoughts and recommends exer
 - Headspace Ebb;
 - Replika;
 - Pi;
-- Character.AI as a functional substitute.
+- Character.AI как функциональный заменитель.
 
 Сильные стороны:
 
-- low social cost;
-- immediate availability;
-- conversational interface;
-- personalization;
-- potential bridge to human care.
+- низкая социальная цена;
+- немедленная доступность;
+- разговорный интерфейс;
+- персонализация;
+- потенциальный мост к человеческой помощи.
 
 Ограничения:
 
-- therapeutic ambiguity;
-- overtrust;
-- sycophancy;
-- role confusion;
-- crisis limitations;
-- memory risk;
-- emotional dependency;
-- disclosure to an institution disguised as intimacy.
+- терапевтическая двусмысленность;
+- чрезмерное доверие;
+- подхалимство;
+- путаница ролей;
+- ограничения при кризисе;
+- риск памяти;
+- эмоциональная зависимость;
+- раскрытие данных институту под видом близости.
 
-### 3.7. Personal knowledge management and second brains
+### 3.7. Управление личными знаниями и «вторые мозги»
 
 Основная работа:
 
-- capture ideas;
-- connect knowledge;
-- retrieve context;
-- think with AI.
+- захватывать идеи;
+- связывать знания;
+- извлекать контекст;
+- думать вместе с ИИ.
 
 Представители:
 
 - Reflect Notes;
 - Capacities;
-- Obsidian with AI extensions;
+- Obsidian с ИИ-расширениями;
 - Tana;
 - Notion;
-- personal RAG tools.
+- персональные RAG-инструменты.
 
 Сильные стороны:
 
-- user-owned content structures;
-- connections;
-- search and retrieval;
-- durable knowledge;
-- flexible objects.
+- структуры контента, принадлежащие пользователю;
+- связи;
+- поиск и извлечение;
+- устойчивое знание;
+- гибкие объекты.
 
 Ограничения:
 
-- organization becomes work;
-- designed for knowledge, not lived practice;
-- AI memory does not include human-safety boundaries;
-- productivity lens can dominate;
-- no model for rest, closure, care and systemic context.
+- организация становится работой;
+- рассчитано на знание, а не на прожитую практику;
+- память ИИ не включает границы человеческой безопасности;
+- линза продуктивности может доминировать;
+- нет модели для отдыха, завершения, заботы и системного контекста.
 
 ---
 
-## 4. Direct competitors
+## 4. Прямые конкуренты
 
-### Tier 1 — closest market substitutes
+### Уровень 1 — ближайшие рыночные заменители
 
 #### Rosebud
 
-Public promise:
+Публичное обещание:
 
-- AI journal that adapts;
-- personalized reflection prompts;
-- patterns and insights;
-- voice;
-- long-term memory;
-- habits/personal growth.
+- ИИ-дневник, который адаптируется;
+- персонализированные подсказки для рефлексии;
+- паттерны и инсайты;
+- голос;
+- долговременная память;
+- привычки/личный рост.
 
-Observed overlap:
+Наблюдаемое пересечение:
 
-- reflection;
-- memory;
-- action and habits;
-- personal growth;
-- conversational AI.
+- рефлексия;
+- память;
+- действие и привычки;
+- личный рост;
+- разговорный ИИ.
 
-Strategic lesson:
+Стратегический урок:
 
-Rosebud already owns a simple, understandable position: guided AI journaling for personal growth. Garden must not compete by claiming better prompts or deeper memory.
+Rosebud уже занимает простую, понятную позицию: направляемое ИИ ведение дневника для личного роста. Garden не должен конкурировать, заявляя о лучших подсказках или более глубокой памяти.
 
 #### Reflection
 
-Public promise:
+Публичное обещание:
 
-- private AI journal and coach;
-- real-time guidance;
-- voice;
-- advanced insights;
-- 100+ guided programs;
-- personal growth.
+- приватный ИИ-дневник и коуч;
+- руководство в реальном времени;
+- голос;
+- продвинутые инсайты;
+- 100+ направляемых программ;
+- личный рост.
 
-Observed overlap:
+Наблюдаемое пересечение:
 
-- guided reflection;
-- coach framing;
-- insights;
-- programs;
-- cross-platform journaling.
+- направляемая рефлексия;
+- обрамление «коуч»;
+- инсайты;
+- программы;
+- кроссплатформенное ведение дневника.
 
-Strategic lesson:
+Стратегический урок:
 
-A library and AI-coach bundle is already commoditized. Garden should not become a larger catalog of guided exercises.
+Набор «библиотека + ИИ-коуч» уже стал массовым товаром. Garden не должен становиться более крупным каталогом направляемых упражнений.
 
 #### Mindsera
 
-Public promise:
+Публичное обещание:
 
-- journal that reflects back;
-- thinking copilot;
-- emotion detection;
-- patterns;
-- mental models;
-- voice and call modes;
-- morning/evening rituals;
-- habit tracker.
+- дневник, который отражает;
+- «второй пилот» для мышления;
+- обнаружение эмоций;
+- паттерны;
+- ментальные модели;
+- режимы голоса и звонка;
+- утренние/вечерние ритуалы;
+- трекер привычек.
 
-Observed overlap:
+Наблюдаемое пересечение:
 
-- ritual language;
-- reflection;
-- insight;
-- voice;
-- personal patterns;
-- thinking partner.
+- язык ритуалов;
+- рефлексия;
+- инсайт;
+- голос;
+- личные паттерны;
+- партнёр по мышлению.
 
-Strategic lesson:
+Стратегический урок:
 
-Even the phrase «rituals + AI reflection + mental models» is occupied. Garden’s distinction must be governance of AI authority and practice lifecycle, not intellectual sophistication.
+Даже фраза «ритуалы + ИИ-рефлексия + ментальные модели» занята. Отличие Garden должно быть в управлении авторитетом ИИ и жизненным циклом практики, а не в интеллектуальной изощрённости.
 
 #### Liven
 
-Public promise:
+Публичное обещание:
 
-- self-discovery companion;
-- mood tracker;
-- habit tools;
-- courses;
-- AI assistant;
-- groundedness and transformation.
+- компаньон для самопознания;
+- трекер настроения;
+- инструменты привычек;
+- курсы;
+- ИИ-ассистент;
+- заземлённость и трансформация.
 
-Observed overlap:
+Наблюдаемое пересечение:
 
-- self-discovery;
-- emotional check-ins;
-- habits;
-- content and companion.
+- самопознание;
+- эмоциональные отметки;
+- привычки;
+- контент и компаньон.
 
-Strategic lesson:
+Стратегический урок:
 
-Broad «system of tools for transformation» positioning becomes generic quickly.
+Широкое позиционирование «система инструментов для трансформации» быстро становится обобщённым.
 
 ---
 
-## 5. Adjacent competitors
+## 5. Соседние конкуренты
 
 ### Headspace Ebb
 
-Ebb is positioned as an empathetic AI companion for adult users that supports reflection, emotional processing and recommends Headspace activities. It explicitly states it is not human care and is not monitored in real time by a human. Headspace also describes real-time automated safety-risk classification for Ebb messages.
+Ebb позиционируется как эмпатичный ИИ-компаньон для взрослых пользователей, поддерживающий рефлексию, эмоциональную переработку и рекомендующий активности Headspace. Он явно заявляет, что не является человеческой помощью и не отслеживается человеком в реальном времени. Headspace также описывает автоматическую классификацию риска безопасности сообщений Ebb в реальном времени.
 
-Lesson:
+Урок:
 
-- trusted content + AI routing is a strong platform strategy;
-- Garden cannot out-library Headspace;
-- Garden should not imitate clinical-trust language without equivalent operations.
+- доверенный контент + маршрутизация ИИ — сильная платформенная стратегия;
+- Garden не может обойти Headspace по объёму библиотеки;
+- Garden не должен имитировать язык клинического доверия без эквивалентных операций.
 
 ### Ash
 
-Ash promises 24/7 voice/text mental-health support, weekly pattern insights and long-term growth; it states it is not for crisis use.
+Ash обещает круглосуточную голосовую/текстовую поддержку психического здоровья, еженедельные инсайты по паттернам и долгосрочный рост; заявляет, что не для кризисного использования.
 
-Lesson:
+Урок:
 
-Purpose-built psychology models and long-term conversational support are becoming a dedicated category. Garden should remain non-therapy and narrower.
+Специально построенные психологические модели и долгосрочная разговорная поддержка становятся отдельной категорией. Garden должен оставаться нетерапевтическим и более узким.
 
 ### Wysa
 
-Wysa combines anonymous AI conversation, structured tools, human coaching and institutional/health-system integrations.
+Wysa сочетает анонимный разговор с ИИ, структурированные инструменты, человеческий коучинг и интеграции с институтами/системами здравоохранения.
 
-Lesson:
+Урок:
 
-Hybrid care pathways are a different business and regulatory model. Garden should not claim continuity of care.
+Гибридные пути помощи — иная бизнес- и регуляторная модель. Garden не должен заявлять о непрерывности помощи.
 
 ### Finch
 
-Finch uses a virtual self-care pet, exercises, rewards, events, social friendship and streak-oriented engagement.
+Finch использует виртуального питомца заботы о себе, упражнения, награды, события, социальную дружбу и вовлечение, ориентированное на серии.
 
-Lesson:
+Урок:
 
-Finch offers excellent emotional accessibility and delight, but Garden’s anti-dependency principles rule out «care for avatar by caring for yourself».
+Finch предлагает отличную эмоциональную доступность и радость, но антизависимостные принципы Garden исключают «заботься об аватаре, заботясь о себе».
 
 ### Fabulous
 
-Fabulous combines routine coaching, goals, to-dos, journaling, workouts, breathwork, affirmations and meditation. Some public store copy uses strong command language around transformation and routine.
+Fabulous сочетает коучинг рутин, цели, списки дел, ведение дневника, тренировки, дыхательные практики, аффирмации и медитацию. Часть публичных текстов в магазинах использует сильный командный язык вокруг трансформации и рутины.
 
-Lesson:
+Урок:
 
-Garden should avoid the all-in-one routine super-app and avoid certainty that one morning routine is universal.
+Garden следует избегать всё-в-одном супер-приложения рутин и избегать уверенности, что одна утренняя рутина универсальна.
 
 ### Daylio / How We Feel / Bearable / Exist
 
-These products represent increasingly sophisticated tracking:
+Эти продукты представляют всё более изощрённое отслеживание:
 
-- mood and activity logging;
-- emotion vocabulary;
-- health factors;
-- correlations;
-- experiments and insights.
+- логирование настроения и активности;
+- словарь эмоций;
+- факторы здоровья;
+- корреляции;
+- эксперименты и инсайты.
 
-Lesson:
+Урок:
 
-Garden must not compete on analytics depth. Measurement should remain optional and bounded.
+Garden не должен конкурировать по глубине аналитики. Измерение должно оставаться опциональным и ограниченным.
 
 ### Day One / Apple Journal
 
-Day One emphasizes durable journal ownership, export and end-to-end encryption. Apple Journal uses on-device processing to group moments and generate journaling suggestions controlled by the user.
+Day One делает акцент на устойчивом владении дневником, экспорте и сквозном шифровании. Apple Journal использует обработку на устройстве для группировки моментов и генерации подсказок для дневника, контролируемых пользователем.
 
-Lesson:
+Урок:
 
-Privacy expectations in journaling are high. AI Garden cannot make weaker architecture invisible behind wellbeing language.
+Ожидания приватности в ведении дневника высоки. ИИ-Garden не может сделать более слабую архитектуру невидимой за языком благополучия.
 
 ### Replika / Pi
 
-These products normalize emotionally intelligent AI that remembers and «grows with» the user. Replika explicitly positions itself as an AI friend; Pi as emotionally intelligent AI for thinking, planning and growth.
+Эти продукты нормализуют эмоционально интеллектуальный ИИ, который помнит и «растёт вместе» с пользователем. Replika явно позиционирует себя как ИИ-друг; Pi — как эмоционально интеллектуальный ИИ для мышления, планирования и роста.
 
-Lesson:
+Урок:
 
-Companion intimacy is an alternative to Garden, but Garden’s differentiation depends on refusing to become a relationship substitute.
+Близость компаньона — альтернатива Garden, но отличие Garden зависит от отказа становиться заменителем отношений.
 
 ### Reflect / Capacities
 
-AI thought partners in connected personal knowledge bases.
+ИИ-партнёры по мышлению в связанных базах личных знаний.
 
-Lesson:
+Урок:
 
-Garden may use object and graph principles, but must not become a personal knowledge-management workload.
-
----
-
-## 6. Category convergence
-
-As of July 2026, several boundaries have blurred:
-
-- journal → AI coach;
-- meditation library → AI companion;
-- mood tracker → correlation engine;
-- habit tracker → self-care world;
-- companion → growth and reflection;
-- PKM → AI thought partner;
-- employer wellness → AI emotional support.
-
-This is supported by current product positioning across Rosebud, Reflection, Mindsera, Headspace Ebb, Finch, Bearable, Replika, Pi, Reflect and Capacities.
-
-### Strategic implication
-
-Feature differentiation will be copied quickly.
-
-Durable differentiation must come from:
-
-- a different object model;
-- a different definition of success;
-- safety and trust architecture;
-- product behavior under conflict;
-- a coherent philosophy users can feel;
-- evidence that the product helps without increasing dependence.
+Garden может использовать принципы объектов и графов, но не должен становиться нагрузкой по управлению личными знаниями.
 
 ---
 
-## 7. Repeated market promises
+## 6. Конвергенция категорий
 
-Common language:
+По состоянию на июль 2026 года несколько границ размылись:
 
-- understand yourself;
-- uncover hidden patterns;
-- unlock your potential;
-- transform yourself;
-- feel better;
-- build better habits;
-- personal AI companion;
-- always there;
-- grow;
-- become your best self;
-- backed by science;
-- private and secure.
+- дневник → ИИ-коуч;
+- библиотека медитаций → ИИ-компаньон;
+- трекер настроения → движок корреляций;
+- трекер привычек → мир заботы о себе;
+- компаньон → рост и рефлексия;
+- управление знаниями → ИИ-партнёр по мышлению;
+- корпоративный wellness → ИИ-эмоциональная поддержка.
 
-### Problem
+Это подтверждается текущим позиционированием продуктов Rosebud, Reflection, Mindsera, Headspace Ebb, Finch, Bearable, Replika, Pi, Reflect и Capacities.
 
-These promises compress distinct claims:
+### Стратегическое следствие
 
-- product usefulness;
-- psychological interpretation;
-- health benefit;
-- relationship;
-- security;
-- evidence.
+Дифференциация по функциям будет быстро скопирована.
 
-### Garden rule
+Устойчивая дифференциация должна исходить из:
 
-Garden should avoid category clichés unless it can define and test them.
-
-Not:
-
-> Unlock the hidden patterns shaping your life.
-
-Better:
-
-> Notice what happened, choose what matters now, and try a small practice without turning your life into a score.
+- иной объектной модели;
+- иного определения успеха;
+- архитектуры безопасности и доверия;
+- поведения продукта при конфликте;
+- цельной философии, которую пользователи могут ощутить;
+- доказательств, что продукт помогает без роста зависимости.
 
 ---
 
-## 8. Privacy as market gap and trust threshold
+## 7. Повторяющиеся рыночные обещания
 
-Privacy is both:
+Общий язык:
 
-- table stakes for journals;
-- an unresolved category weakness in AI mental-health and companion apps.
+- пойми себя;
+- раскрой скрытые паттерны;
+- раскрой свой потенциал;
+- трансформируй себя;
+- почувствуй себя лучше;
+- построй лучшие привычки;
+- личный ИИ-компаньон;
+- всегда рядом;
+- расти;
+- стань лучшей версией себя;
+- подкреплено наукой;
+- приватно и безопасно.
 
-Examples:
+### Проблема
 
-- Day One offers E2EE by default for new journals and states that only the user holds the key.
-- Apple’s Journaling Suggestions use on-device processing and user-controlled sharing.
-- Mindsera openly states that true E2EE is not currently compatible with its server-side AI processing.
-- Headspace states that Ebb data are encrypted and employee access is minimized, while some access may occur for quality assurance and improvement.
-- A 2026 technical study of 25 Android mental-health and life-coaching apps reported major gaps between detected trackers/permissions/AI recipients and policy disclosures.
+Эти обещания сжимают разные утверждения:
 
-### Strategic implication
+- полезность продукта;
+- психологическую интерпретацию;
+- пользу для здоровья;
+- отношения;
+- безопасность;
+- доказательства.
 
-Garden cannot win by saying «bank-level encryption».
+### Правило Garden
 
-It needs inspectable controls:
+Garden должен избегать штампов категории, если не может определить и проверить их.
 
-- local/private modes;
-- no-training;
-- memory provenance;
-- expiry;
-- complete deletion;
-- clear model-provider disclosure;
-- no hidden trackers;
-- no employee browsing;
-- no-sensitive-analytics architecture.
+Не:
 
----
+> Раскрой скрытые паттерны, формирующие твою жизнь.
 
-## 9. The actual whitespace
+Лучше:
 
-The whitespace is a system with nine simultaneous properties.
-
-### 9.1. Practice, not habit
-
-Core object includes:
-
-- meaning;
-- context;
-- support;
-- adaptation;
-- rest;
-- completion;
-- retirement.
-
-No failed state and no streak.
-
-### 9.2. Bounded reflection
-
-Reflection has:
-
-- mode;
-- evidence;
-- one question;
-- limited hypotheses;
-- closure;
-- return to life.
-
-No endless AI chat as product success.
-
-### 9.3. Epistemic agency
-
-AI distinguishes:
-
-- fact;
-- observation;
-- association;
-- hypothesis;
-- unknown.
-
-AI does not own interpretation.
-
-### 9.4. User-owned support
-
-Reminders and accountability are explicit contracts. Silence reduces intervention rather than escalating it.
-
-### 9.5. Multilevel action
-
-Garden distinguishes:
-
-- relief;
-- personal capacity;
-- relationship;
-- organization;
-- environment;
-- policy;
-- exit.
-
-It does not sell resilience as a fix for bad conditions.
-
-### 9.6. Optional measurement
-
-No general wellbeing score, no mandatory check-in, no leaderboard and no hidden emotion score.
-
-### 9.7. Governed memory
-
-Memory has:
-
-- source;
-- author;
-- domain;
-- expiry;
-- confirmation;
-- deletion;
-- forbidden uses.
-
-### 9.8. Narrow social bridges
-
-No feed. No social graph. No automatic disclosure. Help moves into real relationships.
-
-### 9.9. Designed to become less necessary
-
-Success includes:
-
-- finishing;
-- pausing;
-- leaving;
-- acting offline;
-- needing fewer prompts;
-- being able to continue without Garden.
-
-Few products publicly organize their entire model around this outcome.
+> Заметь, что произошло, выбери, что важно сейчас, и попробуй небольшую практику, не превращая свою жизнь в балл.
 
 ---
 
-## 10. What the whitespace is not
+## 8. Приватность как рыночный пробел и порог доверия
 
-It is not:
+Приватность одновременно:
 
-- a completely empty category;
-- a patentable feature gap;
-- proof of demand;
-- proof that users want less engagement;
-- proof that users understand epistemic markers;
-- proof that ethics creates retention;
-- proof that Garden can compete with free general-purpose AI;
-- proof that users will pay for restraint.
+- обязательный минимум для дневников;
+- неразрешённая слабость категории в ИИ-приложениях психического здоровья и компаньонах.
 
-The whitespace is a **coherent strategic position**. It requires validation.
+Примеры:
+
+- Day One предлагает E2EE по умолчанию для новых дневников и заявляет, что ключ хранится только у пользователя.
+- Подсказки для дневника Apple используют обработку на устройстве и обмен под контролем пользователя.
+- Mindsera открыто заявляет, что настоящее E2EE в настоящее время несовместимо с его серверной обработкой ИИ.
+- Headspace заявляет, что данные Ebb зашифрованы, а доступ сотрудников минимизирован, при этом некоторый доступ может происходить ради контроля качества и улучшения.
+- Техническое исследование 2026 года 25 Android-приложений психического здоровья и лайф-коучинга сообщило о серьёзных расхождениях между обнаруженными трекерами/разрешениями/получателями ИИ и раскрытиями в политиках.
+
+### Стратегическое следствие
+
+Garden не может выиграть, говоря «шифрование банковского уровня».
+
+Ему нужны проверяемые средства контроля:
+
+- локальные/приватные режимы;
+- отсутствие обучения;
+- происхождение памяти;
+- истечение срока;
+- полное удаление;
+- ясное раскрытие поставщика модели;
+- отсутствие скрытых трекеров;
+- отсутствие просмотра сотрудниками;
+- архитектура без чувствительной аналитики.
 
 ---
 
-## 11. Recommended category
+## 9. Фактическое незанятое пространство
 
-### Rejected category names
+Незанятое пространство — это система с девятью одновременными свойствами.
 
-- AI mental-health app;
-- AI therapist;
-- AI companion;
-- habit tracker;
-- self-care app;
-- journaling app;
-- life operating system;
-- second brain;
-- personal-growth platform.
+### 9.1. Практика, а не привычка
 
-Each creates wrong expectations.
+Основной объект включает:
 
-### Candidate category
+- смысл;
+- контекст;
+- поддержку;
+- адаптацию;
+- отдых;
+- завершение;
+- выход на покой.
 
-**Personal sensemaking and practice system**
+Никакого состояния «провал» и никаких серий.
 
-Russian:
+### 9.2. Ограниченная рефлексия
+
+У рефлексии есть:
+
+- режим;
+- данные;
+- один вопрос;
+- ограниченные гипотезы;
+- завершение;
+- возвращение в жизнь.
+
+Никакого бесконечного чата с ИИ как успеха продукта.
+
+### 9.3. Эпистемическая субъектность
+
+ИИ различает:
+
+- факт;
+- наблюдение;
+- ассоциацию;
+- гипотезу;
+- неизвестное.
+
+ИИ не владеет интерпретацией.
+
+### 9.4. Поддержка, принадлежащая пользователю
+
+Напоминания и подотчётность — явные контракты. Молчание снижает вмешательство, а не эскалирует его.
+
+### 9.5. Многоуровневое действие
+
+Garden различает:
+
+- облегчение;
+- личную способность;
+- отношения;
+- организацию;
+- среду;
+- политику;
+- выход.
+
+Он не продаёт устойчивость как исправление плохих условий.
+
+### 9.6. Опциональное измерение
+
+Никакого общего балла благополучия, никакой обязательной отметки, никаких таблиц лидеров и никакого скрытого балла эмоций.
+
+### 9.7. Управляемая память
+
+У памяти есть:
+
+- источник;
+- автор;
+- область;
+- истечение срока;
+- подтверждение;
+- удаление;
+- запрещённые способы использования.
+
+### 9.8. Узкие социальные мосты
+
+Никакой ленты. Никакого социального графа. Никакого автоматического раскрытия. Помощь переходит в реальные отношения.
+
+### 9.9. Спроектирован становиться менее необходимым
+
+Успех включает:
+
+- завершение;
+- паузу;
+- уход;
+- действие офлайн;
+- потребность в меньшем числе подсказок;
+- способность продолжать без Garden.
+
+Немногие продукты публично организуют всю свою модель вокруг такого исхода.
+
+---
+
+## 10. Чем незанятое пространство не является
+
+Оно не является:
+
+- полностью пустой категорией;
+- патентуемым пробелом в функциях;
+- доказательством спроса;
+- доказательством, что пользователи хотят меньшей вовлечённости;
+- доказательством, что пользователи понимают эпистемические маркеры;
+- доказательством, что этика создаёт удержание;
+- доказательством, что Garden может конкурировать с бесплатным ИИ общего назначения;
+- доказательством, что пользователи заплатят за сдержанность.
+
+Незанятое пространство — это **цельная стратегическая позиция**. Она требует валидации.
+
+---
+
+## 11. Рекомендуемая категория
+
+### Отвергнутые названия категории
+
+- ИИ-приложение психического здоровья;
+- ИИ-терапевт;
+- ИИ-компаньон;
+- трекер привычек;
+- приложение заботы о себе;
+- приложение для дневника;
+- операционная система жизни;
+- «второй мозг»;
+- платформа личного роста.
+
+Каждое создаёт неверные ожидания.
+
+### Категория-кандидат
+
+**Система осмысления и личной практики**
+
+По-русски:
 
 **система осмысления и личной практики**
 
-User-facing formulation:
+Формулировка для пользователя:
 
 > Garden помогает понять, что сейчас важно, выбрать небольшую практику и увидеть, какие условия действительно помогают — без гонки, streaks и оценки вашей жизни.
 
-### Alternative shorter phrase
+### Альтернативная короткая фраза
 
-**From reflection to caring action.**
+**От рефлексии — к бережному действию.**
 
-Russian:
+По-русски:
 
 **От понимания — к бережному действию.**
 
 ---
 
-## 12. Initial target user hypothesis
+## 12. Гипотеза о первом целевом пользователе
 
-Not a demographic segment, but a situation.
+Не демографический сегмент, а ситуация.
 
-A potential early user:
+Потенциальный ранний пользователь:
 
-- already reflects and consumes self-development content;
-- has tried journals, trackers or task systems;
-- does not need another content library;
-- dislikes streaks, guilt and gamification;
-- wants continuity without AI authority;
-- struggles to connect insight with real action;
-- values privacy;
-- is comfortable paying for a trusted personal tool;
-- does not seek diagnosis or emergency support.
+- уже рефлексирует и потребляет контент о саморазвитии;
+- пробовал дневники, трекеры или системы задач;
+- не нуждается в ещё одной библиотеке контента;
+- не любит серии, вину и геймификацию;
+- хочет непрерывности без авторитета ИИ;
+- с трудом связывает инсайт с реальным действием;
+- ценит приватность;
+- готов платить за доверенный личный инструмент;
+- не ищет диагноз или экстренную помощь.
 
-### Stronger job-to-be-done
+### Более сильная задача-к-выполнению
 
 > «Я примерно понимаю, что мне важно, но мои заметки, решения и попытки распадаются. Помоги мне выбрать живую форму действия, поддерживать её без давления и честно менять, когда жизнь меняется».
 
 ---
 
-## 13. Initial wedge
+## 13. Начальный клин (wedge)
 
-Do not launch as a complete life ecosystem.
+Не запускаться как полная жизненная экосистема.
 
-### Wedge
+### Клин
 
-**One important direction → one chosen practice → bounded review.**
+**Одно важное направление → одна выбранная практика → ограниченный обзор.**
 
-Flow:
+Поток:
 
-1. Name a current concern or direction.
-2. Separate fact, need and context.
-3. Choose a practice or non-practice action.
-4. Select support contract.
-5. Live outside the app.
-6. Return only at chosen time.
-7. Observe without judgment.
-8. Continue, adapt, pause, complete or release.
+1. Назвать текущую заботу или направление.
+2. Разделить факт, потребность и контекст.
+3. Выбрать практику или действие без практики.
+4. Выбрать контракт поддержки.
+5. Жить вне приложения.
+6. Возвращаться только в выбранное время.
+7. Наблюдать без осуждения.
+8. Продолжить, адаптировать, приостановить, завершить или отпустить.
 
-### Why this wedge
+### Почему этот клин
 
-It tests Garden’s core differentiation:
+Он тестирует ключевое отличие Garden:
 
-- practice lifecycle;
-- support without control;
-- bounded AI;
-- offline success;
-- no score.
+- жизненный цикл практики;
+- поддержку без контроля;
+- ограниченный ИИ;
+- успех офлайн;
+- отсутствие балла.
 
-It does not require:
+Он не требует:
 
-- social network;
-- massive content;
-- passive sensing;
-- clinical workflows;
-- total memory;
-- immersive garden.
+- социальной сети;
+- массивного контента;
+- пассивного сбора данных;
+- клинических рабочих процессов;
+- тотальной памяти;
+- иммерсивного сада.
 
 ---
 
-## 14. MVP boundary
+## 14. Граница MVP
 
-### Build
+### Строить
 
-- Practice object;
-- Current Direction;
-- Chosen Support Contract;
-- Bounded Reflection;
-- Epistemic markers;
-- simple contextual notes;
-- continue/adapt/pause/complete/release;
-- memory dashboard;
-- literal mode;
-- export/delete;
-- small Alpha safety architecture.
+- объект «Практика»;
+- «Текущее направление»;
+- «Выбранный контракт поддержки»;
+- ограниченную рефлексию;
+- эпистемические маркеры;
+- простые контекстные заметки;
+- продолжить/адаптировать/приостановить/завершить/отпустить;
+- панель памяти;
+- буквальный режим;
+- экспорт/удаление;
+- небольшую архитектуру безопасности Alpha.
 
-### Delay
+### Отложить
 
-- immersive visual garden;
+- иммерсивный визуальный сад;
 - Mycorrhiza;
-- social account linking;
-- community;
-- wearable integrations;
-- passive sensing;
-- correlation dashboard;
-- emotional score;
-- large guide library;
-- marketplace;
+- привязку социальных аккаунтов;
+- сообщество;
+- интеграции с носимыми устройствами;
+- пассивный сбор данных;
+- дашборд корреляций;
+- балл эмоций;
+- большую библиотеку гайдов;
+- маркетплейс;
 - B2B;
-- clinical care;
-- autonomous agents.
+- клиническую помощь;
+- автономных агентов.
 
-### Do not build
+### Не строить
 
-- streaks;
-- pet/avatar dependency;
-- AI friend positioning;
-- unlimited proactive chat;
-- dying garden;
-- public feed;
-- leaderboard;
-- diagnostic insights;
-- «hidden personality patterns»;
-- emotional percentage analysis;
-- persuasion profile;
-- employer dashboard.
-
----
-
-## 15. Business model
-
-### Preferred
-
-Direct user subscription.
-
-Why:
-
-- clearer alignment;
-- no advertising incentive;
-- no employer access;
-- no need to sell sensitive analytics;
-- predictable AI cost.
-
-### Principles
-
-- core non-AI data access survives subscription cancellation;
-- export/delete are never premium;
-- privacy is not premium;
-- no paywall after emotional disclosure;
-- no urgency countdown;
-- no annual dark pattern;
-- clear compute limits;
-- local/no-AI mode remains useful;
-- subscription rewards value, not dependence.
-
-### Price hypothesis
-
-Current adjacent consumer subscriptions publicly cluster roughly from about USD 6 to 15 monthly equivalent, depending on annual billing and region:
-
-- Reflection around USD 8 monthly / USD 5.75 monthly annualized;
-- Rosebud USD 12.99 monthly / USD 107.99 yearly;
-- Mindsera paid plan roughly USD 10.75–14.99 monthly;
-- Headspace Ebb inside a USD 69.99 annual subscription in the cited offer.
-
-A Garden price should not be chosen before willingness-to-pay and cost tests.
+- серии;
+- зависимость от питомца/аватара;
+- позиционирование «ИИ-друг»;
+- безлимитный проактивный чат;
+- умирающий сад;
+- публичную ленту;
+- таблицу лидеров;
+- диагностические инсайты;
+- «скрытые паттерны личности»;
+- процентный анализ эмоций;
+- профиль убеждения;
+- дашборд для работодателя.
 
 ---
 
-## 16. Distribution hypothesis
+## 15. Бизнес-модель
 
-Potential early channels:
+### Предпочтительно
 
-- thoughtful product/content community;
-- creators writing about humane AI and self-understanding;
-- readers of psychology, journaling and personal knowledge systems;
-- therapists/coaches only as informed referrers, not clinical endorsers;
-- privacy-conscious AI users;
-- communities tired of productivity optimization.
+Прямая пользовательская подписка.
 
-### Avoid initially
+Почему:
 
-- employer benefits;
-- performance marketing using mental-health vulnerability;
-- quiz funnels implying diagnosis;
-- «discover your type» lead magnets;
-- influencer claims of therapy replacement;
-- community growth loops;
-- referral incentives based on personal disclosure.
+- более ясное согласование интересов;
+- нет рекламного стимула;
+- нет доступа работодателя;
+- нет необходимости продавать чувствительную аналитику;
+- предсказуемая стоимость ИИ.
 
----
+### Принципы
 
-## 17. Defensibility
+- доступ к основным (не-ИИ) данным сохраняется после отмены подписки;
+- экспорт/удаление никогда не премиум;
+- приватность не премиум;
+- никакого пейволла после эмоционального раскрытия;
+- никакого отсчёта срочности;
+- никакого ежегодного тёмного паттерна;
+- ясные лимиты вычислений;
+- локальный/без-ИИ режим остаётся полезным;
+- подписка вознаграждает ценность, а не зависимость.
 
-Features are weak defensibility.
+### Гипотеза о цене
 
-Possible durable assets:
+Текущие соседние потребительские подписки публично кластеризуются примерно от 6 до 15 USD в месячном эквиваленте, в зависимости от годовой оплаты и региона:
 
-### 17.1. Decision architecture
+- Reflection около 8 USD в месяц / 5,75 USD в месяц при годовой оплате;
+- Rosebud 12,99 USD в месяц / 107,99 USD в год;
+- платный план Mindsera примерно 10,75–14,99 USD в месяц;
+- Headspace Ebb внутри годовой подписки за 69,99 USD в приведённом предложении.
 
-Accepted GDRs and executable product rules.
-
-### 17.2. Safety evaluation system
-
-- anti-sycophancy tests;
-- memory leakage tests;
-- coercion scenarios;
-- measurement reactivity;
-- dependency guardrails;
-- structural-context audit.
-
-### 17.3. Practice model and longitudinal dataset
-
-Only if data are ethically collected and user-controlled.
-
-### 17.4. Trust
-
-Earned through:
-
-- transparent memory;
-- deletion;
-- no-training;
-- no hidden inference;
-- predictable boundaries.
-
-### 17.5. Language and interaction quality
-
-Adult, precise, non-parental and culturally humble.
-
-### 17.6. Outcomes
-
-Evidence that users:
-
-- act offline;
-- adapt without shame;
-- need fewer prompts;
-- distinguish AI hypothesis from fact;
-- avoid increased dependence.
+Цену Garden не следует выбирать до тестов готовности платить и стоимости.
 
 ---
 
-## 18. Product-market risks
+## 16. Гипотеза о дистрибуции
 
-### Risk 1 — Restraint feels like low value
+Возможные ранние каналы:
 
-Users may prefer confident interpretation and unlimited conversation.
+- вдумчивое продуктовое/контентное сообщество;
+- авторы, пишущие о гуманном ИИ и самопонимании;
+- читатели о психологии, ведении дневника и системах личных знаний;
+- терапевты/коучи только как информированные рекомендатели, не клинические поручители;
+- пользователи ИИ, заботящиеся о приватности;
+- сообщества, уставшие от оптимизации продуктивности.
 
-### Risk 2 — The product is hard to explain
+### Избегать вначале
 
-Ethics are not a simple category.
-
-### Risk 3 — General AI is «good enough»
-
-Users can create similar prompts in ChatGPT or Claude.
-
-### Risk 4 — Too much configuration
-
-Voice, support, memory and measurement contracts may create burden.
-
-### Risk 5 — Paying for less engagement
-
-A product designed for disappearance challenges subscription logic.
-
-### Risk 6 — Non-clinical ambiguity
-
-Users may still bring mental-health crisis content.
-
-### Risk 7 — Privacy architecture is expensive
-
-Local processing, deletion, audit and isolation raise costs.
-
-### Risk 8 — Beautiful philosophy without repeated use
-
-Users may agree with principles but not build a routine.
-
-### Risk 9 — Garden metaphor narrows audience
-
-Some users may find it sentimental or childish.
-
-### Risk 10 — Scope expansion
-
-The integrated worldview tempts the team to build every research insight.
+- корпоративных льгот;
+- перформанс-маркетинга, использующего уязвимость психического здоровья;
+- квиз-воронок, подразумевающих диагноз;
+- лид-магнитов «узнай свой тип»;
+- заявлений инфлюенсеров о замене терапии;
+- петель роста сообщества;
+- реферальных стимулов на основе личного раскрытия.
 
 ---
 
-## 19. Validation roadmap
+## 17. Защитимость
 
-### Test 1 — Problem resonance
+Функции — слабая защитимость.
 
-Interview and concept test:
+Возможные устойчивые активы:
 
-> «I have insights but no living system for turning them into flexible action».
+### 17.1. Архитектура решений
 
-Success signal:
+Принятые GDR и исполняемые продуктовые правила.
 
-Users describe the problem in their own words before hearing the full solution.
+### 17.2. Система оценки безопасности
 
-### Test 2 — Category comprehension
+- тесты против подхалимства;
+- тесты утечки памяти;
+- сценарии принуждения;
+- реактивность измерения;
+- ограничители зависимости;
+- аудит структурного контекста.
 
-Compare:
+### 17.3. Модель практики и лонгитюдный набор данных
 
-- AI journal;
-- practice system;
-- sensemaking and practice;
-- caring action system.
+Только если данные собраны этично и контролируются пользователем.
 
-Measure understanding, expectations and misclassification.
+### 17.4. Доверие
 
-### Test 3 — Wedge utility
+Заработанное через:
 
-Prototype one direction → one practice → one review.
+- прозрачную память;
+- удаление;
+- отсутствие обучения;
+- отсутствие скрытого вывода;
+- предсказуемые границы.
 
-Compare with:
+### 17.5. Качество языка и взаимодействия
 
-- notes;
-- generic AI chat;
-- habit tracker.
+Взрослое, точное, неродительское и культурно скромное.
 
-### Test 4 — Restraint value
+### 17.6. Результаты
 
-Test bounded AI versus unlimited chat.
+Доказательства, что пользователи:
 
-Measure:
-
-- clarity;
-- action;
-- trust calibration;
-- desire to continue;
-- dependence;
-- perceived value.
-
-### Test 5 — No-streak practice
-
-Compare practice lifecycle versus daily streak.
-
-### Test 6 — Willingness to pay
-
-Test value after real use, not landing-page enthusiasm.
-
-### Test 7 — Safety and privacy comprehension
-
-Can users correctly explain:
-
-- what is stored;
-- what AI inferred;
-- what can be deleted;
-- what Garden cannot do?
-
-### Test 8 — Off-product outcome
-
-Did the person act in life, change conditions or close the practice?
+- действуют офлайн;
+- адаптируются без стыда;
+- нуждаются в меньшем числе подсказок;
+- отличают гипотезу ИИ от факта;
+- избегают роста зависимости.
 
 ---
 
-## 20. Strategic positioning statement
+## 18. Продуктово-рыночные риски
 
-### Internal
+### Риск 1 — Сдержанность ощущается как низкая ценность
 
-> Garden is an agency-preserving personal sensemaking and practice system. It helps adults translate what matters into flexible real-world practices, while constraining AI interpretation, measurement, memory and engagement.
+Пользователи могут предпочитать уверенную интерпретацию и безлимитный разговор.
 
-### User-facing
+### Риск 2 — Продукт трудно объяснить
+
+Этика не является простой категорией.
+
+### Риск 3 — Общий ИИ «достаточно хорош»
+
+Пользователи могут создать похожие подсказки в ChatGPT или Claude.
+
+### Риск 4 — Слишком много настройки
+
+Контракты голоса, поддержки, памяти и измерения могут создавать нагрузку.
+
+### Риск 5 — Платить за меньшую вовлечённость
+
+Продукт, спроектированный на исчезновение, бросает вызов логике подписки.
+
+### Риск 6 — Неклиническая двусмысленность
+
+Пользователи всё равно могут приносить кризисный контент психического здоровья.
+
+### Риск 7 — Архитектура приватности дорога
+
+Локальная обработка, удаление, аудит и изоляция повышают затраты.
+
+### Риск 8 — Красивая философия без повторного использования
+
+Пользователи могут соглашаться с принципами, но не выстроить рутину.
+
+### Риск 9 — Метафора сада сужает аудиторию
+
+Некоторые пользователи могут счесть её сентиментальной или детской.
+
+### Риск 10 — Расширение охвата
+
+Интегрированное мировоззрение соблазняет команду строить каждый исследовательский инсайт.
+
+---
+
+## 19. Дорожная карта валидации
+
+### Тест 1 — Резонанс проблемы
+
+Интервью и тест концепции:
+
+> «У меня есть инсайты, но нет живой системы, чтобы превращать их в гибкое действие».
+
+Сигнал успеха:
+
+Пользователи описывают проблему своими словами до того, как услышат полное решение.
+
+### Тест 2 — Понимание категории
+
+Сравнить:
+
+- ИИ-дневник;
+- система практики;
+- осмысление и практика;
+- система бережного действия.
+
+Измерять понимание, ожидания и неверную классификацию.
+
+### Тест 3 — Полезность клина
+
+Прототип: одно направление → одна практика → один обзор.
+
+Сравнить с:
+
+- заметками;
+- обычным чатом с ИИ;
+- трекером привычек.
+
+### Тест 4 — Ценность сдержанности
+
+Тестировать ограниченный ИИ против безлимитного чата.
+
+Измерять:
+
+- ясность;
+- действие;
+- калибровку доверия;
+- желание продолжать;
+- зависимость;
+- воспринимаемую ценность.
+
+### Тест 5 — Практика без серий
+
+Сравнить жизненный цикл практики с ежедневной серией.
+
+### Тест 6 — Готовность платить
+
+Тестировать ценность после реального использования, а не энтузиазм на лендинге.
+
+### Тест 7 — Понимание безопасности и приватности
+
+Могут ли пользователи корректно объяснить:
+
+- что хранится;
+- что вывел ИИ;
+- что можно удалить;
+- чего Garden не может?
+
+### Тест 8 — Результат вне продукта
+
+Действовал ли человек в жизни, изменил ли условия или закрыл ли практику?
+
+---
+
+## 20. Заявление о стратегическом позиционировании
+
+### Внутреннее
+
+> Garden — это сохраняющая субъектность система личного осмысления и практики. Она помогает взрослым переводить важное в гибкие практики в реальном мире, ограничивая интерпретацию, измерение, память и вовлечённость со стороны ИИ.
+
+### Для пользователя
 
 > Garden помогает не вести идеальную жизнь, а бережно работать с тем, что важно сейчас: понять ситуацию, выбрать небольшую практику, увидеть условия и вовремя продолжить, изменить или отпустить.
 
-### Anti-positioning
+### Анти-позиционирование
 
-> Не трекер привычек. Не AI-терапевт. Не игра в продуктивность. Не бесконечный дневник.
-
----
-
-## 21. Competitor response test
-
-If a competitor adds:
-
-- no-streak mode;
-- memory controls;
-- practice lifecycle;
-- AI uncertainty labels;
-
-Garden should still remain distinct through the whole system:
-
-- structural action;
-- bounded reflection;
-- social bridges;
-- measurement contract;
-- designed obsolescence;
-- philosophy and evaluation.
-
-If differentiation disappears after four features are copied, the product does not have a defensible category.
+> Не трекер привычек. Не ИИ-терапевт. Не игра в продуктивность. Не бесконечный дневник.
 
 ---
 
-## 22. Claim Registry
+## 21. Тест реакции конкурента
 
-| Claim ID | Claim | Evidence | Confidence | Status |
+Если конкурент добавит:
+
+- режим без серий;
+- средства контроля памяти;
+- жизненный цикл практики;
+- метки неопределённости ИИ;
+
+Garden всё равно должен оставаться отличным за счёт всей системы:
+
+- структурного действия;
+- ограниченной рефлексии;
+- социальных мостов;
+- контракта измерения;
+- спроектированного устаревания;
+- философии и оценки.
+
+Если дифференциация исчезает после копирования четырёх функций, у продукта нет защитимой категории.
+
+---
+
+## 22. Реестр утверждений
+
+| ID утверждения | Утверждение | Доказательства | Уверенность | Статус |
 |---|---|---|---|---|
-| R016-C01 | AI journaling is an established and crowded product category | current product landscape | high | market fact |
-| R016-C02 | Journals, trackers, companions and meditation apps are converging | official product positioning | high | trend |
-| R016-C03 | Garden is unique because it combines journal, habits and AI | competitors already combine these | rejected | rejected |
-| R016-C04 | Rosebud, Reflection, Mindsera and Liven are closest direct substitutes | feature and positioning analysis | medium-high | strategic |
-| R016-C05 | Headspace Ebb, Ash and Wysa are adjacent AI mental-health competitors | official positioning | high | market fact |
-| R016-C06 | Finch/Fabulous/Habitica represent action/gamification substitutes | official listings | high | market fact |
-| R016-C07 | Bearable/Exist/Daylio/How We Feel represent measurement substitutes | official positioning | high | market fact |
-| R016-C08 | Day One and Apple establish high privacy expectations for journals | official privacy/product docs | high | market constraint |
-| R016-C09 | Privacy policies in the mental-health app category are consistently complete | 2026 technical audit contradicts | rejected | rejected |
-| R016-C10 | Users will pay for a restraint-first product | no Garden evidence | low | business hypothesis |
-| R016-C11 | Agency-preserving practice is understandable as a new category | no evidence | low | positioning hypothesis |
-| R016-C12 | Integrated ethical architecture is harder to copy than features | strategic inference | medium-low | defensibility hypothesis |
-| R016-C13 | No-streak and no-score design will improve outcomes | no direct Garden trial | low | product hypothesis |
-| R016-C14 | Direct subscription better aligns incentives than ads/employer model | business/ethics synthesis | medium | proposed |
-| R016-C15 | A complete life ecosystem is the right launch scope | no | rejected | rejected |
-| R016-C16 | One direction → one practice → one review is a suitable wedge | research synthesis | low | MVP hypothesis |
-| R016-C17 | Garden should compete on content library | Headspace/Calm/Fabulous advantage | rejected | rejected |
-| R016-C18 | General-purpose AI is an important functional competitor | user capability and market behavior | high | market fact |
-| R016-C19 | Ethical differentiation alone produces product-market fit | no | rejected | rejected |
-| R016-C20 | Success can include lower product usage and still support subscription | unresolved business tension | low | strategic experiment |
+| R016-C01 | ИИ-ведение дневника — устоявшаяся и переполненная категория | текущий рыночный ландшафт | высокая | рыночный факт |
+| R016-C02 | Дневники, трекеры, компаньоны и приложения медитации конвергируют | официальное позиционирование продуктов | высокая | тренд |
+| R016-C03 | Garden уникален, потому что сочетает дневник, привычки и ИИ | конкуренты уже это сочетают | отвергнуто | отвергнуто |
+| R016-C04 | Rosebud, Reflection, Mindsera и Liven — ближайшие прямые заменители | анализ функций и позиционирования | средняя–высокая | стратегическое |
+| R016-C05 | Headspace Ebb, Ash и Wysa — соседние ИИ-конкуренты психического здоровья | официальное позиционирование | высокая | рыночный факт |
+| R016-C06 | Finch/Fabulous/Habitica представляют заменители действия/геймификации | официальные листинги | высокая | рыночный факт |
+| R016-C07 | Bearable/Exist/Daylio/How We Feel представляют заменители измерения | официальное позиционирование | высокая | рыночный факт |
+| R016-C08 | Day One и Apple задают высокие ожидания приватности для дневников | официальные документы о приватности/продукте | высокая | рыночное ограничение |
+| R016-C09 | Политики приватности в категории психического здоровья стабильно полны | техаудит 2026 года противоречит | отвергнуто | отвергнуто |
+| R016-C10 | Пользователи заплатят за продукт «сдержанность прежде всего» | нет данных Garden | низкая | бизнес-гипотеза |
+| R016-C11 | Сохраняющая субъектность практика понятна как новая категория | нет доказательств | низкая | гипотеза позиционирования |
+| R016-C12 | Интегрированную этическую архитектуру труднее скопировать, чем функции | стратегический вывод | средняя–низкая | гипотеза защитимости |
+| R016-C13 | Дизайн без серий и без баллов улучшит результаты | нет прямого испытания Garden | низкая | продуктовая гипотеза |
+| R016-C14 | Прямая подписка лучше согласует интересы, чем реклама/модель работодателя | синтез бизнеса/этики | средняя | предложено |
+| R016-C15 | Полная жизненная экосистема — верный охват запуска | нет | отвергнуто | отвергнуто |
+| R016-C16 | Одно направление → одна практика → один обзор — подходящий клин | синтез исследований | низкая | гипотеза MVP |
+| R016-C17 | Garden должен конкурировать по библиотеке контента | преимущество Headspace/Calm/Fabulous | отвергнуто | отвергнуто |
+| R016-C18 | ИИ общего назначения — важный функциональный конкурент | возможности пользователя и рыночное поведение | высокая | рыночный факт |
+| R016-C19 | Одна этическая дифференциация даёт product-market fit | нет | отвергнуто | отвергнуто |
+| R016-C20 | Успех может включать меньшее использование продукта и всё же поддерживать подписку | неразрешённое бизнес-напряжение | низкая | стратегический эксперимент |
 
 ---
 
-## 23. Source clusters
+## 23. Кластеры источников
 
-### Direct AI journals
+### Прямые ИИ-дневники
 
 - Rosebud official site, knowledge base and app listings.
 - Reflection official site, premium page and FAQ.
 - Mindsera official site, privacy and plan comparison.
 - Liven official site and app listings.
 
-### Practice and self-care
+### Практика и забота о себе
 
 - Finch official site/help and app listings.
 - Fabulous official site and app listing.
 - Habitica official site and app listing.
 - Stoic app listings.
 
-### Measurement
+### Измерение
 
 - Daylio official site/app listing.
 - How We Feel official site/app listing.
 - Bearable official product/support pages.
 - Exist official site.
 
-### Mental health and companions
+### Психическое здоровье и компаньоны
 
 - Headspace Ebb official product, safety and help pages.
 - Wysa official product and FAQ.
@@ -1195,52 +1195,52 @@ If differentiation disappears after four features are copied, the product does n
 - Pi official app listing.
 - Character.AI privacy and regulatory developments.
 
-### Journals and second brains
+### Дневники и «вторые мозги»
 
 - Day One official product, plans and encryption docs.
 - Apple Journal official privacy and product docs.
 - Reflect official product site.
 - Capacities official product site.
 
-### Category risks
+### Риски категории
 
 - Georgiou et al. (2026), privacy analysis of 25 mental-health/life-coaching Android apps.
 - R-006 through R-015 Garden research program.
 
 ---
 
-## 24. What this research does not prove
+## 24. Что это исследование не доказывает
 
-R-016 does not prove:
+R-016 не доказывает:
 
-- market size;
-- willingness to pay;
-- retention;
-- acquisition cost;
-- category creation;
-- international demand;
-- brand appeal;
-- technical feasibility;
-- clinical safety;
-- that competitors lack unpublished capabilities;
-- that public marketing equals actual product behavior;
-- that Garden should launch;
-- that Garden should be a venture-scale company.
+- размер рынка;
+- готовность платить;
+- удержание;
+- стоимость привлечения;
+- создание категории;
+- международный спрос;
+- привлекательность бренда;
+- техническую осуществимость;
+- клиническую безопасность;
+- что у конкурентов нет неопубликованных возможностей;
+- что публичный маркетинг равен фактическому поведению продукта;
+- что Garden следует запускать;
+- что Garden должен быть компанией венчурного масштаба.
 
 ---
 
-## 25. Verdict
+## 25. Вердикт
 
-There is no meaningful whitespace for:
+Нет значимого незанятого пространства для:
 
-> another AI journal that knows you, finds patterns, tracks progress and helps you grow.
+> ещё одного ИИ-дневника, который знает тебя, находит паттерны, отслеживает прогресс и помогает расти.
 
-There may be whitespace for:
+Возможно, есть незанятое пространство для:
 
-> a personal system that deliberately limits its own authority and helps a person move between understanding, practice, context and real life without turning the person into data, a patient, a pet owner or a productivity project.
+> личной системы, которая намеренно ограничивает собственный авторитет и помогает человеку двигаться между пониманием, практикой, контекстом и реальной жизнью, не превращая человека в данные, пациента, владельца питомца или проект продуктивности.
 
-This position is narrower, harder to explain and operationally more expensive.
+Эта позиция уже́, труднее объяснима и операционно дороже.
 
-It is also more coherent with every foundational decision made so far.
+Она также более цельна с каждым принятым до сих пор фундаментальным решением.
 
-> **Garden’s market opportunity is not that it knows the user more deeply. It is that it can be useful without claiming ownership over the user’s meaning, behavior, data or attention.**
+> **Рыночная возможность Garden не в том, что он глубже знает пользователя. Она в том, что он может быть полезным, не претендуя на владение смыслом, поведением, данными или вниманием пользователя.**
