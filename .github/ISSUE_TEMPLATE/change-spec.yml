@@ -1,0 +1,36 @@
+name: Change specification
+description: Define a product, design, engineering or AI OPS change
+title: "[SPEC] "
+labels: ["specification"]
+body:
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Intended outcome
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope and non-goals
+    validations:
+      required: true
+  - type: textarea
+    id: truth
+    attributes:
+      label: Sources of truth
+    validations:
+      required: true
+  - type: textarea
+    id: criteria
+    attributes:
+      label: Acceptance criteria
+    validations:
+      required: true
+  - type: dropdown
+    id: risk
+    attributes:
+      label: Risk class
+      options: [R0, R1, R2, R3]
+    validations:
+      required: true

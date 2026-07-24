@@ -1,0 +1,35 @@
+site:
+  title: Garden
+  description: A private digital place that can wait.
+  content_root: public
+  homepage: README.md
+  language: en
+  visibility: public
+navigation:
+  - label: Introduction
+    path: 01-introduction
+  - label: Philosophy
+    path: 02-philosophy
+  - label: Principles
+    path: 03-principles
+  - label: World
+    path: 04-world
+  - label: Atlas
+    path: 05-atlas
+  - label: Research
+    path: 06-research
+  - label: Roadmap
+    path: 07-roadmap
+  - label: FAQ
+    path: 08-faq
+render:
+  show_source_link: true
+  show_last_updated: true
+  show_document_status: false
+  allow_full_text_search: true
+exclude:
+  - ../internal
+  - ../archive
+  - ../scripts
+  - ../templates
+  - ../.github
