@@ -44,18 +44,18 @@ Garden должен различать несколько видов време�
 
 Но человеческий опыт организован сложнее. Восприятие длительности зависит от внимания, нагрузки, контекста и количества событий. Память также сегментирует непрерывный опыт на эпизоды и границы событий.
 
-### Garden position
+### Позиция Garden
 
 > **Время в Garden должно добавлять историю, а не создавать долг.**
 
 ---
 
-## 3. Calendar time
+## 3. Календарное время (calendar time)
 
 Календарное время нужно для:
 
-- выбранных reminders;
-- review;
+- выбранных напоминаний;
+- обзора (review);
 - экспорта;
 - синхронизации;
 - истории изменений;
@@ -75,26 +75,26 @@ Garden должен различать несколько видов време�
 
 - точную дату события;
 - дату создания;
-- дату review;
-- системный audit trail.
+- дату обзора;
+- системный аудит-след.
 
 ---
 
-## 4. Subjective time
+## 4. Субъективное время (subjective time)
 
-Исследования time perception показывают, что субъективная длительность не является прямой копией физического времени.
+Исследования восприятия времени показывают, что субъективная длительность не является прямой копией физического времени.
 
 На оценку влияют:
 
 - внимание ко времени;
-- working-memory load;
+- нагрузка на рабочую память;
 - эмоциональный контекст;
 - новизна;
 - количество событий;
 - ожидание;
 - ретроспективная реконструкция.
 
-### Garden implication
+### Следствие для Garden
 
 Нельзя говорить:
 
@@ -110,18 +110,18 @@ Garden должен различать несколько видов време�
 
 ---
 
-## 5. Event time
+## 5. Событийное время (event time)
 
 Люди воспринимают поток опыта через события и их границы.
 
-Event boundaries могут:
+Границы событий могут:
 
 - разделять эпизоды в памяти;
-- влиять на temporal order;
+- влиять на временной порядок;
 - увеличивать субъективную дистанцию между событиями;
 - помогать структурировать последовательность.
 
-### Garden translation
+### Перевод для Garden
 
 История может быть организована не только по датам, но и по событиям:
 
@@ -134,13 +134,13 @@ Event boundaries могут:
 
 ### Ограничение
 
-Это пользовательская навигация и narrative device, а не более точная научная модель жизни.
+Это пользовательская навигация и нарративный приём, а не более точная научная модель жизни.
 
 ---
 
-## 6. Epochs of the Garden
+## 6. Эпохи сада (epochs of the Garden)
 
-`Epoch` — пользовательски определённый период истории сада.
+`Epoch` (эпоха) — определённый пользователем период истории сада.
 
 ```yaml
 epoch_id:
@@ -166,14 +166,14 @@ calendar_dates_visible:
 ### Правила
 
 - эпоху создаёт пользователь;
-- AI может предложить название только по запросу;
+- ИИ может предложить название только по запросу;
 - календарные даты остаются доступными;
 - эпоха не становится психологической стадией;
-- AI не объявляет новый «сезон жизни» автоматически.
+- ИИ не объявляет новый «сезон жизни» автоматически.
 
 ---
 
-## 7. World time
+## 7. Мировое время (world time)
 
 Сад может иметь собственное атмосферное время:
 
@@ -185,18 +185,18 @@ calendar_dates_visible:
 - рост декоративной среды;
 - появление независимой жизни.
 
-World time не зависит от:
+Мировое время не зависит от:
 
 - выполнения ритуалов;
-- streak;
+- серии (streak);
 - регулярности входа;
-- пользовательского score.
+- пользовательского балла.
 
 ---
 
-## 8. Time modes
+## 8. Режимы времени (time modes)
 
-### Timeless
+### Вне времени (timeless)
 
 Одна выбранная атмосфера сохраняется.
 
@@ -207,7 +207,7 @@ World time не зависит от:
 - пасмурный сад;
 - ночь с фонарями.
 
-### Manual
+### Ручной (manual)
 
 Пользователь меняет:
 
@@ -216,27 +216,27 @@ World time не зависит от:
 - погоду;
 - атмосферу.
 
-### Local Year
+### Локальный год (local year)
 
-Сад следует локальному календарю после opt-in.
+Сад следует локальному календарю после согласия.
 
-### Slow Year
+### Медленный год (slow year)
 
 Сезоны меняются медленнее реального года.
 
-### Fictional Cycle
+### Вымышленный цикл (fictional cycle)
 
 Независимый цикл мира.
 
-### Personal Epochs
+### Личные эпохи (personal epochs)
 
-Визуальные изменения привязаны к пользовательским решениям и событиям, но не к performance.
+Визуальные изменения привязаны к пользовательским решениям и событиям, но не к результативности.
 
 ---
 
-## 9. Seasonality
+## 9. Сезонность (seasonality)
 
-Seasonality может давать:
+Сезонность может давать:
 
 - изменение;
 - узнаваемый ритм;
@@ -247,43 +247,43 @@ Seasonality может давать:
 Она не должна создавать:
 
 - FOMO;
-- limited-time rewards;
+- награды ограниченного времени;
 - утрату объектов;
 - обязательный вход;
 - сезонную тревогу;
 - коммерческое давление.
 
-### Rule
+### Правило
 
-> Every seasonal element must remain accessible later or be purely ambient.
+> Каждый сезонный элемент должен оставаться доступным позже или быть чисто фоновым.
 
 ---
 
-## 10. Seasonal events
+## 10. Сезонные события
 
-Alpha не использует seasonal events.
+Alpha не использует сезонные события.
 
 Позже допустимы:
 
 - атмосферные изменения;
-- новые optional scenes;
-- архивируемые visual states;
+- новые опциональные сцены;
+- архивируемые визуальные состояния;
 - пользовательское переключение.
 
 Недопустимы:
 
 - «Успей собрать»;
 - предмет только за ежедневный вход;
-- disappearing ritual;
-- exclusive social status;
-- countdown;
+- исчезающий ритуал;
+- эксклюзивный социальный статус;
+- обратный отсчёт;
 - платное продление сезона.
 
-Исследования deceptive design in games identify time pressure and FOMO as common manipulative patterns; daily engagement rewards can also become burdensome rather than supportive.
+Исследования обманного дизайна в играх выделяют давление времени и FOMO как распространённые манипулятивные паттерны; ежедневные награды за вовлечённость также могут становиться обременительными, а не поддерживающими.
 
 ---
 
-## 11. Absence
+## 11. Отсутствие
 
 После долгого отсутствия:
 
@@ -294,283 +294,283 @@ Alpha не использует seasonal events.
 - накопленного долга нет;
 - система не перечисляет пропущенные дни.
 
-### Return experience
+### Опыт возвращения
 
-Garden opens normally.
+Garden открывается как обычно.
 
-Possible neutral copy:
+Возможный нейтральный текст:
 
 > «Сад остался таким, каким ты его оставила».
 
-Or no copy at all.
+Или вообще без текста.
 
-### Never
+### Никогда
 
 - «Мы скучали»;
 - «Ты давно не заходила»;
-- «Пока тебя не было…» with loss;
-- backlog of missed reviews;
-- forced catch-up.
+- «Пока тебя не было…» с потерей;
+- бэклог пропущенных обзоров;
+- принудительное наверстывание.
 
 ---
 
-## 12. Does the world change while the user is away?
+## 12. Меняется ли мир, пока пользователя нет?
 
-Yes, but only in bounded ambient ways.
+Да, но только ограниченными фоновыми способами.
 
-Allowed:
+Разрешено:
 
-- light cycle;
-- clouds;
-- weather;
-- gentle seasonal state if selected;
-- independent animal movement;
-- non-persistent ambient variation.
+- цикл света;
+- облака;
+- погода;
+- мягкое сезонное состояние, если выбрано;
+- независимое движение животных;
+- непостоянная фоновая вариация.
 
-Not allowed without user choice:
+Не разрешено без выбора пользователя:
 
-- permanent object transformation;
-- new ritual state;
-- archive;
-- decay;
-- memory creation;
-- paid-resource consumption;
-- irreversible world change.
+- постоянная трансформация объекта;
+- новое состояние ритуала;
+- архивирование;
+- распад;
+- создание памяти;
+- потребление платного ресурса;
+- необратимое изменение мира.
 
-### Principle
+### Принцип
 
-> The world may live without the user. It may not make decisions about the user.
-
----
-
-## 13. Pause time
-
-The user can freeze:
-
-- season;
-- light;
-- weather;
-- ambient cycle;
-- animation.
-
-This is not cheating.
-
-### Reasons
-
-- aesthetic preference;
-- sensory comfort;
-- grief;
-- attachment to a scene;
-- accessibility;
-- device constraints;
-- dislike of change.
-
-No explanation required.
+> Мир может жить без пользователя. Он не может принимать решения о пользователе.
 
 ---
 
-## 14. Calendar visibility
+## 13. Пауза времени
 
-Calendar data has three levels.
+Пользователь может заморозить:
 
-### Hidden by default
+- сезон;
+- свет;
+- погоду;
+- фоновый цикл;
+- анимацию.
 
-No dates on garden canvas.
+Это не жульничество.
 
-### Available contextually
+### Причины
 
-Ritual detail and archive may show dates.
+- эстетическое предпочтение;
+- сенсорный комфорт;
+- горе;
+- привязанность к сцене;
+- доступность;
+- ограничения устройства;
+- неприязнь к изменению.
 
-### Export/audit
-
-Exact timestamps remain available.
-
-### User preference
-
-- exact dates;
-- month/year;
-- relative labels;
-- epochs;
-- minimal time.
-
----
-
-## 15. Memory and temporal distance
-
-Event boundaries can make episodes feel further apart in memory and affect temporal ordering. Recent work continues to show that event structure matters for retrospective duration and distance judgments.
-
-### Garden caution
-
-Visual epochs and garden transformations may alter how people remember sequence and distance.
-
-Garden should not:
-
-- present a generated timeline as objective memory;
-- reorder events to create a cleaner story;
-- compress quiet periods;
-- automatically label turning points;
-- hide contradictions.
-
-### User control
-
-- edit epoch boundaries;
-- remove AI-created groupings;
-- see exact dates;
-- preserve ungrouped events;
-- mark uncertainty.
+Объяснение не требуется.
 
 ---
 
-## 16. Time and autobiographical identity
+## 14. Видимость календаря
 
-Autobiographical memory contributes to continuity, but Garden must not turn history into a final identity narrative.
+У календарных данных три уровня.
 
-### Allowed
+### Скрыто по умолчанию
 
-> «Ты назвала этот период “Лето книги”».
+Никаких дат на холсте сада.
 
-### Not allowed
+### Доступно контекстно
+
+Детали ритуала и архив могут показывать даты.
+
+### Экспорт/аудит
+
+Точные метки времени остаются доступными.
+
+### Предпочтение пользователя
+
+- точные даты;
+- месяц/год;
+- относительные подписи;
+- эпохи;
+- минимум времени.
+
+---
+
+## 15. Память и временна́я дистанция
+
+Границы событий могут делать эпизоды более отдалёнными в памяти и влиять на временной порядок. Недавние работы продолжают показывать, что структура событий важна для ретроспективных суждений о длительности и дистанции.
+
+### Осторожность Garden
+
+Визуальные эпохи и трансформации сада могут менять то, как люди помнят последовательность и дистанцию.
+
+Garden не должен:
+
+- представлять сгенерированную временну́ю шкалу как объективную память;
+- переупорядочивать события, чтобы создать более чистую историю;
+- сжимать тихие периоды;
+- автоматически помечать поворотные точки;
+- скрывать противоречия.
+
+### Контроль пользователя
+
+- редактировать границы эпох;
+- удалять созданные ИИ группировки;
+- видеть точные даты;
+- сохранять несгруппированные события;
+- отмечать неопределённость.
+
+---
+
+## 16. Время и автобиографическая идентичность
+
+Автобиографическая память способствует непрерывности, но Garden не должен превращать историю в окончательный нарратив идентичности.
+
+### Разрешено
+
+> «Ты назвала этот период „Лето книги“».
+
+### Не разрешено
 
 > «Это был период, когда ты наконец стала собой».
 
-### Right to rename
+### Право переименовать
 
-The user can change the name of an epoch later.
-
----
-
-## 17. Time and ritual lifecycle
-
-Lifecycle is not based only on elapsed time.
-
-### Active
-
-Not defined by recent completion.
-
-### Resting
-
-Chosen, not inferred after inactivity.
-
-### Integrated
-
-Confirmed by the user.
-
-### Completed
-
-Chosen because the ritual’s role is complete.
-
-### Released
-
-Chosen because support is no longer desired.
-
-### Rule
-
-No automatic state transition based on time alone, except explicitly authorized technical expiration.
+Пользователь может изменить название эпохи позже.
 
 ---
 
-## 18. Reminders
+## 17. Время и жизненный цикл ритуала
 
-Reminder time belongs to the support contract.
+Жизненный цикл не основан только на прошедшем времени.
 
-Requirements:
+### Активный
 
-- exact user choice;
-- easy snooze or disable;
-- no escalation;
-- no guilt;
-- no automatic compensation for missed reminders;
-- timezone-aware;
-- quiet hours;
-- accessibility.
+Не определяется недавним завершением.
 
-### Missed reminder
+### Покоящийся
 
-No new state is created.
+Выбран, а не выведен после бездействия.
 
----
+### Интегрированный
 
-## 19. Time zones and life patterns
+Подтверждён пользователем.
 
-Garden must support:
+### Завершённый
 
-- travel;
-- migration;
-- daylight-saving changes;
-- night shifts;
-- irregular schedules;
-- multiple homes;
-- different calendars where feasible.
+Выбран, потому что роль ритуала завершена.
 
-### Rule
+### Отпущенный
 
-Device time does not define the person’s correct rhythm.
+Выбран, потому что поддержка больше не желанна.
+
+### Правило
+
+Никакого автоматического перехода состояния только на основе времени, кроме явно авторизованного технического истечения срока.
 
 ---
 
-## 20. Seasons and culture
+## 18. Напоминания
 
-Seasons differ by:
+Время напоминания принадлежит контракту поддержки.
 
-- hemisphere;
-- climate;
-- latitude;
-- local ecology;
-- cultural calendar;
-- personal experience.
+Требования:
 
-A four-season temperate model is not universal.
+- точный выбор пользователя;
+- лёгкое откладывание или отключение;
+- никакой эскалации;
+- никакой вины;
+- никакой автоматической компенсации за пропущенные напоминания;
+- учёт часового пояса;
+- тихие часы;
+- доступность.
 
-### Garden options
+### Пропущенное напоминание
 
-- four-season;
-- wet/dry;
-- local;
-- fictional;
-- manual;
-- timeless.
+Новое состояние не создаётся.
 
-### Language
+---
 
-Avoid:
+## 19. Часовые пояса и жизненные паттерны
+
+Garden должен поддерживать:
+
+- путешествия;
+- миграцию;
+- переходы летнего времени;
+- ночные смены;
+- нерегулярные графики;
+- несколько домов;
+- разные календари, где осуществимо.
+
+### Правило
+
+Время устройства не определяет правильный ритм человека.
+
+---
+
+## 20. Сезоны и культура
+
+Сезоны различаются по:
+
+- полушарию;
+- климату;
+- широте;
+- локальной экологии;
+- культурному календарю;
+- личному опыту.
+
+Четырёхсезонная умеренная модель не универсальна.
+
+### Варианты Garden
+
+- четыре сезона;
+- влажный/сухой;
+- локальный;
+- вымышленный;
+- ручной;
+- вне времени.
+
+### Язык
+
+Избегать:
 
 > «Весна — время роста».
 
-This is a cultural metaphor, not a universal human fact.
+Это культурная метафора, а не универсальный человеческий факт.
 
 ---
 
-## 21. Time and grief
+## 21. Время и горе
 
-People may want a garden state to remain unchanged after:
+Люди могут хотеть, чтобы состояние сада оставалось неизменным после:
 
-- loss;
-- separation;
-- major transition;
-- completion;
-- migration.
+- утраты;
+- расставания;
+- крупного перехода;
+- завершения;
+- миграции.
 
-Garden should allow:
+Garden должен допускать:
 
-- freeze;
-- snapshot;
-- memorial place;
-- private archive;
-- no automatic seasonal shift.
+- заморозку;
+- снимок;
+- мемориальное место;
+- приватный архив;
+- отсутствие автоматического сезонного сдвига.
 
-But it must not claim to treat grief or decide when change should resume.
-
----
-
-## 22. Time and children/ageing
-
-Age-related differences in time perception and memory exist, but Garden does not infer a preferred temporal model from age.
-
-User control remains primary.
+Но он не должен заявлять, что лечит горе или решает, когда должно возобновиться изменение.
 
 ---
 
-## 23. Temporal architecture
+## 22. Время и дети/старение
+
+Возрастные различия в восприятии времени и памяти существуют, но Garden не выводит предпочитаемую временну́ю модель из возраста.
+
+Контроль пользователя остаётся первичным.
+
+---
+
+## 23. Временна́я архитектура
 
 ```yaml
 garden_time:
@@ -610,120 +610,120 @@ absence:
 
 ---
 
-## 24. Alpha experiments
+## 24. Эксперименты Alpha
 
-### A — Calendar-first vs Epoch-first history
+### A — История «календарь прежде всего» против «эпоха прежде всего»
 
-Measure:
+Измерять:
 
-- comprehension;
-- memory confidence;
-- emotional value;
-- perceived truthfulness;
-- narrative pressure.
+- понимание;
+- уверенность в памяти;
+- эмоциональную ценность;
+- воспринимаемую правдивость;
+- нарративное давление.
 
-### B — Timeless vs Local Year
+### B — Вне времени против локального года
 
-Measure:
+Измерять:
 
-- ownership;
-- realism;
-- pressure;
-- cultural fit;
-- night-shift mismatch.
+- владение;
+- реализм;
+- давление;
+- культурное соответствие;
+- несоответствие ночным сменам.
 
-### C — Garden after 10-day absence
+### C — Garden после 10-дневного отсутствия
 
-Show unchanged world.
+Показать неизменный мир.
 
-Measure:
+Измерять:
 
-- relief;
-- expectation;
-- guilt;
-- trust;
-- perceived liveliness.
+- облегчение;
+- ожидание;
+- вину;
+- доверие;
+- воспринимаемую живость.
 
-### D — Ambient change without permanent change
+### D — Фоновое изменение без постоянного изменения
 
-Test clouds/light/animals while preserving objects.
+Тестировать облака/свет/животных при сохранении объектов.
 
-### E — Freeze time
+### E — Заморозка времени
 
-Check whether freeze feels empowering, unnatural or confusing.
+Проверить, ощущается ли заморозка расширяющей возможности, неестественной или сбивающей с толку.
 
-### F — Seasonal FOMO comprehension
+### F — Понимание сезонного FOMO
 
-Show ethical ambient season and a typical limited-time event as comparator.
-
----
-
-## 25. Candidate principles
-
-1. Time adds history, not debt.
-2. Calendar remains available but not dominant.
-3. Events and epochs are user-defined.
-4. No automatic narrative turning points.
-5. Seasons are optional and culturally configurable.
-6. No time-based decay.
-7. No FOMO.
-8. Absence creates no backlog.
-9. World may live but not decide for the user.
-10. Freeze time is a legitimate control.
-11. Lifecycle does not change on elapsed time alone.
-12. Exact dates remain accessible for truthfulness.
-13. Garden supports irregular rhythms.
-14. Quiet periods are not compressed or treated as empty.
+Показать этичный фоновый сезон и типичное событие ограниченного времени как компаратор.
 
 ---
 
-## 26. What Garden must not claim
+## 25. Принципы-кандидаты
 
-- that subjective time can be inferred from usage;
-- that an epoch is an objective life stage;
-- that spring represents growth;
-- that winter represents rest;
-- that a ritual integrates after a fixed number of days;
-- that AI can identify turning points reliably;
-- that event-based memory is more truthful than dates;
-- that seasonal visuals improve wellbeing;
-- that time away means disengagement or decline.
+1. Время добавляет историю, а не долг.
+2. Календарь остаётся доступным, но не доминирующим.
+3. События и эпохи задаются пользователем.
+4. Никаких автоматических нарративных поворотных точек.
+5. Сезоны опциональны и культурно настраиваемы.
+6. Никакого распада по времени.
+7. Никакого FOMO.
+8. Отсутствие не создаёт бэклога.
+9. Мир может жить, но не решать за пользователя.
+10. Заморозка времени — легитимный элемент управления.
+11. Жизненный цикл не меняется только из-за прошедшего времени.
+12. Точные даты остаются доступными ради правдивости.
+13. Garden поддерживает нерегулярные ритмы.
+14. Тихие периоды не сжимаются и не трактуются как пустые.
 
 ---
 
-## 27. Claim Registry
+## 26. Что Garden не должен заявлять
 
-| Claim | Confidence | Status |
+- что субъективное время можно вывести из использования;
+- что эпоха является объективной жизненной стадией;
+- что весна представляет рост;
+- что зима представляет отдых;
+- что ритуал интегрируется после фиксированного числа дней;
+- что ИИ может надёжно определять поворотные точки;
+- что событийная память правдивее дат;
+- что сезонные визуалы улучшают благополучие;
+- что время вдали означает отстранённость или упадок.
+
+---
+
+## 27. Реестр утверждений
+
+| Утверждение | Уверенность | Статус |
 |---|---:|---|
-| Subjective duration depends on attention and context | high | foundation |
-| Event boundaries structure memory and temporal judgments | high | foundation |
-| Calendar time is psychologically unimportant | rejected | false simplification |
-| Epoch navigation may support meaningful history | low-medium | product hypothesis |
-| AI can identify true life chapters | low | rejected |
-| Daily rewards can become burdensome and manipulative | medium-high | guardrail |
-| Seasonal FOMO is necessary for game engagement | rejected | product choice |
-| User-controlled time modes may increase ownership | low | Alpha hypothesis |
-| Absence without decay may reduce guilt | low-medium | Alpha hypothesis |
-| Exact dates should remain available | normative/integrity | required |
+| Субъективная длительность зависит от внимания и контекста | высокая | основа |
+| Границы событий структурируют память и временны́е суждения | высокая | основа |
+| Календарное время психологически неважно | отвергнуто | ложное упрощение |
+| Навигация по эпохам может поддерживать значимую историю | низкая–средняя | продуктовая гипотеза |
+| ИИ может определять истинные главы жизни | низкая | отвергнуто |
+| Ежедневные награды могут становиться обременительными и манипулятивными | средняя–высокая | ограничитель |
+| Сезонный FOMO необходим для игровой вовлечённости | отвергнуто | продуктовый выбор |
+| Контролируемые пользователем режимы времени могут повышать владение | низкая | гипотеза Alpha |
+| Отсутствие без распада может снижать вину | низкая–средняя | гипотеза Alpha |
+| Точные даты должны оставаться доступными | нормативное/целостность | требуется |
 
 ---
 
-## 28. Verdict
+## 28. Вердикт
 
-Garden should know what time it is when the user needs accuracy.
+Garden должен знать, который час, когда пользователю нужна точность.
 
-But it should not use time as a judge.
+Но он не должен использовать время как судью.
 
-The garden may have:
+У сада могут быть:
 
-- days;
-- light;
-- seasons;
-- weather;
-- history;
-- epochs;
-- memories.
+- дни;
+- свет;
+- сезоны;
+- погода;
+- история;
+- эпохи;
+- воспоминания.
 
-Yet none of these creates an obligation to return.
+И всё же ничто из этого не создаёт обязанности возвращаться.
 
-> **Time in Garden does not take anything away. It only offers ways to notice what changed — and the right to leave everything as it is.**
+> **Время в Garden ничего не отнимает. Оно лишь предлагает способы заметить, что изменилось, — и право оставить всё как есть.**
