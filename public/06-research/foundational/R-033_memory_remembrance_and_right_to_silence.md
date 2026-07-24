@@ -19,37 +19,37 @@ source_of_truth: false
 
 ## Жёсткая граница
 
-Garden не является second brain, knowledge graph, note-taking system, personal wiki, semantic network, universal memory assistant или проектом «Нити».
+Garden не является «вторым мозгом», графом знаний, системой заметок, личной вики, семантической сетью, универсальным ассистентом памяти или проектом «Нити».
 
-> **Memory in Garden supports lived experience. It does not become an information system.**
+> **Память в Garden поддерживает прожитый опыт. Она не становится информационной системой.**
 
 Связи допустимы только для поддержки места, ритуала, объекта и пользовательского воспоминания. Они не становятся самостоятельной моделью продукта.
 
-## History и Memory
+## История и память (history и memory)
 
-History отвечает: что произошло в продукте?
+История отвечает: что произошло в продукте?
 
-Memory отвечает: что человек хочет сохранить как часть собственного опыта?
+Память отвечает: что человек хочет сохранить как часть собственного опыта?
 
-History может фиксировать создание места, перемещение объекта или восстановление snapshot. Memory может хранить: «Здесь я впервые почувствовала спокойствие».
+История может фиксировать создание места, перемещение объекта или восстановление снимка. Память может хранить: «Здесь я впервые почувствовала спокойствие».
 
-## Memory is not Event
+## Память — не событие (memory is not event)
 
 Воспоминание может относиться к месту, объекту, ритуалу, человеку, фотографии, звуку, сезону или периоду. Но Garden не обязан превращать это в сеть сущностей.
 
-### Alpha model
+### Модель Alpha
 
-- one primary place;
-- optional ritual;
-- optional object;
-- optional date or period;
-- no free-form graph.
+- одно основное место;
+- опциональный ритуал;
+- опциональный объект;
+- опциональная дата или период;
+- никакого свободного графа.
 
-## Garden does not create memories
+## Garden не создаёт воспоминания
 
-Garden может создать запись, карточку, snapshot или контейнер, но не само воспоминание.
+Garden может создать запись, карточку, снимок или контейнер, но не само воспоминание.
 
-> **Garden can preserve a memory. It cannot manufacture one.**
+> **Garden может сохранить воспоминание. Он не может его изготовить.**
 
 ## AI и ложный смысл
 
@@ -94,19 +94,19 @@ memory_reflection:
   relation: adds_context | changes_view | contradicts | preserves
 ```
 
-> **New understanding is added to the past. It does not replace the past.**
+> **Новое понимание добавляется к прошлому. Оно не заменяет прошлое.**
 
 ## Тишина и забывание
 
 Garden различает:
 
-- Silence — память давно не открывали;
-- Hidden — пользователь убрал её из обзора;
-- Archived — сохранил вне активного пространства;
-- Forgotten by choice — решил отпустить;
-- Deleted — удалил с recovery period, где это возможно.
+- Тишина (silence) — память давно не открывали;
+- Скрыто (hidden) — пользователь убрал её из обзора;
+- Архивировано (archived) — сохранил вне активного пространства;
+- Забыто по выбору (forgotten by choice) — решил отпустить;
+- Удалено (deleted) — удалил с периодом восстановления, где это возможно.
 
-Inactivity never changes memory status.
+Бездействие никогда не меняет статус памяти.
 
 ## Нет рейтинга важности
 
@@ -134,7 +134,7 @@ Garden не вычисляет:
 
 ## Поиск
 
-Search is primary.
+Поиск первичен.
 
 Он может находить запросы вроде:
 
@@ -142,7 +142,7 @@ Search is primary.
 - «место, где я снова начала читать»;
 - «пицца в июле».
 
-Semantic retrieval должен быть основан на пользовательском тексте, метаданных и наблюдаемом содержимом медиа с обозначением неопределённости.
+Семантический поиск должен быть основан на пользовательском тексте, метаданных и наблюдаемом содержимом медиа с обозначением неопределённости.
 
 Он не строит скрытую теорию пользователя.
 
@@ -150,21 +150,21 @@ Semantic retrieval должен быть основан на пользоват�
 
 Допустимы локальные связи:
 
-- memory belongs to place;
-- memory relates to ritual;
-- memory contains object;
-- reflection belongs to memory.
+- воспоминание принадлежит месту;
+- воспоминание относится к ритуалу;
+- воспоминание содержит объект;
+- рефлексия принадлежит воспоминанию.
 
 Не допускаются как ядро:
 
-- arbitrary semantic linking;
-- auto-generated concept graph;
-- backlinks as product center;
-- cluster maps;
-- automatic ontology;
-- «related thoughts» everywhere.
+- произвольное семантическое связывание;
+- автогенерируемый граф понятий;
+- обратные ссылки как центр продукта;
+- кластерные карты;
+- автоматическая онтология;
+- «связанные мысли» повсюду.
 
-> **Garden remembers context, not an abstract graph of knowledge.**
+> **Garden помнит контекст, а не абстрактный граф знаний.**
 
 ## Память места и ритуала
 
@@ -172,9 +172,9 @@ Semantic retrieval должен быть основан на пользоват�
 
 Ритуал может иметь отдельные выбранные occurrences или не иметь истории вообще. Garden не превращает его в дневник по умолчанию.
 
-## AI role
+## Роль ИИ
 
-AI может:
+ИИ может:
 
 - транскрибировать пользовательское аудио;
 - описывать видимое;
@@ -194,7 +194,7 @@ AI не может:
 - связывать воспоминания в скрытый нарратив;
 - предлагать травматическую интерпретацию.
 
-## Literal tags
+## Буквальные теги (literal tags)
 
 Безопасные теги: rain, evening, kitchen, music, book, winter, photo.
 
@@ -212,69 +212,69 @@ Garden не спрашивает, почему.
 
 Garden не показывает потенциально болезненный контент неожиданно.
 
-- no random resurfacing;
-- preview for anniversary reminders;
-- user-controlled sensitivity;
-- hide from suggestions;
-- hide from global search where needed.
+- никакого случайного всплывания;
+- предпросмотр для напоминаний о годовщинах;
+- чувствительность под контролем пользователя;
+- скрытие из предложений;
+- скрытие из глобального поиска, где нужно.
 
 Garden не является терапией и не интерпретирует травму.
 
 ## Trigger Round
 
 ### Human-centric — «А что если ничего не объяснять?»
-Memory may exist with only media, date and place. **Accepted.**
+Воспоминание может существовать только с медиа, датой и местом. **Принято.**
 
-### Storytelling — «А что если история нелинейна?»
-Later reflections coexist with original notes. **Accepted architecture.**
+### Сторителлинг — «А что если история нелинейна?»
+Поздние рефлексии сосуществуют с исходными заметками. **Принятая архитектура.**
 
-### Innovation — «А что если поиск станет главным?»
-Search replaces feed-based resurfacing. **Accepted Alpha direction.**
+### Инновации — «А что если поиск станет главным?»
+Поиск заменяет всплывание на основе ленты. **Принятое направление Alpha.**
 
-### Business Design — «А что если бросить вызов главному тренду?»
-Reject automatic “On this day” engagement loops. **Accepted boundary.**
+### Бизнес-дизайн — «А что если бросить вызов главному тренду?»
+Отклонить автоматические петли вовлечения «В этот день». **Принятая граница.**
 
-### Naming — «А что если назвать буквально?»
-Concrete titles: «Дождь после работы», «Пицца дома», «Первая прогулка у воды». **Accepted.**
+### Именование — «А что если назвать буквально?»
+Конкретные названия: «Дождь после работы», «Пицца дома», «Первая прогулка у воды». **Принято.**
 
-### Rejected
+### Отвергнуто
 
-Automatic semantic graph building is rejected because it moves Garden toward knowledge management and overlaps with «Нити».
+Автоматическое построение семантического графа отвергается, потому что оно двигает Garden к управлению знаниями и пересекается с «Нити».
 
 ## Alpha memory set
 
-1. Manual creation.
-2. One primary place.
-3. Optional ritual or object link.
-4. Photo, audio or text.
-5. Later reflections.
-6. Literal and grounded semantic search.
-7. Hide, archive, export and delete.
-8. No feed.
-9. No “On this day”.
-10. No graph view.
-11. No automatic related memories.
+1. Ручное создание.
+2. Одно основное место.
+3. Опциональная связь с ритуалом или объектом.
+4. Фото, аудио или текст.
+5. Поздние рефлексии.
+6. Буквальный и обоснованный семантический поиск.
+7. Скрыть, архивировать, экспортировать и удалить.
+8. Никакой ленты.
+9. Никакого «В этот день».
+10. Никакого вида графа.
+11. Никаких автоматических связанных воспоминаний.
 
 ## Candidate principles
 
-1. Garden preserves memory; it does not manufacture it.
-2. History and memory are distinct.
-3. Later understanding is additive.
-4. Silence is not forgetting.
-5. Inactivity does not reduce importance.
-6. No importance ranking.
-7. No automatic resurfacing.
-8. Search is primary.
-9. Connections remain local and purposeful.
-10. No knowledge graph.
-11. No second-brain behavior.
-12. Emotional meaning belongs to the user.
-13. Literal description precedes interpretation.
-14. Forgetting may be chosen.
-15. Painful memories are never surfaced by surprise.
+1. Garden сохраняет память; он её не изготавливает.
+2. История и память различны.
+3. Позднее понимание добавляется, а не заменяет.
+4. Тишина — не забывание.
+5. Бездействие не снижает важность.
+6. Никакого ранжирования важности.
+7. Никакого автоматического всплывания.
+8. Поиск первичен.
+9. Связи остаются локальными и целенаправленными.
+10. Никакого графа знаний.
+11. Никакого поведения «второго мозга».
+12. Эмоциональный смысл принадлежит пользователю.
+13. Буквальное описание предшествует интерпретации.
+14. Забывание можно выбрать.
+15. Болезненные воспоминания никогда не всплывают неожиданно.
 
-## Verdict
+## Вердикт
 
 Garden не должен становиться машиной, которая помнит всё вместо человека.
 
-> **Garden holds what the person chooses to keep. It does not turn a life into a database.**
+> **Garden хранит то, что человек решил сохранить. Он не превращает жизнь в базу данных.**
