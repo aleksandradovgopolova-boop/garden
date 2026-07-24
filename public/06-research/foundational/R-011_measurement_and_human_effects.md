@@ -86,17 +86,17 @@ Garden не строит цифровую копию человека и не в
 
 > Частота отмен может быть индикатором несоответствия формы жизни, но не измерением мотивации.
 
-### 3.5. Score
+### 3.5. Балл (score)
 
 Результат расчёта по нескольким ответам или событиям.
 
 Score существует только внутри правил расчёта.
 
-### 3.6. Target
+### 3.6. Цель (target)
 
 Показатель, который система или человек пытается улучшить.
 
-Как только indicator становится target, поведение начинает оптимизироваться под него, а связь с исходным явлением может ухудшаться.
+Как только индикатор становится целью (target), поведение начинает оптимизироваться под него, а связь с исходным явлением может ухудшаться.
 
 ---
 
@@ -139,15 +139,15 @@ Self-tracking может служить разным целям:
 
 ---
 
-## 5. Personal Informatics не является автоматической машиной инсайта
+## 5. Персональная информатика (personal informatics) не является автоматической машиной инсайта
 
-Классическая stage-based model Personal Informatics включает:
+Классическая поэтапная модель (stage-based model) персональной информатики включает:
 
-1. preparation;
-2. collection;
-3. integration;
-4. reflection;
-5. action.
+1. подготовку (preparation);
+2. сбор (collection);
+3. интеграцию (integration);
+4. рефлексию (reflection);
+5. действие (action).
 
 Она полезно показывает, что сбор данных — только один этап.
 
@@ -174,7 +174,7 @@ Self-tracking может служить разным целям:
 
 ---
 
-## 6. Measurement reactivity
+## 6. Реактивность измерения (measurement reactivity)
 
 Сам вопрос способен изменять то, что он измеряет.
 
@@ -298,7 +298,7 @@ Garden не сравнивает два числа без проверки:
 
 ---
 
-## 11. Response shift
+## 11. Сдвиг ответа (response shift)
 
 В longitudinal patient-reported outcomes термин `response shift` описывает ситуацию, когда меняется значение самооценки из-за новых внутренних стандартов, переоценки важности компонентов или изменения понимания самого конструкта.
 
@@ -316,9 +316,9 @@ Garden спрашивает:
 
 ---
 
-## 12. Улучшение score и ухудшение честности
+## 12. Улучшение балла (score) и ухудшение честности
 
-Если Garden поздравляет за высокий score, окрашивает низкий ответ в красный, строит streak или связывает ответ с состоянием сада, человек может начать:
+Если Garden поздравляет за высокий балл, окрашивает низкий ответ в красный, строит streak или связывает ответ с состоянием сада, человек может начать:
 
 - выбирать социально желательный ответ;
 - избегать плохих данных;
@@ -333,7 +333,7 @@ Garden спрашивает:
 
 ---
 
-## 13. Goodhart и Campbell
+## 13. Законы Гудхарта и Кэмпбелла (Goodhart и Campbell)
 
 Обобщённая формула Goodhart’s law:
 
@@ -355,7 +355,7 @@ Garden спрашивает:
 
 ---
 
-## 14. Score не является объектом реального мира
+## 14. Балл (score) не является объектом реального мира
 
 Composite score требует решений:
 
@@ -421,7 +421,7 @@ FDA также рассматривает PRO instrument не как отдел�
 
 ---
 
-## 17. Within-person и between-person — разные вопросы
+## 17. Внутрииндивидуальные и межиндивидуальные (within-person и between-person) — разные вопросы
 
 Between-person finding:
 
@@ -439,7 +439,7 @@ Between-person finding:
 
 ---
 
-## 18. Личный baseline тоже меняется
+## 18. Личный базовый уровень (baseline) тоже меняется
 
 Сравнение человека «только с собой» звучит безопасно, но baseline зависит от сезона, работы, здоровья, отношений, возраста, кризиса, изменения ценностей и самой системы измерения.
 
@@ -453,9 +453,9 @@ Garden не говорит:
 
 ---
 
-## 19. Passive sensing
+## 19. Пассивный сбор данных (passive sensing)
 
-Passive sensing использует данные движения, геолокации, использования телефона, сна, коммуникационных метаданных, физиологии и окружающей среды.
+Пассивный сбор данных использует данные движения, геолокации, использования телефона, сна, коммуникационных метаданных, физиологии и окружающей среды.
 
 Систематические обзоры digital phenotyping показывают быстро растущий корпус исследований, но также:
 
@@ -488,7 +488,7 @@ Passive sensing использует данные движения, геолок
 
 ---
 
-## 20. Subjective и passive data не конкуренты
+## 20. Субъективные и пассивные данные (subjective и passive) не конкуренты
 
 Passive data не являются «объективной правдой», а self-report — «субъективной ошибкой».
 
@@ -545,7 +545,7 @@ Garden никогда не заменяет:
 
 ---
 
-## 23. Minimal Measurement Principle
+## 23. Принцип минимального измерения (Minimal Measurement Principle)
 
 Garden собирает минимальный объём данных, необходимый для конкретной функции.
 
@@ -568,52 +568,52 @@ Garden собирает минимальный объём данных, необ
 
 ## 24. Разрешённые классы данных
 
-### A. User-authored facts
+### A. Факты, записанные пользователем (user-authored facts)
 
 > «Сегодня читала 15 минут».
 
-### B. User-authored meaning
+### B. Смысл, записанный пользователем (user-authored meaning)
 
 > «Чтение помогло переключиться».
 
 Сохраняется как мнение человека, не causal fact.
 
-### C. Subjective state
+### C. Субъективное состояние (subjective state)
 
 Только если вопрос выбран, шкала понятна, есть purpose, можно пропустить и нет моральной окраски.
 
-### D. Context
+### D. Контекст (context)
 
 Место, время, событие — только по необходимости.
 
-### E. Practice event
+### E. Событие практики (practice event)
 
-- planned;
-- happened;
-- adapted;
-- intentionally skipped;
-- not recorded.
+- запланировано (planned);
+- состоялось (happened);
+- адаптировано (adapted);
+- намеренно пропущено (intentionally skipped);
+- не записано (not recorded).
 
-### F. Product interaction data
+### F. Данные взаимодействия с продуктом (product interaction data)
 
 Только для безопасности и качества, отдельно от personal meaning.
 
 ---
 
-## 25. Ограниченные derived data
+## 25. Ограниченные производные данные (derived data)
 
 Garden может рассчитывать:
 
-- counts;
-- periods;
-- missingness;
-- simple co-occurrence;
-- variation;
-- user-defined comparisons.
+- количества (counts);
+- периоды (periods);
+- пропуски (missingness);
+- простую совместную встречаемость (co-occurrence);
+- вариативность (variation);
+- заданные пользователем сравнения.
 
 Но обязан показывать источник, период, объём, пропуски, исключения и отсутствие причинного вывода.
 
-### Minimum pattern language
+### Минимальный язык паттернов (minimum pattern language)
 
 > «В 4 из 6 записанных случаев X совпадало с Y. Два случая отличались; ещё пять дней не имеют данных».
 
@@ -623,28 +623,28 @@ Garden может рассчитывать:
 
 ---
 
-## 26. Запрещённые derived data в Alpha
+## 26. Запрещённые производные данные (derived data) в Alpha
 
-- скрытый wellbeing score;
-- personality score;
-- productivity score;
-- emotional stability score;
-- commitment reliability;
-- likelihood to comply;
-- dependency score, видимый команде как профиль;
-- inferred diagnosis;
-- moral risk;
-- relationship quality;
-- predicted life satisfaction;
-- ranking against users;
-- inferred sensitive traits;
-- single-number flourishing score.
+- скрытый балл благополучия;
+- балл личности;
+- балл продуктивности;
+- балл эмоциональной стабильности;
+- надёжность обязательств;
+- вероятность подчинения;
+- балл зависимости, видимый команде как профиль;
+- выведенный диагноз;
+- моральный риск;
+- качество отношений;
+- предсказанная удовлетворённость жизнью;
+- ранжирование относительно пользователей;
+- выведенные чувствительные черты;
+- единый числовой балл процветания.
 
-Safety signals могут использоваться для ограничения системы, но не превращаются в пользовательский identity score или коммерческий segment.
+Сигналы безопасности могут использоваться для ограничения системы, но не превращаются в пользовательский балл идентичности или коммерческий сегмент.
 
 ---
 
-## 27. Measurement Contract
+## 27. Контракт измерения (Measurement Contract)
 
 Перед активным измерением человек видит:
 
@@ -665,29 +665,29 @@ how_to_delete:
 
 ---
 
-## 28. Modes of measurement
+## 28. Режимы измерения (modes of measurement)
 
-### No tracking
+### Без отслеживания (no tracking)
 
 Практика существует без данных.
 
-### Event record
+### Запись события (event record)
 
 Отмечается только событие.
 
-### Context note
+### Контекстная заметка (context note)
 
 Добавляется добровольная короткая заметка.
 
-### Temporary experiment
+### Временный эксперимент (temporary experiment)
 
 Ограниченный период для проверки гипотезы.
 
-### Periodic reflection
+### Периодическая рефлексия (periodic reflection)
 
 Редкая оценка изменений.
 
-### Research mode
+### Исследовательский режим (research mode)
 
 Отдельное информированное согласие и протокол.
 
@@ -695,7 +695,7 @@ Garden не переводит человека на более интенсив
 
 ---
 
-## 29. Temporary experiments
+## 29. Временные эксперименты (temporary experiments)
 
 Предпочтительный формат измерения:
 
@@ -711,41 +711,41 @@ Garden не переводит человека на более интенсив
 
 ---
 
-## 30. Human Outcomes, а не Product Metrics
+## 30. Человеческие результаты, а не продуктовые метрики
 
-### Human outcomes
+### Человеческие результаты (human outcomes)
 
-- clarity;
-- agency;
-- ability to act without Garden;
-- ability to adapt;
-- honest reporting;
-- lower measurement burden;
-- appropriate human help;
-- completion or release;
-- real-life effect chosen by user.
+- ясность;
+- субъектность;
+- способность действовать без Garden;
+- способность адаптироваться;
+- честная отчётность;
+- меньшая нагрузка измерения;
+- уместная человеческая помощь;
+- завершение или отпускание;
+- эффект в реальной жизни, выбранный пользователем.
 
-### Product quality
+### Качество продукта (product quality)
 
-- correction rate;
-- deletion success;
-- false pattern reports;
-- unwanted prompt rate;
-- measurement opt-out;
-- uncertainty comprehension;
-- data minimization;
-- harm reports.
+- частота исправлений;
+- успешность удаления;
+- сообщения о ложных паттернах;
+- частота нежелательных подсказок;
+- отказ от измерения;
+- понимание неопределённости;
+- минимизация данных;
+- сообщения о вреде.
 
-### Не North Star
+### Не главный ориентир (North Star)
 
-- daily entries;
-- completeness;
-- streak length;
-- score improvement;
-- number of tracked domains;
-- data volume;
-- dashboard views;
-- time in app.
+- ежедневные записи;
+- полнота данных;
+- длина серии (streak);
+- улучшение балла;
+- число отслеживаемых областей;
+- объём данных;
+- просмотры дашборда;
+- время в приложении.
 
 ---
 
@@ -774,7 +774,7 @@ Garden не заставляет переводить всё живое в шк�
 
 ---
 
-## 33. Measurement Exit
+## 33. Выход из измерения (Measurement Exit)
 
 Человек может:
 
@@ -792,68 +792,68 @@ Garden не заставляет переводить всё живое в шк�
 
 ---
 
-## 34. Evaluation plan
+## 34. План оценки (evaluation plan)
 
 Сравнить:
 
-### A. No tracking
+### A. Без отслеживания (no tracking)
 
 Практика и поддержка без измерения.
 
-### B. Minimal event record
+### B. Минимальная запись события (minimal event record)
 
 Только состоялось / адаптировано / не записано.
 
-### C. State tracking
+### C. Отслеживание состояния (state tracking)
 
 Субъективная оценка до и после.
 
-### D. AI-derived pattern feedback
+### D. Обратная связь по паттернам от ИИ (AI-derived pattern feedback)
 
 Ограниченные observations.
 
 Измерять:
 
-- clarity;
-- action;
-- burden;
-- reactivity;
-- honesty;
-- pressure;
-- compulsive checking;
-- false pattern acceptance;
-- autonomy;
-- ability to stop;
-- value after 30 and 90 days.
+- ясность;
+- действие;
+- нагрузку;
+- реактивность;
+- честность;
+- давление;
+- компульсивную проверку;
+- принятие ложных паттернов;
+- автономию;
+- способность остановиться;
+- ценность через 30 и 90 дней.
 
 AI-derived feedback не запускается массово до red-team и доказательства incremental value относительно simple record.
 
 ---
 
-## 35. Claim Registry
+## 35. Реестр утверждений
 
-| Claim ID | Утверждение | Источники | Уверенность | Статус |
+| ID утверждения | Утверждение | Источники | Уверенность | Статус |
 |---|---|---|---|---|
-| R011-C01 | Personal Informatics включает collection, reflection and action, но процесс нелинеен | SRC-MEAS-003, 004 | высокая | foundation |
-| R011-C02 | Tracking автоматически создаёт insight and behavior change | SRC-MEAS-005 | не подтверждено | rejected |
-| R011-C03 | Repeated measurement может менять measured behavior/antecedents | SRC-MEAS-001, 011 | средняя/context-dependent | foundation |
-| R011-C04 | Measurement reactivity всегда значительна | нет | отсутствует | rejected |
-| R011-C05 | EMA burden and compliance depend on protocol and population | SRC-MEAS-002 | высокая | foundation |
-| R011-C06 | Missing data означают отсутствие события | нет | отсутствует | rejected |
-| R011-C07 | Meaning of self-report scores can change over time | SRC-MEAS-007, 008 | высокая | foundation |
-| R011-C08 | A validated scale remains valid after product modification | SRC-MEAS-009, 010 | отвергнуто | constraint |
-| R011-C09 | Content validity requires relevance, comprehensiveness and comprehensibility | SRC-MEAS-009 | высокая | foundation |
-| R011-C10 | Group association establishes individual causal effect | нет | отсутствует | rejected |
-| R011-C11 | Passive sensing provides objective psychological truth | SRC-MEAS-012, 013 | отвергнуто | constraint |
-| R011-C12 | Passive sensing models face heterogeneity/generalization limits | SRC-MEAS-012, 013 | высокая | foundation |
-| R011-C13 | Measures can be corrupted when used as targets | SRC-MEAS-014 | высокая as governance principle | foundation |
-| R011-C14 | Total Garden Score represents a good life | нет | отсутствует | rejected |
-| R011-C15 | Graphs are neutral presentations | HCI/visualization synthesis | отвергнуто | constraint |
-| R011-C16 | Minimal measurement reduces harm while retaining value | no Garden data | низкая | hypothesis |
-| R011-C17 | Temporary experiments are safer than indefinite tracking | no direct comparison | низкая | hypothesis |
-| R011-C18 | Measurement Contract improves agency | no Garden data | низкая | hypothesis |
-| R011-C19 | No-tracking mode may provide equal benefit | unknown | низкая | mandatory comparator |
-| R011-C20 | One subjective number can define wellbeing | evidence does not support | отсутствует | rejected |
+| R011-C01 | Персональная информатика включает сбор, рефлексию и действие, но процесс нелинеен | SRC-MEAS-003, 004 | высокая | основа |
+| R011-C02 | Отслеживание автоматически создаёт инсайт и изменение поведения | SRC-MEAS-005 | не подтверждено | отвергнуто |
+| R011-C03 | Повторное измерение может менять измеряемое поведение/его предпосылки | SRC-MEAS-001, 011 | средняя/зависит от контекста | основа |
+| R011-C04 | Реактивность измерения всегда значительна | нет | отсутствует | отвергнуто |
+| R011-C05 | Нагрузка и соблюдение EMA зависят от протокола и выборки | SRC-MEAS-002 | высокая | основа |
+| R011-C06 | Пропущенные данные означают отсутствие события | нет | отсутствует | отвергнуто |
+| R011-C07 | Значение баллов самоотчёта может меняться со временем | SRC-MEAS-007, 008 | высокая | основа |
+| R011-C08 | Валидированная шкала остаётся валидной после модификации в продукте | SRC-MEAS-009, 010 | отвергнуто | ограничение |
+| R011-C09 | Содержательная валидность требует релевантности, полноты и понятности | SRC-MEAS-009 | высокая | основа |
+| R011-C10 | Групповая связь устанавливает индивидуальный причинный эффект | нет | отсутствует | отвергнуто |
+| R011-C11 | Пассивный сбор данных даёт объективную психологическую истину | SRC-MEAS-012, 013 | отвергнуто | ограничение |
+| R011-C12 | Модели пассивного сбора сталкиваются с неоднородностью и пределами обобщения | SRC-MEAS-012, 013 | высокая | основа |
+| R011-C13 | Показатели искажаются, когда используются как цели | SRC-MEAS-014 | высокая как принцип управления | основа |
+| R011-C14 | Совокупный Garden Score отражает хорошую жизнь | нет | отсутствует | отвергнуто |
+| R011-C15 | Графики являются нейтральным представлением | синтез HCI/визуализации | отвергнуто | ограничение |
+| R011-C16 | Минимальное измерение снижает вред, сохраняя ценность | нет данных Garden | низкая | гипотеза |
+| R011-C17 | Временные эксперименты безопаснее бессрочного отслеживания | нет прямого сравнения | низкая | гипотеза |
+| R011-C18 | Контракт измерения повышает субъектность | нет данных Garden | низкая | гипотеза |
+| R011-C19 | Режим без отслеживания может давать равную пользу | неизвестно | низкая | обязательный компаратор |
+| R011-C20 | Одно субъективное число может определять благополучие | данные не поддерживают | отсутствует | отвергнуто |
 
 ---
 
