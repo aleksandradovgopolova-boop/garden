@@ -41,15 +41,15 @@ source_of_truth: false
 - знакомого контекста;
 - ожидаемого веса и температуры.
 
-Исследования visual material perception показывают, что человеческая зрительная система быстро распознаёт материальные свойства, хотя восстановить реальные физические параметры из изображения часто невозможно. Восприятие использует характерные визуальные признаки и типичные модели внешнего вида, а не точную физическую реконструкцию.
+Исследования зрительного восприятия материалов показывают, что человеческая зрительная система быстро распознаёт материальные свойства, хотя восстановить реальные физические параметры из изображения часто невозможно. Восприятие использует характерные визуальные признаки и типичные модели внешнего вида, а не точную физическую реконструкцию.
 
-### Garden position
+### Позиция Garden
 
 > **Материал должен быть убедительным по поведению, а не максимально реалистичным по количеству пикселей.**
 
 ---
 
-## 3. Material identity is relational
+## 3. Идентичность материала реляционна
 
 Дерево выглядит деревом не только из-за древесного рисунка.
 
@@ -65,593 +65,591 @@ source_of_truth: false
 
 Если текстура говорит «дерево», а свет, движение и масштаб говорят «пластик», материал ощущается ненастоящим.
 
-### Principle
+### Принцип
 
-> **Visual, motion, sound and interaction cues should tell the same material story.**
-
----
-
-## 4. Vision and imagined touch
-
-Visual and haptic perception are not isolated.
-
-Research shows:
-
-- visual information can change roughness discrimination;
-- touch can alter perceived gloss;
-- visual and haptic object representations can converge;
-- people can infer probable softness, hardness, weight and friction from appearance.
-
-Garden is mostly screen-based, but it can support **visual haptics** through:
-
-- deformation;
-- motion;
-- resistance animation;
-- sound;
-- scale;
-- contact shadows;
-- cursor or haptic response where available.
-
-### Limitation
-
-Garden cannot claim that a rendered texture reproduces real touch.
+> **Визуальные, двигательные, звуковые подсказки и подсказки взаимодействия должны рассказывать одну и ту же материальную историю.**
 
 ---
 
-## 5. Roughness, gloss and softness
+## 4. Зрение и воображаемое прикосновение
 
-### Roughness
+Зрительное и тактильное восприятие не изолированы.
 
-Signals may include:
+Исследования показывают:
 
-- microcontrast;
-- irregular highlights;
-- edge breakup;
-- shadow structure;
-- motion under changing light.
+- зрительная информация может менять различение шероховатости;
+- прикосновение может менять воспринимаемый глянец;
+- зрительные и тактильные представления об объекте могут сходиться;
+- люди могут выводить вероятную мягкость, твёрдость, вес и трение по внешнему виду.
 
-### Gloss
+Garden в основном экранный, но он может поддерживать **зрительную тактильность** через:
 
-Gloss perception depends on:
+- деформацию;
+- движение;
+- анимацию сопротивления;
+- звук;
+- масштаб;
+- контактные тени;
+- отклик курсора или тактильный отклик, где доступно.
 
-- specular highlights;
-- surface roughness;
-- shape;
-- illumination;
-- viewpoint;
-- contextual expectations.
+### Ограничение
 
-More reflection does not automatically mean more convincing gloss.
-
-### Softness
-
-Softness may be communicated through:
-
-- rounded deformation;
-- slow recovery;
-- folds;
-- diffuse light;
-- low-frequency motion.
-
-### Garden rule
-
-Do not exaggerate every material property.
-
-A world in which:
-
-- all stone is extremely rough;
-- all glass is mirror-like;
-- all fabric is fluffy;
-- all metal is shiny
-
-looks synthetic and visually exhausting.
+Garden не может утверждать, что отрисованная текстура воспроизводит реальное прикосновение.
 
 ---
 
-## 6. Stylisation vs photorealism
+## 5. Шероховатость, глянец и мягкость
 
-Photorealism can create:
+### Шероховатость
 
-- strong material recognition;
-- immersive detail;
-- visual prestige.
+Признаки могут включать:
 
-But it also creates:
+- микроконтраст;
+- нерегулярные блики;
+- разрывы на кромках;
+- структуру теней;
+- движение при меняющемся свете.
 
-- high production cost;
-- expectation of physical accuracy;
-- uncanny mismatch;
-- greater hardware demands;
-- visual noise;
-- difficulty maintaining accessibility;
-- less room for imagination.
+### Глянец
 
-Extreme stylisation can create:
+Восприятие глянца зависит от:
 
-- clarity;
-- distinctive identity;
-- performance efficiency;
-- coherent abstraction.
+- зеркальных бликов;
+- шероховатости поверхности;
+- формы;
+- освещения;
+- точки обзора;
+- контекстных ожиданий.
 
-But it can erase:
+Больше отражения не означает автоматически более убедительный глянец.
 
-- weight;
-- tactile difference;
-- material history;
-- meaningful imperfection.
+### Мягкость
 
-### Garden position
+Мягкость может передаваться через:
 
-Use **materially legible stylisation**:
+- скруглённую деформацию;
+- медленное восстановление формы;
+- складки;
+- рассеянный свет;
+- низкочастотное движение.
 
-- simplified geometry;
-- controlled textures;
-- clear material response;
-- limited microdetail;
-- consistent light behavior;
-- readable silhouettes.
+### Правило Garden
 
----
+Не преувеличивать каждое свойство материала.
 
-## 7. Material hierarchy
+Мир, в котором:
 
-Not every object needs equal detail.
+- весь камень крайне шероховат;
+- всё стекло зеркально;
+- вся ткань пушиста;
+- весь металл блестящ,
 
-### Primary materials
-
-Define world identity and appear often:
-
-- wood;
-- stone;
-- soil;
-- water;
-- vegetation.
-
-### Secondary materials
-
-Add contrast and personal expression:
-
-- ceramic;
-- fabric;
-- glass;
-- metal;
-- paper.
-
-### Rare/special materials
-
-Must not create status hierarchy:
-
-- fictional luminous materials;
-- unusual minerals;
-- crafted composites.
-
-### Alpha recommendation
-
-Start with five primary materials and three secondary materials.
+выглядит синтетическим и визуально утомляет.
 
 ---
 
-## 8. Wood
+## 6. Стилизация против фотореализма
 
-Wood is often perceived as warm in architectural material research, but perceived warmth depends on:
+Фотореализм может создавать:
 
-- colour;
-- grain;
-- finish;
-- visual context;
-- actual thermal properties;
-- prior association.
+- сильное распознавание материала;
+- иммерсивную детализацию;
+- визуальный престиж.
 
-Garden must not claim wood improves wellbeing.
+Но он также создаёт:
 
-### Useful qualities
+- высокую стоимость производства;
+- ожидание физической точности;
+- зловещее несоответствие;
+- бо́льшие требования к оборудованию;
+- визуальный шум;
+- трудность в поддержании доступности;
+- меньше места для воображения.
 
-- directional grain;
-- moderate irregularity;
-- visible construction;
-- warmth without orange overload;
-- repairability;
-- compatibility with age and personal marks.
+Крайняя стилизация может создавать:
 
-### Risks
+- ясность;
+- отличительную идентичность;
+- эффективность производительности;
+- связную абстракцию.
 
-- “natural = ethical” assumption;
-- cottage stereotype;
-- cultural default;
-- excessive brown world;
-- premium handcrafted status.
+Но она может стирать:
 
-### Garden use
+- вес;
+- тактильное различие;
+- историю материала;
+- значимое несовершенство.
 
-Wood may support:
+### Позиция Garden
 
-- benches;
-- small structures;
-- bridges;
-- signs;
-- tools;
-- frames.
+Использовать **материально считываемую стилизацию**:
 
----
-
-## 9. Stone
-
-Stone can communicate:
-
-- stability;
-- weight;
-- duration;
-- coolness;
-- geological variation.
-
-But these are contextual associations, not universal meanings.
-
-### Material cues
-
-- mass;
-- irregular fracture;
-- controlled roughness;
-- low deformation;
-- varied mineral response;
-- contact with soil and water.
-
-### Risks
-
-- every stone becoming memorial or spiritual;
-- Japanese-garden shorthand;
-- grey = lifeless;
-- inaccessible low-contrast scenes.
+- упрощённую геометрию;
+- контролируемые текстуры;
+- ясный отклик материала;
+- ограниченную микродетализацию;
+- согласованное поведение света;
+- читаемые силуэты.
 
 ---
 
-## 10. Water
+## 7. Иерархия материалов
 
-Water is a material and a dynamic system.
+Не каждому объекту нужна равная детализация.
 
-It communicates through:
+### Первичные материалы
 
-- reflection;
-- transparency;
-- refraction;
-- surface motion;
-- depth;
-- sound;
-- interaction with light.
+Определяют идентичность мира и встречаются часто:
 
-### Garden rules
+- дерево;
+- камень;
+- почва;
+- вода;
+- растительность.
 
-- no excessive mirror reflection;
-- no flashing highlights;
-- motion respects reduced-motion mode;
-- water remains visible in dark palettes;
-- water is not an emotional score;
-- ritual success does not make water clearer.
+### Вторичные материалы
 
-### Accessibility
+Добавляют контраст и личное выражение:
 
-Provide:
+- керамика;
+- ткань;
+- стекло;
+- металл;
+- бумага.
 
-- static water;
-- reduced shimmer;
-- sound control;
-- clear boundaries.
+### Редкие/особые материалы
 
----
+Не должны создавать статусную иерархию:
 
-## 11. Glass
+- вымышленные светящиеся материалы;
+- необычные минералы;
+- крафтовые композиты.
 
-Glass can communicate:
+### Рекомендация для Alpha
 
-- fragility;
-- transparency;
-- enclosure;
-- reflection;
-- modernity.
-
-But glass-heavy UI and architecture may create:
-
-- readability problems;
-- unclear boundaries;
-- visual coldness;
-- glare;
-- accessibility failures.
-
-### Garden use
-
-Glass is secondary.
-
-Use for:
-
-- greenhouse details;
-- windows;
-- vessels;
-- small reflective accents.
-
-Avoid:
-
-- full glassmorphic interface;
-- invisible controls;
-- transparency as privacy metaphor.
+Начать с пяти первичных и трёх вторичных материалов.
 
 ---
 
-## 12. Metal
+## 8. Дерево
 
-Metal may suggest:
+Дерево часто воспринимается как тёплое в исследованиях архитектурных материалов, но воспринимаемая теплота зависит от:
 
-- precision;
-- strength;
-- craft;
-- machinery;
-- coldness;
-- age.
+- цвета;
+- текстуры волокон;
+- отделки;
+- визуального контекста;
+- реальных тепловых свойств;
+- предыдущей ассоциации.
 
-Different metals behave differently.
+Garden не должен заявлять, что дерево улучшает благополучие.
 
-Do not collapse:
+### Полезные качества
 
-- iron;
-- copper;
-- bronze;
-- aluminium;
-- steel
+- направленное волокно;
+- умеренная нерегулярность;
+- видимая конструкция;
+- теплота без оранжевой перегрузки;
+- ремонтопригодность;
+- совместимость с возрастом и личными отметками.
 
-into one generic shiny surface.
+### Риски
 
-### Garden use
+- допущение «натуральное = этичное»;
+- коттеджный стереотип;
+- культурный default;
+- чрезмерно коричневый мир;
+- премиальный статус ручной работы.
 
-- hardware;
-- lanterns;
-- hinges;
-- tools;
-- small structural details.
+### Использование в Garden
 
-Metal should not dominate the world unless chosen by the user.
+Дерево может поддерживать:
 
----
-
-## 13. Ceramic
-
-Ceramic may combine:
-
-- hand-scale;
-- form;
-- colour;
-- glaze;
-- fragility;
-- repair;
-- domestic familiarity.
-
-### Garden use
-
-- pots;
-- bowls;
-- tiles;
-- markers;
-- small water elements.
-
-### Risks
-
-- cultural motifs without provenance;
-- handmade look used as authenticity theatre;
-- cracks coded as emotional damage.
+- скамьи;
+- малые структуры;
+- мосты;
+- таблички;
+- инструменты;
+- рамы.
 
 ---
 
-## 14. Fabric
+## 9. Камень
 
-Fabric introduces:
+Камень может передавать:
 
-- softness;
-- movement;
-- shelter;
-- colour;
-- domestic scale.
+- стабильность;
+- вес;
+- длительность;
+- прохладу;
+- геологическую вариацию.
 
-### Garden use
+Но это контекстные ассоциации, а не универсальные значения.
 
-- cushions;
-- awnings;
-- flags without achievement logic;
-- curtains;
-- picnic textiles.
+### Материальные признаки
 
-### Requirements
+- масса;
+- нерегулярный скол;
+- контролируемая шероховатость;
+- низкая деформация;
+- разнообразный минеральный отклик;
+- контакт с почвой и водой.
 
-- motion optional;
-- no constant flutter;
-- no texture detail that creates visual noise;
-- culturally identifiable patterns require review.
+### Риски
 
----
-
-## 15. Paper
-
-Paper connects Garden with:
-
-- writing;
-- notes;
-- letters;
-- maps;
-- archives;
-- temporary objects.
-
-### Garden use
-
-Paper should not imply that the entire world is a journal.
-
-Possible forms:
-
-- labels;
-- folded note;
-- ritual description;
-- map;
-- memory card.
-
-### Accessibility
-
-Text remains real UI text, not baked into texture.
+- каждый камень становится мемориальным или духовным;
+- стенография японского сада;
+- серый = безжизненный;
+- недоступные низкоконтрастные сцены.
 
 ---
 
-## 16. Soil and earth
+## 10. Вода
 
-Soil grounds the garden but must not become:
+Вода — это материал и динамическая система.
 
-- dirt as neglect;
-- barren land as failure;
-- fertile soil as personal potential;
-- visual punishment after inactivity.
+Она передаёт через:
 
-### Material cues
+- отражение;
+- прозрачность;
+- преломление;
+- движение поверхности;
+- глубину;
+- звук;
+- взаимодействие со светом.
 
-- varied granular surface;
-- moisture states only when user-selected or ambient;
-- stable readable value;
-- relation to stones, plants and paths.
+### Правила Garden
 
-### Rule
+- никакого чрезмерного зеркального отражения;
+- никаких мигающих бликов;
+- движение учитывает режим уменьшенного движения;
+- вода остаётся видимой в тёмных палитрах;
+- вода не является эмоциональным баллом;
+- успех ритуала не делает воду прозрачнее.
 
-No automatic dry/cracked earth after absence.
+### Доступность
 
----
+Предоставить:
 
-## 17. Natural, synthetic and sustainable
-
-“Natural” is not equivalent to:
-
-- sustainable;
-- ethical;
-- healthy;
-- safe;
-- beautiful.
-
-Material sustainability depends on:
-
-- source;
-- processing;
-- transport;
-- durability;
-- toxicity;
-- maintenance;
-- reuse;
-- end of life.
-
-In a digital world, a wood texture is not materially sustainable by itself. Rendering, hardware, energy and production practices remain relevant.
-
-### Garden language
-
-Do not call a digital aesthetic “eco-friendly” without lifecycle evidence.
+- статичную воду;
+- сниженное мерцание;
+- контроль звука;
+- ясные границы.
 
 ---
 
-## 18. Patina, ageing and memory
+## 11. Стекло
 
-Patina can be understood as visible change produced by:
+Стекло может передавать:
 
-- time;
-- environment;
-- use;
-- care;
-- oxidation;
-- wear.
+- хрупкость;
+- прозрачность;
+- ограждение;
+- отражение;
+- современность.
 
-Research on aesthetic appreciation of ageing shows mixed outcomes. Patina does not automatically increase attachment or reduce disposal. Preferences depend on material and form of change; decay can be disliked.
+Но насыщенные стеклом UI и архитектура могут создавать:
 
-### Garden distinction
+- проблемы читаемости;
+- неясные границы;
+- визуальную холодность;
+- блики;
+- сбои доступности.
 
-#### User-authored patina
+### Использование в Garden
 
-Allowed:
+Стекло вторично.
 
-- chosen wear;
-- named memory;
-- optional darkening;
-- added repair mark;
-- preserved transformation.
+Использовать для:
 
-#### System-imposed decay
+- деталей теплицы;
+- окон;
+- сосудов;
+- малых отражающих акцентов.
 
-Forbidden:
+Избегать:
 
-- cracks after absence;
-- rust after missed ritual;
-- faded fabric after inactivity;
-- dirt as neglect;
-- broken object as failure.
-
-### Principle
-
-> **The world may remember use. It must not punish absence.**
+- полного гласморфного интерфейса;
+- невидимых элементов управления;
+- прозрачности как метафоры приватности.
 
 ---
 
-## 19. Repair
+## 12. Металл
 
-Repair can communicate:
+Металл может предполагать:
 
-- continuity;
-- care;
-- history;
-- change.
+- точность;
+- прочность;
+- ремесло;
+- механику;
+- холодность;
+- возраст.
 
-But visible repair must not become:
+Разные металлы ведут себя по-разному.
 
-- forced symbolism;
-- “broken person” metaphor;
-- cultural borrowing without context;
-- premium transformation.
+Не сводить:
 
-### Garden use
+- железо;
+- медь;
+- бронзу;
+- алюминий;
+- сталь
 
-The user may choose:
+в одну обобщённую блестящую поверхность.
 
-- repair mark;
-- replacement;
-- preserved crack;
-- invisible restoration;
-- no repair story.
+### Использование в Garden
 
-AI does not propose repair as psychological meaning.
+- фурнитура;
+- фонари;
+- петли;
+- инструменты;
+- малые структурные детали.
 
----
-
-## 20. Material age
-
-Objects can have:
-
-- new;
-- used;
-- weathered;
-- restored;
-- timeless/stylised
-
-appearance.
-
-This is aesthetic choice, not lifecycle state.
-
-A newly created ritual may use an old-looking object.
-
-A completed ritual may retain a new-looking object.
+Металл не должен доминировать в мире, если этого не выбрал пользователь.
 
 ---
 
-## 21. Material consistency
+## 13. Керамика
 
-Each material needs a specification across:
+Керамика может сочетать:
 
-- colour range;
-- roughness;
-- reflectance;
-- edge behavior;
-- motion;
-- sound;
-- scale;
-- ageing options;
-- accessibility;
-- performance budget.
+- ручной масштаб;
+- форму;
+- цвет;
+- глазурь;
+- хрупкость;
+- ремонт;
+- бытовую знакомость.
 
-### Example
+### Использование в Garden
+
+- горшки;
+- миски;
+- плитки;
+- маркеры;
+- малые водные элементы.
+
+### Риски
+
+- культурные мотивы без указания происхождения;
+- ручной вид как театр аутентичности;
+- трещины, закодированные как эмоциональный ущерб.
+
+---
+
+## 14. Ткань
+
+Ткань вводит:
+
+- мягкость;
+- движение;
+- укрытие;
+- цвет;
+- бытовой масштаб.
+
+### Использование в Garden
+
+- подушки;
+- навесы;
+- флаги без логики достижений;
+- шторы;
+- текстиль для пикника.
+
+### Требования
+
+- движение опционально;
+- никакого постоянного трепетания;
+- никакой детализации текстуры, создающей визуальный шум;
+- культурно узнаваемые узоры требуют обзора.
+
+---
+
+## 15. Бумага
+
+Бумага связывает Garden с:
+
+- письмом;
+- заметками;
+- письмами;
+- картами;
+- архивами;
+- временными объектами.
+
+### Использование в Garden
+
+Бумага не должна подразумевать, что весь мир — дневник.
+
+Возможные формы:
+
+- подписи;
+- сложенная записка;
+- описание ритуала;
+- карта;
+- карточка памяти.
+
+### Доступность
+
+Текст остаётся реальным текстом UI, а не запечён в текстуру.
+
+---
+
+## 16. Почва и земля
+
+Почва заземляет сад, но не должна становиться:
+
+- грязью как заброшенностью;
+- бесплодной землёй как неудачей;
+- плодородной почвой как личным потенциалом;
+- визуальным наказанием после бездействия.
+
+### Материальные признаки
+
+- разнообразная зернистая поверхность;
+- состояния влажности только при выборе пользователя или фоново;
+- стабильное читаемое значение;
+- связь с камнями, растениями и путями.
+
+### Правило
+
+Никакой автоматически сухой/растрескавшейся земли после отсутствия.
+
+---
+
+## 17. Натуральное, синтетическое и устойчивое
+
+«Натуральное» не эквивалентно:
+
+- устойчивому;
+- этичному;
+- здоровому;
+- безопасному;
+- красивому.
+
+Устойчивость материала зависит от:
+
+- источника;
+- обработки;
+- транспорта;
+- долговечности;
+- токсичности;
+- обслуживания;
+- повторного использования;
+- конца жизненного цикла.
+
+В цифровом мире текстура дерева сама по себе не является материально устойчивой. Рендеринг, оборудование, энергия и производственные практики остаются релевантными.
+
+### Язык Garden
+
+Не называть цифровую эстетику «эко-дружественной» без доказательств жизненного цикла.
+
+---
+
+## 18. Патина, старение и память
+
+Патину можно понимать как видимое изменение, произведённое:
+
+- временем;
+- средой;
+- использованием;
+- заботой;
+- окислением;
+- износом.
+
+Исследования эстетического восприятия старения показывают смешанные результаты. Патина не увеличивает автоматически привязанность и не снижает выбрасывание. Предпочтения зависят от материала и формы изменения; распад может вызывать неприязнь.
+
+### Различение в Garden
+
+#### Патина, созданная пользователем
+
+Разрешено:
+
+- выбранный износ;
+- названная память;
+- опциональное затемнение;
+- добавленная отметка ремонта;
+- сохранённая трансформация.
+
+#### Распад, навязанный системой
+
+Запрещено:
+
+- трещины после отсутствия;
+- ржавчина после пропущенного ритуала;
+- выцветшая ткань после бездействия;
+- грязь как заброшенность;
+- сломанный объект как неудача.
+
+### Принцип
+
+> **Мир может помнить использование. Он не должен наказывать за отсутствие.**
+
+---
+
+## 19. Ремонт
+
+Ремонт может передавать:
+
+- непрерывность;
+- заботу;
+- историю;
+- изменение.
+
+Но видимый ремонт не должен становиться:
+
+- принудительной символикой;
+- метафорой «сломанного человека»;
+- культурным заимствованием без контекста;
+- премиальной трансформацией.
+
+### Использование в Garden
+
+Пользователь может выбрать:
+
+- отметку ремонта;
+- замену;
+- сохранённую трещину;
+- невидимое восстановление;
+- отсутствие истории ремонта.
+
+ИИ не предлагает ремонт как психологический смысл.
+
+---
+
+## 20. Возраст материала
+
+Объекты могут иметь вид:
+
+- новый;
+- использованный;
+- обветренный;
+- восстановленный;
+- вневременной/стилизованный.
+
+Это эстетический выбор, а не состояние жизненного цикла.
+
+Только что созданный ритуал может использовать старо выглядящий объект.
+
+Завершённый ритуал может сохранить ново выглядящий объект.
+
+---
+
+## 21. Согласованность материала
+
+Каждому материалу нужна спецификация по:
+
+- диапазону цвета;
+- шероховатости;
+- отражательной способности;
+- поведению кромок;
+- движению;
+- звуку;
+- масштабу;
+- вариантам старения;
+- доступности;
+- бюджету производительности.
+
+### Пример
 
 ```yaml
 wood:
@@ -668,228 +666,228 @@ wood:
 
 ---
 
-## 22. Material and sound
+## 22. Материал и звук
 
-Object interaction can be supported by subtle sounds:
+Взаимодействие с объектом может поддерживаться тонкими звуками:
 
-- wood tap;
-- stone placement;
-- ceramic touch;
-- paper movement;
-- water contact.
+- постукивание по дереву;
+- размещение камня;
+- касание керамики;
+- движение бумаги;
+- контакт с водой.
 
-### Rules
+### Правила
 
-- sound optional;
-- no loud reward sounds;
-- material sound remains subtle;
-- no essential feedback only through audio;
-- culturally specific instruments are not generic object sounds.
-
----
-
-## 23. Material and motion
-
-Material motion should reflect expected behavior.
-
-- fabric folds;
-- water flows;
-- foliage bends;
-- stone remains stable;
-- paper moves lightly;
-- metal does not wobble like rubber.
-
-Research on moving contours indicates that motion itself can provide diagnostic material information beyond static shape.
-
-### Garden implication
-
-One accurate motion cue may do more than a high-resolution texture.
+- звук опционален;
+- никаких громких наградных звуков;
+- звук материала остаётся тонким;
+- никакой существенной обратной связи только через аудио;
+- культурно специфичные инструменты не являются обобщёнными звуками объектов.
 
 ---
 
-## 24. Material and performance
+## 23. Материал и движение
 
-Garden must work on modest devices.
+Движение материала должно отражать ожидаемое поведение.
 
-### Progressive material fidelity
+- ткань складывается;
+- вода течёт;
+- листва гнётся;
+- камень остаётся стабильным;
+- бумага движется легко;
+- металл не колышется как резина.
 
-#### Level 0
+Исследования движущихся контуров указывают, что само движение может давать диагностическую информацию о материале сверх статичной формы.
 
-- flat colour;
-- silhouette;
-- accessible label.
+### Следствие для Garden
 
-#### Level 1
-
-- simple shading;
-- low-resolution texture;
-- static material.
-
-#### Level 2
-
-- normal/roughness detail;
-- reflection;
-- subtle motion.
-
-#### Level 3
-
-- enhanced light and material effects.
-
-No level may remove core readability or meaning.
+Одна точная подсказка движения может дать больше, чем текстура высокого разрешения.
 
 ---
 
-## 25. Material and accessibility
+## 24. Материал и производительность
 
-Provide:
+Garden должен работать на скромных устройствах.
 
-- sufficient value contrast;
-- non-texture labels;
-- reduced visual complexity;
-- no meaning based only on gloss;
-- optional static surfaces;
-- list mode;
-- screen-reader material names;
-- boundaries visible without shadows.
+### Прогрессивная детализация материала
 
-### Principle
+#### Уровень 0
 
-A blind or low-vision user must not lose ritual ownership because the visual material system is unavailable.
+- плоский цвет;
+- силуэт;
+- доступная подпись.
 
----
+#### Уровень 1
 
-## 26. Material system for Alpha
+- простое затенение;
+- текстура низкого разрешения;
+- статичный материал.
 
-### Primary
+#### Уровень 2
 
-- soil;
-- wood;
-- stone;
-- water;
-- vegetation.
+- детали нормалей/шероховатости;
+- отражение;
+- тонкое движение.
 
-### Secondary
+#### Уровень 3
 
-- ceramic;
-- fabric;
-- metal.
+- усиленные эффекты света и материала.
 
-### Defer
-
-- complex glass architecture;
-- advanced transparency;
-- large reflective surfaces;
-- procedural weathering;
-- material crafting economy;
-- rare material collections.
+Ни один уровень не может убирать базовую читаемость или смысл.
 
 ---
 
-## 27. Alpha experiments
+## 25. Материал и доступность
 
-### A — Photoreal vs stylised legibility
+Предоставить:
 
-Measure:
+- достаточный контраст значений;
+- нетекстурные подписи;
+- сниженную визуальную сложность;
+- никакого смысла только через глянец;
+- опциональные статичные поверхности;
+- режим списка;
+- имена материалов для скринридера;
+- границы, видимые без теней.
 
-- material recognition;
-- beauty;
-- performance;
-- visual noise;
-- ownership.
+### Принцип
 
-### B — Texture vs motion cue
-
-Test whether simple material with correct motion feels more convincing.
-
-### C — Clean vs user-chosen patina
-
-Measure:
-
-- attachment;
-- age interpretation;
-- fear of decay;
-- perceived judgment.
-
-### D — Material families
-
-Allow users to choose:
-
-- woodland;
-- mineral;
-- domestic craft;
-- mixed.
-
-Do not label as personality.
-
-### E — Low-fidelity accessibility
-
-Test whether reduced-detail version feels intentional and complete.
+Незрячий или слабовидящий пользователь не должен терять владение ритуалом из-за недоступности визуальной системы материалов.
 
 ---
 
-## 28. Candidate principles
+## 26. Система материалов для Alpha
 
-1. Material behavior before texture detail.
-2. Cross-sensory consistency.
-3. Materially legible stylisation.
-4. Primary and secondary material hierarchy.
-5. Natural does not mean ethical.
-6. Patina is chosen memory, not punishment.
-7. Repair has no fixed psychological meaning.
-8. Material age is aesthetic, not ritual state.
-9. Motion can communicate matter.
-10. Accessibility does not depend on texture.
-11. No rare-material status economy in Alpha.
-12. Progressive fidelity preserves meaning.
+### Первичные
 
----
+- почва;
+- дерево;
+- камень;
+- вода;
+- растительность.
 
-## 29. What Garden must not claim
+### Вторичные
 
-- wood improves wellbeing;
-- stone creates stability;
-- water reduces anxiety;
-- natural materials are sustainable;
-- patina always increases attachment;
-- realistic texture reproduces touch;
-- cultural craft motifs are universal;
-- damaged appearance represents growth;
-- clean materials represent success;
-- digital material choice has no environmental cost.
+- керамика;
+- ткань;
+- металл.
+
+### Отложить
+
+- сложную стеклянную архитектуру;
+- продвинутую прозрачность;
+- большие отражающие поверхности;
+- процедурное обветривание;
+- экономику крафта материалов;
+- коллекции редких материалов.
 
 ---
 
-## 30. Claim Registry
+## 27. Эксперименты Alpha
 
-| Claim | Confidence | Status |
+### A — Фотореалистичная против стилизованной считываемости
+
+Измерять:
+
+- распознавание материала;
+- красоту;
+- производительность;
+- визуальный шум;
+- владение.
+
+### B — Текстура против подсказки движения
+
+Тестировать, ощущается ли простой материал с корректным движением более убедительным.
+
+### C — Чистая против выбранной пользователем патины
+
+Измерять:
+
+- привязанность;
+- интерпретацию возраста;
+- страх распада;
+- воспринимаемое осуждение.
+
+### D — Семейства материалов
+
+Позволить пользователям выбирать:
+
+- лесное;
+- минеральное;
+- бытовое ремесло;
+- смешанное.
+
+Не помечать как личность.
+
+### E — Низкодетализированная доступность
+
+Тестировать, ощущается ли версия с уменьшенной детализацией намеренной и завершённой.
+
+---
+
+## 28. Принципы-кандидаты
+
+1. Поведение материала прежде детализации текстуры.
+2. Кросс-сенсорная согласованность.
+3. Материально считываемая стилизация.
+4. Иерархия первичных и вторичных материалов.
+5. Натуральное не означает этичное.
+6. Патина — выбранная память, а не наказание.
+7. У ремонта нет фиксированного психологического смысла.
+8. Возраст материала эстетичен, а не состояние ритуала.
+9. Движение может передавать вещество.
+10. Доступность не зависит от текстуры.
+11. Никакой статусной экономики редких материалов в Alpha.
+12. Прогрессивная детализация сохраняет смысл.
+
+---
+
+## 29. Что Garden не должен заявлять
+
+- дерево улучшает благополучие;
+- камень создаёт стабильность;
+- вода снижает тревогу;
+- натуральные материалы устойчивы;
+- патина всегда увеличивает привязанность;
+- реалистичная текстура воспроизводит прикосновение;
+- культурные ремесленные мотивы универсальны;
+- повреждённый вид представляет рост;
+- чистые материалы представляют успех;
+- цифровой выбор материала не имеет экологической цены.
+
+---
+
+## 30. Реестр утверждений
+
+| Утверждение | Уверенность | Статус |
 |---|---:|---|
-| Humans rapidly infer material properties from visual cues | high | foundation |
-| Exact physical material parameters can be recovered from appearance | low | rejected |
-| Visual and haptic material information interact | high | foundation |
-| Material motion can aid recognition | medium-high | design foundation |
-| More texture detail always improves material perception | low | rejected |
-| Wood is universally perceived as warm | medium/contextual | limited |
-| Patina always improves aesthetic appreciation | low | rejected |
-| Natural materials are necessarily sustainable | low | rejected |
-| Materially legible stylisation can support Garden | design synthesis | candidate |
-| User-authored wear may support memory | low | Alpha hypothesis |
+| Люди быстро выводят свойства материала из визуальных признаков | высокая | основа |
+| Точные физические параметры материала можно восстановить из внешнего вида | низкая | отвергнуто |
+| Зрительная и тактильная информация о материале взаимодействуют | высокая | основа |
+| Движение материала может помогать распознаванию | средняя–высокая | основа дизайна |
+| Больше детализации текстуры всегда улучшает восприятие материала | низкая | отвергнуто |
+| Дерево универсально воспринимается как тёплое | средняя/контекстная | ограниченно |
+| Патина всегда улучшает эстетическое восприятие | низкая | отвергнуто |
+| Натуральные материалы обязательно устойчивы | низкая | отвергнуто |
+| Материально считываемая стилизация может поддерживать Garden | дизайн-синтез | кандидат |
+| Износ, созданный пользователем, может поддерживать память | низкая | гипотеза Alpha |
 
 ---
 
-## 31. Verdict
+## 31. Вердикт
 
-Garden should feel tangible without pretending to be physically real.
+Garden должен ощущаться осязаемым, не притворяясь физически реальным.
 
-Its materials should provide:
+Его материалы должны давать:
 
-- weight;
-- softness;
-- roughness;
-- reflection;
-- movement;
-- history;
-- difference.
+- вес;
+- мягкость;
+- шероховатость;
+- отражение;
+- движение;
+- историю;
+- различие.
 
-But the material world never becomes a disciplinary system.
+Но материальный мир никогда не становится дисциплинарной системой.
 
-> **Objects may carry traces of chosen use. They never carry accusations about absence.**
+> **Объекты могут нести следы выбранного использования. Они никогда не несут обвинений об отсутствии.**
