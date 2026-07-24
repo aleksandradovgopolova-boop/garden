@@ -28,9 +28,9 @@ source_of_truth: false
 
 Восприятие цвета зависит как минимум от:
 
-- hue;
-- lightness or brightness;
-- chroma or saturation;
+- тона (hue);
+- светлоты или яркости (lightness/brightness);
+- насыщенности (chroma/saturation);
 - размера цветового поля;
 - соседних цветов;
 - освещения;
@@ -40,9 +40,9 @@ source_of_truth: false
 - культурного и предметного контекста;
 - особенностей цветового зрения.
 
-CIE подчёркивает, что perceived colour описывается через hue, lightness/brightness and colourfulness/saturation/chroma, а само восприятие зависит от окружения, размера, структуры, адаптации наблюдателя и прошлого опыта.
+CIE подчёркивает, что воспринимаемый цвет описывается через тон, светлоту/яркость и красочность/насыщенность, а само восприятие зависит от окружения, размера, структуры, адаптации наблюдателя и прошлого опыта.
 
-### Garden position
+### Позиция Garden
 
 > **Цвет — это свойство мира и интерфейса, а не вывод о человеке.**
 
@@ -60,15 +60,15 @@ CIE подчёркивает, что perceived colour описывается ч�
 
 слишком грубы.
 
-Research on colour and psychological functioning показывает:
+Исследования цвета и психологического функционирования показывают:
 
 - эффекты зависят от контекста задачи;
 - один цвет связан с несколькими, иногда противоположными эмоциями;
-- hue нельзя отделять от saturation and lightness;
+- тон нельзя отделять от насыщенности и светлоты;
 - культурный опыт меняет ассоциации;
 - эффект цвета в лаборатории не равен устойчивому эффекту цифрового мира.
 
-Систематический обзор исследований color–emotion associations показывает повторяющиеся связи, но не простое соответствие «один цвет — одна эмоция». Например, красный связывался как с любовью и возбуждением, так и с гневом и враждебностью.
+Систематический обзор исследований связей «цвет–эмоция» показывает повторяющиеся связи, но не простое соответствие «один цвет — одна эмоция». Например, красный связывался как с любовью и возбуждением, так и с гневом и враждебностью.
 
 ### Следствие
 
@@ -84,24 +84,24 @@ grey = inactivity
 
 ---
 
-## 4. Hue, lightness and chroma
+## 4. Тон, светлота и насыщенность (hue, lightness, chroma)
 
-### Hue
+### Тон (hue)
 
 Категория цветового тона.
 
-Hue полезен для:
+Тон полезен для:
 
 - эстетического характера;
 - различения групп;
 - пользовательской настройки;
 - поддержания мира.
 
-Hue не должен быть единственным информационным каналом.
+Тон не должен быть единственным информационным каналом.
 
-### Lightness
+### Светлота (lightness)
 
-Perceived lightness особенно важна для:
+Воспринимаемая светлота особенно важна для:
 
 - читаемости;
 - визуальной иерархии;
@@ -111,7 +111,7 @@ Perceived lightness особенно важна для:
 
 Светлота часто оказывает на UX более практическое влияние, чем название оттенка.
 
-### Chroma / saturation
+### Насыщенность (chroma / saturation)
 
 Высокая насыщенность может:
 
@@ -140,48 +140,48 @@ Perceived lightness особенно важна для:
 - на матовой или блестящей поверхности;
 - в UI и на объекте мира.
 
-CIE отдельно отмечает влияние размера стимула на perceived lightness, chroma and even hue.
+CIE отдельно отмечает влияние размера стимула на воспринимаемые светлоту, насыщенность и даже тон.
 
-### Garden implication
+### Следствие для Garden
 
-Palette review must happen:
+Проверку палитры нужно проводить:
 
-- on full garden scenes;
-- in context panels;
-- in mobile;
-- in reduced-motion mode;
-- in different light settings;
-- on actual object sizes.
+- на полных сценах сада;
+- в контекстных панелях;
+- на мобильном;
+- в режиме уменьшенного движения;
+- при разных настройках света;
+- на реальных размерах объектов.
 
-Palette swatches alone are insufficient.
+Одних образцов палитры недостаточно.
 
 ---
 
-## 6. Object-context problem
+## 6. Проблема «объект–контекст»
 
 Люди могут предпочитать цвет абстрактно и не предпочитать его для конкретного объекта.
 
-Исследования показывают, что most/least preferred colours vary depending on the object being coloured.
+Исследования показывают, что наиболее/наименее предпочитаемые цвета различаются в зависимости от окрашиваемого объекта.
 
-### Garden example
+### Пример Garden
 
-A dark purple may feel beautiful as:
+Тёмно-фиолетовый может ощущаться красивым как:
 
-- evening sky;
-- flower;
-- fabric;
-- UI accent.
+- вечернее небо;
+- цветок;
+- ткань;
+- акцент UI.
 
-The same colour may feel unnatural or distracting as:
+Тот же цвет может ощущаться неестественным или отвлекающим как:
 
-- water;
-- grass;
-- large background;
-- body text.
+- вода;
+- трава;
+- большой фон;
+- основной текст.
 
-### Requirement
+### Требование
 
-Color tokens need semantic context:
+Цветовым токенам нужен семантический контекст:
 
 ```yaml
 world:
@@ -201,461 +201,461 @@ state:
   disabled:
 ```
 
-Not one generic `purple-500` applied everywhere.
+Не один обобщённый `purple-500`, применяемый везде.
 
 ---
 
-## 7. Cultural variation
+## 7. Культурная вариативность
 
-Color-emotion and color-preference studies show both shared patterns and cultural variation.
+Исследования «цвет–эмоция» и предпочтений цвета показывают как общие паттерны, так и культурную вариативность.
 
-Differences may involve:
+Различия могут включать:
 
-- language;
-- symbolic traditions;
-- object associations;
-- gender norms;
-- religion;
-- history;
-- national context;
-- commercial conventions.
+- язык;
+- символические традиции;
+- предметные ассоциации;
+- гендерные нормы;
+- религию;
+- историю;
+- национальный контекст;
+- коммерческие условности.
 
-Even when a cross-cultural pattern exists on average, it does not justify assigning meaning to an individual.
+Даже если кросс-культурный паттерн существует в среднем, он не оправдывает присвоение смысла отдельному человеку.
 
-### Garden rule
+### Правило Garden
 
-Color preference is selected or observed in the current design task, not inferred from:
+Предпочтение цвета выбирается или наблюдается в текущей дизайн-задаче, а не выводится из:
 
-- gender;
-- country;
-- age;
-- diagnosis;
-- personality;
-- mood.
-
----
-
-## 8. Colour-vision diversity
-
-Garden must support people who:
-
-- have red–green colour-vision differences;
-- distinguish some hues differently;
-- need stronger luminance contrast;
-- use high-contrast modes;
-- experience light sensitivity;
-- use monochrome or reduced-colour settings.
-
-Research on red–green dichromats demonstrates that colour preference patterns can differ reliably from trichromatic observers.
-
-### Requirement
-
-Do not define “accessible palette” as one simulated screenshot.
-
-Testing needs:
-
-- automated contrast checks;
-- colour-vision simulations;
-- real participants;
-- non-colour cues;
-- large-scene testing.
+- пола;
+- страны;
+- возраста;
+- диагноза;
+- личности;
+- настроения.
 
 ---
 
-## 9. Use of color and contrast
+## 8. Разнообразие цветового зрения
 
-WCAG requires that colour is not the only visual means of conveying information. Text and essential interface elements must meet contrast requirements; non-text UI components and states also need sufficient contrast against adjacent colours.
+Garden должен поддерживать людей, которые:
 
-### Garden consequences
+- имеют красно-зелёные различия цветового зрения;
+- различают некоторые тона иначе;
+- нуждаются в более сильном контрасте по яркости;
+- используют высококонтрастные режимы;
+- испытывают светочувствительность;
+- используют монохромные или сниженно-цветовые настройки.
 
-Lifecycle status cannot be shown only through:
+Исследования красно-зелёных дихроматов показывают, что паттерны предпочтения цвета могут надёжно отличаться от трихроматических наблюдателей.
 
-- green;
-- yellow;
-- grey;
-- red.
+### Требование
 
-It needs:
+Не определять «доступную палитру» как один симулированный скриншот.
 
-- label;
-- icon;
-- shape or pattern;
-- accessible description.
+Тестирование требует:
 
-Selected objects need more than a coloured glow.
-
-Paths, controls and object boundaries must remain perceivable under different colour conditions.
-
----
-
-## 10. Color must not become moral state
-
-Forbidden mappings:
-
-- green = good / active;
-- red = bad / failed;
-- grey = neglected;
-- black = crisis;
-- bright = healthy;
-- dark = depressed;
-- saturated = productive;
-- faded = inactive.
-
-### Allowed
-
-Colour may indicate:
-
-- current selection;
-- interactive focus;
-- user-selected aesthetic family;
-- object material;
-- time of day;
-- explicit category chosen by the user.
-
-Even in these cases, colour must not be the only cue.
+- автоматических проверок контраста;
+- симуляций цветового зрения;
+- реальных участников;
+- нецветовых подсказок;
+- тестирования на крупных сценах.
 
 ---
 
-## 11. Garden is allowed to be dark
+## 9. Использование цвета и контраста
 
-A dark visual world is not automatically:
+WCAG требует, чтобы цвет не был единственным визуальным средством передачи информации. Текст и существенные элементы интерфейса должны удовлетворять требованиям контраста; нетекстовые UI-компоненты и состояния также нуждаются в достаточном контрасте относительно соседних цветов.
 
-- sad;
-- unhealthy;
-- dangerous;
-- premium;
-- masculine;
-- inaccessible.
+### Следствия для Garden
 
-A light world is not automatically:
+Статус жизненного цикла нельзя показывать только через:
 
-- hopeful;
-- safe;
-- feminine;
-- minimal;
-- calm.
+- зелёный;
+- жёлтый;
+- серый;
+- красный.
 
-Garden should allow:
+Ему нужны:
 
-- dawn;
-- daylight;
-- dusk;
-- night;
-- overcast;
-- high-contrast literal mode.
+- подпись;
+- иконка;
+- форма или паттерн;
+- доступное описание.
 
-All must preserve usability and dignity.
+Выбранным объектам нужно нечто большее, чем цветное свечение.
+
+Пути, элементы управления и границы объектов должны оставаться воспринимаемыми при разных цветовых условиях.
 
 ---
 
-## 12. Multiple aesthetic worlds
+## 10. Цвет не должен становиться моральным состоянием
 
-Garden needs one visual grammar, not one fixed palette.
+Запрещённые соответствия:
 
-### Shared grammar
+- зелёный = хорошо/активно;
+- красный = плохо/провал;
+- серый = заброшено;
+- чёрный = кризис;
+- яркий = здоровый;
+- тёмный = подавленный;
+- насыщенный = продуктивный;
+- выцветший = неактивный.
 
-- compatible value structure;
-- stable hierarchy;
-- consistent materials;
-- predictable interactive colours;
-- accessible text contrast;
-- controlled accents.
+### Разрешено
 
-### Possible palette families
+Цвет может обозначать:
 
-#### Meadow Light
+- текущий выбор;
+- интерактивный фокус;
+- выбранное пользователем эстетическое семейство;
+- материал объекта;
+- время суток;
+- явную категорию, выбранную пользователем.
 
-- warm light terrain;
-- muted green vegetation;
-- soft mineral neutrals;
-- limited warm accents.
-
-#### Woodland Shade
-
-- darker terrain;
-- moss and bark range;
-- cool ambient light;
-- brighter accessible focus accents.
-
-#### Evening Garden
-
-- deep blue-violet environment;
-- warm lanterns;
-- restrained vegetation chroma;
-- high-contrast UI surfaces.
-
-#### Stone and Water
-
-- neutral mineral world;
-- desaturated plants;
-- cool water;
-- quiet accent colour.
-
-#### Wild Colour
-
-- higher chroma flowers and objects;
-- neutral interface;
-- user-controlled density.
-
-These are design hypotheses, not psychological profiles.
+Даже в этих случаях цвет не должен быть единственной подсказкой.
 
 ---
 
-## 13. User control
+## 11. Garden имеет право быть тёмным
 
-User may choose:
+Тёмный визуальный мир не является автоматически:
 
-- world palette;
-- time/light mode;
-- accent;
-- colour intensity;
-- high contrast;
-- reduced colour;
-- automatic system mode;
-- object appearance.
+- грустным;
+- нездоровым;
+- опасным;
+- премиальным;
+- мужским;
+- недоступным.
 
-User does not choose:
+Светлый мир не является автоматически:
 
-> “calm personality palette”.
+- обнадёживающим;
+- безопасным;
+- женским;
+- минималистичным;
+- спокойным.
 
-### Copy
+Garden должен допускать:
 
-Not:
+- рассвет;
+- дневной свет;
+- сумерки;
+- ночь;
+- пасмурность;
+- высококонтрастный буквальный режим.
+
+Всё должно сохранять удобство использования и достоинство.
+
+---
+
+## 12. Множественные эстетические миры
+
+Garden нужна одна визуальная грамматика, а не одна фиксированная палитра.
+
+### Общая грамматика
+
+- совместимая структура значений (value);
+- стабильная иерархия;
+- согласованные материалы;
+- предсказуемые интерактивные цвета;
+- доступный контраст текста;
+- контролируемые акценты.
+
+### Возможные семейства палитр
+
+#### Светлый луг (Meadow Light)
+
+- тёплый светлый рельеф;
+- приглушённая зелёная растительность;
+- мягкие минеральные нейтрали;
+- ограниченные тёплые акценты.
+
+#### Лесная тень (Woodland Shade)
+
+- более тёмный рельеф;
+- диапазон мха и коры;
+- холодный фоновый свет;
+- более яркие доступные акценты фокуса.
+
+#### Вечерний сад (Evening Garden)
+
+- глубокая сине-фиолетовая среда;
+- тёплые фонари;
+- сдержанная насыщенность растительности;
+- высококонтрастные поверхности UI.
+
+#### Камень и вода (Stone and Water)
+
+- нейтральный минеральный мир;
+- обесцвеченные растения;
+- холодная вода;
+- тихий акцентный цвет.
+
+#### Дикий цвет (Wild Colour)
+
+- цветы и объекты высокой насыщенности;
+- нейтральный интерфейс;
+- плотность под контролем пользователя.
+
+Это дизайн-гипотезы, а не психологические профили.
+
+---
+
+## 13. Контроль пользователя
+
+Пользователь может выбирать:
+
+- палитру мира;
+- режим времени/света;
+- акцент;
+- интенсивность цвета;
+- высокий контраст;
+- сниженный цвет;
+- автоматический системный режим;
+- внешний вид объекта.
+
+Пользователь не выбирает:
+
+> «палитру спокойной личности».
+
+### Текст
+
+Не:
 
 > «Какая энергия вам подходит?»
 
-Better:
+Лучше:
 
 > «В каком цвете вам приятнее видеть сад?»
 
 ---
 
-## 14. Colour and hierarchy
+## 14. Цвет и иерархия
 
-Garden should use colour sparingly for priority.
+Garden должен использовать цвет для приоритета экономно.
 
-Primary hierarchy should also use:
+Основная иерархия должна также использовать:
 
-- size;
-- position;
-- typography;
-- spacing;
-- shape;
-- depth;
-- motion.
+- размер;
+- позицию;
+- типографику;
+- отступы;
+- форму;
+- глубину;
+- движение.
 
-Otherwise the garden becomes:
+Иначе сад становится:
 
-- noisy;
-- difficult for colour-vision-diverse users;
-- emotionally overcoded;
-- interface-like rather than spatial.
-
----
-
-## 15. Colour and interaction
-
-### Focus
-
-- visible outline;
-- sufficient contrast;
-- not colour-only;
-- consistent across palettes.
-
-### Selection
-
-- outline + handle + label;
-- no ambiguous ambient glow alone.
-
-### Destructive action
-
-- label and confirmation;
-- icon;
-- position;
-- colour as secondary cue.
-
-### Safety
-
-Safety mode may use high contrast and direct structure, but red is not used as an emotional alarm unless the specific control convention requires it.
+- шумным;
+- трудным для пользователей с разнообразием цветового зрения;
+- эмоционально перекодированным;
+- похожим на интерфейс, а не на пространство.
 
 ---
 
-## 16. Colour and world history
+## 15. Цвет и взаимодействие
 
-Past rituals and archived objects should not be automatically faded to imply lesser value.
+### Фокус
 
-Archive can use:
+- видимый контур;
+- достаточный контраст;
+- не только цвет;
+- согласованность между палитрами.
 
-- changed context;
-- separate space;
-- label;
-- static presentation.
+### Выбор
 
-Not:
+- контур + маркер + подпись;
+- никакого одного неоднозначного фонового свечения.
 
-- grey = dead history.
+### Разрушительное действие
 
----
+- подпись и подтверждение;
+- иконка;
+- позиция;
+- цвет как вторичная подсказка.
 
-## 17. Colour and monetization
+### Безопасность
 
-Forbidden:
-
-- premium palettes being the only visually dignified options;
-- free garden deliberately dull;
-- rare colour as status ranking;
-- limited-time palette FOMO;
-- paywalling high-contrast or accessibility themes.
-
-Paid cosmetics may exist only after Alpha and separate ethical review.
-
-Accessibility and core aesthetic dignity stay available to all.
+Режим безопасности может использовать высокий контраст и прямую структуру, но красный не используется как эмоциональная тревога, если этого не требует конкретная условность элемента управления.
 
 ---
 
-## 18. Colour QA matrix
+## 16. Цвет и история мира
 
-Every palette must be tested for:
+Прошлые ритуалы и архивированные объекты не должны автоматически выцветать, подразумевая меньшую ценность.
 
-### Technical
+Архив может использовать:
 
-- WCAG text contrast;
-- non-text contrast;
-- focus visibility;
-- disabled-state comprehension;
-- colour-vision simulations;
-- light/dark system behavior.
+- изменённый контекст;
+- отдельное пространство;
+- подпись;
+- статичное представление.
 
-### Spatial
+Не:
 
-- full garden;
-- dense and empty scenes;
-- water;
-- paths;
-- object overlap;
-- day/night.
-
-### Human
-
-- preference;
-- ownership;
-- fatigue;
-- childishness;
-- cultural fit;
-- emotional overinterpretation;
-- readability;
-- glare.
-
-### Ethical
-
-- Does any colour imply success/failure?
-- Is a dark preference pathologized?
-- Does the palette create status?
-- Is accessible mode aesthetically inferior?
-- Is mood inferred?
+- серый = мёртвая история.
 
 ---
 
-## 19. Alpha experiments
+## 17. Цвет и монетизация
 
-### Experiment A — One canonical palette vs palette families
+Запрещено:
 
-Measure:
+- премиальные палитры как единственные визуально достойные варианты;
+- намеренно тусклый бесплатный сад;
+- редкий цвет как статусный рейтинг;
+- FOMO палитры ограниченного времени;
+- пейволл на высококонтрастные или доступные темы.
 
-- ownership;
-- beauty;
-- choice burden;
-- consistency;
-- cultural fit.
+Платная косметика может существовать только после Alpha и отдельного этического обзора.
 
-### Experiment B — Colour-coded lifecycle vs neutral lifecycle
-
-Compare:
-
-- coloured status;
-- label + shape + subtle colour.
-
-Measure moral interpretation and comprehension.
-
-### Experiment C — Light vs dark garden
-
-Test both without mood framing.
-
-### Experiment D — Saturation control
-
-Allow:
-
-- quiet;
-- balanced;
-- vivid.
-
-Do not name them by personality.
-
-### Experiment E — High-contrast dignity
-
-Test whether accessible variant feels like the same designed world rather than a technical fallback.
+Доступность и базовое эстетическое достоинство остаются доступными всем.
 
 ---
 
-## 20. Candidate colour-system principles
+## 18. Матрица контроля качества цвета
 
-1. Lightness before hue for hierarchy.
-2. Colour never acts alone.
-3. No moral colour coding.
-4. Palette families, not personality palettes.
-5. User preference before demographic inference.
-6. World colour and UI colour are separate systems.
-7. Full-scene testing over swatches.
-8. Dark and light worlds are equal.
-9. Accessibility themes remain beautiful.
-10. Saturation is a controllable resource.
-11. Archive is not automatically grey.
-12. No premium dignity or colour FOMO.
+Каждая палитра должна тестироваться на:
+
+### Техническое
+
+- контраст текста WCAG;
+- нетекстовый контраст;
+- видимость фокуса;
+- понимание состояния «отключено»;
+- симуляции цветового зрения;
+- поведение системы «светлая/тёмная».
+
+### Пространственное
+
+- полный сад;
+- плотные и пустые сцены;
+- вода;
+- пути;
+- перекрытие объектов;
+- день/ночь.
+
+### Человеческое
+
+- предпочтение;
+- владение;
+- усталость;
+- детскость;
+- культурное соответствие;
+- эмоциональную переинтерпретацию;
+- читаемость;
+- блики.
+
+### Этическое
+
+- Подразумевает ли какой-либо цвет успех/провал?
+- Патологизируется ли предпочтение тёмного?
+- Создаёт ли палитра статус?
+- Эстетически ли неполноценен доступный режим?
+- Выводится ли настроение?
 
 ---
 
-## 21. What Garden must not claim
+## 19. Эксперименты Alpha
 
-- green is universally calming;
-- blue universally builds trust;
-- red universally creates danger;
-- pastel palettes improve wellbeing;
-- a dark palette indicates sadness;
-- colour preference reveals personality;
-- cultural averages describe individuals;
-- accessible palettes are emotionally neutral;
-- digital colour effects reproduce real environmental effects.
+### Эксперимент A — Одна каноническая палитра против семейств палитр
+
+Измерять:
+
+- владение;
+- красоту;
+- нагрузку выбора;
+- согласованность;
+- культурное соответствие.
+
+### Эксперимент B — Цветовое кодирование жизненного цикла против нейтрального
+
+Сравнить:
+
+- цветной статус;
+- подпись + форма + едва заметный цвет.
+
+Измерять моральную интерпретацию и понимание.
+
+### Эксперимент C — Светлый против тёмного сада
+
+Тестировать оба без обрамления настроением.
+
+### Эксперимент D — Контроль насыщенности
+
+Разрешить:
+
+- тихую;
+- сбалансированную;
+- яркую.
+
+Не называть их по личности.
+
+### Эксперимент E — Достоинство высокого контраста
+
+Тестировать, ощущается ли доступный вариант тем же спроектированным миром, а не техническим запасным вариантом.
 
 ---
 
-## 22. Claim Registry
+## 20. Принципы-кандидаты цветовой системы
 
-| Claim | Confidence | Status |
+1. Светлота прежде тона для иерархии.
+2. Цвет никогда не действует один.
+3. Никакого морального цветового кодирования.
+4. Семейства палитр, а не палитры личности.
+5. Предпочтение пользователя прежде демографического вывода.
+6. Цвет мира и цвет UI — раздельные системы.
+7. Тестирование на полных сценах важнее образцов.
+8. Тёмные и светлые миры равны.
+9. Доступные темы остаются красивыми.
+10. Насыщенность — контролируемый ресурс.
+11. Архив не является автоматически серым.
+12. Никакого премиального достоинства или FOMO цвета.
+
+---
+
+## 21. Что Garden не должен заявлять
+
+- зелёный универсально успокаивает;
+- синий универсально вызывает доверие;
+- красный универсально создаёт опасность;
+- пастельные палитры улучшают благополучие;
+- тёмная палитра указывает на грусть;
+- предпочтение цвета раскрывает личность;
+- культурные средние описывают отдельных людей;
+- доступные палитры эмоционально нейтральны;
+- цифровые цветовые эффекты воспроизводят реальные средовые эффекты.
+
+---
+
+## 22. Реестр утверждений
+
+| Утверждение | Уверенность | Статус |
 |---|---:|---|
-| Perceived colour depends on hue, lightness/brightness, chroma/saturation and context | high | foundation |
-| Colour alone should convey UI meaning | rejected | accessibility boundary |
-| Colour-emotion associations show both recurring patterns and contextual/cultural variation | high | foundation |
-| Green universally calms users | low | rejected |
-| Pastel colours reliably reduce emotional arousal | low | rejected |
-| Colour preferences vary by object context | high | foundation |
-| Colour-vision diversity can alter preference and discrimination | high | foundation |
-| A single canonical palette will maximize belonging | unknown | Alpha question |
-| Palette choice can increase ownership | medium-low | product hypothesis |
-| Accessible variants can remain aesthetically strong | normative/design principle | required |
+| Воспринимаемый цвет зависит от тона, светлоты/яркости, насыщенности и контекста | высокая | основа |
+| Цвет в одиночку должен передавать смысл UI | отвергнуто | граница доступности |
+| Связи «цвет–эмоция» показывают и повторяющиеся паттерны, и контекстную/культурную вариативность | высокая | основа |
+| Зелёный универсально успокаивает пользователей | низкая | отвергнуто |
+| Пастельные цвета надёжно снижают эмоциональное возбуждение | низкая | отвергнуто |
+| Предпочтения цвета различаются по предметному контексту | высокая | основа |
+| Разнообразие цветового зрения может менять предпочтение и различение | высокая | основа |
+| Одна каноническая палитра максимизирует принадлежность | неизвестно | вопрос Alpha |
+| Выбор палитры может повышать владение | средняя–низкая | продуктовая гипотеза |
+| Доступные варианты могут оставаться эстетически сильными | нормативный/дизайнерский принцип | требуется |
 
 ---
 
-## 23. Verdict
+## 23. Вердикт
 
-Garden should not choose colours to control emotion.
+Garden не должен выбирать цвета, чтобы контролировать эмоцию.
 
-It should use colour to:
+Он должен использовать цвет, чтобы:
 
-- create a coherent world;
-- support perception;
-- make interaction visible;
-- allow aesthetic ownership;
-- express materials, light and atmosphere;
-- provide several dignified ways of seeing the same garden.
+- создавать связный мир;
+- поддерживать восприятие;
+- делать взаимодействие видимым;
+- позволять эстетическое владение;
+- выражать материалы, свет и атмосферу;
+- давать несколько достойных способов видеть один и тот же сад.
 
-> **The user chooses the colour of the world. Garden does not use that colour to decide what the user feels.**
+> **Пользователь выбирает цвет мира. Garden не использует этот цвет, чтобы решать, что пользователь чувствует.**
