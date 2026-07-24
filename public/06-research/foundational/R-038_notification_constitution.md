@@ -1,5 +1,5 @@
 ---
-title: "R-038 — Notification Constitution"
+title: "R-038 — Конституция уведомлений"
 status: accepted
 owner: "Research"
 updated: 2026-07-18
@@ -7,31 +7,31 @@ review_cycle: quarterly
 source_of_truth: false
 ---
 
-# R-038 — Notification Constitution
+# R-038 — Конституция уведомлений
 
-## Core question
-When may Garden interrupt a person?
+## Ключевой вопрос
+Когда Garden может прерывать человека?
 
-## Decision
-Garden is quiet by default. Interruption is exceptional.
+## Решение
+Garden тих по умолчанию. Прерывание — исключение.
 
-> A Garden may wait.
+> Garden может подождать.
 
-## Allowed categories
-1. User-requested reminders.
-2. Security-critical notices.
-3. Collaboration-critical notices.
-4. System failures requiring action.
+## Разрешённые категории
+1. Напоминания, запрошенные пользователем.
+2. Уведомления, критичные для безопасности.
+3. Уведомления, критичные для совместной работы.
+4. Системные сбои, требующие действия.
 
-## Rejected
-- “come back”;
-- inactivity warnings;
-- streak rescue;
-- “your Garden misses you”;
-- anniversary resurfacing;
-- feature promotion disguised as care.
+## Отвергнуто
+- «вернись»;
+- предупреждения о бездействии;
+- «спасение серии» (streak rescue);
+- «твой Garden скучает по тебе»;
+- всплывание годовщин;
+- продвижение функций под видом заботы.
 
-## Defaults
+## Значения по умолчанию
 ```yaml
 marketing: off
 return_prompts: off
@@ -41,31 +41,31 @@ badges: minimal
 security: required
 ```
 
-## Reminder language
-Use: “You asked to be reminded about Evening Reading.”
-Reject: “Do not break your rhythm.”
+## Язык напоминаний
+Использовать: «Вы просили напомнить о „Вечернем чтении“».
+Отвергнуть: «Не сбивай свой ритм».
 
 ## Trigger Round
 ```yaml
 trigger_round:
-  problem: notifications turn care into pressure
+  problem: уведомления превращают заботу в давление
   selected_cards:
-    - Human-centric: protect attention
-    - Naming: state why the message exists
-    - Innovation: make silence default
+    - Human-centric: защитить внимание
+    - Naming: указать, зачем существует сообщение
+    - Innovation: сделать молчание значением по умолчанию
   generated_hypotheses:
-    - reminders should show provenance
-    - reminders should expire rather than accumulate
+    - напоминания должны показывать происхождение
+    - напоминания должны истекать, а не накапливаться
   conflicts_with_garden:
-    - guilt
-    - anthropomorphic pressure
+    - вина
+    - антропоморфное давление
   experiments:
-    - reminder provenance label
-    - quiet onboarding
+    - метка происхождения напоминания
+    - тихий онбординг
   rejected_directions:
-    - re-engagement campaigns
-    - emotional push copy
+    - кампании повторного вовлечения
+    - эмоциональный текст push-уведомлений
 ```
 
-## Principle
-Garden interrupts only when the person asked, safety requires it, or another explicit action needs acknowledgment.
+## Принцип
+Garden прерывает только тогда, когда человек попросил, этого требует безопасность или другое явное действие нуждается в подтверждении.

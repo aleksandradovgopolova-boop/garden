@@ -11,20 +11,20 @@ wowrepo:
   visibility: public
 ---
 # Garden
-A private digital place a person can shape, leave and return to without pressure, ranking or autonomous AI control.
+Личное цифровое место, которое человек может обустраивать, покидать и в которое может возвращаться — без давления, ранжирования и автономного управления со стороны ИИ.
 
-Garden is not a productivity system, social network, knowledge graph or simulated pet. It is a place that remains yours.
+Garden — это не система продуктивности, не социальная сеть, не граф знаний и не виртуальный питомец. Это место, которое остаётся вашим.
 
-## Begin here
-1. [What Garden is](01-introduction/what-is-garden.md)
-2. [Why Garden exists](01-introduction/why-garden-exists.md)
-3. [Garden Constitution](02-philosophy/garden-constitution.md)
-4. [Product principles](03-principles/product-principles.md)
-5. [Product boundaries](03-principles/product-boundaries.md)
-6. [The world of Garden](04-world/world-of-garden.md)
-7. [Garden Atlas](05-atlas/garden-atlas.md)
-8. [Research](06-research/research-index.md)
-9. [Roadmap](07-roadmap/roadmap.md)
-10. [FAQ](08-faq/faq.md)
+## Начните отсюда
+1. [Что такое Garden](01-introduction/what-is-garden.md)
+2. [Зачем существует Garden](01-introduction/why-garden-exists.md)
+3. [Конституция Garden](02-philosophy/garden-constitution.md)
+4. [Принципы продукта](03-principles/product-principles.md)
+5. [Границы продукта](03-principles/product-boundaries.md)
+6. [Мир Garden](04-world/world-of-garden.md)
+7. [Атлас Garden](05-atlas/garden-atlas.md)
+8. [Исследования](06-research/research-index.md)
+9. [Дорожная карта](07-roadmap/roadmap.md)
+10. [Частые вопросы](08-faq/faq.md)
 
-This directory is Garden's public website rendered by WowRepo. Internal product, engineering and delivery material is intentionally excluded.
+Этот каталог — публичный сайт Garden, отображаемый через WowRepo. Внутренние материалы по продукту, инженерии и поставке намеренно исключены.

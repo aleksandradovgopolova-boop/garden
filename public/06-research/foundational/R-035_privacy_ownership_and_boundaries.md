@@ -1,5 +1,5 @@
 ---
-title: "R-035 — Privacy, Ownership and Boundaries"
+title: "R-035 — Приватность, владение и границы"
 status: accepted
 owner: "Research"
 updated: 2026-07-18
@@ -7,26 +7,26 @@ review_cycle: quarterly
 source_of_truth: false
 ---
 
-# R-035 — Privacy, Ownership and Boundaries
+# R-035 — Приватность, владение и границы
 
-## Core question
-Who owns a Garden, who may enter it, and what rights remain with the person?
+## Ключевой вопрос
+Кому принадлежит Garden, кто может в него войти и какие права остаются у человека?
 
-## Decision
-Garden is private by default. Access is explicit, bounded and revocable.
+## Решение
+Garden приватен по умолчанию. Доступ явный, ограниченный и отзываемый.
 
-> Private by default. Shared by explicit choice. Revocable at any time.
+> Приватно по умолчанию. Общий доступ — по явному выбору. Отзываемо в любой момент.
 
-## Separate rights
-- account ownership;
-- Garden ownership;
-- entity authorship;
-- data custody;
-- access;
-- export;
-- deletion.
+## Раздельные права
+- владение аккаунтом;
+- владение Garden;
+- авторство сущностей;
+- хранение данных (custody);
+- доступ;
+- экспорт;
+- удаление.
 
-## Alpha defaults
+## Значения по умолчанию в Alpha
 ```yaml
 garden: private
 place: inherits_garden
@@ -36,39 +36,39 @@ ai_processing: only_after_explicit_request
 sharing: off
 ```
 
-## AI boundary
-AI receives only the context necessary for the current request. No full-Garden scan, background emotional profiling or silent reuse of unrelated memories.
+## Граница ИИ
+ИИ получает только контекст, необходимый для текущего запроса. Никакого сканирования всего Garden, фонового эмоционального профилирования или молчаливого повторного использования не связанных с запросом воспоминаний.
 
-## Deletion
-The interface distinguishes removing a relation, archiving an entity, deleting an entity, erasing personal data and closing an account.
+## Удаление
+Интерфейс различает удаление связи, архивирование сущности, удаление сущности, стирание персональных данных и закрытие аккаунта.
 
-## Enterprise disclosure
-Enterprise deployments must disclose infrastructure operator, log access, retention, AI provider, training policy, administrator powers and legal-hold behavior.
+## Раскрытие для организаций
+Корпоративные развёртывания должны раскрывать оператора инфраструктуры, доступ к логам, срок хранения, поставщика ИИ, политику обучения, полномочия администратора и поведение при юридическом удержании (legal hold).
 
 ## Trigger Round
 ```yaml
 trigger_round:
-  problem: privacy can become an empty settings promise
+  problem: приватность может стать пустым обещанием в настройках
   selected_cards:
-    - Human-centric: give control back
-    - Business Design: define the actual owner
-    - Innovation: make revocation first-class
-    - Naming: use literal permission names
+    - Human-centric: вернуть контроль человеку
+    - Business Design: определить фактического владельца
+    - Innovation: сделать отзыв доступа первоклассной функцией
+    - Naming: использовать буквальные названия разрешений
   generated_hypotheses:
-    - privacy must be visible in ordinary flows
-    - AI context selection should be inspectable
+    - приватность должна быть видна в обычных потоках
+    - выбор контекста для ИИ должен быть проверяемым
   conflicts_with_garden:
-    - public by default
-    - implied consent
-    - silent administrator access
+    - публичность по умолчанию
+    - подразумеваемое согласие
+    - молчаливый доступ администратора
   experiments:
-    - permission comprehension
-    - revoke access
-    - AI context preview
+    - понимание разрешений
+    - отзыв доступа
+    - предпросмотр контекста ИИ
   rejected_directions:
-    - social discovery
-    - irreversible sharing
+    - социальное обнаружение
+    - необратимый обмен
 ```
 
-## Principle
-Privacy is not a mode. It is the starting condition of Garden.
+## Принцип
+Приватность — не режим. Это стартовое условие Garden.

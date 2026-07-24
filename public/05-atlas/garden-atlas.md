@@ -1,5 +1,5 @@
 ---
-title: "Garden Atlas"
+title: "Атлас Garden"
 status: accepted
 owner: "Product"
 updated: 2026-07-18
@@ -7,115 +7,115 @@ review_cycle: quarterly
 source_of_truth: true
 ---
 
-# Garden Atlas
+# Атлас Garden
 
-Conceptual guide. Active requirements remain in Product, Design and Engineering.
+Концептуальный путеводитель. Действующие требования остаются в разделах «Продукт», «Дизайн» и «Инженерия».
 
 ---
 
-## Imported source: `atlas_index_v0_1.md`
+## Импортированный источник: `atlas_index_v0_1.md`
 
-# Garden Atlas Index v0.1
+# Индекс Атласа Garden v0.1
 
-## Beauty
-- B-001 — Beauty of Place
+## Красота
+- B-001 — Красота Места
 
-## Places
-- pending R-020+
+## Места
+- ожидается R-020+
 
-## Plants / Trees / Water / Light / Weather / Materials / Animals / Sounds / Architecture / Objects / Time and Seasons
-- pending
+## Растения / Деревья / Вода / Свет / Погода / Материалы / Животные / Звуки / Архитектура / Объекты / Время и сезоны
+- ожидается
 
-## Rituals
-- link existing R-006 materials
+## Ритуалы
+- связать с существующими материалами R-006
 
-## Memory
-- link existing R-010/R-012 materials
-
-
-## Places — R-020
-
-- P-001 persian garden
-- P-002 chinese scholar garden
-- P-003 japanese garden traditions
-- P-004 medieval enclosed garden
-- P-005 formal garden
-- P-006 english landscape garden
-- P-007 public garden
-- P-008 domestic garden
+## Память
+- связать с существующими материалами R-010/R-012
 
 
-## Colour — R-021
+## Места — R-020
 
-- C-001 — Colour System
-
-
-## Light — R-022
-
-- L-001 — Light System
-
-
-## Materials — R-023
-
-- M-001 — Material Language
+- P-001 персидский сад
+- P-002 китайский сад учёного
+- P-003 японские садовые традиции
+- P-004 средневековый закрытый сад
+- P-005 регулярный (формальный) сад
+- P-006 английский пейзажный сад
+- P-007 публичный сад
+- P-008 домашний сад
 
 
-## Time and Seasons — R-024
+## Цвет — R-021
 
-- T-001 — Time and Seasons
-
-
-## Animals — R-025
-
-- A-001 — Ambient Living Beings
+- C-001 — Система цвета
 
 
-## Sounds — R-026
+## Свет — R-022
 
-- S-001 — Sound and Silence
-
-
-## Objects — R-027
-
-- O-001 — Object and Place Architecture
+- L-001 — Система света
 
 
-## Places — R-028
+## Материалы — R-023
 
-- PL-001 — How Places Form
-
-
-## World Evolution — R-029
-
-- W-002 — World Evolution
+- M-001 — Язык материалов
 
 
-## Navigation — R-030
+## Время и сезоны — R-024
 
-- N-001 — Navigation and Return
-
-
-## Authoring — R-031
-
-- AU-001 — Authoring and AI Co-creation
+- T-001 — Время и сезоны
 
 
-## Rituals — R-032
+## Животные — R-025
 
-- RIT-001 — Rituals, Habits and Freedom
-
-
-## Memory — R-033
-
-- MEM-001 — Memory and the Right to Silence
+- A-001 — Фоновые живые существа
 
 
-## Context — R-034
+## Звуки — R-026
 
-- CTX-001 — Context Without a Graph
+- S-001 — Звук и тишина
 
 
-## Package 09
+## Объекты — R-027
+
+- O-001 — Архитектура объекта и места
+
+
+## Места — R-028
+
+- PL-001 — Как формируются места
+
+
+## Эволюция мира — R-029
+
+- W-002 — Эволюция мира
+
+
+## Навигация — R-030
+
+- N-001 — Навигация и возвращение
+
+
+## Авторство — R-031
+
+- AU-001 — Авторство и сотворчество с ИИ
+
+
+## Ритуалы — R-032
+
+- RIT-001 — Ритуалы, привычки и свобода
+
+
+## Память — R-033
+
+- MEM-001 — Память и право на молчание
+
+
+## Контекст — R-034
+
+- CTX-001 — Контекст без графа
+
+
+## Пакет 09
 - PRV-001
 - PRS-001
 - EMO-001
@@ -125,572 +125,572 @@ Conceptual guide. Active requirements remain in Product, Design and Engineering.
 
 ---
 
-## Imported source: `B-001_beauty_of_place.md`
+## Импортированный источник: `B-001_beauty_of_place.md`
 
-# Atlas B-001 — Beauty of Place
+# Атлас B-001 — Красота Места
 
 **ID:** B-001  
-**Раздел:** Beauty  
+**Раздел:** Красота  
 **Статус:** `design hypothesis set`  
 **Последнее обновление:** 16 июля 2026
 
-## Core model
+## Базовая модель
 
-A place may feel beautiful when it balances:
+Место может ощущаться красивым, когда оно уравновешивает:
 
-- coherence;
-- complexity;
-- legibility;
-- mystery;
-- familiarity;
-- personal authorship;
-- sensory congruence.
+- связность;
+- сложность;
+- считываемость;
+- тайну;
+- знакомость;
+- личное авторство;
+- сенсорную согласованность.
 
-## Garden decision candidates
+## Кандидаты продуктовых решений Garden
 
-- asymmetrical balance;
-- coherent but incomplete starting garden;
-- complexity grows mainly through user choices;
-- mystery without FOMO;
-- no universal cultural aesthetic claims;
-- ownership measured separately from first-impression beauty.
+- асимметричный баланс;
+- связный, но незавершённый стартовый сад;
+- сложность растёт в основном через выбор пользователя;
+- тайна без FOMO;
+- никаких претензий на универсальную культурную эстетику;
+- владение оценивается отдельно от красоты первого впечатления.
 
-## Open questions
+## Открытые вопросы
 
-- How much empty space feels inviting?
-- Which styles feel childish or adult?
-- How much motion creates life without distraction?
-- Does authorship compensate for lower polish?
+- Сколько пустого пространства ощущается приглашающим?
+- Какие стили ощущаются детскими, а какие — взрослыми?
+- Сколько движения создаёт жизнь без отвлечения?
+- Компенсирует ли авторство меньшую отточенность?
 
 ---
 
-## Imported source: `C-001_colour_system.md`
+## Импортированный источник: `C-001_colour_system.md`
 
-# Atlas C-001 — Colour System
+# Атлас C-001 — Система цвета
 
 **ID:** C-001  
-**Раздел:** Beauty / Light  
+**Раздел:** Красота / Свет  
 **Статус:** `design principles`
 
-## Dimensions
+## Измерения
 
-- hue;
-- lightness;
-- chroma;
-- contrast;
-- surround;
-- material;
-- illumination;
-- object context.
+- тон (hue);
+- светлота;
+- насыщенность (chroma);
+- контраст;
+- окружение;
+- материал;
+- освещение;
+- контекст объекта.
 
-## Accepted candidates
+## Принятые кандидаты
 
-- no moral colour coding;
-- palette families;
-- user-selected intensity;
-- equal-status light and dark worlds;
-- accessible high-contrast theme;
-- semantic tokens separated between UI and world;
-- colour plus shape/label/icon.
+- никакого морального цветового кодирования;
+- семейства палитр;
+- выбираемая пользователем интенсивность;
+- равностатусные светлый и тёмный миры;
+- доступная высококонтрастная тема;
+- семантические токены, разделённые между UI и миром;
+- цвет плюс форма/подпись/иконка.
 
-## Open
+## Открыто
 
-- canonical default palette;
-- number of palette families;
-- whether world palette may vary by place;
-- relationship between light engine and palette;
-- safe monetization of cosmetics.
-
----
-
-## Imported source: `W-002_world_evolution.md`
-
-# Atlas W-002 — World Evolution
-
-## Change classes
-
-- perceptual;
-- ambient;
-- reversible configuration;
-- user-authored persistent;
-- history;
-- system-authored persistent.
-
-## Alpha modes
-
-- Stable;
-- Living;
-- Curated;
-- Manual;
-- Frozen.
-
-## Boundaries
-
-- no autonomous growth;
-- no decay;
-- no absence effects;
-- no silent redesign;
-- persistent change requires authorship;
-- snapshots, variants and change log.
+- каноническая палитра по умолчанию;
+- число семейств палитр;
+- может ли палитра мира различаться по местам;
+- связь между движком света и палитрой;
+- безопасная монетизация косметики.
 
 ---
 
-## Imported source: `P-001_persian_garden.md`
+## Импортированный источник: `W-002_world_evolution.md`
 
-# Atlas P-001 — Persian Garden: Water, Order and Enclosure
+# Атлас W-002 — Эволюция мира
+
+## Классы изменений
+
+- перцептивные;
+- фоновые (ambient);
+- обратимая конфигурация;
+- пользовательские постоянные;
+- история;
+- постоянные, созданные системой.
+
+## Режимы Alpha
+
+- Стабильный;
+- Живой;
+- Кураторский;
+- Ручной;
+- Замороженный.
+
+## Границы
+
+- никакого автономного роста;
+- никакого увядания;
+- никаких эффектов отсутствия;
+- никакого молчаливого редизайна;
+- постоянное изменение требует авторства;
+- снимки (snapshots), варианты и журнал изменений.
+
+---
+
+## Импортированный источник: `P-001_persian_garden.md`
+
+# Атлас P-001 — Персидский сад: вода, порядок и ограда
 
 **Статус:** evidence + design implications
 
-## Core
+## Суть
 
-- four-part organization appears prominently across Persian-garden history;
-- water serves irrigation, ornament, sound and spatial order;
-- the garden can function as an image of a protected ideal world;
-- the tradition adapted across climates and historical periods.
+- четырёхчастная организация заметно проявляется на протяжении истории персидского сада;
+- вода служит орошению, украшению, звуку и пространственному порядку;
+- сад может выступать образом защищённого идеального мира;
+- традиция адаптировалась к разным климатам и историческим периодам.
 
-## Garden may learn
+## Чему Garden может научиться
 
-- water as infrastructure and atmosphere;
-- coherent whole;
-- protected interior;
-- paths and channels as spatial grammar.
+- вода как инфраструктура и атмосфера;
+- связное целое;
+- защищённое внутреннее пространство;
+- дорожки и каналы как пространственная грамматика.
 
-## Garden must not copy
+## Что Garden не должен копировать
 
-- Paradise symbolism without context;
-- mandatory four-part layout;
-- religious cosmology as generic wellness;
-- Persian identity as decorative theme.
+- символику Рая без контекста;
+- обязательную четырёхчастную планировку;
+- религиозную космологию как обобщённый wellness;
+- персидскую идентичность как декоративную тему.
 
 ---
 
-## Imported source: `P-002_chinese_scholar_garden.md`
+## Импортированный источник: `P-002_chinese_scholar_garden.md`
 
-# Atlas P-002 — Chinese Scholar Garden: Movement and Named Views
+# Атлас P-002 — Китайский сад учёного: движение и именованные виды
 
 **Статус:** evidence + design implications
 
-## Core
+## Суть
 
-- gardens can operate as miniature landscapes;
-- rocks, water, paths, pavilions, painting, poetry and calligraphy form one cultural system;
-- views unfold through movement;
-- places may have names and inscriptions.
+- сады могут действовать как миниатюрные ландшафты;
+- камни, вода, дорожки, павильоны, живопись, поэзия и каллиграфия образуют единую культурную систему;
+- виды раскрываются через движение;
+- места могут иметь имена и надписи.
 
-## Garden may learn
+## Чему Garden может научиться
 
-- place-first architecture;
-- named viewpoints;
-- partial revelation;
-- integration of text and space;
-- world understood over time.
+- архитектура «место прежде всего»;
+- именованные точки обзора;
+- частичное раскрытие;
+- интеграция текста и пространства;
+- мир, постигаемый со временем.
 
-## Garden must not copy
+## Что Garden не должен копировать
 
-- scholar-garden symbols as neutral decoration;
-- Daoist/Confucian meanings without context;
-- exoticized rocks, roofs or calligraphy.
+- символы сада учёного как нейтральный декор;
+- даосские/конфуцианские смыслы без контекста;
+- экзотизированные камни, крыши или каллиграфию.
 
 ---
 
-## Imported source: `P-003_japanese_garden_traditions.md`
+## Импортированный источник: `P-003_japanese_garden_traditions.md`
 
-# Atlas P-003 — Japanese Garden Traditions: Path, Frame and Season
+# Атлас P-003 — Японские садовые традиции: путь, кадр и сезон
 
 **Статус:** evidence + design implications
 
-## Core
+## Суть
 
-Japanese garden traditions are plural. Temple rock gardens, tea gardens, stroll gardens and seasonal viewing spaces serve different purposes.
+Японские садовые традиции множественны. Храмовые сады камней, чайные сады, сады для прогулок и пространства для сезонного любования служат разным целям.
 
-## Garden may learn
+## Чему Garden может научиться
 
-- threshold before focused activity;
-- emptiness;
-- framing;
-- sequence;
-- temporary display;
-- seasonality without score.
+- порог перед сосредоточенным действием;
+- пустота;
+- кадрирование;
+- последовательность;
+- временный показ;
+- сезонность без оценки.
 
-## Garden must not copy
+## Что Garden не должен копировать
 
-- “Zen” as generic minimalism;
-- rock garden as universal calm symbol;
-- tea ritual stripped of discipline and history;
-- Japanese aesthetics as default humane design.
+- «дзен» как обобщённый минимализм;
+- сад камней как универсальный символ спокойствия;
+- чайный ритуал, лишённый дисциплины и истории;
+- японскую эстетику как гуманный дизайн «по умолчанию».
 
 ---
 
-## Imported source: `P-004_medieval_enclosed_garden.md`
+## Импортированный источник: `P-004_medieval_enclosed_garden.md`
 
-# Atlas P-004 — Medieval Enclosed Garden: Shelter and Use
+# Атлас P-004 — Средневековый закрытый сад: укрытие и польза
 
 **Статус:** evidence + design implications
 
-## Core
+## Суть
 
-- enclosed courtyards provided protected open-air space;
-- gardens combined rest, practical plants, symbolism and institutional life;
-- reconstructions remain partly interpretive.
+- закрытые дворы давали защищённое пространство под открытым небом;
+- сады сочетали отдых, полезные растения, символику и институциональную жизнь;
+- реконструкции остаются отчасти интерпретативными.
 
-## Garden may learn
+## Чему Garden может научиться
 
-- small protected scale;
-- rest places;
-- practical and beautiful together;
-- interior courtyard as one place type.
+- малый защищённый масштаб;
+- места отдыха;
+- практичное и красивое вместе;
+- внутренний двор как один из типов места.
 
-## Garden must not copy
+## Что Garden не должен копировать
 
-- monastic discipline;
-- religious symbolism without context;
-- enclosure as digital isolation.
+- монашескую дисциплину;
+- религиозную символику без контекста;
+- ограду как цифровую изоляцию.
 
 ---
 
-## Imported source: `P-005_formal_garden.md`
+## Импортированный источник: `P-005_formal_garden.md`
 
-# Atlas P-005 — Formal Garden: Axis, Power and Spectacle
+# Атлас P-005 — Регулярный сад: ось, власть и зрелище
 
 **Статус:** evidence + critical design reference
 
-## Core
+## Суть
 
-Formal gardens use geometry, axes, water, sculpture and controlled views to demonstrate order and often power.
+Регулярные сады используют геометрию, оси, воду, скульптуру и управляемые виды, чтобы демонстрировать порядок и нередко власть.
 
-## Garden may learn
+## Чему Garden может научиться
 
-- coherent composition;
-- spatial rooms;
-- strong sightlines;
-- integration of landscape and architecture.
+- связная композиция;
+- пространственные «комнаты»;
+- сильные линии обзора;
+- интеграция ландшафта и архитектуры.
 
-## Garden rejects
+## Что Garden отвергает
 
-- one correct order;
-- user as guest in designer-owned world;
-- hierarchy as human value;
-- beauty as obedience.
+- единственно «правильный» порядок;
+- пользователь как гость в мире, принадлежащем дизайнеру;
+- иерархию как человеческую ценность;
+- красоту как послушание.
 
 ---
 
-## Imported source: `P-006_english_landscape_garden.md`
+## Импортированный источник: `P-006_english_landscape_garden.md`
 
-# Atlas P-006 — English Landscape Garden: Constructed Naturalness
+# Атлас P-006 — Английский пейзажный сад: сконструированная естественность
 
 **Статус:** evidence + critical design reference
 
-## Core
+## Суть
 
-Apparently natural views were created through extensive design and land transformation.
+Внешне естественные виды создавались через обширное проектирование и преобразование земли.
 
-## Garden may learn
+## Чему Garden может научиться
 
-- asymmetrical balance;
-- soft boundaries;
-- sequence of views;
-- hidden technical infrastructure.
+- асимметричный баланс;
+- мягкие границы;
+- последовательность видов;
+- скрытая техническая инфраструктура.
 
-## Garden rejects
+## Что Garden отвергает
 
-- pretending design is neutral nature;
-- hiding power and constraints;
-- presenting elite landscape as universal comfort.
+- выдавать дизайн за нейтральную природу;
+- скрывать власть и ограничения;
+- представлять элитарный ландшафт как универсальный комфорт.
 
 ---
 
-## Imported source: `P-007_public_garden.md`
+## Импортированный источник: `P-007_public_garden.md`
 
-# Atlas P-007 — Public Garden: Access and Belonging
+# Атлас P-007 — Публичный сад: доступ и принадлежность
 
 **Статус:** open research seed
 
-## Core questions
+## Ключевые вопросы
 
-- Who may enter?
-- Who feels watched?
-- Who sets rules?
-- Can a person stay without spending?
-- Can people be present without performing?
+- Кто может войти?
+- Кто чувствует себя под наблюдением?
+- Кто устанавливает правила?
+- Может ли человек оставаться, ничего не тратя?
+- Могут ли люди присутствовать, не «выступая»?
 
-## Garden implication
+## Следствие для Garden
 
-Future social spaces require access, moderation, privacy and the right to remain peripheral.
+Будущие социальные пространства требуют доступа, модерации, приватности и права оставаться на периферии.
 
 ---
 
-## Imported source: `P-008_domestic_garden.md`
+## Импортированный источник: `P-008_domestic_garden.md`
 
-# Atlas P-008 — Domestic Garden: Everyday Care and Memory
+# Атлас P-008 — Домашний сад: повседневная забота и память
 
 **Статус:** open research seed
 
-## Core
+## Суть
 
-Everyday gardens may combine utility, family memory, food, improvisation, cultural continuity and modest beauty.
+Повседневные сады могут сочетать пользу, семейную память, еду, импровизацию, культурную преемственность и скромную красоту.
 
-## Garden may learn
+## Чему Garden может научиться
 
-- small scale;
-- ordinary objects;
-- mixed utility and beauty;
-- imperfect authorship;
-- personal history over prestige.
+- малый масштаб;
+- обыденные объекты;
+- смешение пользы и красоты;
+- несовершенное авторство;
+- личная история важнее престижа.
 
-## Open
+## Открыто
 
-More research is needed beyond elite and canonical garden histories.
+Нужны исследования за пределами элитарных и канонических историй садов.
 
 ---
 
-## Imported source: `L-001_light_system.md`
+## Импортированный источник: `L-001_light_system.md`
 
-# Atlas L-001 — Light System
+# Атлас L-001 — Система света
 
 **ID:** L-001  
-**Раздел:** Light  
+**Раздел:** Свет  
 **Статус:** `design principles`
 
-## Functions
+## Функции
 
-- spatial depth;
-- material readability;
-- atmosphere;
-- time;
-- focus;
-- accessibility.
+- пространственная глубина;
+- считываемость материалов;
+- атмосфера;
+- время;
+- фокус;
+- доступность.
 
-## Accepted candidates
+## Принятые кандидаты
 
-- separate world/UI light;
-- user-selectable scenes;
-- optional local-time mode;
-- full night usability;
-- static and reduced-motion modes;
-- user-owned local lights;
-- no moral state mapping.
+- раздельный свет мира/UI;
+- выбираемые пользователем сцены;
+- опциональный режим локального времени;
+- полная пригодность к использованию ночью;
+- статичный режим и режим с уменьшенным движением;
+- локальные источники света, принадлежащие пользователю;
+- никакого отображения «морального состояния».
 
-## Open
+## Открыто
 
-- default scene;
-- scene-transition duration;
-- HDR support;
-- fictional vs local-time cycle;
-- number of local lights in Alpha.
+- сцена по умолчанию;
+- длительность перехода между сценами;
+- поддержка HDR;
+- вымышленный цикл или цикл по локальному времени;
+- число локальных источников света в Alpha.
 
 ---
 
-## Imported source: `M-001_material_language.md`
+## Импортированный источник: `M-001_material_language.md`
 
-# Atlas M-001 — Material Language
+# Атлас M-001 — Язык материалов
 
 **ID:** M-001  
-**Раздел:** Materials  
+**Раздел:** Материалы  
 **Статус:** `design principles`
 
-## Core dimensions
+## Основные измерения
 
-- roughness;
-- gloss;
-- softness;
-- hardness;
-- transparency;
-- weight;
-- movement;
-- temperature association;
-- age;
-- sound;
-- contextual expectation.
+- шероховатость;
+- глянец;
+- мягкость;
+- твёрдость;
+- прозрачность;
+- вес;
+- движение;
+- ассоциация с температурой;
+- возраст;
+- звук;
+- контекстное ожидание.
 
-## Candidate material families
+## Кандидаты семейств материалов
 
-### Primary
+### Первичные
 
-- soil;
-- wood;
-- stone;
-- water;
-- vegetation.
+- почва;
+- дерево;
+- камень;
+- вода;
+- растительность.
 
-### Secondary
+### Вторичные
 
-- ceramic;
-- fabric;
-- metal;
-- paper;
-- glass.
+- керамика;
+- ткань;
+- металл;
+- бумага;
+- стекло.
 
-## Accepted candidates
+## Принятые кандидаты
 
-- materially legible stylisation;
-- behaviour before microdetail;
-- user-authored patina;
-- no decay after absence;
-- progressive fidelity;
-- material labels for accessibility.
+- материально считываемая стилизация;
+- поведение прежде микродетализации;
+- патина, создаваемая пользователем;
+- никакого увядания после отсутствия;
+- прогрессивная детализация;
+- подписи материалов для доступности.
 
-## Open
+## Открыто
 
-- exact rendering style;
-- material palette families;
-- whether users can mix all materials freely;
-- repair mechanics;
-- environmental footprint measurement.
+- точный стиль рендеринга;
+- семейства палитр материалов;
+- могут ли пользователи свободно смешивать все материалы;
+- механика починки;
+- измерение экологического следа.
 
 ---
 
-## Imported source: `A-001_ambient_living_beings.md`
+## Импортированный источник: `A-001_ambient_living_beings.md`
 
-# Atlas A-001 — Ambient Living Beings
+# Атлас A-001 — Фоновые живые существа
 
 **Статус:** design principles
 
-## Alpha accepts
+## Alpha принимает
 
-- ambient wildlife;
-- limited recurring visitor experiments.
+- фоновую живность;
+- ограниченные эксперименты с повторяющимися гостями.
 
-## Alpha excludes
+## Alpha исключает
 
-- digital pets;
-- care;
-- hunger;
-- death;
-- speaking animals;
-- collection economy;
-- rarity;
-- AI animal persona.
+- цифровых питомцев;
+- уход;
+- голод;
+- смерть;
+- говорящих животных;
+- экономику коллекционирования;
+- редкость;
+- ИИ-персону животного.
 
-## Candidate creatures
+## Кандидаты-существа
 
-- fictional small bird;
-- fish;
-- butterfly or moth;
-- frog.
+- вымышленная маленькая птица;
+- рыба;
+- бабочка или мотылёк;
+- лягушка.
 
-## Controls
+## Управление
 
-- on/off;
-- density;
-- sound;
-- motion;
-- insects separately.
+- вкл/выкл;
+- плотность;
+- звук;
+- движение;
+- насекомые отдельно.
 
-> Life may exist without belonging to the user.
+> Жизнь может существовать, не принадлежа пользователю.
 
 ---
 
-## Imported source: `S-001_sound_and_silence.md`
+## Импортированный источник: `S-001_sound_and_silence.md`
 
-# Atlas S-001 — Sound and Silence
+# Атлас S-001 — Звук и тишина
 
 **ID:** S-001  
-**Раздел:** Sounds  
+**Раздел:** Звуки  
 **Статус:** `design principles`
 
-## Layers
+## Слои
 
-- ambient soundscape;
-- music;
-- interaction sounds;
-- accessibility audio.
+- фоновый звуковой ландшафт;
+- музыка;
+- звуки взаимодействия;
+- аудио для доступности.
 
-## Alpha modes
+## Режимы Alpha
 
-- Silent;
-- Minimal;
-- Living;
-- Custom.
+- Тихий;
+- Минимальный;
+- Живой;
+- Пользовательский.
 
-## Accepted candidates
+## Принятые кандидаты
 
-- sound off remains complete;
-- independent layer controls;
-- no obvious short loops;
-- no music by default in review;
-- no animal calls for attention;
-- material interaction sounds;
-- assistive speech priority;
-- no microphone analysis.
+- при выключенном звуке опыт остаётся полным;
+- независимое управление слоями;
+- никаких очевидных коротких зацикленностей;
+- никакой музыки по умолчанию в режиме review;
+- никаких криков животных ради привлечения внимания;
+- звуки взаимодействия с материалами;
+- приоритет вспомогательной речи;
+- никакого анализа микрофона.
 
-## Open
+## Открыто
 
-- default density;
-- whether optional music belongs in Alpha;
-- spatial audio after Alpha;
-- user-imported sound;
-- safe procedural sound generation.
+- плотность по умолчанию;
+- уместна ли опциональная музыка в Alpha;
+- пространственное аудио после Alpha;
+- импортируемый пользователем звук;
+- безопасная процедурная генерация звука.
 
 ---
 
-## Imported source: `PL-001_how_places_form.md`
+## Импортированный источник: `PL-001_how_places_form.md`
 
-# Atlas PL-001 — How Places Form
+# Атлас PL-001 — Как формируются места
 
 **ID:** PL-001  
-**Раздел:** Places  
+**Раздел:** Места  
 **Статус:** `design principles`
 
-## Place components
+## Компоненты места
 
-- boundary;
-- center;
-- path;
-- view;
-- refuge;
-- landmark;
-- atmosphere;
-- use;
-- history.
+- граница;
+- центр;
+- путь;
+- вид;
+- убежище;
+- ориентир;
+- атмосфера;
+- использование;
+- история.
 
-## Alpha templates
+## Шаблоны Alpha
 
-- Open clearing;
-- Sheltered edge;
-- Water place;
-- Workshop;
-- Crossing;
-- Empty ground.
+- Открытая поляна;
+- Защищённый край;
+- Место у воды;
+- Мастерская;
+- Перекрёсток;
+- Пустая земля.
 
-## Accepted candidates
+## Принятые кандидаты
 
-- attachment is not a KPI;
-- emptiness is legitimate;
-- naming is optional;
-- direct navigation always exists;
-- visual and data privacy are distinct;
-- templates describe spatial qualities, not personality;
-- place lifecycle is user-controlled;
-- places private in Alpha.
+- привязанность — не KPI;
+- пустота легитимна;
+- именование опционально;
+- прямая навигация существует всегда;
+- визуальная приватность и приватность данных различны;
+- шаблоны описывают пространственные качества, а не личность;
+- жизненный цикл места контролируется пользователем;
+- места приватны в Alpha.
 
-## Open
+## Открыто
 
-- default starting place;
-- ritual-first vs place-first;
-- place size limits;
-- later shared places;
-- map and navigation model.
+- стартовое место по умолчанию;
+- «ритуал прежде всего» или «место прежде всего»;
+- ограничения размера места;
+- позднее — общие места;
+- модель карты и навигации.
 
 ---
 
-## Imported source: `O-001_object_and_place_architecture.md`
+## Импортированный источник: `O-001_object_and_place_architecture.md`
 
-# Atlas O-001 — Object and Place Architecture
+# Атлас O-001 — Архитектура объекта и места
 
 **ID:** O-001  
-**Раздел:** Objects / Architecture  
+**Раздел:** Объекты / Архитектура  
 **Статус:** design principles
 
 ## Семейства
 
-- rest;
-- passage;
-- orientation;
-- gathering;
-- containment;
-- observation;
-- memory;
-- atmosphere.
+- отдых;
+- проход;
+- ориентация;
+- сбор;
+- вмещение;
+- наблюдение;
+- память;
+- атмосфера.
 
 ## Уровни взаимодействия
 
@@ -712,297 +712,297 @@ More research is needed beyond elite and canonical garden histories.
 
 ---
 
-## Imported source: `N-001_navigation_and_return.md`
+## Импортированный источник: `N-001_navigation_and_return.md`
 
-# Atlas N-001 — Navigation and Return
+# Атлас N-001 — Навигация и возвращение
 
 **ID:** N-001  
-**Раздел:** Navigation  
+**Раздел:** Навигация  
 **Статус:** `design principles`
 
-## Modes
+## Режимы
 
-- spatial;
-- direct;
-- list-only;
-- reduced-motion.
+- пространственный;
+- прямой;
+- только список;
+- уменьшенное движение.
 
-## Alpha capabilities
+## Возможности Alpha
 
-- quiet overview;
-- place list;
-- schematic map;
-- global search;
-- recent;
-- user favorites;
-- deep links;
-- breadcrumbs;
-- clear View/Edit modes.
+- тихий обзор;
+- список мест;
+- схематическая карта;
+- глобальный поиск;
+- недавнее;
+- избранное пользователя;
+- глубокие ссылки;
+- «хлебные крошки»;
+- ясные режимы Просмотр/Редактирование.
 
-## Boundaries
+## Границы
 
-- no forced travel;
-- no fog of war;
-- no completion map;
-- no automatic favorite inference;
-- no guilt on return;
-- every spatial destination has direct access;
-- accessibility is equal-status.
+- никаких принудительных перемещений;
+- никакого «тумана войны»;
+- никакой карты завершённости;
+- никакого автоматического вывода избранного;
+- никакой вины при возвращении;
+- каждое пространственное место назначения имеет прямой доступ;
+- доступность равностатусна.
 
 ---
 
-## Imported source: `T-001_time_and_seasons.md`
+## Импортированный источник: `T-001_time_and_seasons.md`
 
-# Atlas T-001 — Time and Seasons
+# Атлас T-001 — Время и сезоны
 
 **ID:** T-001  
-**Раздел:** Time and Seasons  
+**Раздел:** Время и сезоны  
 **Статус:** `design principles`
 
-## Time layers
+## Слои времени
 
-- calendar;
-- subjective;
-- event;
-- autobiographical;
-- world;
-- ritual;
-- epoch.
+- календарное;
+- субъективное;
+- событийное;
+- автобиографическое;
+- мировое;
+- ритуальное;
+- эпоха.
 
-## Time modes
+## Режимы времени
 
-- timeless;
-- manual;
-- local year;
-- slow year;
-- fictional cycle;
-- personal epochs.
+- вне времени;
+- ручной;
+- локальный год;
+- медленный год;
+- вымышленный цикл;
+- личные эпохи.
 
-## Accepted candidates
+## Принятые кандидаты
 
-- no time-based decay;
-- no absence backlog;
-- optional seasons;
-- user-created epochs;
-- exact dates always recoverable;
-- freeze time;
-- world changes ambiently, not permanently;
-- no lifecycle transition from inactivity alone.
+- никакого увядания по времени;
+- никакого «долга» за отсутствие;
+- опциональные сезоны;
+- создаваемые пользователем эпохи;
+- точные даты всегда восстановимы;
+- заморозка времени;
+- мир меняется фоново, а не необратимо;
+- никакого перехода жизненного цикла только из-за бездействия.
 
-## Open
+## Открыто
 
-- default time mode;
-- exact season models;
-- epoch visualization;
-- memory distortion risks;
-- local calendar support;
-- whether Alpha should include epochs.
+- режим времени по умолчанию;
+- точные модели сезонов;
+- визуализация эпох;
+- риски искажения памяти;
+- поддержка локального календаря;
+- стоит ли включать эпохи в Alpha.
 
 ---
 
-## Imported source: `AU-001_authoring_and_ai_cocreation.md`
+## Импортированный источник: `AU-001_authoring_and_ai_cocreation.md`
 
-# Atlas AU-001 — Authoring and AI Co-creation
+# Атлас AU-001 — Авторство и сотворчество с ИИ
 
 **ID:** AU-001  
-**Раздел:** Authoring  
+**Раздел:** Авторство  
 **Статус:** `design principles`
 
-## Flow
+## Поток
 
-- View;
-- Draft;
-- Preview;
-- Apply;
-- Undo;
-- Version.
+- Просмотр;
+- Черновик;
+- Предпросмотр;
+- Применение;
+- Отмена;
+- Версия.
 
-## Alpha capabilities
+## Возможности Alpha
 
-- explicit View/Edit;
-- manual creation;
-- editable brief;
-- AI on request;
-- proposals;
-- partial acceptance;
-- version history;
-- recovery;
-- provenance;
-- AI intensity control.
+- явные Просмотр/Редактирование;
+- ручное создание;
+- редактируемый бриф;
+- ИИ по запросу;
+- предложения;
+- частичное принятие;
+- история версий;
+- восстановление;
+- происхождение (provenance);
+- управление интенсивностью ИИ.
 
-## Boundaries
+## Границы
 
-- no autonomous apply;
-- no hidden assumptions;
-- no all-or-nothing acceptance;
-- no judgmental “improvement” language;
-- no AI-only creation path;
-- no silent destructive change.
+- никакого автономного применения;
+- никаких скрытых допущений;
+- никакого принятия «всё или ничего»;
+- никакого осуждающего языка «улучшения»;
+- никакого пути создания только силами ИИ;
+- никакого молчаливого разрушительного изменения.
 
 ---
 
-## Imported source: `RIT-001_rituals_habits_and_freedom.md`
+## Импортированный источник: `RIT-001_rituals_habits_and_freedom.md`
 
-# Atlas RIT-001 — Rituals, Habits and Freedom
+# Атлас RIT-001 — Ритуалы, привычки и свобода
 
 **ID:** RIT-001  
-**Раздел:** Rituals  
+**Раздел:** Ритуалы  
 **Статус:** `design principles`
 
-## Distinctions
+## Различия
 
-- task;
-- habit;
-- routine;
-- ritual.
+- задача;
+- привычка;
+- рутина;
+- ритуал.
 
-## Alpha boundaries
+## Границы Alpha
 
-- no streak;
-- no failed occurrence;
-- no quality score;
-- no required logging;
-- no automatic lifecycle;
-- no AI-created ritual without confirmation;
-- no frequency morality.
+- никаких серий (streak);
+- никаких «проваленных» вхождений;
+- никакой оценки качества;
+- никакого обязательного логирования;
+- никакого автоматического жизненного цикла;
+- никакого ритуала, созданного ИИ без подтверждения;
+- никакой «морали частоты».
 
-## Alpha capabilities
+## Возможности Alpha
 
-- retrospective creation;
-- holistic components;
-- optional occurrence;
-- optional reflection;
-- lineage;
-- rest;
-- transform;
-- preserve;
-- archive;
-- end.
+- ретроспективное создание;
+- целостные компоненты;
+- опциональное вхождение;
+- опциональная рефлексия;
+- родословная (lineage);
+- покой;
+- трансформация;
+- сохранение;
+- архив;
+- завершение.
 
-## Core principle
+## Основной принцип
 
-A ritual may exist outside Garden and without being recorded.
-
----
-
-## Imported source: `MEM-001_memory_and_right_to_silence.md`
-
-# Atlas MEM-001 — Memory and the Right to Silence
-
-## Core boundaries
-
-- not a second brain;
-- not a knowledge graph;
-- not a note system;
-- not an autobiography engine;
-- not «Нити».
-
-## Alpha capabilities
-
-- manual memory;
-- one primary place link;
-- optional ritual or object link;
-- media;
-- later reflection;
-- search;
-- hide;
-- archive;
-- export;
-- delete.
-
-## Prohibited
-
-- automatic resurfacing;
-- “On this day”;
-- importance ranking;
-- inferred emotional meaning;
-- graph view;
-- automatic related memories.
+Ритуал может существовать вне Garden и без записи.
 
 ---
 
-## Imported source: `CTX-001_context_without_graph.md`
+## Импортированный источник: `MEM-001_memory_and_right_to_silence.md`
 
-# Atlas CTX-001 — Context Without a Graph
+# Атлас MEM-001 — Память и право на молчание
+
+## Основные границы
+
+- не «второй мозг»;
+- не граф знаний;
+- не система заметок;
+- не движок автобиографии;
+- не «Нити».
+
+## Возможности Alpha
+
+- ручная память;
+- одна основная привязка к месту;
+- опциональная привязка к ритуалу или объекту;
+- медиа;
+- поздняя рефлексия;
+- поиск;
+- скрытие;
+- архив;
+- экспорт;
+- удаление.
+
+## Запрещено
+
+- автоматическое всплывание;
+- «В этот день»;
+- ранжирование важности;
+- выведенный эмоциональный смысл;
+- вид графа;
+- автоматические связанные воспоминания.
+
+---
+
+## Импортированный источник: `CTX-001_context_without_graph.md`
+
+# Атлас CTX-001 — Контекст без графа
 
 **ID:** CTX-001  
-**Раздел:** Context  
+**Раздел:** Контекст  
 **Статус:** `design principles`
 
-## Garden relation model
+## Модель связей Garden
 
-Allowed:
+Разрешено:
 
-- located in;
-- contains;
-- used in;
-- remembered with;
-- derived from;
-- version of;
-- belongs to lineage.
+- находится в;
+- содержит;
+- используется в;
+- вспоминается вместе с;
+- производно от;
+- версия чего-либо;
+- принадлежит родословной.
 
-Prohibited in Alpha:
+Запрещено в Alpha:
 
-- arbitrary semantic edges;
-- backlinks;
-- graph view;
-- clusters;
-- automatic related content;
-- inferred themes;
-- custom relation ontology.
+- произвольные семантические рёбра;
+- обратные ссылки (backlinks);
+- вид графа;
+- кластеры;
+- автоматический связанный контент;
+- выведенные темы;
+- пользовательская онтология связей.
 
-## Product boundary
+## Продуктовая граница
 
-Garden holds situated experience.
+Garden хранит ситуативный опыт.
 
-«Нити» organize and connect ideas.
+«Нити» упорядочивают и связывают идеи.
 
-The data models remain separate.
-
----
-
-## Imported source: `PRV-001_private_by_default.md`
-
-# PRV-001 — Private by Default
-
-Garden begins private. Sharing is explicit, bounded and revocable.
+Модели данных остаются раздельными.
 
 ---
 
-## Imported source: `PRS-001_contextual_presence.md`
+## Импортированный источник: `PRV-001_private_by_default.md`
 
-# PRS-001 — Contextual Presence
+# PRV-001 — Приватно по умолчанию
 
-People may be present in specific places, rituals or memories. No social graph.
-
----
-
-## Imported source: `EMO-001_expression_without_diagnosis.md`
-
-# EMO-001 — Expression Without Diagnosis
-
-Garden holds expression but does not infer hidden emotional truth.
+Garden начинается приватным. Обмен явный, ограниченный и отзываемый.
 
 ---
 
-## Imported source: `NTF-001_quiet_by_default.md`
+## Импортированный источник: `PRS-001_contextual_presence.md`
 
-# NTF-001 — Quiet by Default
+# PRS-001 — Контекстное присутствие
 
-No guilt, re-engagement pressure or anthropomorphic reminders.
-
----
-
-## Imported source: `ONB-001_first_place.md`
-
-# ONB-001 — First Place
-
-The first proof of value is leaving and returning to a preserved place.
+Люди могут присутствовать в конкретных местах, ритуалах или воспоминаниях. Никакого социального графа.
 
 ---
 
-## Imported source: `ALP-001_alpha_constitution.md`
+## Импортированный источник: `EMO-001_expression_without_diagnosis.md`
 
-# ALP-001 — Alpha Constitution
+# EMO-001 — Выражение без диагноза
 
-Alpha tests authorship, continuity and voluntary return.
+Garden хранит выражение, но не выводит скрытую эмоциональную «истину».
+
+---
+
+## Импортированный источник: `NTF-001_quiet_by_default.md`
+
+# NTF-001 — Тихо по умолчанию
+
+Никакой вины, давления на повторное вовлечение или антропоморфных напоминаний.
+
+---
+
+## Импортированный источник: `ONB-001_first_place.md`
+
+# ONB-001 — Первое место
+
+Первое доказательство ценности — уйти и вернуться к сохранённому месту.
+
+---
+
+## Импортированный источник: `ALP-001_alpha_constitution.md`
+
+# ALP-001 — Конституция Alpha
+
+Alpha проверяет авторство, непрерывность и добровольное возвращение.

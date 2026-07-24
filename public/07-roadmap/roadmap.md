@@ -1,5 +1,5 @@
 ---
-title: "Garden Roadmap"
+title: "Дорожная карта Garden"
 status: accepted
 owner: "Product"
 updated: 2026-07-18
@@ -9,19 +9,19 @@ wowrepo:
   order: 1
   visibility: public
 ---
-# Garden Roadmap
-## Current milestone
-`First Place → Atmosphere → Objects → Ritual → Leave → Return → AI Preview → Apply → Undo`
+# Дорожная карта Garden
+## Текущая веха
+`Первое Место → Атмосфера → Объекты → Ритуал → Уход → Возвращение → Предпросмотр ИИ → Применение → Отмена`
 
-## Alpha must prove
-- a Place feels authored rather than generated;
-- leaving and returning create value;
-- users understand nothing changes before Apply;
-- partial Apply and Undo preserve control;
-- spatial interaction does not block accessibility;
-- privacy boundaries are understandable.
+## Что должна доказать Alpha
+- Место ощущается созданным человеком, а не сгенерированным;
+- уход и возвращение создают ценность;
+- пользователи понимают, что до Применения ничего не меняется;
+- частичное Применение и Отмена сохраняют контроль;
+- пространственное взаимодействие не мешает доступности;
+- границы приватности понятны.
 
-## Not in Alpha
-Social features, public sharing, collaboration, marketplace, streaks, autonomous AI changes and production-scale infrastructure.
+## Что не входит в Alpha
+Социальные функции, публичный обмен, совместная работа, маркетплейс, серии (streaks), автономные изменения ИИ и инфраструктура производственного масштаба.
 
-The public roadmap describes direction, not delivery commitments.
+Публичная дорожная карта описывает направление, а не обязательства по срокам поставки.

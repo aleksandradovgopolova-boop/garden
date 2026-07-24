@@ -1,5 +1,5 @@
 ---
-title: "R-040 — Garden Alpha Constitution"
+title: "R-040 — Конституция Alpha Garden"
 status: accepted
 owner: "Research"
 updated: 2026-07-18
@@ -7,57 +7,57 @@ review_cycle: quarterly
 source_of_truth: false
 ---
 
-# R-040 — Garden Alpha Constitution
+# R-040 — Конституция Alpha Garden
 
-## Mission
-Garden is a personal digital place where a person may shape atmosphere, arrange meaningful objects, recognize rituals and preserve selected memories without productivity pressure, social ranking or AI control.
+## Миссия
+Garden — это личное цифровое место, где человек может формировать атмосферу, расставлять значимые объекты, признавать ритуалы и сохранять избранные воспоминания без давления продуктивности, социального ранжирования или контроля со стороны ИИ.
 
-## Alpha hypothesis
-A digital place can become personally meaningful through authorship, continuity and return—without becoming a game, habit tracker, social network or second brain.
+## Гипотеза Alpha
+Цифровое место может стать личностно значимым через авторство, непрерывность и возвращение — не превращаясь в игру, трекер привычек, социальную сеть или «второй мозг».
 
-## Primary scenario
+## Основной сценарий
 ```text
-create Garden
-→ create one Place
-→ shape Atmosphere
-→ place Objects
-→ optionally create Ritual
-→ leave
-→ return directly
-→ request AI change
-→ Preview
-→ Apply or reject
-→ Undo
+создать Garden
+→ создать одно Место
+→ задать Атмосферу
+→ расставить Объекты
+→ по желанию создать Ритуал
+→ уйти
+→ вернуться напрямую
+→ запросить изменение у ИИ
+→ Предпросмотр
+→ Применить или отклонить
+→ Отменить
 ```
 
-## Required entities
+## Обязательные сущности
 - Garden
-- Place
-- Object
-- Atmosphere
-- Ritual
-- Ritual occurrence
-- Snapshot
-- Version
-- Context relation
-- User preference
-- Audit event
+- Place (Место)
+- Object (Объект)
+- Atmosphere (Атмосфера)
+- Ritual (Ритуал)
+- Ritual occurrence (Вхождение ритуала)
+- Snapshot (Снимок)
+- Version (Версия)
+- Context relation (Контекстная связь)
+- User preference (Настройка пользователя)
+- Audit event (Событие аудита)
 
-## Product laws
-1. The user is the author.
-2. AI proposes; the user commits.
-3. The world may vary; it may not rewrite itself.
-4. Time adds history, never debt.
-5. Rituals are recognized, not enforced.
-6. Memory is selected, not manufactured.
-7. Context is not a knowledge graph.
-8. Private by default.
-9. Silence is valid.
-10. Direct and spatial navigation are equal.
-11. No feature may require guilt.
-12. Meaning belongs to the user.
+## Законы продукта
+1. Пользователь — автор.
+2. ИИ предлагает; пользователь фиксирует.
+3. Мир может изменяться; он не может переписывать себя сам.
+4. Время добавляет историю, а не долг.
+5. Ритуалы признаются, а не навязываются.
+6. Память выбирается, а не изготавливается.
+7. Контекст — не граф знаний.
+8. Приватно по умолчанию.
+9. Молчание допустимо.
+10. Прямая и пространственная навигация равноправны.
+11. Ни одна функция не может требовать вины.
+12. Смысл принадлежит пользователю.
 
-## Hard exclusions
+## Жёсткие исключения
 ```yaml
 - streaks
 - points
@@ -78,45 +78,45 @@ create Garden
 - marketplace
 ```
 
-## Alpha screens
-Welcome; Garden home; Create Place; Place view; Atmosphere; Object library; Object placement; Ritual editor; Direct navigation; AI proposal; Preview; History and Undo; Snapshot; Privacy; Export and deletion.
+## Экраны Alpha
+Приветствие; Главная Garden; Создание Места; Просмотр Места; Атмосфера; Библиотека объектов; Размещение объектов; Редактор ритуалов; Прямая навигация; Предложение ИИ; Предпросмотр; История и Отмена; Снимок; Приватность; Экспорт и удаление.
 
-## AI contract
-Every AI action requires explicit request, bounded context, visible assumptions, Preview, affected entities, Apply or Reject, Undo and version record.
+## Контракт ИИ
+Каждое действие ИИ требует явного запроса, ограниченного контекста, видимых допущений, Предпросмотра, перечня затрагиваемых сущностей, Применения или Отклонения, Отмены и записи версии.
 
-## Metrics
-Activation:
-- first place created;
-- separate-session return;
-- successful Preview → Apply.
+## Метрики
+Активация:
+- создано первое место;
+- возвращение в отдельной сессии;
+- успешный Предпросмотр → Применение.
 
-Quality:
-- authorship;
-- calmness;
-- ownership;
-- ease of leaving.
+Качество:
+- авторство;
+- спокойствие;
+- ощущение владения;
+- лёгкость ухода.
 
-Guardrails:
-- guilt;
-- category confusion;
-- accidental AI change;
-- privacy confusion;
-- unwanted notification;
-- inability to undo.
+Ограничители (guardrails):
+- вина;
+- путаница в категориях;
+- случайное изменение со стороны ИИ;
+- путаница с приватностью;
+- нежелательное уведомление;
+- невозможность отменить.
 
-## Development gate
-Begin technical Alpha when the first-place flow is testable, five to eight people complete it, privacy and deletion paths exist, AI cannot commit without approval and version/Undo is stable.
+## Ворота разработки
+Начинать техническую Alpha, когда поток «первого места» тестируем, от пяти до восьми человек проходят его, существуют пути приватности и удаления, ИИ не может фиксировать изменения без одобрения, а версии/Отмена стабильны.
 
-## Next phase
-P-001 Information Architecture  
-P-002 Core User Flows  
-P-003 Interaction Model  
-P-004 Visual Language  
-P-005 Design System  
-P-006 Entity Schemas  
-P-007 AI Runtime  
-P-008 Security Architecture  
-P-009 Frontend Architecture  
-P-010 Prototype and Testing Plan
+## Следующая фаза
+P-001 Информационная архитектура  
+P-002 Основные пользовательские потоки  
+P-003 Модель взаимодействия  
+P-004 Визуальный язык  
+P-005 Дизайн-система  
+P-006 Схемы сущностей  
+P-007 Среда выполнения ИИ  
+P-008 Архитектура безопасности  
+P-009 Архитектура фронтенда  
+P-010 План прототипа и тестирования
 
-> Garden Alpha tests whether a person can create somewhere worth returning to, with no obligation to return.
+> Alpha Garden проверяет, может ли человек создать место, в которое стоит возвращаться, — без обязанности возвращаться.

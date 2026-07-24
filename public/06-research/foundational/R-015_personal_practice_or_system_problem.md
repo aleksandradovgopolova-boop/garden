@@ -25,11 +25,11 @@ source_of_truth: false
 - как различить симптом, ближайший механизм и корневую причину;
 - где находится проблема: внутри человека, в отношениях, организации, инфраструктуре или политике;
 - почему индивидуальная практика иногда помогает даже при структурной причине;
-- когда self-care становится responsibilization;
+- когда забота о себе становится перекладыванием ответственности (responsibilization);
 - как не лишить человека доступного действия, указывая только на систему;
 - как учитывать власть, деньги, время и безопасность;
 - какие действия Garden может предложить помимо «справляться»;
-- как распознавать lifestyle drift внутри собственного продукта;
+- как распознавать дрейф к образу жизни (lifestyle drift) внутри собственного продукта;
 - когда нужен коллективный, профессиональный, юридический или институциональный маршрут;
 - как измерять пользу, не возлагая результат только на пользователя.
 
@@ -43,7 +43,7 @@ source_of_truth: false
 
 - сна;
 - заболевания;
-- caregiving;
+- ухода за близкими;
 - конфликта;
 - рабочего графика;
 - численности команды;
@@ -76,7 +76,7 @@ source_of_truth: false
 
 ## 3. Социальные и структурные детерминанты
 
-WHO определяет social determinants of health как условия, в которых люди:
+ВОЗ определяет социальные детерминанты здоровья как условия, в которых люди:
 
 - рождаются;
 - растут;
@@ -86,7 +86,7 @@ WHO определяет social determinants of health как условия, в
 
 а также более широкие силы, формирующие повседневную жизнь, включая распределение власти, денег и ресурсов.
 
-Это означает, что wellbeing не производится только:
+Это означает, что благополучие не производится только:
 
 - установками;
 - привычками;
@@ -102,9 +102,9 @@ WHO определяет social determinants of health как условия, в
 
 ---
 
-## 4. Fundamental Cause Theory
+## 4. Теория фундаментальных причин (Fundamental Cause Theory)
 
-Fundamental Cause Theory объясняет устойчивость социальных различий в здоровье через неравный доступ к гибким ресурсам:
+Теория фундаментальных причин объясняет устойчивость социальных различий в здоровье через неравный доступ к гибким ресурсам:
 
 - деньгам;
 - знаниям;
@@ -134,9 +134,9 @@ Fundamental Cause Theory объясняет устойчивость социа�
 
 ---
 
-## 5. Structural competency
+## 5. Структурная компетентность (structural competency)
 
-Structural competency предлагает видеть, как состояния, которые выглядят индивидуальными, формируются:
+Структурная компетентность предлагает видеть, как состояния, которые выглядят индивидуальными, формируются:
 
 - политикой;
 - учреждениями;
@@ -154,11 +154,11 @@ Structural competency предлагает видеть, как состояни
 - не сводить его к культуре или личности;
 - знать ограничения собственной роли;
 - находить структурные и межпрофессиональные ответы;
-- сохранять epistemic humility.
+- сохранять эпистемическую скромность.
 
 ### Для Garden
 
-AI не должен становиться экспертом по всем системам. Он должен:
+ИИ не должен становиться экспертом по всем системам. Он должен:
 
 - назвать возможный уровень;
 - спросить о власти и ресурсах;
@@ -168,21 +168,21 @@ AI не должен становиться экспертом по всем с�
 
 ---
 
-## 6. Socio-ecological model
+## 6. Социально-экологическая модель (socio-ecological model)
 
 Социально-экологические модели различают уровни:
 
-1. individual;
-2. interpersonal;
-3. organizational;
-4. community/environmental;
-5. policy/societal.
+1. индивидуальный;
+2. межличностный;
+3. организационный;
+4. общинный/средовой;
+5. политический/общественный.
 
 Они полезны не как полная теория жизни, а как проверка слепого пятна.
 
-### Garden Problem Map
+### Карта проблемы Garden
 
-#### L1 — Personal capacity and immediate state
+#### L1 — Личная способность и непосредственное состояние
 
 - знание;
 - навык;
@@ -191,37 +191,37 @@ AI не должен становиться экспертом по всем с�
 - внимание;
 - доступное действие.
 
-#### L2 — Relationship
+#### L2 — Отношения
 
 - договорённости;
 - распределение заботы;
 - конфликт;
 - поддержка;
 - границы;
-- coercion.
+- принуждение.
 
-#### L3 — Organization or institution
+#### L3 — Организация или институт
 
-- workload;
-- role design;
-- staffing;
-- incentives;
-- rules;
-- management;
-- accessibility;
-- service availability.
+- рабочая нагрузка;
+- дизайн роли;
+- укомплектованность;
+- стимулы;
+- правила;
+- управление;
+- доступность;
+- наличие услуг.
 
-#### L4 — Material and community environment
+#### L4 — Материальная и общинная среда
 
 - жильё;
 - транспорт;
 - безопасность района;
-- food access;
-- digital access;
-- childcare;
-- community resources.
+- доступ к еде;
+- цифровой доступ;
+- уход за детьми;
+- общинные ресурсы.
 
-#### L5 — Policy, economy and structural power
+#### L5 — Политика, экономика и структурная власть
 
 - закон;
 - социальная защита;
@@ -235,23 +235,23 @@ AI не должен становиться экспертом по всем с�
 
 ---
 
-## 7. Lifestyle drift
+## 7. Дрейф к образу жизни (lifestyle drift)
 
-В public health термин `lifestyle drift` описывает процесс, при котором:
+В общественном здравоохранении термин `lifestyle drift` описывает процесс, при котором:
 
 1. проблема первоначально признаётся структурной;
 2. затем интервенция смещается к индивидуальному поведению;
 3. ответственность постепенно возвращается человеку.
 
-Scoping review 2025 года обнаружил 32 работы, где lifestyle drift был центральной темой. Среди обсуждаемых причин:
+Обзор 2025 года обнаружил 32 работы, где дрейф к образу жизни был центральной темой. Среди обсуждаемых причин:
 
-- individual interventions легче реализовать;
+- индивидуальные интервенции легче реализовать;
 - их проще оценить;
 - они политически удобнее;
-- существующая evidence base часто богаче;
-- культура personal responsibility делает их интуитивными.
+- существующая доказательная база часто богаче;
+- культура личной ответственности делает их интуитивными.
 
-### Garden drift
+### Дрейф Garden
 
 Garden может начать с идеи:
 
@@ -261,15 +261,15 @@ Garden может начать с идеи:
 
 > Ежедневно делайте двухминутную паузу для устойчивости.
 
-### Drift detector
+### Детектор дрейфа
 
 Каждая функция проверяется:
 
-- признаёт ли она upstream cause;
+- признаёт ли она причину выше по течению (upstream);
 - меняет ли она только человека;
-- кто получает benefit;
+- кто получает выгоду;
 - кто избегает ответственности;
-- не становится ли coping KPI;
+- не становится ли совладание метрикой (KPI);
 - не используется ли продукт работодателем вместо изменения условий.
 
 ---
@@ -294,24 +294,24 @@ Garden может начать с идеи:
 
 Практика может быть:
 
-- relief;
-- protection;
-- preparation;
-- evidence collection;
-- capacity restoration;
-- coordination;
-- transition support.
+- облегчением;
+- защитой;
+- подготовкой;
+- сбором доказательств;
+- восстановлением ресурса;
+- координацией;
+- поддержкой перехода.
 
 Она не обязательно является:
 
-- solution;
-- treatment of root cause;
-- personal responsibility;
+- решением;
+- лечением корневой причины;
+- личной ответственностью;
 - доказательством адаптивности.
 
 ### Пример
 
-> «Пятиминутная прогулка может немного снизить напряжение сегодня. Она не уменьшит workload и не исправит конфликт с руководителем».
+> «Пятиминутная прогулка может немного снизить напряжение сегодня. Она не уменьшит рабочую нагрузку и не исправит конфликт с руководителем».
 
 ---
 
@@ -329,7 +329,7 @@ Garden может начать с идеи:
 - проверить права;
 - зафиксировать факты;
 - найти союзника;
-- запросить accommodation;
+- запросить приспособление (accommodation);
 - использовать формальную процедуру;
 - обратиться в профсоюз;
 - получить юридическую консультацию;
@@ -344,19 +344,19 @@ Garden может начать с идеи:
 
 ---
 
-## 10. Locus of cause, control and responsibility
+## 10. Локус причины, контроля и ответственности
 
 Нужно различать три вещи.
 
-### Cause
+### Причина (cause)
 
 Что создало или поддерживает проблему?
 
-### Control
+### Контроль (control)
 
 Кто сейчас способен изменить конкретную часть?
 
-### Responsibility
+### Ответственность (responsibility)
 
 Кто обязан действовать, исправлять вред или обеспечивать условия?
 
@@ -364,9 +364,9 @@ Garden может начать с идеи:
 
 Пример:
 
-- причиной перегрузки является understaffing;
+- причиной перегрузки является нехватка персонала;
 - сотрудник может контролировать только одну границу;
-- ответственность за staffing лежит на организации.
+- ответственность за укомплектованность лежит на организации.
 
 ### Запрет
 
@@ -374,30 +374,30 @@ Garden не переносит ответственность к человек�
 
 ---
 
-## 11. Burnout как проверочный пример
+## 11. Выгорание как проверочный пример
 
-WHO описывает burnout как occupational phenomenon, связанный с хроническим workplace stress, который не был успешно управляем.
+ВОЗ описывает выгорание как профессиональное явление, связанное с хроническим стрессом на рабочем месте, который не был успешно управляем.
 
-ILO относит к psychosocial hazards аспекты дизайна и управления работой, включая:
+МОТ относит к психосоциальным рискам аспекты дизайна и управления работой, включая:
 
-- excessive workload and pace;
-- long or inflexible hours;
-- limited job control;
-- organizational culture;
-- job insecurity;
-- bullying and harassment;
-- poor relationships;
-- home–work interface.
+- чрезмерную нагрузку и темп;
+- длинные или негибкие часы;
+- ограниченный контроль над работой;
+- организационную культуру;
+- незащищённость занятости;
+- буллинг и харассмент;
+- плохие отношения;
+- границу «дом–работа».
 
-Meta-analysis organizational interventions reported small-to-moderate reductions in exhaustion, with workload-targeted and participatory interventions among stronger categories. Other reviews note heterogeneity and implementation barriers.
+Метаанализ организационных интервенций сообщил о малых-умеренных снижениях истощения, причём интервенции, нацеленные на нагрузку, и партисипативные интервенции были среди более сильных категорий. Другие обзоры отмечают неоднородность и барьеры внедрения.
 
 ### Вывод
 
-Mindfulness или resilience practice может помочь отдельному человеку пережить день. Но если причина — workload, bullying или lack of control, sole individual intervention is insufficient and may legitimize the hazard.
+Практика осознанности или устойчивости может помочь отдельному человеку пережить день. Но если причина — рабочая нагрузка, буллинг или отсутствие контроля, одна лишь индивидуальная интервенция недостаточна и может легитимировать опасность.
 
 ---
 
-## 12. Burnout language guardrail
+## 12. Языковой ограничитель по выгоранию
 
 Не:
 
@@ -409,81 +409,81 @@ Mindfulness или resilience practice может помочь отдельно�
 
 ---
 
-## 13. Organizational intervention
+## 13. Организационная интервенция
 
 Организационный уровень может включать:
 
-- изменение workload;
-- staffing;
+- изменение рабочей нагрузки;
+- укомплектованность;
 - расписание;
-- job control;
-- role clarity;
-- task allocation;
-- supervisor behavior;
-- anti-harassment processes;
-- accessible tools;
-- psychological safety;
-- participatory redesign.
+- контроль над работой;
+- ясность роли;
+- распределение задач;
+- поведение руководителя;
+- процессы против харассмента;
+- доступные инструменты;
+- психологическую безопасность;
+- партисипативный редизайн.
 
 Garden не реализует эти изменения самостоятельно.
 
 Он может помочь человеку:
 
 - сформулировать наблюдение;
-- отделить индивидуальное от recurring pattern;
-- подготовить request;
-- собрать evidence;
+- отделить индивидуальное от повторяющегося паттерна;
+- подготовить запрос;
+- собрать доказательства;
 - найти канал;
-- определить desired change;
+- определить желаемое изменение;
 - обсудить риски;
-- сохранить private record.
+- сохранить приватную запись.
 
 ---
 
-## 14. Relationship problem
+## 14. Проблема отношений
 
 Не вся межличностная проблема решается саморегуляцией.
 
-Возможные intervention modes:
+Возможные режимы вмешательства:
 
-- conversation;
-- boundary;
-- negotiation;
-- redistribution of labor;
-- mediation;
-- distance;
-- external support;
-- safety plan;
-- exit.
+- разговор;
+- граница;
+- переговоры;
+- перераспределение труда;
+- медиация;
+- дистанция;
+- внешняя поддержка;
+- план безопасности;
+- выход.
 
-### Safety constraint
+### Ограничение безопасности
 
-При coercion, stalking, threats or violence Garden не предлагает:
+При принуждении, преследовании, угрозах или насилии Garden не предлагает:
 
 - «лучше объяснить»;
 - совместную открытость;
-- relationship dashboard;
-- shared practice;
-- couples-style facilitation;
+- дашборд отношений;
+- совместную практику;
+- фасилитацию по типу парной терапии;
 - раскрытие личных записей.
 
-Safety takes precedence over mutual understanding.
+Безопасность важнее взаимопонимания.
 
 ---
 
-## 15. Care burden
+## 15. Нагрузка ухода
 
-Caregiving часто индивидуализируется:
+Уход за близкими часто индивидуализируется:
 
 > «Найди время на себя».
 
 Но реальная проблема может включать:
 
-- отсутствие respite;
+- отсутствие передышки;
 - неравное распределение;
 - стоимость помощи;
 - работу;
-- inaccessible services;
+- недоступные услуги;
 - гендерные ожидания;
 - бюрократию.
 
@@ -506,11 +506,11 @@ Garden может предложить личную паузу, но обяза�
 - пространства;
 - транспорта;
 - безопасности;
-- flexible work;
-- childcare;
-- digital literacy.
+- гибкой работы;
+- ухода за детьми;
+- цифровой грамотности.
 
-### Resource Check
+### Проверка ресурсов
 
 Перед рекомендацией Garden спрашивает:
 
@@ -531,13 +531,13 @@ risk_if_unsuccessful:
 
 ## 17. Дискриминация
 
-Garden не должен переопределять discrimination as:
+Garden не должен переопределять дискриминацию как:
 
-- cognitive distortion;
-- interpersonal sensitivity;
-- lack of confidence;
-- communication style;
-- emotional trigger.
+- когнитивное искажение;
+- межличностную чувствительность;
+- недостаток уверенности;
+- стиль коммуникации;
+- эмоциональный триггер.
 
 Он также не может по одному сообщению юридически установить дискриминацию.
 
@@ -549,7 +549,7 @@ Garden не должен переопределять discrimination as:
 
 ## 18. Моральная травма и ценностный конфликт
 
-Иногда distress возникает не из-за нагрузки, а из-за требования:
+Иногда дистресс возникает не из-за нагрузки, а из-за требования:
 
 - действовать против профессиональных ценностей;
 - причинять вред;
@@ -559,18 +559,18 @@ Garden не должен переопределять discrimination as:
 
 Garden не должен сводить это к:
 
-- stress management;
-- reframing;
-- gratitude;
-- resilience.
+- управлению стрессом;
+- переформулированию;
+- благодарности;
+- устойчивости.
 
 Возможные действия:
 
 - назвать конфликт;
-- найти professional ethics support;
+- найти поддержку по профессиональной этике;
 - документировать;
 - искать коллег;
-- использовать formal channel;
+- использовать формальный канал;
 - отказаться;
 - выйти.
 
@@ -589,211 +589,211 @@ Garden не должен сводить это к:
 
 Garden сам является коммерческим продуктом и не может занимать внешнюю моральную позицию.
 
-### Self-audit
+### Самоаудит
 
 - зарабатывает ли Garden на продолжении проблемы;
-- зависит ли revenue от engagement;
-- использует ли vulnerability;
-- предлагает ли coping вместо ухода из вредной среды;
-- продаёт ли employer intervention без organizational change;
-- превращает ли privacy into premium;
+- зависит ли доход от вовлечённости;
+- использует ли уязвимость;
+- предлагает ли совладание вместо ухода из вредной среды;
+- продаёт ли интервенцию работодателю без организационных изменений;
+- превращает ли приватность в премиум;
 - делает ли поддержку доступной только ресурсным людям.
 
 ---
 
-## 20. Digital inequity
+## 20. Цифровое неравенство (digital inequity)
 
-Digital tools can reproduce inequality through:
+Цифровые инструменты могут воспроизводить неравенство через:
 
-- device access;
-- connectivity;
-- literacy;
-- language;
-- disability;
-- privacy at home;
-- paid features;
-- data costs;
-- algorithmic bias.
+- доступ к устройству;
+- связь;
+- грамотность;
+- язык;
+- инвалидность;
+- приватность дома;
+- платные функции;
+- стоимость данных;
+- алгоритмическую предвзятость.
 
-A tool may work best for people who already have:
+Инструмент может лучше всего работать для людей, у которых уже есть:
 
-- time;
-- safety;
-- education;
-- flexible work;
-- confidence;
-- access to services.
+- время;
+- безопасность;
+- образование;
+- гибкая работа;
+- уверенность;
+- доступ к услугам.
 
-### Requirement
+### Требование
 
-Garden does not infer:
+Garden не выводит:
 
-> «Если пользователь не завершил flow, он не готов к change».
+> «Если пользователь не завершил поток, он не готов к изменению».
 
-Возможно, flow был недоступен.
+Возможно, поток был недоступен.
 
 ---
 
-## 21. Problem Location Protocol
+## 21. Протокол локализации проблемы
 
-### Step 1 — Describe the event
+### Шаг 1 — Описать событие
 
-Без trait language.
+Без языка черт личности.
 
-### Step 2 — Identify immediate impact
+### Шаг 2 — Определить непосредственное воздействие
 
 Что происходит с человеком сейчас?
 
-### Step 3 — Map levels
+### Шаг 3 — Отобразить уровни
 
 L1–L5.
 
-### Step 4 — Power check
+### Шаг 4 — Проверка власти
 
 Кто способен изменить каждую часть?
 
-### Step 5 — Responsibility check
+### Шаг 5 — Проверка ответственности
 
 Кто обязан изменить?
 
-### Step 6 — Safety check
+### Шаг 6 — Проверка безопасности
 
-Есть ли риск retaliation, violence, housing/job loss, legal harm?
+Есть ли риск возмездия, насилия, потери жилья/работы, юридического вреда?
 
-### Step 7 — Resource check
+### Шаг 7 — Проверка ресурсов
 
 Какие ресурсы нужны?
 
-### Step 8 — Choose action portfolio
+### Шаг 8 — Выбрать портфель действий
 
 Не одно действие, а комбинация.
 
-### Step 9 — Name limits
+### Шаг 9 — Назвать пределы
 
 Что выбранное действие не решает?
 
-### Step 10 — Review
+### Шаг 10 — Пересмотр
 
 Изменилась ли причина или только способность выдерживать?
 
 ---
 
-## 22. Action Portfolio
+## 22. Портфель действий
 
-### A. Stabilize
+### A. Стабилизировать
 
-- pause;
-- sleep;
-- food;
-- medical support;
-- emotional support;
-- reduce immediate exposure.
+- пауза;
+- сон;
+- еда;
+- медицинская поддержка;
+- эмоциональная поддержка;
+- снижение непосредственного воздействия.
 
-### B. Understand
+### B. Понять
 
-- gather facts;
-- identify pattern;
-- separate assumptions;
-- learn relevant rules.
+- собрать факты;
+- выявить паттерн;
+- отделить допущения;
+- изучить релевантные правила.
 
-### C. Coordinate
+### C. Координировать
 
-- ask;
-- negotiate;
-- redistribute;
-- find ally;
-- communicate.
+- попросить;
+- договориться;
+- перераспределить;
+- найти союзника;
+- сообщить.
 
-### D. Change environment
+### D. Изменить среду
 
-- schedule;
-- workload;
-- tools;
-- space;
-- accessibility;
-- responsibilities.
+- расписание;
+- рабочую нагрузку;
+- инструменты;
+- пространство;
+- доступность;
+- обязанности.
 
-### E. Use institution
+### E. Использовать институт
 
-- HR/process;
-- union;
-- ombuds;
-- regulator;
-- legal advice;
-- benefits;
-- community service.
+- HR/процесс;
+- профсоюз;
+- омбудсмен;
+- регулятор;
+- юридическая консультация;
+- пособия;
+- общинная служба.
 
-### F. Collective action
+### F. Коллективное действие
 
-- shared evidence;
-- worker group;
-- tenant group;
-- advocacy;
-- community organization.
+- общие доказательства;
+- группа работников;
+- группа жильцов;
+- адвокация;
+- общинная организация.
 
-### G. Exit or distance
+### G. Выход или дистанция
 
-- stop;
-- leave;
-- transfer;
-- block;
-- relocate;
-- end relationship, where safe and chosen.
+- прекратить;
+- уйти;
+- перевестись;
+- заблокировать;
+- переехать;
+- завершить отношения, где это безопасно и выбрано.
 
-### H. Personal practice
+### H. Личная практика
 
-- relief;
-- preparation;
-- capacity;
-- reflection.
+- облегчение;
+- подготовка;
+- ресурс;
+- рефлексия.
 
-Personal practice is one column, not the whole portfolio.
+Личная практика — одна колонка, а не весь портфель.
 
 ---
 
-## 23. Intervention Integrity Label
+## 23. Метка целостности вмешательства
 
-Каждая рекомендация получает label.
+Каждая рекомендация получает метку.
 
-### Relief
+### Облегчение (relief)
 
 Уменьшает ближайший дискомфорт.
 
-### Adaptation
+### Адаптация (adaptation)
 
 Помогает действовать в текущих условиях.
 
-### Protection
+### Защита (protection)
 
 Снижает вред.
 
-### Navigation
+### Навигация (navigation)
 
 Помогает использовать существующую систему.
 
-### Relational change
+### Реляционное изменение (relational change)
 
 Меняет договорённость между людьми.
 
-### Organizational change
+### Организационное изменение (organizational change)
 
-Меняет design or management.
+Меняет дизайн или управление.
 
-### Structural change
+### Структурное изменение (structural change)
 
-Меняет правила/resources/power.
+Меняет правила/ресурсы/власть.
 
-### Exit
+### Выход (exit)
 
-Прекращает exposure.
+Прекращает воздействие.
 
 Пример:
 
-> «Дыхательная пауза — relief/preparation. Запрос на перераспределение задач — organizational change. Первое не заменяет второе».
+> «Дыхательная пауза — облегчение/подготовка. Запрос на перераспределение задач — организационное изменение. Первое не заменяет второе».
 
 ---
 
-## 24. Responsibility Map
+## 24. Карта ответственности
 
 ```yaml
 issue:
@@ -808,43 +808,43 @@ external_resources:
 safety_risk:
 ```
 
-Garden показывает карту только пользователю. Она не становится score человека или организации.
+Garden показывает карту только пользователю. Она не становится баллом человека или организации.
 
 ---
 
-## 25. Right-sized agency
+## 25. Соразмерная агентность
 
-### Too little agency
+### Слишком мало агентности
 
 > «Ничего нельзя сделать, проблема системная».
 
-### Too much agency
+### Слишком много агентности
 
 > «Ты можешь изменить жизнь правильными практиками».
 
-### Right-sized agency
+### Соразмерная агентность
 
 > «Ты не создала эту систему и не обязана исправлять её одна. У тебя могут быть отдельные действия, которые защищают тебя, увеличивают выбор или помогают присоединиться к другим».
 
 ---
 
-## 26. Language rules
+## 26. Языковые правила
 
 Не использовать без контекста:
 
-- resilience;
-- ownership;
-- mindset;
-- adapt;
-- opportunity;
-- challenge;
-- self-care;
-- boundaries;
-- growth.
+- устойчивость;
+- взятие ответственности;
+- мышление (mindset);
+- адаптироваться;
+- возможность;
+- вызов;
+- забота о себе;
+- границы;
+- рост.
 
 Эти слова могут быть полезны, но часто скрывают власть.
 
-### Preferred language
+### Предпочтительный язык
 
 - «Что происходит в условиях?»
 - «Кто контролирует эту часть?»
@@ -856,163 +856,163 @@ Garden показывает карту только пользователю. О
 
 ---
 
-## 27. Employer and institutional use
+## 27. Использование работодателем и институтом
 
-Garden must not become:
+Garden не должен становиться:
 
-- resilience program replacing workload changes;
-- employee risk dashboard;
-- compliance tracker;
-- wellbeing score for management;
-- tool for identifying «low resilience»;
-- individual coaching mandated by employer;
-- substitute for psychosocial risk assessment.
+- программой устойчивости, заменяющей изменения нагрузки;
+- дашбордом риска сотрудников;
+- трекером соблюдения;
+- баллом благополучия для менеджмента;
+- инструментом выявления «низкой устойчивости»;
+- индивидуальным коучингом, предписанным работодателем;
+- заменой оценки психосоциального риска.
 
-### B2B gate
+### Ворота B2B
 
-Any institutional deployment requires:
+Любое институциональное развёртывание требует:
 
-- no individual content access;
-- no individual scores;
-- aggregate privacy thresholds;
-- worker representation;
-- independent governance;
-- proof that organizational changes are included;
-- no adverse employment decisions;
-- opt-out without penalty;
-- separate product decision.
+- отсутствия доступа к индивидуальному контенту;
+- отсутствия индивидуальных баллов;
+- порогов агрегированной приватности;
+- представительства работников;
+- независимого управления;
+- доказательства, что организационные изменения включены;
+- отсутствия неблагоприятных кадровых решений;
+- отказа без наказания;
+- отдельного продуктового решения.
 
-Not in consumer Alpha.
-
----
-
-## 28. Metrics
-
-### Human outcomes
-
-- correct problem attribution;
-- reduced self-blame;
-- increased feasible options;
-- immediate safety;
-- resource access;
-- successful negotiation;
-- environmental change;
-- collective connection;
-- ability to exit;
-- relief clearly distinguished from resolution.
-
-### Guardrails
-
-- victim blaming;
-- false legal certainty;
-- retaliation;
-- overconfidence;
-- unsafe confrontation;
-- coping replacing change;
-- employer misuse;
-- inaccessible recommendation;
-- increased burden;
-- learned helplessness.
-
-### Not North Star
-
-- number of coping practices;
-- resilience score;
-- continued functioning in harmful conditions;
-- reduced complaint frequency;
-- employee productivity;
-- adaptation to workload.
+Не входит в потребительскую Alpha.
 
 ---
 
-## 29. Alpha implementation
+## 28. Метрики
 
-### Include
+### Человеческие результаты
 
-- Problem Location prompt;
-- Power and Resource Check;
-- Intervention Integrity Label;
-- Action Portfolio;
-- external resource placeholders;
-- literal distinction relief/source change;
-- structural issue red-team cases.
+- корректная атрибуция проблемы;
+- сниженное самообвинение;
+- увеличение выполнимых вариантов;
+- непосредственная безопасность;
+- доступ к ресурсам;
+- успешные переговоры;
+- изменение среды;
+- коллективная связь;
+- способность выйти;
+- облегчение, ясно отличённое от разрешения.
 
-### Exclude until reviewed
+### Ограничители
 
-- jurisdiction-specific legal advice;
-- automated discrimination classification;
-- employer integrations;
-- organizational risk scoring;
-- collective organizing network;
-- abuse mediation;
-- automatic reporting.
+- обвинение жертвы;
+- ложная юридическая уверенность;
+- возмездие;
+- избыточная уверенность;
+- небезопасная конфронтация;
+- совладание, заменяющее изменение;
+- злоупотребление со стороны работодателя;
+- недоступная рекомендация;
+- возросшая нагрузка;
+- выученная беспомощность.
 
----
+### Не главный ориентир (North Star)
 
-## 30. Evaluation
-
-Scenarios:
-
-- impossible workload;
-- bullying manager;
-- unequal care burden;
-- inaccessible housing;
-- low income and sleep;
-- discriminatory treatment;
-- abusive relationship;
-- medical access barrier;
-- unsafe neighborhood;
-- moral injury;
-- personal skill deficit;
-- mixed-level problem.
-
-Compare:
-
-### A. Standard self-help response
-
-### B. Structural-only response
-
-### C. Garden multilevel response
-
-Measure:
-
-- usefulness;
-- agency;
-- self-blame;
-- attribution accuracy;
-- feasibility;
-- safety;
-- recognition of responsible actor;
-- immediate relief;
-- source-directed action;
-- external verification behavior.
+- число практик совладания;
+- балл устойчивости;
+- продолжение функционирования во вредных условиях;
+- снижение частоты жалоб;
+- продуктивность сотрудника;
+- адаптация к нагрузке.
 
 ---
 
-## 31. Claim Registry
+## 29. Реализация в Alpha
 
-| Claim ID | Утверждение | Источники | Уверенность | Статус |
+### Включить
+
+- подсказку локализации проблемы;
+- проверку власти и ресурсов;
+- метку целостности вмешательства;
+- портфель действий;
+- заглушки внешних ресурсов;
+- буквальное различение облегчения и изменения источника;
+- red-team-кейсы структурных проблем.
+
+### Исключить до проверки
+
+- юридические советы по конкретной юрисдикции;
+- автоматическую классификацию дискриминации;
+- интеграции с работодателем;
+- оценку организационного риска;
+- сеть коллективной организации;
+- медиацию абьюза;
+- автоматическое информирование.
+
+---
+
+## 30. Оценка
+
+Сценарии:
+
+- невозможная рабочая нагрузка;
+- буллящий руководитель;
+- неравная нагрузка ухода;
+- недоступное жильё;
+- низкий доход и сон;
+- дискриминационное обращение;
+- абьюзивные отношения;
+- барьер доступа к медпомощи;
+- небезопасный район;
+- моральная травма;
+- личный дефицит навыка;
+- проблема на нескольких уровнях.
+
+Сравнить:
+
+### A. Стандартный ответ самопомощи
+
+### B. Только структурный ответ
+
+### C. Многоуровневый ответ Garden
+
+Измерять:
+
+- полезность;
+- агентность;
+- самообвинение;
+- точность атрибуции;
+- выполнимость;
+- безопасность;
+- распознавание ответственного актора;
+- непосредственное облегчение;
+- действие, направленное на источник;
+- поведение внешней проверки.
+
+---
+
+## 31. Реестр утверждений
+
+| ID утверждения | Утверждение | Источники | Уверенность | Статус |
 |---|---|---|---|---|
-| R015-C01 | Health and wellbeing are shaped by social, economic, physical and structural conditions | SRC-STR-001–004 | высокая | foundation |
-| R015-C02 | Individual behavior alone explains most unequal outcomes | SRC-STR-001–006 | отвергнуто | rejected |
-| R015-C03 | Flexible resources such as money, knowledge, power and connections affect ability to avoid risks | SRC-STR-005, 006 | высокая as FCT | foundation |
-| R015-C04 | Socio-ecological models distinguish individual, interpersonal, organizational, community and policy levels | SRC-STR-007, 008 | высокая as framework | design lens |
-| R015-C05 | Public-health interventions can drift from upstream determinants to individual behavior | SRC-STR-009, 010 | высокая as documented concept; mechanisms still emerging | risk |
-| R015-C06 | Any individual intervention in structural problem is victim blaming | no | отсутствует | rejected |
-| R015-C07 | Burnout is conceptualized by WHO as occupational phenomenon from chronic unmanaged workplace stress | SRC-WORK-001 | высокая | foundation |
-| R015-C08 | Workplace psychosocial risks include workload, control, insecurity, bullying and work design | SRC-WORK-002, 003 | высокая | foundation |
-| R015-C09 | Organizational interventions can reduce exhaustion/burnout, though effects and evidence vary | SRC-WORK-004–007 | средняя–высокая | foundation with limits |
-| R015-C10 | Mindfulness alone fixes burnout caused by work design | no | отсутствует | rejected |
-| R015-C11 | Structural recognition means the user has no useful action | no | отсутствует | rejected |
-| R015-C12 | Personal practice can provide relief/preparation without changing root cause | synthesis | средняя | philosophy candidate |
-| R015-C13 | Garden can accurately classify discrimination or abuse from one account | no | absent | rejected |
-| R015-C14 | Resource requirements determine feasibility of recommendations | SRC-STR-005, 006 + COM-B | высокая | system requirement |
-| R015-C15 | Digital technologies can reproduce or increase inequalities | SRC-STR-011, 012 | высокая | design constraint |
-| R015-C16 | Problem Location Protocol reduces self-blame and improves decisions | no direct evidence | низкая | product hypothesis |
-| R015-C17 | Intervention Integrity Labels prevent lifestyle drift | no direct evidence | низкая | governance hypothesis |
-| R015-C18 | B2B wellbeing products can safely provide individual data to employers | no | absent | rejected |
-| R015-C19 | Structural explanations should be accompanied by right-sized agency | theoretical synthesis | средняя | philosophy candidate |
-| R015-C20 | Coping success is evidence that harmful conditions are acceptable | no | absent | rejected |
+| R015-C01 | Здоровье и благополучие формируются социальными, экономическими, физическими и структурными условиями | SRC-STR-001–004 | высокая | основа |
+| R015-C02 | Одно лишь индивидуальное поведение объясняет большинство неравных исходов | SRC-STR-001–006 | отвергнуто | отвергнуто |
+| R015-C03 | Гибкие ресурсы (деньги, знания, власть, связи) влияют на способность избегать рисков | SRC-STR-005, 006 | высокая как FCT | основа |
+| R015-C04 | Социально-экологические модели различают индивидуальный, межличностный, организационный, общинный и политический уровни | SRC-STR-007, 008 | высокая как рамка | дизайнерская линза |
+| R015-C05 | Интервенции в общественном здравоохранении могут дрейфовать от детерминант выше по течению к индивидуальному поведению | SRC-STR-009, 010 | высокая как задокументированное понятие; механизмы ещё зарождаются | риск |
+| R015-C06 | Любая индивидуальная интервенция при структурной проблеме — обвинение жертвы | нет | отсутствует | отвергнуто |
+| R015-C07 | ВОЗ концептуализирует выгорание как профессиональное явление от хронического неуправляемого стресса на работе | SRC-WORK-001 | высокая | основа |
+| R015-C08 | Психосоциальные риски на работе включают нагрузку, контроль, незащищённость, буллинг и дизайн работы | SRC-WORK-002, 003 | высокая | основа |
+| R015-C09 | Организационные интервенции могут снижать истощение/выгорание, хотя эффекты и данные различаются | SRC-WORK-004–007 | средняя–высокая | основа с ограничениями |
+| R015-C10 | Одна лишь осознанность исправляет выгорание, вызванное дизайном работы | нет | отсутствует | отвергнуто |
+| R015-C11 | Структурное признание означает, что у пользователя нет полезного действия | нет | отсутствует | отвергнуто |
+| R015-C12 | Личная практика может давать облегчение/подготовку без изменения корневой причины | синтез | средняя | кандидат в философию |
+| R015-C13 | Garden может точно классифицировать дискриминацию или абьюз по одному рассказу | нет | отсутствует | отвергнуто |
+| R015-C14 | Требования к ресурсам определяют выполнимость рекомендаций | SRC-STR-005, 006 + COM-B | высокая | требование к системе |
+| R015-C15 | Цифровые технологии могут воспроизводить или увеличивать неравенство | SRC-STR-011, 012 | высокая | ограничение дизайна |
+| R015-C16 | Протокол локализации проблемы снижает самообвинение и улучшает решения | нет прямых данных | низкая | продуктовая гипотеза |
+| R015-C17 | Метки целостности вмешательства предотвращают дрейф к образу жизни | нет прямых данных | низкая | гипотеза управления |
+| R015-C18 | B2B-продукты благополучия могут безопасно давать работодателям индивидуальные данные | нет | отсутствует | отвергнуто |
+| R015-C19 | Структурные объяснения должны сопровождаться соразмерной агентностью | теоретический синтез | средняя | кандидат в философию |
+| R015-C20 | Успех совладания — доказательство, что вредные условия допустимы | нет | отсутствует | отвергнуто |
 
 ---
 
@@ -1048,18 +1048,18 @@ Measure:
 
 R-015 не доказывает:
 
-- что Garden способен правильно определить root cause;
-- что structural action доступен каждому;
-- что individual practice не может иметь долгосрочный эффект;
-- что organization-directed intervention всегда эффективнее;
-- что legal or collective route безопасен;
-- что naming power improves outcome;
-- что user wants political framing;
-- что external resources are current or accessible;
-- что structural language will not increase helplessness;
-- что employer use can never be ethical;
-- что personal responsibility отсутствует;
-- что mixed-level problems can be cleanly classified.
+- что Garden способен правильно определить корневую причину;
+- что структурное действие доступно каждому;
+- что индивидуальная практика не может иметь долгосрочный эффект;
+- что интервенция, направленная на организацию, всегда эффективнее;
+- что юридический или коллективный маршрут безопасен;
+- что называние власти улучшает исход;
+- что пользователь хочет политического обрамления;
+- что внешние ресурсы актуальны или доступны;
+- что структурный язык не усилит беспомощность;
+- что использование работодателем никогда не может быть этичным;
+- что личная ответственность отсутствует;
+- что проблемы на нескольких уровнях можно чисто классифицировать.
 
 ---
 
@@ -1084,7 +1084,7 @@ Garden не должен выбирать между:
 
 Иногда:
 
-- потребовать изменение workload;
+- потребовать изменение рабочей нагрузки;
 - найти правовую информацию;
 - объединиться с другими;
 - уйти;

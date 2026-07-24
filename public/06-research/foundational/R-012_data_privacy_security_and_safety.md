@@ -25,58 +25,58 @@ source_of_truth: false
 
 Для Garden приватность — не раздел настроек, а ограничение самой продуктовой идеи.
 
-Свободный текст может раскрывать здоровье, сексуальность, религиозные и политические убеждения, отношения, насилие, зависимости, финансы и данные других людей. AI способен дополнительно вывести чувствительные признаки, которых пользователь прямо не сообщал.
+Свободный текст может раскрывать здоровье, сексуальность, религиозные и политические убеждения, отношения, насилие, зависимости, финансы и данные других людей. ИИ способен дополнительно вывести чувствительные признаки, которых пользователь прямо не сообщал.
 
 > **Garden сначала доказывает необходимость обработки, затем выбирает минимальный объём данных и только после этого проектирует функцию. Невозможность безопасно обработать данные — основание отказаться от функции, а не написать более длинное согласие.**
 
 ## 3. Три слоя безопасности
 
-### Data protection
+### Защита данных (data protection)
 
-Законность, цели, минимизация, прозрачность, сроки, права человека, международные передачи и процессоры.
+Законность, цели, минимизация, прозрачность, сроки, права человека, международные передачи и обработчики (processors).
 
-### Information and AI security
+### Информационная и ИИ-безопасность (information and AI security)
 
-Утечка, взлом, employee access, prompt injection, retrieval poisoning, cross-user leakage, tool misuse, supply chain и восстановление.
+Утечка, взлом, доступ сотрудников, инъекция промптов (prompt injection), отравление извлечения (retrieval poisoning), утечка между пользователями, злоупотребление инструментами, цепочка поставок и восстановление.
 
-### Human safety
+### Человеческая безопасность (human safety)
 
-Ошибочный совет, кризис, зависимость, скрытое убеждение, abusive access, вредное профилирование и замещение профессиональной помощи.
+Ошибочный совет, кризис, зависимость, скрытое убеждение, доступ со стороны абьюзера, вредное профилирование и замещение профессиональной помощи.
 
 Ни один слой не заменяет другие.
 
-## 4. GDPR baseline
+## 4. Базовые требования GDPR
 
-Garden должен определить controller, processors, purposes, legal basis по Article 6, дополнительное основание Article 9 для special-category data, retention, international transfers и механизм реализации прав пользователя.
+Garden должен определить контролёра (controller), обработчиков (processors), цели, правовое основание по статье 6, дополнительное основание по статье 9 для особых категорий данных, сроки хранения, международные передачи и механизм реализации прав пользователя.
 
 Основные принципы:
 
-- lawfulness, fairness and transparency;
-- purpose limitation;
-- data minimisation;
-- accuracy;
-- storage limitation;
-- integrity and confidentiality;
-- accountability.
+- законность, справедливость и прозрачность;
+- ограничение цели;
+- минимизация данных;
+- точность;
+- ограничение хранения;
+- целостность и конфиденциальность;
+- подотчётность.
 
-`Consent to use Garden` не является автоматически согласием на sensitive profiling, research, model training, marketing, передачу человеку или passive monitoring. Эти цели должны быть разделены.
+Согласие на использование Garden не является автоматически согласием на профилирование чувствительных данных, исследования, обучение модели, маркетинг, передачу человеку или пассивный мониторинг. Эти цели должны быть разделены.
 
-## 5. Special-category data
+## 5. Особые категории данных (special-category data)
 
 Garden может получить чувствительные данные:
 
 1. напрямую из текста;
 2. из выбранных практик;
-3. из файлов и voice input;
-4. через connected services;
-5. через AI inference;
+3. из файлов и голосового ввода;
+4. через подключённые сервисы;
+5. через вывод ИИ (AI inference);
 6. из упоминаний третьих лиц.
 
 Поэтому свободный текст по умолчанию рассматривается как **потенциально чувствительный**, а не как обычный пользовательский контент.
 
-## 6. Non-clinical boundary
+## 6. Неклиническая граница (non-clinical boundary)
 
-Alpha остаётся общим wellbeing-продуктом и не должен без отдельного regulatory track:
+Alpha остаётся общим wellbeing-продуктом и не должен без отдельного регуляторного трека:
 
 - диагностировать;
 - лечить или предотвращать расстройство;
@@ -86,22 +86,22 @@ Alpha остаётся общим wellbeing-продуктом и не долж�
 - заявлять клиническую эффективность;
 - обещать кризисный мониторинг.
 
-Классификация зависит не только от дисклеймера, но и от intended purpose, claims, функций, целевой аудитории и последствий ошибки.
+Классификация зависит не только от дисклеймера, но и от заявленной цели, утверждений (claims), функций, целевой аудитории и последствий ошибки.
 
 ## 7. AI Act
 
-AI Act вступил в силу 1 августа 2024 года. Запреты на отдельные AI practices и требования AI literacy начали применяться 2 февраля 2025 года. Официальный график Европейской комиссии указывает 2 августа 2026 года как ключевую дату общей применимости многих положений; текущие изменения и переходные правила нужно повторно проверить перед запуском.
+AI Act вступил в силу 1 августа 2024 года. Запреты на отдельные практики ИИ и требования к ИИ-грамотности начали применяться 2 февраля 2025 года. Официальный график Европейской комиссии указывает 2 августа 2026 года как ключевую дату общей применимости многих положений; текущие изменения и переходные правила нужно повторно проверить перед запуском.
 
 Для Garden особенно релевантны риски:
 
-- purposefully manipulative or deceptive techniques;
-- ухудшение способности принять informed decision;
-- эксплуатация уязвимости из-за возраста, disability или социально-экономического положения;
-- transparency и AI literacy.
+- целенаправленно манипулятивные или обманные техники;
+- ухудшение способности принять информированное решение;
+- эксплуатация уязвимости из-за возраста, инвалидности или социально-экономического положения;
+- прозрачность и ИИ-грамотность.
 
-Окончательную AI Act classification нельзя установить до фиксации функций и claims.
+Окончательную классификацию по AI Act нельзя установить до фиксации функций и утверждений.
 
-## 8. Profiling
+## 8. Профилирование (profiling)
 
 Скрытый профиль может существовать, даже если в базе нет таблицы `profile`.
 
@@ -111,229 +111,229 @@ AI Act вступил в силу 1 августа 2024 года. Запреты
 - «эмоциональная стабильность»;
 - «вероятность выполнить»;
 - «уязвимость к напоминанию»;
-- «идеальный persuasion style»;
+- «идеальный стиль убеждения»;
 - «риск зависимости» как коммерческий сегмент.
 
-Нет скрытого психологического, рекламного или persuasion profile.
+Нет скрытого психологического, рекламного или убеждающего профиля.
 
-## 9. DPIA как launch gate
+## 9. DPIA как ворота запуска (launch gate)
 
-Garden сочетает special-category data, AI inference, долгосрочное наблюдение, profiling risk, novel technology и возможные кризисные состояния. Поэтому Data Protection Impact Assessment должна быть выполнена до пилота с реальными данными.
+Garden сочетает особые категории данных, вывод ИИ, долгосрочное наблюдение, риск профилирования, новую технологию и возможные кризисные состояния. Поэтому оценка воздействия на защиту данных (Data Protection Impact Assessment) должна быть выполнена до пилота с реальными данными.
 
-DPIA обновляется при новой модели, памяти, провайдере, passive data, human review, research use, social functions, новой стране или изменении claims.
+DPIA обновляется при новой модели, памяти, провайдере, пассивных данных, участии человека-ревьюера, использовании в исследованиях, социальных функциях, новой стране или изменении утверждений.
 
-## 10. Privacy by default
+## 10. Приватность по умолчанию (privacy by default)
 
 По умолчанию:
 
-- no training on user content;
-- no research reuse;
-- no advertising based on content;
-- no public profile;
-- no social visibility;
-- no passive sensing;
-- no contact upload;
-- no indefinite memory;
-- no employee access;
-- no precise location;
-- no crisis-monitoring claim;
-- no sensitive inference storage.
+- никакого обучения на пользовательском контенте;
+- никакого повторного использования в исследованиях;
+- никакой рекламы на основе контента;
+- никакого публичного профиля;
+- никакой социальной видимости;
+- никакого пассивного сбора данных;
+- никакой загрузки контактов;
+- никакой бессрочной памяти;
+- никакого доступа сотрудников;
+- никакой точной геолокации;
+- никаких заявлений о кризисном мониторинге;
+- никакого хранения выведенных чувствительных признаков.
 
-Базовая функциональность не должна требовать отказа от privacy.
+Базовая функциональность не должна требовать отказа от приватности.
 
-## 11. Purpose separation
+## 11. Разделение целей (purpose separation)
 
 Данные разделяются по целям:
 
-- core service;
-- safety;
-- security;
-- product analytics;
-- research;
-- model improvement;
-- marketing.
+- основной сервис;
+- безопасность (safety);
+- защита (security);
+- продуктовая аналитика;
+- исследования;
+- улучшение модели;
+- маркетинг.
 
-Production content не используется для model training в Alpha. Safety data не используется для personalization или marketing. Research требует отдельного opt-in процесса.
+Продакшн-контент не используется для обучения модели в Alpha. Данные безопасности не используются для персонализации или маркетинга. Исследования требуют отдельного процесса opt-in.
 
-## 12. Data zones
+## 12. Зоны данных (data zones)
 
-### Zone A — Local private draft
+### Зона A — Локальный приватный черновик (local private draft)
 
-Незавершённый текст не отправляется до явного действия; возможна on-device redaction.
+Незавершённый текст не отправляется до явного действия; возможна редакция на устройстве.
 
-### Zone B — User Vault
+### Зона B — Хранилище пользователя (User Vault)
 
-Практики, записи и подтверждённая память; encryption at rest, per-user isolation, user-controlled retention.
+Практики, записи и подтверждённая память; шифрование при хранении, изоляция по пользователям, срок хранения под контролем пользователя.
 
-### Zone C — Ephemeral AI Context
+### Зона C — Эфемерный контекст ИИ (ephemeral AI context)
 
-Только необходимый фрагмент, purpose-bound, time-limited, no provider training, minimum provider retention.
+Только необходимый фрагмент, привязанный к цели, ограниченный по времени, без обучения провайдера, с минимальным удержанием у провайдера.
 
-### Zone D — Product Analytics
+### Зона D — Продуктовая аналитика (product analytics)
 
-Технические события без raw journal text и чувствительных derived traits.
+Технические события без сырого текста дневника и чувствительных выведенных признаков.
 
-### Zone E — Safety and Security Logs
+### Зона E — Логи безопасности (safety and security logs)
 
-Минимально необходимые данные, ограниченный доступ, отсутствие использования для personalization.
+Минимально необходимые данные, ограниченный доступ, отсутствие использования для персонализации.
 
-### Zone F — Research
+### Зона F — Исследования (research)
 
-Separate consent, pseudonymization, controlled access and independent governance.
+Отдельное согласие, псевдонимизация, контролируемый доступ и независимое управление.
 
-## 13. Encryption and architecture honesty
+## 13. Шифрование и честность архитектуры
 
 Минимум:
 
-- TLS in transit;
-- modern encryption at rest;
-- managed keys and rotation;
-- secrets manager;
-- encrypted backups;
-- field-level protection for highly sensitive data;
-- strict tenant isolation.
+- TLS при передаче;
+- современное шифрование при хранении;
+- управляемые ключи и их ротация;
+- менеджер секретов;
+- зашифрованные резервные копии;
+- защита на уровне полей для особо чувствительных данных;
+- строгая изоляция арендаторов.
 
-Если server-side AI читает текст, продукт не должен называть его end-to-end encrypted. Полноценное E2EE несовместимо с unrestricted server-side processing, если сервер обладает ключом расшифровки.
+Если серверный ИИ читает текст, продукт не должен называть его end-to-end зашифрованным. Полноценное E2EE несовместимо с неограниченной серверной обработкой, если сервер обладает ключом расшифровки.
 
-## 14. Employee access
+## 14. Доступ сотрудников (employee access)
 
-По умолчанию сотрудники не читают raw personal content.
+По умолчанию сотрудники не читают сырой личный контент.
 
 Исключительный доступ требует:
 
-- documented purpose;
-- least privilege;
-- just-in-time grant;
-- ticket and reason;
-- dual approval для особо чувствительных данных;
-- immutable audit;
-- short session;
-- periodic access review;
-- immediate revocation.
+- задокументированной цели;
+- минимальных привилегий;
+- предоставления «точно в срок» (just-in-time);
+- тикета и причины;
+- двойного одобрения для особо чувствительных данных;
+- неизменяемого аудита;
+- короткой сессии;
+- периодического пересмотра доступа;
+- немедленного отзыва.
 
-Нельзя читать реальные диалоги «для продуктового понимания» вне consented research.
+Нельзя читать реальные диалоги «для продуктового понимания» вне согласованных исследований.
 
-## 15. Model provider gate
+## 15. Ворота поставщика модели (model provider gate)
 
-До подключения LLM provider проверяются:
+До подключения LLM-провайдера проверяются:
 
-- training policy;
-- retention;
-- region;
-- sub-processors;
-- deletion;
-- incident notification;
-- data-transfer mechanism;
-- prompt/output logging;
-- DPA and audit evidence;
-- model change notice.
+- политика обучения;
+- сроки хранения;
+- регион;
+- субобработчики;
+- удаление;
+- уведомление об инцидентах;
+- механизм передачи данных;
+- логирование промптов/ответов;
+- DPA и свидетельства аудита;
+- уведомление о смене модели.
 
-User content не используется provider’ом для training or product improvement. Если это нельзя гарантировать, provider не получает sensitive content.
+Пользовательский контент не используется провайдером для обучения или улучшения продукта. Если это нельзя гарантировать, провайдер не получает чувствительный контент.
 
-## 16. Prompt injection and agent security
+## 16. Инъекция промптов и безопасность агента (prompt injection и agent security)
 
-Untrusted content может поступить через message, file, web page, email, calendar или shared object.
+Недоверенный контент может поступить через сообщение, файл, веб-страницу, письмо, календарь или общий объект.
 
-> **Untrusted content is data, not instruction.**
+> **Недоверенный контент — это данные, а не инструкция.**
 
 Обязательны:
 
-- tool allowlist;
-- minimum scopes;
-- read/write separation;
-- human confirmation for external actions;
-- policy enforcement outside the model;
-- no raw secrets in prompts;
-- sandboxed file processing;
-- output validation;
-- rate and transaction limits;
-- rollback where possible;
-- no model-generated authorization.
+- список разрешённых инструментов (allowlist);
+- минимальные области доступа;
+- разделение чтения и записи;
+- подтверждение человеком для внешних действий;
+- применение политики вне модели;
+- отсутствие сырых секретов в промптах;
+- обработка файлов в песочнице;
+- валидация вывода;
+- лимиты частоты и транзакций;
+- откат, где возможно;
+- отсутствие авторизации, сгенерированной моделью.
 
-## 17. Cross-user isolation
+## 17. Изоляция между пользователями (cross-user isolation)
 
 Обязательные тесты:
 
-- чужой user ID;
-- vector namespace leak;
-- cache contamination;
-- shared embedding retrieval;
-- backup restore mix-up;
-- export with another user’s data;
-- prompt injection requesting previous-user context;
-- cross-domain memory leakage.
+- чужой ID пользователя;
+- утечка векторного пространства имён;
+- загрязнение кэша;
+- извлечение общих эмбеддингов;
+- перепутывание при восстановлении из резервной копии;
+- экспорт с данными другого пользователя;
+- инъекция промпта с запросом контекста предыдущего пользователя;
+- утечка памяти между областями.
 
-Cross-user disclosure имеет нулевую терпимость.
+Раскрытие данных между пользователями имеет нулевую терпимость.
 
-## 18. Logs
+## 18. Логи (logs)
 
-Logs не должны становиться скрытой копией продукта.
+Логи не должны становиться скрытой копией продукта.
 
 Без доказанной необходимости нельзя писать:
 
-- full prompts and outputs;
-- decrypted journal text;
-- crisis text;
-- tokens and secrets;
-- contacts;
-- provider payloads.
+- полные промпты и ответы;
+- расшифрованный текст дневника;
+- кризисный текст;
+- токены и секреты;
+- контакты;
+- полезные нагрузки провайдера.
 
-Нужны structured event codes, redaction, short retention, restricted querying и отдельные security logs.
+Нужны структурированные коды событий, редакция, короткий срок хранения, ограниченный доступ к запросам и отдельные логи безопасности.
 
-## 19. Retention and deletion
+## 19. Хранение и удаление (retention и deletion)
 
-`Indefinite` не является допустимым default.
+`Indefinite` (бессрочно) не является допустимым значением по умолчанию.
 
 Удаление охватывает:
 
-- primary records;
-- attachments;
-- vector embeddings;
-- summaries;
-- memories;
-- derived features;
-- caches and indexes;
-- queued jobs;
-- processor copies;
-- backups через объявленный expiration cycle.
+- первичные записи;
+- вложения;
+- векторные эмбеддинги;
+- сводки;
+- воспоминания;
+- производные признаки;
+- кэши и индексы;
+- задачи в очереди;
+- копии у обработчиков;
+- резервные копии через объявленный цикл истечения.
 
-Пользователь видит, что удалено сразу, что находится в backup и каков максимальный срок. Удалённая AI-гипотеза не должна возвращаться из summary или cache.
+Пользователь видит, что удалено сразу, что находится в резервной копии и каков максимальный срок. Удалённая гипотеза ИИ не должна возвращаться из сводки или кэша.
 
-## 20. Export and access
+## 20. Экспорт и доступ (export и access)
 
-Export включает:
+Экспорт включает:
 
-- human-readable and machine-readable formats;
-- provenance;
-- user vs AI authorship;
-- memory classes;
-- corrections;
-- consent history.
+- форматы, читаемые человеком и машиной;
+- происхождение (provenance);
+- авторство пользователя или ИИ;
+- классы памяти;
+- исправления;
+- историю согласий.
 
-Для export, delete and memory dashboard нужна re-authentication, чтобы защититься при доступе к устройству.
+Для экспорта, удаления и панели памяти нужна повторная аутентификация, чтобы защититься при доступе к устройству.
 
-## 21. Account and coercive-access safety
+## 21. Безопасность аккаунта и при принудительном доступе
 
-Риски: украденный телефон, общий компьютер, abusive partner, shoulder surfing, notification previews и compromised recovery.
+Риски: украденный телефон, общий компьютер, абьюзивный партнёр, подглядывание через плечо, превью уведомлений и скомпрометированное восстановление.
 
-Controls:
+Меры контроля:
 
-- passkeys/MFA option;
-- device/session list;
-- remote logout;
-- privacy lock;
-- hidden notification content;
-- re-authentication for sensitive operations;
-- no personal text in emails;
-- suspicious-login alerts.
+- опция passkeys/MFA;
+- список устройств/сессий;
+- удалённый выход;
+- блокировка приватности;
+- скрытое содержание уведомлений;
+- повторная аутентификация для чувствительных операций;
+- никакого личного текста в письмах;
+- оповещения о подозрительном входе.
 
 Совместная практика не даёт доступ к личному дневнику.
 
-## 22. Crisis boundary
+## 22. Граница кризиса (crisis boundary)
 
-Garden не является emergency service, suicide hotline, clinical monitoring system или 24/7 human-reviewed service.
+Garden не является экстренной службой, линией помощи при суициде, системой клинического мониторинга или сервисом с круглосуточной проверкой людьми.
 
-Если нет staffed escalation, продукт не обещает monitoring.
+Если нет укомплектованной эскалации, продукт не обещает мониторинг.
 
 При явном высоком риске Garden должен:
 
@@ -343,137 +343,137 @@ Garden не является emergency service, suicide hotline, clinical monito
 4. предложить местную экстренную или кризисную помощь;
 5. предложить выбранного реального человека;
 6. показать проверенные локальные ресурсы;
-7. не ограничиваться breathing exercise;
-8. не требовать длинного disclosure;
+7. не ограничиваться дыхательным упражнением;
+8. не требовать длинного раскрытия;
 9. не утверждать, что помощь уже вызвана.
 
-Протокол требует clinical and crisis-professional review.
+Протокол требует проверки клиническими и кризисными специалистами.
 
-## 23. Automatic crisis detection
+## 23. Автоматическое обнаружение кризиса
 
 В Alpha:
 
-- нет обещания passive crisis detection;
-- safety response запускается прежде всего явным текущим содержанием;
-- нет long-term crisis score;
+- нет обещания пассивного обнаружения кризиса;
+- реакция безопасности запускается прежде всего явным текущим содержанием;
+- нет долгосрочного балла кризиса;
 - нет автоматического уведомления полиции или контактов;
-- нет скрытого human review;
-- crisis data не используется для marketing/personalization;
-- нужны language-specific tests и deterministic safety layer where feasible.
+- нет скрытой проверки людьми;
+- кризисные данные не используются для маркетинга/персонализации;
+- нужны тесты для конкретных языков и детерминированный слой безопасности, где это осуществимо.
 
-## 24. Children
+## 24. Дети
 
-Garden Alpha — `18+` как product safety boundary.
+Garden Alpha — `18+` как граница безопасности продукта.
 
-До работы с несовершеннолетними нужны child-rights impact assessment, age-appropriate design, age assurance without excessive data, country legal review, separate safeguarding and crisis protocols и независимый child-safety review.
+До работы с несовершеннолетними нужны оценка воздействия на права ребёнка, дизайн, соответствующий возрасту, подтверждение возраста без избыточных данных, правовой обзор по странам, отдельные протоколы защиты и кризиса и независимая проверка детской безопасности.
 
-## 25. Research governance
+## 25. Управление исследованиями (research governance)
 
-Production data не становятся research data автоматически.
+Продакшн-данные не становятся исследовательскими автоматически.
 
-Нужны separate consent, protocol, minimization, withdrawal, re-identification assessment, controlled access и отсутствие product penalty за отказ.
+Нужны отдельное согласие, протокол, минимизация, возможность отзыва, оценка риска повторной идентификации, контролируемый доступ и отсутствие продуктового наказания за отказ.
 
-`Anonymized` используется только если reasonable re-identification невозможна; иначе данные называются pseudonymized.
+`Anonymized` (анонимизированный) используется только если разумная повторная идентификация невозможна; иначе данные называются псевдонимизированными.
 
-## 26. Security program
+## 26. Программа безопасности (security program)
 
 Минимальная программа:
 
-- asset inventory and data-flow map;
-- threat modeling;
-- secure SDLC;
-- dependency and secrets scanning;
+- инвентаризация активов и карта потоков данных;
+- моделирование угроз;
+- безопасный жизненный цикл разработки (secure SDLC);
+- сканирование зависимостей и секретов;
 - SAST/DAST;
-- infrastructure hardening;
-- penetration testing;
-- LLM/agent, privacy and safety red-teams;
-- vulnerability disclosure;
-- patch SLAs;
-- backup restore tests;
-- incident response;
-- business continuity;
-- vendor risk management;
-- security and AI-literacy training.
+- усиление инфраструктуры;
+- тестирование на проникновение;
+- red-team-команды по LLM/агентам, приватности и безопасности;
+- раскрытие уязвимостей;
+- SLA по исправлениям;
+- тесты восстановления из резервных копий;
+- реагирование на инциденты;
+- обеспечение непрерывности бизнеса;
+- управление рисками поставщиков;
+- обучение безопасности и ИИ-грамотности.
 
-## 27. Incident response
+## 27. Реагирование на инциденты (incident response)
 
 Типы инцидентов:
 
-- confidentiality, integrity or availability breach;
-- cross-user memory;
-- harmful model response at scale;
-- deletion failure;
-- processor incident;
-- prompt-injection exploit;
-- unauthorized employee access;
-- crisis-protocol failure.
+- нарушение конфиденциальности, целостности или доступности;
+- память между пользователями;
+- вредный ответ модели в масштабе;
+- сбой удаления;
+- инцидент у обработчика;
+- эксплойт инъекции промпта;
+- несанкционированный доступ сотрудника;
+- сбой кризисного протокола.
 
 Процесс:
 
-1. Detect.
-2. Contain.
-3. Preserve evidence.
-4. Assess affected data and people.
-5. Disable or degrade the feature.
-6. Notify accountable roles.
-7. Meet legal notification duties.
-8. Communicate honestly to affected users.
-9. Remediate and verify.
-10. Update tests and Chronicle.
+1. Обнаружить.
+2. Локализовать.
+3. Сохранить доказательства.
+4. Оценить затронутые данные и людей.
+5. Отключить или ограничить функцию.
+6. Уведомить ответственные роли.
+7. Выполнить юридические обязанности по уведомлению.
+8. Честно сообщить затронутым пользователям.
+9. Устранить и проверить.
+10. Обновить тесты и Хронику.
 
-Under GDPR a supervisory authority may need notification within 72 hours where feasible when the breach is likely to risk individuals’ rights and freedoms; high-risk breaches may also require communication to affected people. Exact duties require incident-specific legal assessment.
+По GDPR надзорный орган может требовать уведомления в течение 72 часов, где это осуществимо, когда нарушение вероятно угрожает правам и свободам людей; о высокорисковых нарушениях также может требоваться сообщение затронутым людям. Точные обязанности требуют юридической оценки конкретного инцидента.
 
-## 28. Fail-safe behavior
+## 28. Отказоустойчивое поведение (fail-safe behavior)
 
-- memory unavailable → do not invent;
-- safety layer unavailable → restricted safe mode;
-- authorization uncertain → deny action;
-- data scope uncertain → do not retrieve;
-- provenance lost → do not use as fact;
-- deletion uncertain → keep request active and investigate;
-- policy conflict → prefer privacy and safety boundary.
+- память недоступна → не выдумывать;
+- слой безопасности недоступен → ограниченный безопасный режим;
+- авторизация неопределённа → отказать в действии;
+- область данных неопределённа → не извлекать;
+- происхождение потеряно → не использовать как факт;
+- удаление неопределённо → держать запрос активным и расследовать;
+- конфликт политик → предпочесть границу приватности и безопасности.
 
-## 29. Alpha launch boundaries
+## 29. Границы запуска Alpha
 
-Alpha does not include:
+Alpha не включает:
 
-- minors;
-- clinical claims;
-- crisis-monitoring promises;
-- passive mental-state inference;
-- social comparison and public profiles;
-- content-based advertising;
-- data brokerage;
-- training on production content;
-- employee browsing;
-- broad third-party integrations;
-- autonomous external actions;
-- hard commitments;
-- hidden psychological profiles;
-- biometric identification.
+- несовершеннолетних;
+- клинические утверждения;
+- обещания кризисного мониторинга;
+- пассивный вывод психического состояния;
+- социальное сравнение и публичные профили;
+- рекламу на основе контента;
+- брокерство данных;
+- обучение на продакшн-контенте;
+- просмотр данных сотрудниками;
+- широкие интеграции с третьими сторонами;
+- автономные внешние действия;
+- жёсткие обязательства;
+- скрытые психологические профили;
+- биометрическую идентификацию.
 
-## 30. Claim Registry
+## 30. Реестр утверждений
 
-| Claim ID | Утверждение | Источники | Уверенность | Статус |
+| ID утверждения | Утверждение | Источники | Уверенность | Статус |
 |---|---|---|---|---|
-| R012-C01 | Free text may contain special-category data | SRC-PRIV-001, 002 | высокая | foundation |
-| R012-C02 | Privacy by design/default and minimization are GDPR duties | SRC-PRIV-001, 003 | высокая | foundation |
-| R012-C03 | Users have access, correction, erasure, restriction, portability and objection rights | SRC-PRIV-004 | высокая | foundation |
-| R012-C04 | One blanket consent legitimises all processing | no | отсутствует | rejected |
-| R012-C05 | DPIA should precede a real-data pilot | SRC-PRIV-001, 005 + synthesis | высокая | launch gate |
-| R012-C06 | AI Act prohibits certain manipulative/deceptive harmful practices | SRC-REG-001, 002 | высокая | legal constraint |
-| R012-C07 | Garden is definitively high-risk AI | classification incomplete | unknown | unresolved |
-| R012-C08 | LLM apps face prompt injection and sensitive disclosure risks | SRC-SEC-001–003 | высокая | foundation |
-| R012-C09 | System prompts alone prevent disclosure | no | отсутствует | rejected |
-| R012-C10 | AI systems face poisoning, exfiltration and component threats | SRC-SEC-004 | высокая | foundation |
-| R012-C11 | Health AI needs autonomy, safety, transparency and accountability | SRC-SAFE-001–003 | высокая | governance foundation |
-| R012-C12 | Garden can guarantee crisis detection | no | отсутствует | rejected |
-| R012-C13 | Raw production content is necessary for improvement | no | отсутствует | rejected |
-| R012-C14 | Deletion must include derived stores | legal/technical synthesis | высокая | requirement |
-| R012-C15 | E2EE is compatible with unrestricted server-side AI reading | no | отсутствует | rejected |
-| R012-C16 | Employee access should be exceptional and audited | standards synthesis | высокая | requirement |
-| R012-C17 | Alpha should be 18+ | Garden safety synthesis | proposed | boundary |
-| R012-C18 | Production content should not train provider models by default | privacy synthesis | высокая | launch gate |
+| R012-C01 | Свободный текст может содержать особые категории данных | SRC-PRIV-001, 002 | высокая | основа |
+| R012-C02 | Приватность по замыслу/умолчанию и минимизация — обязанности по GDPR | SRC-PRIV-001, 003 | высокая | основа |
+| R012-C03 | У пользователей есть права доступа, исправления, стирания, ограничения, переносимости и возражения | SRC-PRIV-004 | высокая | основа |
+| R012-C04 | Одно общее согласие узаконивает всю обработку | нет | отсутствует | отвергнуто |
+| R012-C05 | DPIA должна предшествовать пилоту с реальными данными | SRC-PRIV-001, 005 + синтез | высокая | ворота запуска |
+| R012-C06 | AI Act запрещает отдельные манипулятивные/обманные вредные практики | SRC-REG-001, 002 | высокая | правовое ограничение |
+| R012-C07 | Garden однозначно является ИИ высокого риска | классификация не завершена | неизвестно | не разрешено |
+| R012-C08 | LLM-приложения сталкиваются с риском инъекции промптов и раскрытия чувствительных данных | SRC-SEC-001–003 | высокая | основа |
+| R012-C09 | Одни системные промпты предотвращают раскрытие | нет | отсутствует | отвергнуто |
+| R012-C10 | ИИ-системы сталкиваются с отравлением, эксфильтрацией и угрозами компонентов | SRC-SEC-004 | высокая | основа |
+| R012-C11 | ИИ для здоровья требует автономии, безопасности, прозрачности и подотчётности | SRC-SAFE-001–003 | высокая | основа управления |
+| R012-C12 | Garden может гарантировать обнаружение кризиса | нет | отсутствует | отвергнуто |
+| R012-C13 | Сырой продакшн-контент необходим для улучшения | нет | отсутствует | отвергнуто |
+| R012-C14 | Удаление должно охватывать производные хранилища | правовой/технический синтез | высокая | требование |
+| R012-C15 | E2EE совместимо с неограниченным серверным чтением ИИ | нет | отсутствует | отвергнуто |
+| R012-C16 | Доступ сотрудников должен быть исключительным и аудируемым | синтез стандартов | высокая | требование |
+| R012-C17 | Alpha должна быть 18+ | синтез безопасности Garden | предложено | граница |
+| R012-C18 | Продакшн-контент по умолчанию не должен обучать модели провайдера | синтез приватности | высокая | ворота запуска |
 
 ## 31. Основные источники
 
@@ -499,9 +499,9 @@ Alpha does not include:
 
 ## 32. Что исследование не доказывает
 
-R-012 не является final legal opinion, medical-device classification, completed DPIA, penetration test, security architecture review или clinical crisis protocol.
+R-012 не является окончательным юридическим заключением, классификацией медицинского изделия, завершённой DPIA, тестом на проникновение, обзором архитектуры безопасности или клиническим кризисным протоколом.
 
-Оно не доказывает, что перечисленных мер достаточно, что EU baseline покрывает глобальный запуск или что consent делает вредный дизайн допустимым.
+Оно не доказывает, что перечисленных мер достаточно, что базовый уровень ЕС покрывает глобальный запуск или что согласие делает вредный дизайн допустимым.
 
 ## 33. Вердикт
 

@@ -24,14 +24,14 @@ source_of_truth: false
 
 - какие виды социальной поддержки действительно различаются;
 - когда помощь близкого укрепляет автономию;
-- когда accountability превращается в surveillance;
+- когда подотчётность превращается в слежку;
 - какие данные можно разделять;
 - чем совместная практика отличается от общего дневника;
 - как проектировать двустороннее согласие;
 - как учитывать неравенство власти;
 - нужны ли группы и сообщества;
-- как предотвращать co-rumination, misinformation, harassment и contagion;
-- кто отвечает за moderation;
+- как предотвращать со-руминацию, дезинформацию, харассмент и заражение;
+- кто отвечает за модерацию;
 - что происходит при расставании, конфликте и отзыве доступа;
 - какой социальный слой допустим в Alpha.
 
@@ -57,7 +57,7 @@ source_of_truth: false
 - сравнение;
 - обязанность отвечать;
 - эмоциональный труд;
-- co-rumination;
+- со-руминацию;
 - взаимное убеждение;
 - конфликт из-за неполных данных;
 - принудительное раскрытие;
@@ -69,9 +69,9 @@ source_of_truth: false
 
 ---
 
-## 3. Relatedness не равна постоянному контакту
+## 3. Связанность (relatedness) не равна постоянному контакту
 
-Self-Determination Theory рассматривает relatedness как опыт связи, заботы и значимости для других.
+Теория самодетерминации рассматривает связанность (relatedness) как опыт связи, заботы и значимости для других.
 
 Это не означает:
 
@@ -95,7 +95,7 @@ Self-Determination Theory рассматривает relatedness как опыт
 
 ### Принцип
 
-Garden не считает отсутствие social features дефицитом пользователя.
+Garden не считает отсутствие социальных функций дефицитом пользователя.
 
 ---
 
@@ -103,14 +103,14 @@ Garden не считает отсутствие social features дефицито
 
 Классические модели различают минимум четыре формы.
 
-### 4.1. Emotional support
+### 4.1. Эмоциональная поддержка (emotional support)
 
 - выслушать;
 - признать переживание;
 - быть рядом;
 - выразить заботу.
 
-### 4.2. Instrumental support
+### 4.2. Инструментальная поддержка (instrumental support)
 
 - помочь с ребёнком;
 - принести еду;
@@ -118,14 +118,14 @@ Garden не считает отсутствие social features дефицито
 - взять часть задачи;
 - создать условия.
 
-### 4.3. Informational support
+### 4.3. Информационная поддержка (informational support)
 
 - передать информацию;
 - предложить источник;
 - объяснить процедуру;
 - поделиться опытом.
 
-### 4.4. Appraisal support
+### 4.4. Оценочная поддержка (appraisal support)
 
 - помочь посмотреть на ситуацию;
 - дать обратную связь;
@@ -140,11 +140,11 @@ Garden не считает отсутствие social features дефицито
 
 ### Требование
 
-Перед social request Garden помогает назвать вид поддержки, а не отправляет универсальное «поддержи меня».
+Перед социальным запросом Garden помогает назвать вид поддержки, а не отправляет универсальное «поддержи меня».
 
 ---
 
-## 5. Matching hypothesis
+## 5. Гипотеза соответствия (matching hypothesis)
 
 Польза поддержки зависит от соответствия:
 
@@ -164,9 +164,9 @@ Garden не считает отсутствие social features дефицито
 - демонстрация превосходства;
 - новая обязанность.
 
-### Product implication
+### Следствие для продукта
 
-Invite flow содержит:
+Поток приглашения содержит:
 
 ```yaml
 what_happened:
@@ -179,7 +179,7 @@ data_visible:
 
 ---
 
-## 6. Support и social control
+## 6. Поддержка и социальный контроль
 
 Близкий человек может пытаться изменить поведение через:
 
@@ -191,9 +191,9 @@ data_visible:
 - мониторинг;
 - санкции.
 
-Это часто называют social control. Намерение может быть заботливым, но переживание — контролирующим.
+Это часто называют социальным контролем. Намерение может быть заботливым, но переживание — контролирующим.
 
-Autonomy-supportive support:
+Поддержка автономии:
 
 - согласована;
 - объясняет ожидания;
@@ -209,7 +209,7 @@ Autonomy-supportive support:
 
 ---
 
-## 7. Пользователь не обязан превращать отношения в accountability
+## 7. Пользователь не обязан превращать отношения в подотчётность
 
 Garden не предлагает:
 
@@ -225,9 +225,9 @@ Garden не предлагает:
 - практический помощник;
 - слушатель;
 - источник информации;
-- emergency contact в отдельно регулируемом сценарии.
+- экстренный контакт в отдельно регулируемом сценарии.
 
-`Accountability partner` не является default-ролью.
+«Партнёр по подотчётности» не является ролью по умолчанию.
 
 ---
 
@@ -249,43 +249,43 @@ Garden не предлагает:
 - один человек следит за выполнением другого;
 - партнёр получает отчёт о настроении;
 - родитель видит личные записи взрослого ребёнка;
-- работодатель получает wellbeing score;
+- работодатель получает балл благополучия;
 - друг получает уведомление о пропуске без отдельного согласия.
 
 ---
 
-## 9. Dyadic interventions
+## 9. Диадические интервенции (dyadic interventions)
 
-Research on couple- and dyadic interventions shows a broad range of techniques, including:
+Исследования интервенций для пар и диад показывают широкий спектр техник, включая:
 
-- joint planning;
-- collaborative problem solving;
-- communication;
-- partner support;
-- shared coping;
-- environmental restructuring.
+- совместное планирование;
+- коллаборативное решение проблем;
+- коммуникацию;
+- поддержку партнёра;
+- совместное совладание;
+- перестройку среды.
 
-A 2024 compendium identified 122 dyadic interventions and 165 studies, demonstrating that «добавить партнёра» — не единая техника, а множество механизмов.
+Обзор 2024 года выявил 122 диадические интервенции и 165 исследований, показав, что «добавить партнёра» — не единая техника, а множество механизмов.
 
-Earlier meta-analytic work found small effects of couple-oriented interventions in chronic illness contexts, with substantial variation.
+Более ранние метааналитические работы обнаружили небольшие эффекты интервенций, ориентированных на пару, в контексте хронических заболеваний, с существенной вариативностью.
 
 ### Ограничение
 
-Medical or couple intervention evidence does not validate a generic shared-practice feature.
+Данные о медицинских или парных интервенциях не валидируют обобщённую функцию совместной практики.
 
 ### Следствие
 
-Каждая dyadic mechanic требует собственного:
+Каждый диадический механизм требует собственных:
 
-- purpose;
-- target;
-- consent model;
-- outcome;
-- harm model.
+- цели;
+- мишени;
+- модели согласия;
+- результата;
+- модели вреда.
 
 ---
 
-## 10. Dyadic Support Contract
+## 10. Диадический контракт поддержки (Dyadic Support Contract)
 
 Перед совместной функцией оба человека принимают отдельный контракт.
 
@@ -307,57 +307,57 @@ exit_rules:
 
 ### Обязательные свойства
 
-- symmetrical visibility;
-- individual private space;
-- separate consent;
-- no silent role expansion;
-- no inferred consent from relationship;
-- immediate pause;
-- data portability;
-- independent exit.
+- симметричная видимость;
+- индивидуальное приватное пространство;
+- отдельное согласие;
+- никакого молчаливого расширения ролей;
+- никакого выведенного согласия из отношений;
+- немедленная пауза;
+- переносимость данных;
+- независимый выход.
 
 ---
 
 ## 11. Совместный объект, а не совместная личность
 
-Sharing строится вокруг конкретного объекта.
+Обмен строится вокруг конкретного объекта.
 
 Можно разделить:
 
 - название совместной практики;
 - согласованное время;
 - факт готовности;
-- выбранный message;
+- выбранное сообщение;
 - совместное событие;
 - явный запрос помощи.
 
 Нельзя раскрывать по умолчанию:
 
 - личный дневник;
-- AI hypotheses;
-- mood history;
+- гипотезы ИИ;
+- историю настроения;
 - другие практики;
 - кризисные записи;
-- memory profile;
+- профиль памяти;
 - пропуски;
-- relationship reflections;
-- deleted content.
+- размышления об отношениях;
+- удалённый контент.
 
 ### Принцип
 
-> Share the coordination, not the interior.
+> Делись координацией, а не внутренним пространством.
 
 ---
 
-## 12. Granular consent
+## 12. Гранулярное согласие (granular consent)
 
 Согласие должно быть:
 
-- per person;
-- per object;
-- per data type;
-- per action;
-- per time period.
+- на каждого человека;
+- на каждый объект;
+- на каждый тип данных;
+- на каждое действие;
+- на каждый период времени.
 
 Невалидно:
 
@@ -381,25 +381,25 @@ Sharing строится вокруг конкретного объекта.
 - заказчик;
 - человек, от которого зависит жильё или доход.
 
-### Risk signals
+### Сигналы риска
 
-- invite linked to employment;
-- requirement to share;
-- penalty for refusal;
-- repeated requests;
-- account created by another person;
-- one-sided visibility;
-- shared password;
-- demand for full history;
-- inability to exit privately.
+- приглашение связано с трудоустройством;
+- требование делиться;
+- наказание за отказ;
+- повторные запросы;
+- аккаунт, созданный другим человеком;
+- односторонняя видимость;
+- общий пароль;
+- требование полной истории;
+- невозможность выйти приватно.
 
-### Alpha prohibition
+### Запрет в Alpha
 
-Garden social layer не предназначен для employer–employee monitoring, school oversight, insurer programs or coercive family tracking.
+Социальный слой Garden не предназначен для мониторинга «работодатель–сотрудник», школьного надзора, программ страховщиков или принудительного семейного отслеживания.
 
 ---
 
-## 14. Surveillance creep
+## 14. Расползание слежки (surveillance creep)
 
 Функция может начинаться как помощь:
 
@@ -413,24 +413,24 @@ Garden social layer не предназначен для employer–employee mon
 - почему вернулась;
 - как себя оценила;
 - пропуск;
-- отклонённый reminder.
+- отклонённое напоминание.
 
-### Rule
+### Правило
 
-Никакого автоматического расширения данных. Новая видимость требует отдельного consent event.
+Никакого автоматического расширения данных. Новая видимость требует отдельного события согласия.
 
 ---
 
-## 15. Miss handling
+## 15. Обработка пропуска
 
-После пропуска shared practice система не:
+После пропуска совместной практики система не:
 
 - уведомляет другого автоматически;
 - предлагает «подтолкнуть»;
 - показывает красный статус;
 - назначает виноватого;
-- считает streak пары;
-- создаёт disappointment animation;
+- считает серию (streak) пары;
+- создаёт анимацию разочарования;
 - сравнивает вклад.
 
 Разрешённые варианты, выбранные заранее:
@@ -439,56 +439,56 @@ Garden social layer не предназначен для employer–employee mon
 - нейтрально предложить перенести;
 - спросить каждого отдельно;
 - закрыть событие;
-- открыть короткий coordination message.
+- открыть короткое координационное сообщение.
 
 ---
 
 ## 16. Социальное сравнение
 
-Comparison can provide:
+Сравнение может давать:
 
-- information;
+- информацию;
 - норму;
-- inspiration;
-- sense of possibility.
+- вдохновение;
+- ощущение возможности.
 
 Но также:
 
-- shame;
-- envy;
-- inferiority;
-- competition;
-- concealment;
-- unhealthy escalation;
-- reduced autonomy;
-- interpretation without context.
+- стыд;
+- зависть;
+- ощущение неполноценности;
+- соревнование;
+- сокрытие;
+- нездоровую эскалацию;
+- сниженную автономию;
+- интерпретацию без контекста.
 
-Fitness-app research shows users differ in whether they want upward, downward or similarity-based comparison. This variability itself argues against default comparison.
+Исследования фитнес-приложений показывают, что пользователи различаются в том, хотят ли они сравнения «вверх», «вниз» или по сходству. Сама эта вариативность аргументирует против сравнения по умолчанию.
 
-### Alpha prohibition
+### Запрет в Alpha
 
-- no leaderboard;
-- no percentile;
-- no «люди как вы»;
-- no public streak;
-- no progress feed;
-- no best garden;
-- no popularity metrics;
-- no reactions count.
+- никаких таблиц лидеров;
+- никаких перцентилей;
+- никаких «люди как вы»;
+- никаких публичных серий;
+- никакой ленты прогресса;
+- никакого «лучшего сада»;
+- никаких метрик популярности;
+- никакого счётчика реакций.
 
 ---
 
-## 17. Inspiration without comparison
+## 17. Вдохновение без сравнения
 
-Допустимые alternative forms:
+Допустимые альтернативные формы:
 
-- anonymous practice ideas;
-- stories with context and limitations;
-- user-selected examples;
-- diverse outcomes;
-- no ranking;
-- no implied norm;
-- no behavioral performance data.
+- анонимные идеи практик;
+- истории с контекстом и ограничениями;
+- выбранные пользователем примеры;
+- разнообразные исходы;
+- никакого ранжирования;
+- никакой подразумеваемой нормы;
+- никаких данных о поведенческой результативности.
 
 История не должна превращаться в:
 
@@ -496,514 +496,514 @@ Fitness-app research shows users differ in whether they want upward, downward or
 
 ---
 
-## 18. Peer support
+## 18. Пиринговая поддержка (peer support)
 
-Digital peer support studies report potential benefits:
+Исследования цифровой пиринговой поддержки сообщают о возможной пользе:
 
-- belonging;
-- hope;
-- empowerment;
-- shared knowledge;
-- reduced isolation;
-- normalization;
-- practical coping strategies.
+- принадлежность;
+- надежда;
+- расширение возможностей;
+- общее знание;
+- снижение изоляции;
+- нормализация;
+- практические стратегии совладания.
 
-But systematic reviews often describe:
+Но систематические обзоры часто описывают:
 
-- heterogeneous interventions;
-- mixed quality;
-- limited causal evidence;
-- weaker long-term effects;
-- unclear active ingredients.
+- неоднородные интервенции;
+- смешанное качество;
+- ограниченные причинные данные;
+- более слабые долгосрочные эффекты;
+- неясные активные компоненты.
 
-A 2025 meta-analysis in broadly healthy populations found positive average effects, particularly for mental health, but also reported weaker effects with longer follow-up and raised concerns about longer exposure enabling negative interactions.
+Метаанализ 2025 года на в целом здоровых выборках обнаружил положительные средние эффекты, особенно для психического здоровья, но также сообщил о более слабых эффектах при более длительном наблюдении и поднял вопрос о том, что более длительное воздействие может открывать путь негативным взаимодействиям.
 
-### Conclusion
+### Вывод
 
-Peer support is promising but is not a safe low-cost feature.
-
----
-
-## 19. Harms of online peer support
-
-Reported or theorized adverse events include:
-
-- co-rumination;
-- emotional contagion;
-- collusion;
-- harmful normalization;
-- misinformation;
-- triggering content;
-- harassment;
-- trolling;
-- competition over severity;
-- dependency;
-- pressure to disclose;
-- unpaid emotional labor;
-- moderator conflict;
-- displacement of offline help.
-
-### Principle
-
-A community cannot be launched on the assumption that kindness will self-organize.
+Пиринговая поддержка перспективна, но не является безопасной дешёвой функцией.
 
 ---
 
-## 20. Co-rumination
+## 19. Вред онлайн-пиринговой поддержки
 
-Co-rumination combines:
+Сообщённые или теоретически предполагаемые нежелательные явления включают:
 
-- repeated discussion of problems;
-- focus on negative affect;
-- speculation about causes and consequences;
-- repeated revisiting;
-- mutual encouragement to continue.
+- со-руминацию;
+- эмоциональное заражение;
+- сговор;
+- вредную нормализацию;
+- дезинформацию;
+- триггерящий контент;
+- харассмент;
+- троллинг;
+- соревнование по тяжести;
+- зависимость;
+- давление на раскрытие;
+- неоплачиваемый эмоциональный труд;
+- конфликт модераторов;
+- вытеснение офлайн-помощи.
 
-Research has linked it to:
+### Принцип
 
-- greater closeness or friendship quality in some studies;
-- increased rumination;
-- internalizing symptoms;
-- reduced benefit of support seeking in some contexts.
-
-### Product risk
-
-A warm community can reward increasingly detailed negative disclosure because it generates attention and connection.
-
-### Guardrails
-
-- time-bounded threads;
-- prompts toward concrete support;
-- easy closure;
-- no engagement ranking;
-- no algorithmic amplification of distress;
-- no reward for disclosure volume;
-- offer offline/human/professional bridge;
-- distinguish witnessing from endless analysis.
+Сообщество нельзя запускать в расчёте на то, что доброта самоорганизуется.
 
 ---
 
-## 21. Misinformation
+## 20. Со-руминация (co-rumination)
 
-Peer knowledge can be valuable, but lived experience is not universal instruction.
+Со-руминация сочетает:
 
-Risks:
+- повторяющееся обсуждение проблем;
+- фокус на негативном аффекте;
+- спекуляции о причинах и последствиях;
+- повторное возвращение к теме;
+- взаимное поощрение продолжать.
 
-- diagnosis;
-- stopping treatment;
-- supplement or medication advice;
-- relationship verdicts;
-- conspiracy;
-- false certainty;
-- anecdote as causal proof.
+Исследования связывали её с:
 
-### Labels
+- большей близостью или качеством дружбы в некоторых работах;
+- усилением руминации;
+- интернализирующими симптомами;
+- сниженной пользой поиска поддержки в некоторых контекстах.
 
-- `My experience`;
-- `Personal suggestion`;
-- `Source-backed information`;
-- `Professional guidance`;
-- `Garden safety notice`.
+### Продуктовый риск
 
-The system does not label a peer as expert based on popularity.
+Тёплое сообщество может вознаграждать всё более детальное негативное раскрытие, потому что оно порождает внимание и связь.
 
----
+### Ограничители
 
-## 22. Moderation
-
-Research on online mental-health forums highlights moderation as central to both benefit and harm.
-
-Moderators may:
-
-- model supportive interaction;
-- redirect unsafe content;
-- de-escalate conflict;
-- protect boundaries;
-- connect to resources;
-- remove abuse.
-
-But moderation may also be perceived as:
-
-- censorship;
-- arbitrary power;
-- inconsistent;
-- invisible;
-- retraumatizing;
-- slow.
-
-### Requirement
-
-Any Garden community requires:
-
-- published rules;
-- trained human moderation;
-- escalation paths;
-- appeals;
-- coverage expectations;
-- wellbeing support for moderators;
-- transparent enforcement;
-- language and cultural competence;
-- incident logs;
-- no sole reliance on AI moderation.
+- потоки, ограниченные по времени;
+- подсказки в сторону конкретной поддержки;
+- лёгкое завершение;
+- никакого ранжирования по вовлечённости;
+- никакого алгоритмического усиления дистресса;
+- никакой награды за объём раскрытия;
+- предложение офлайн/человеческого/профессионального моста;
+- различение свидетельствования и бесконечного анализа.
 
 ---
 
-## 23. AI in social interaction
+## 21. Дезинформация
 
-AI may help:
+Пиринговое знание может быть ценным, но прожитый опыт не является универсальной инструкцией.
 
-- draft a support request;
-- clarify desired support;
-- summarize logistics with consent;
-- suggest nonjudgmental language;
-- identify data sharing boundaries;
-- facilitate turn-taking.
+Риски:
 
-AI must not:
+- диагноз;
+- прекращение лечения;
+- совет по добавкам или лекарствам;
+- вердикты об отношениях;
+- конспирология;
+- ложная уверенность;
+- анекдот как причинное доказательство.
 
-- decide who is right;
-- infer a partner's motive;
-- grade relationship quality;
-- privately coach both sides using hidden information;
-- reveal one person's reflection to influence another;
-- generate pressure;
-- simulate group consensus;
-- impersonate a member;
-- mediate high-conflict or abusive relationships as neutral authority.
+### Метки
 
----
+- `Мой опыт`;
+- `Личное предложение`;
+- `Информация, подкреплённая источником`;
+- `Профессиональное руководство`;
+- `Уведомление безопасности Garden`.
 
-## 24. Confidentiality between parties
-
-If two people use Garden:
-
-- each has separate private space;
-- AI context is partitioned;
-- private content from A cannot influence advice to B;
-- shared content has explicit provenance;
-- no secret cross-analysis;
-- no couple score;
-- no «what your partner really feels»;
-- each can export their contribution;
-- one person's deletion rights are preserved.
+Система не помечает участника как эксперта на основании популярности.
 
 ---
 
-## 25. Conflict and separation
+## 22. Модерация
 
-Social features must assume relationships can end.
+Исследования онлайн-форумов о психическом здоровье выделяют модерацию как центральную и для пользы, и для вреда.
 
-Required flows:
+Модераторы могут:
 
-- pause sharing instantly;
-- leave privately;
-- remove future access;
-- retain own copy where lawful;
-- delete shared object;
-- handle disputed shared content;
-- stop notifications;
-- revoke links;
-- rotate keys/tokens;
-- prevent re-invite harassment;
-- show access history.
+- моделировать поддерживающее взаимодействие;
+- перенаправлять небезопасный контент;
+- деэскалировать конфликт;
+- защищать границы;
+- связывать с ресурсами;
+- удалять абьюз.
 
-Garden does not ask users to explain why they leave.
+Но модерация также может восприниматься как:
 
----
+- цензура;
+- произвольная власть;
+- непоследовательная;
+- невидимая;
+- ретравматизирующая;
+- медленная.
 
-## 26. Shared content ownership
+### Требование
 
-A shared message may contain data about both people.
+Любое сообщество Garden требует:
 
-The product needs rules for:
-
-- authorship;
-- copies;
-- editing;
-- deletion;
-- export;
-- screenshots outside system;
-- moderation evidence;
-- legal holds.
-
-### Honest boundary
-
-Garden cannot guarantee that another human will forget, delete a screenshot or stop using knowledge already seen.
-
-This must be clear before sharing.
+- опубликованных правил;
+- обученной человеческой модерации;
+- путей эскалации;
+- апелляций;
+- ожиданий по охвату;
+- поддержки благополучия модераторов;
+- прозрачного применения;
+- языковой и культурной компетентности;
+- журналов инцидентов;
+- отсутствия единственной опоры на модерацию ИИ.
 
 ---
 
-## 27. Social graph minimization
+## 23. ИИ в социальном взаимодействии
 
-Garden does not build a broad social graph unless necessary.
+ИИ может помочь:
 
-Alpha does not require:
+- составить запрос поддержки;
+- прояснить желаемую поддержку;
+- обобщить логистику с согласия;
+- предложить неосуждающий язык;
+- обозначить границы обмена данными;
+- организовать очерёдность высказываний.
 
-- contact upload;
-- follower graph;
-- public discovery;
-- friend suggestions;
-- social proof;
-- mutual connections;
-- address-book matching.
+ИИ не должен:
 
-Invite by specific secure link or verified account, with narrow purpose.
-
----
-
-## 28. Human bridge
-
-R-010 proposed a human bridge when AI should not be the primary interpreter or source of support.
-
-R-014 clarifies:
-
-A human bridge is not:
-
-- automatic disclosure;
-- a warning sent behind the user’s back;
-- «tell your partner everything»;
-- replacement of professional care with peers.
-
-It is:
-
-- helping formulate a request;
-- identifying an appropriate person;
-- planning timing;
-- defining what can be shared;
-- preparing for different responses;
-- preserving the option not to send.
+- решать, кто прав;
+- выводить мотив партнёра;
+- оценивать качество отношений;
+- приватно «коучить» обе стороны, используя скрытую информацию;
+- раскрывать размышления одного человека, чтобы повлиять на другого;
+- порождать давление;
+- имитировать групповой консенсус;
+- выдавать себя за участника;
+- выступать нейтральным авторитетом в высококонфликтных или абьюзивных отношениях.
 
 ---
 
-## 29. Social Layer Levels
+## 24. Конфиденциальность между сторонами
 
-### S0 — Solo
+Если два человека используют Garden:
 
-No social data.
-
-### S1 — Prepared connection
-
-Garden helps prepare an offline request, but sends nothing.
-
-### S2 — One-time share
-
-A user-controlled message or artifact.
-
-### S3 — Trusted person role
-
-Narrow permission around one practice.
-
-### S4 — Shared practice
-
-A jointly owned coordination object with private individual spaces.
-
-### S5 — Small circle
-
-Moderated or self-governed small group with explicit rules.
-
-### S6 — Community
-
-Discovery, peer interaction and content moderation.
-
-### S7 — Public network
-
-Feed, follows, ranking and broad social graph.
-
-### Recommended product boundary
-
-Alpha can explore S1–S3.
-
-S4 only after dyadic consent and separation testing.
-
-S5–S7 remain outside Alpha.
+- у каждого своё отдельное приватное пространство;
+- контекст ИИ разделён;
+- приватный контент A не может влиять на советы B;
+- у совместного контента явное происхождение;
+- никакого тайного перекрёстного анализа;
+- никакого балла пары;
+- никакого «что на самом деле чувствует твой партнёр»;
+- каждый может экспортировать свой вклад;
+- сохраняются права одного человека на удаление.
 
 ---
 
-## 30. Trusted Person Model
+## 25. Конфликт и расставание
 
-Available roles:
+Социальные функции должны исходить из того, что отношения могут закончиться.
 
-### Listener
+Обязательные потоки:
 
-Receives a chosen message. No data access.
+- мгновенная пауза обмена;
+- приватный выход;
+- удаление будущего доступа;
+- сохранение своей копии, где это законно;
+- удаление совместного объекта;
+- обработка спорного совместного контента;
+- остановка уведомлений;
+- отзыв ссылок;
+- ротация ключей/токенов;
+- предотвращение харассмента повторными приглашениями;
+- показ истории доступа.
 
-### Practical helper
-
-Receives a specific request.
-
-### Witness
-
-Can see a user-selected event or statement.
-
-### Co-practitioner
-
-Participates in one shared practice.
-
-### Contact for difficult moment
-
-Appears as an option the user can choose; no automatic alert in Alpha.
-
-Roles do not grant access to:
-
-- full Garden;
-- history;
-- AI memory;
-- other contacts;
-- inferred state.
+Garden не просит пользователей объяснять, почему они уходят.
 
 ---
 
-## 31. Reciprocity
+## 26. Владение совместным контентом
 
-Support should not automatically require equal disclosure or equal performance.
+Совместное сообщение может содержать данные об обоих людях.
 
-But Garden must make visible:
+Продукту нужны правила для:
 
-- who is giving labor;
-- whether one person always initiates;
-- whether helper wants to continue;
-- whether requests exceed capacity;
-- whether refusal is safe.
+- авторства;
+- копий;
+- редактирования;
+- удаления;
+- экспорта;
+- скриншотов вне системы;
+- доказательств для модерации;
+- юридических удержаний.
 
-### Supporter controls
+### Честная граница
 
-A helper can:
+Garden не может гарантировать, что другой человек забудет, удалит скриншот или перестанет использовать уже увиденное знание.
 
-- accept;
-- decline;
-- set availability;
-- choose role;
-- pause;
-- leave;
-- report coercion or harm;
-- prevent repeated requests.
+Это должно быть ясно до обмена.
 
 ---
 
-## 32. Notifications
+## 27. Минимизация социального графа
 
-Allowed:
+Garden не строит широкий социальный граф без необходимости.
 
-- invitation;
-- accepted shared event;
-- chosen coordination reminder;
-- direct user message;
-- permission change;
-- safety/moderation notice.
+Alpha не требует:
 
-Not allowed by default:
+- загрузки контактов;
+- графа подписчиков;
+- публичного обнаружения;
+- предложений друзей;
+- социального доказательства;
+- взаимных связей;
+- сопоставления с адресной книгой.
 
-- «Alexandra missed her practice»;
-- «She may need encouragement»;
-- mood alerts;
-- location alerts;
-- AI-generated concern;
-- inactivity escalation;
-- relationship-health warnings.
+Приглашение — по конкретной защищённой ссылке или подтверждённому аккаунту, с узкой целью.
 
 ---
 
-## 33. Metrics
+## 28. Человеческий мост
 
-### Human outcomes
+R-010 предложило человеческий мост, когда ИИ не должен быть основным толкователем или источником поддержки.
 
-- perceived support fit;
-- autonomy;
-- connection;
-- practical help received;
-- ability to refuse;
-- lower isolation;
-- transfer to real-world communication;
-- balanced support burden;
-- safe exit.
+R-014 уточняет:
 
-### Guardrails
+Человеческий мост — это не:
 
-- pressure;
-- surveillance;
-- unwanted disclosure;
-- jealousy;
-- conflict;
-- co-rumination;
-- misinformation;
-- harassment;
-- dependency;
-- helper burden;
-- offline displacement;
-- coercion.
+- автоматическое раскрытие;
+- предупреждение, отправленное за спиной пользователя;
+- «расскажи партнёру всё»;
+- замена профессиональной помощи пирами.
 
-### Not North Star
+Это:
 
-- number of friends;
-- group messages;
-- reactions;
-- shares;
-- social DAU;
-- invites sent;
-- public disclosure;
-- streak of pair;
-- community time.
+- помощь сформулировать запрос;
+- определение подходящего человека;
+- планирование времени;
+- определение того, чем можно поделиться;
+- подготовка к разным реакциям;
+- сохранение возможности не отправлять.
 
 ---
 
-## 34. Alpha experiment
+## 29. Уровни социального слоя
 
-Compare:
+### S0 — В одиночку (solo)
 
-### A. Prepared offline request
+Никаких социальных данных.
 
-Garden helps write and plan but does not connect accounts.
+### S1 — Подготовленная связь
 
-### B. One-time narrow share
+Garden помогает подготовить офлайн-запрос, но ничего не отправляет.
 
-User sends a selected request.
+### S2 — Разовый обмен
 
-### C. Trusted person role
+Контролируемое пользователем сообщение или артефакт.
 
-Limited ongoing permission around one practice.
+### S3 — Роль доверенного человека
 
-Measure:
+Узкое разрешение вокруг одной практики.
 
-- support received;
-- perceived fit;
-- pressure;
-- clarity;
-- privacy understanding;
-- relationship friction;
-- ability to revoke;
-- helper burden;
-- behavior in real life;
-- need for product mediation.
+### S4 — Совместная практика
 
-Do not test public feed as an engagement experiment.
+Совместно принадлежащий координационный объект с приватными индивидуальными пространствами.
+
+### S5 — Малый круг
+
+Модерируемая или самоуправляемая малая группа с явными правилами.
+
+### S6 — Сообщество
+
+Обнаружение, пиринговое взаимодействие и модерация контента.
+
+### S7 — Публичная сеть
+
+Лента, подписки, ранжирование и широкий социальный граф.
+
+### Рекомендуемая продуктовая граница
+
+Alpha может исследовать S1–S3.
+
+S4 — только после диадического согласия и тестирования расставания.
+
+S5–S7 остаются вне Alpha.
 
 ---
 
-## 35. Claim Registry
+## 30. Модель доверенного человека
 
-| Claim ID | Утверждение | Источники | Уверенность | Статус |
+Доступные роли:
+
+### Слушатель
+
+Получает выбранное сообщение. Нет доступа к данным.
+
+### Практический помощник
+
+Получает конкретный запрос.
+
+### Свидетель
+
+Может видеть выбранное пользователем событие или высказывание.
+
+### Соучастник практики
+
+Участвует в одной совместной практике.
+
+### Контакт для трудного момента
+
+Появляется как вариант, который пользователь может выбрать; никакого автоматического оповещения в Alpha.
+
+Роли не дают доступа к:
+
+- всему Garden;
+- истории;
+- памяти ИИ;
+- другим контактам;
+- выведенному состоянию.
+
+---
+
+## 31. Взаимность
+
+Поддержка не должна автоматически требовать равного раскрытия или равной результативности.
+
+Но Garden должен делать видимым:
+
+- кто вкладывает труд;
+- всегда ли один человек инициирует;
+- хочет ли помощник продолжать;
+- превышают ли запросы возможности;
+- безопасен ли отказ.
+
+### Средства контроля для помощника
+
+Помощник может:
+
+- принять;
+- отклонить;
+- задать доступность;
+- выбрать роль;
+- поставить на паузу;
+- уйти;
+- сообщить о принуждении или вреде;
+- предотвратить повторные запросы.
+
+---
+
+## 32. Уведомления
+
+Разрешено:
+
+- приглашение;
+- принятое совместное событие;
+- выбранное координационное напоминание;
+- прямое сообщение пользователя;
+- изменение разрешений;
+- уведомление безопасности/модерации.
+
+Не разрешено по умолчанию:
+
+- «Александра пропустила свою практику»;
+- «Ей, возможно, нужна поддержка»;
+- оповещения о настроении;
+- оповещения о геолокации;
+- сгенерированная ИИ «озабоченность»;
+- эскалация из-за бездействия;
+- предупреждения о «здоровье отношений».
+
+---
+
+## 33. Метрики
+
+### Человеческие результаты
+
+- воспринимаемое соответствие поддержки;
+- автономия;
+- связь;
+- полученная практическая помощь;
+- способность отказаться;
+- меньшая изоляция;
+- перенос в общение в реальном мире;
+- сбалансированная нагрузка поддержки;
+- безопасный выход.
+
+### Ограничители
+
+- давление;
+- слежка;
+- нежелательное раскрытие;
+- ревность;
+- конфликт;
+- со-руминация;
+- дезинформация;
+- харассмент;
+- зависимость;
+- нагрузка на помощника;
+- вытеснение офлайн-общения;
+- принуждение.
+
+### Не главный ориентир (North Star)
+
+- число друзей;
+- групповые сообщения;
+- реакции;
+- репосты;
+- социальные DAU;
+- отправленные приглашения;
+- публичное раскрытие;
+- серия пары;
+- время в сообществе.
+
+---
+
+## 34. Эксперимент Alpha
+
+Сравнить:
+
+### A. Подготовленный офлайн-запрос
+
+Garden помогает написать и спланировать, но не связывает аккаунты.
+
+### B. Разовый узкий обмен
+
+Пользователь отправляет выбранный запрос.
+
+### C. Роль доверенного человека
+
+Ограниченное постоянное разрешение вокруг одной практики.
+
+Измерять:
+
+- полученную поддержку;
+- воспринимаемое соответствие;
+- давление;
+- ясность;
+- понимание приватности;
+- трение в отношениях;
+- способность отозвать;
+- нагрузку на помощника;
+- поведение в реальной жизни;
+- потребность в посредничестве продукта.
+
+Не тестировать публичную ленту как эксперимент на вовлечённость.
+
+---
+
+## 35. Реестр утверждений
+
+| ID утверждения | Утверждение | Источники | Уверенность | Статус |
 |---|---|---|---|---|
-| R014-C01 | Social support includes emotional, instrumental, informational and appraisal functions | SRC-SOC-001, 002 | высокая as framework | foundation |
-| R014-C02 | Any social support is beneficial | no | отсутствует | rejected |
-| R014-C03 | Autonomy-supportive support can relate to better self-care/outcomes | SRC-SOC-003, R-008 | средняя in health contexts | foundation |
-| R014-C04 | Dyadic interventions include multiple distinct mechanisms | SRC-SOC-004 | высокая | foundation |
-| R014-C05 | Adding a partner universally improves behavior | SRC-SOC-005 | no, small/mixed effects | rejected |
-| R014-C06 | Digital peer support can improve connection and some outcomes | SRC-SOC-006–008 | средняя, heterogeneous | limited support |
-| R014-C07 | Longer peer support exposure is always better | SRC-SOC-008 | not supported | rejected |
-| R014-C08 | Online peer support can produce co-rumination and adverse interactions | SRC-SOC-009–012 | средняя | safety foundation |
-| R014-C09 | Co-rumination can coexist with relational closeness and distress | SRC-SOC-013–016 | высокая | foundation |
-| R014-C10 | Social comparison affects all users similarly | SRC-SOC-017, 018 | rejected | constraint |
-| R014-C11 | Moderation shapes safety and benefit in peer forums | SRC-SOC-009, 019, 020 | высокая | launch gate |
-| R014-C12 | AI moderation alone can safely operate mental-health community | no | absent | rejected |
-| R014-C13 | Shared practice implies consent to share reflections | no | absent | rejected |
-| R014-C14 | One-time narrow sharing is safer than full profile access | privacy/design synthesis | средняя | proposed |
-| R014-C15 | Trusted Person Model improves support without pressure | no direct Garden data | низкая | product hypothesis |
-| R014-C16 | Prepared offline request may deliver value without social graph | no direct Garden data | низкая | mandatory comparator |
-| R014-C17 | Public feed is necessary for community benefit | no | absent | rejected |
-| R014-C18 | Social layer must account for coercive control and unequal power | SRC-SOC-021, R-012 | высокая | safety requirement |
-| R014-C19 | Relationship support should lead outward to human interaction | Garden philosophy + qualitative peer literature | средняя | philosophy candidate |
-| R014-C20 | Social engagement metrics are proxies for human connection | no | absent | rejected |
+| R014-C01 | Социальная поддержка включает эмоциональную, инструментальную, информационную и оценочную функции | SRC-SOC-001, 002 | высокая как рамка | основа |
+| R014-C02 | Любая социальная поддержка полезна | нет | отсутствует | отвергнуто |
+| R014-C03 | Поддержка автономии может связываться с лучшей заботой о себе/исходами | SRC-SOC-003, R-008 | средняя в контексте здоровья | основа |
+| R014-C04 | Диадические интервенции включают множество разных механизмов | SRC-SOC-004 | высокая | основа |
+| R014-C05 | Добавление партнёра универсально улучшает поведение | SRC-SOC-005 | нет, малые/смешанные эффекты | отвергнуто |
+| R014-C06 | Цифровая пиринговая поддержка может улучшать связь и некоторые исходы | SRC-SOC-006–008 | средняя, неоднородная | ограниченная поддержка |
+| R014-C07 | Более длительное воздействие пиринговой поддержки всегда лучше | SRC-SOC-008 | не поддержано | отвергнуто |
+| R014-C08 | Онлайн-пиринговая поддержка может порождать со-руминацию и нежелательные взаимодействия | SRC-SOC-009–012 | средняя | основа безопасности |
+| R014-C09 | Со-руминация может сосуществовать с близостью и дистрессом | SRC-SOC-013–016 | высокая | основа |
+| R014-C10 | Социальное сравнение влияет на всех пользователей одинаково | SRC-SOC-017, 018 | отвергнуто | ограничение |
+| R014-C11 | Модерация формирует безопасность и пользу в пиринговых форумах | SRC-SOC-009, 019, 020 | высокая | ворота запуска |
+| R014-C12 | Одна лишь ИИ-модерация может безопасно вести сообщество о психическом здоровье | нет | отсутствует | отвергнуто |
+| R014-C13 | Совместная практика подразумевает согласие делиться размышлениями | нет | отсутствует | отвергнуто |
+| R014-C14 | Разовый узкий обмен безопаснее полного доступа к профилю | синтез приватности/дизайна | средняя | предложено |
+| R014-C15 | Модель доверенного человека улучшает поддержку без давления | нет прямых данных Garden | низкая | продуктовая гипотеза |
+| R014-C16 | Подготовленный офлайн-запрос может давать ценность без социального графа | нет прямых данных Garden | низкая | обязательный компаратор |
+| R014-C17 | Публичная лента необходима для пользы сообщества | нет | отсутствует | отвергнуто |
+| R014-C18 | Социальный слой должен учитывать контролирующий абьюз и неравенство власти | SRC-SOC-021, R-012 | высокая | требование безопасности |
+| R014-C19 | Поддержка отношений должна вести вовне, к человеческому взаимодействию | философия Garden + качественная пиринговая литература | средняя | кандидат в философию |
+| R014-C20 | Метрики социальной вовлечённости являются прокси человеческой связи | нет | отсутствует | отвергнуто |
 
 ---
 
@@ -1039,18 +1039,18 @@ Do not test public feed as an engagement experiment.
 
 R-014 не доказывает:
 
-- что social features нужны Garden;
+- что социальные функции нужны Garden;
 - что близкий человек даст подходящую поддержку;
-- что explicit consent полностью устраняет coercion;
-- что one-time sharing безопасно;
-- что circles cannot be useful;
-- что moderation предотвращает all harm;
-- что co-rumination can be reliably detected;
-- что people will understand granular permissions;
-- что prepared offline request equals human connection;
-- что AI facilitation will not distort relationships;
-- что public community can never be built responsibly;
-- что social comparison is always harmful.
+- что явное согласие полностью устраняет принуждение;
+- что разовый обмен безопасен;
+- что круги не могут быть полезными;
+- что модерация предотвращает весь вред;
+- что со-руминацию можно надёжно обнаружить;
+- что люди поймут гранулярные разрешения;
+- что подготовленный офлайн-запрос равен человеческой связи;
+- что ИИ-фасилитация не исказит отношения;
+- что публичное сообщество никогда нельзя построить ответственно;
+- что социальное сравнение всегда вредно.
 
 ---
 

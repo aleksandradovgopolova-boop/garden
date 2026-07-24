@@ -38,21 +38,21 @@ source_of_truth: false
 - памяти;
 - ощущения контроля.
 
-Place attachment — многомерная связь. Модель Scannell & Gifford рассматривает её через три измерения:
+Привязанность к месту — многомерная связь. Модель Скэннелл и Гиффорда рассматривает её через три измерения:
 
-- **person** — кто связан с местом;
-- **process** — чувства, мысли и действия;
-- **place** — физические и социальные характеристики места.
+- **человек (person)** — кто связан с местом;
+- **процесс (process)** — чувства, мысли и действия;
+- **место (place)** — физические и социальные характеристики места.
 
-### Garden position
+### Позиция Garden
 
 > **Garden может предложить пространство и возможности. Своим место делает история человека с ним.**
 
 ---
 
-## 3. Space and place
+## 3. Пространство и место (space и place)
 
-### Space
+### Пространство (space)
 
 Геометрически организованная среда:
 
@@ -62,7 +62,7 @@ Place attachment — многомерная связь. Модель Scannell & 
 - маршруты;
 - размеры.
 
-### Place
+### Место (place)
 
 Пространство, которое стало:
 
@@ -72,9 +72,9 @@ Place attachment — многомерная связь. Модель Scannell & 
 - связанным с событиями;
 - эмоционально или практически значимым.
 
-### Product consequence
+### Следствие для продукта
 
-Garden must store both:
+Garden должен хранить и то, и другое:
 
 ```yaml
 space:
@@ -95,7 +95,7 @@ place:
 
 ---
 
-## 4. Place does not equal attachment
+## 4. Место не равно привязанности
 
 Не каждое место должно становиться эмоционально значимым.
 
@@ -108,33 +108,33 @@ place:
 - места без названия;
 - места, которые пользователь удаляет.
 
-### Rule
+### Правило
 
-Garden does not optimize for maximum attachment.
+Garden не оптимизирует под максимальную привязанность.
 
-Attachment is a possible outcome, not a KPI.
+Привязанность — возможный исход, а не KPI.
 
 ---
 
-## 5. The components of a place
+## 5. Компоненты места
 
 Для проектирования Garden использует девять компонентов:
 
-1. **Boundary** — где место начинается и заканчивается.
-2. **Center** — что организует внимание.
-3. **Path** — как в место входят и как его проходят.
-4. **View** — что из него видно.
-5. **Refuge** — где уменьшается экспозиция.
-6. **Landmark** — как место узнают.
-7. **Atmosphere** — свет, материал, звук, погода.
-8. **Use** — что здесь можно делать.
-9. **History** — что здесь происходило.
+1. **Граница (boundary)** — где место начинается и заканчивается.
+2. **Центр (center)** — что организует внимание.
+3. **Путь (path)** — как в место входят и как его проходят.
+4. **Вид (view)** — что из него видно.
+5. **Убежище (refuge)** — где уменьшается экспозиция.
+6. **Ориентир (landmark)** — как место узнают.
+7. **Атмосфера (atmosphere)** — свет, материал, звук, погода.
+8. **Использование (use)** — что здесь можно делать.
+9. **История (history)** — что здесь происходило.
 
 Не все компоненты обязательны.
 
 ---
 
-## 6. Boundary
+## 6. Граница
 
 Граница помогает отличить одно место от другого.
 
@@ -148,17 +148,17 @@ Attachment is a possible outcome, not a KPI.
 - смысловой;
 - пользовательски названной.
 
-### Examples
+### Примеры
 
 - край воды;
 - ряд трав;
 - изменение покрытия;
 - тень дерева;
 - мост;
-- более тихий soundscape;
+- более тихий звуковой ландшафт;
 - название «Место для чтения».
 
-### Risks
+### Риски
 
 Слишком сильные границы создают:
 
@@ -168,13 +168,13 @@ Attachment is a possible outcome, not a KPI.
 - трудную навигацию;
 - иерархию мест.
 
-### Principle
+### Принцип
 
-> A boundary should clarify a place before it restricts it.
+> Граница должна прояснять место прежде, чем ограничивать его.
 
 ---
 
-## 7. Center
+## 7. Центр
 
 Центр — не обязательно геометрическая середина.
 
@@ -189,7 +189,7 @@ Attachment is a possible outcome, not a KPI.
 - пустое пространство;
 - вид.
 
-### Garden rule
+### Правило Garden
 
 Место может иметь:
 
@@ -198,11 +198,11 @@ Attachment is a possible outcome, not a KPI.
 - меняющийся центр;
 - отсутствие явного центра.
 
-AI не объявляет центральный объект «главной жизненной ценностью».
+ИИ не объявляет центральный объект «главной жизненной ценностью».
 
 ---
 
-## 8. Paths and arrival
+## 8. Пути и прибытие
 
 Путь влияет на то, как место раскрывается.
 
@@ -216,9 +216,9 @@ AI не объявляет центральный объект «главной 
 - с несколькими входами;
 - без выделенного маршрута.
 
-### Product use
+### Использование в продукте
 
-Place stores:
+Место хранит:
 
 ```yaml
 arrival:
@@ -228,52 +228,52 @@ arrival:
   reveal_style:
 ```
 
-### No forced journey
+### Никакого принудительного путешествия
 
 Пользователь всегда может:
 
 - открыть место из списка;
 - перейти напрямую;
-- использовать accessible navigation;
-- отключить animated traversal.
+- использовать доступную навигацию;
+- отключить анимированное перемещение.
 
 ---
 
-## 9. Prospect and refuge
+## 9. Обзор и убежище (prospect and refuge)
 
-Prospect–refuge theory предполагает привлекательность сочетания:
+Теория «обзор–убежище» предполагает привлекательность сочетания:
 
 - возможности видеть;
 - возможности быть менее открытым для наблюдения.
 
 Но эмпирическая база неоднородна, и этот паттерн нельзя превращать в универсальное правило безопасности или эстетики.
 
-### Garden use
+### Использование в Garden
 
-Offer adjustable spatial qualities:
+Предлагать настраиваемые пространственные качества:
 
-- open;
-- sheltered;
-- mixed;
-- enclosed;
-- elevated;
-- low;
-- hidden;
-- exposed.
+- открытое;
+- укрытое;
+- смешанное;
+- закрытое;
+- приподнятое;
+- низкое;
+- скрытое;
+- открытое взгляду.
 
-### Never
+### Никогда
 
 - «Закрытые места подходят интровертам»;
 - «Открытое пространство означает уверенность»;
-- «Этот layout снизит тревогу».
+- «Эта раскладка снизит тревогу».
 
 ---
 
-## 10. Privacy
+## 10. Приватность
 
 В Garden приватность имеет два слоя.
 
-### Perceptual privacy
+### Перцептивная приватность (perceptual privacy)
 
 Как место ощущается визуально:
 
@@ -282,7 +282,7 @@ Offer adjustable spatial qualities:
 - изолировано;
 - доступно через порог.
 
-### Data privacy
+### Приватность данных (data privacy)
 
 Кто реально может видеть:
 
@@ -292,87 +292,87 @@ Offer adjustable spatial qualities:
 - ритуал;
 - комментарий.
 
-### Critical distinction
+### Критическое различие
 
 Закрытая визуальная форма не означает цифровую приватность.
 
 Каждое место должно явно показывать:
 
-- private;
-- shared;
-- public-facing preview;
-- inherited permissions.
+- приватное;
+- совместное;
+- превью, обращённое вовне;
+- унаследованные разрешения.
 
 ---
 
-## 11. Density and emptiness
+## 11. Плотность и пустота
 
 Плотность влияет на:
 
-- legibility;
-- calm;
-- curiosity;
-- visual noise;
-- sense of ownership.
+- считываемость;
+- спокойствие;
+- любопытство;
+- визуальный шум;
+- чувство владения.
 
-### Garden principle
+### Принцип Garden
 
 Пустота является материалом места.
 
-User may create:
+Пользователь может создать:
 
 - почти пустую поляну;
 - плотный дикий угол;
 - один объект на большой территории;
 - насыщенную мастерскую.
 
-Garden does not reward filling space.
+Garden не награждает за заполнение пространства.
 
-No:
+Нет:
 
-- empty-slot prompts;
-- completion percentage;
+- подсказок о пустых слотах;
+- процента завершённости;
 - «место ещё не закончено»;
-- automatic decoration.
+- автоматической декорации.
 
 ---
 
-## 12. Scale of places
+## 12. Масштаб мест
 
-Suggested hierarchy:
+Предлагаемая иерархия:
 
-### Detail place
+### Детальное место (detail place)
 
 - стол;
 - лавка;
 - маленький угол.
 
-### Room-like place
+### Место-«комната» (room-like place)
 
 - мастерская;
 - теплица;
 - укрытая площадка.
 
-### Landscape place
+### Ландшафтное место (landscape place)
 
 - поляна;
 - берег;
 - роща.
 
-### Connector place
+### Место-соединитель (connector place)
 
 - мост;
 - путь;
 - порог;
 - перекрёсток.
 
-### Rule
+### Правило
 
-Large places do not have higher status.
+Большие места не имеют более высокого статуса.
 
 ---
 
-## 13. Naming
+## 13. Именование
 
 Название может:
 
@@ -381,141 +381,141 @@ Large places do not have higher status.
 - сохранить пользовательский язык;
 - связать пространство с историей.
 
-### Naming modes
+### Режимы именования
 
-- unnamed;
-- literal;
-- poetic;
-- personal;
-- temporary.
+- без названия;
+- буквальное;
+- поэтическое;
+- личное;
+- временное.
 
-Examples:
+Примеры:
 
 - «Берег»;
 - «Лавка у воды»;
 - «Где я начала писать»;
 - «Пока без названия».
 
-### AI boundary
+### Граница ИИ
 
-AI may suggest names only after invitation.
+ИИ может предлагать названия только после приглашения.
 
-It must not infer a life chapter from the place.
+Он не должен выводить главу жизни из места.
 
 ---
 
-## 14. Repeated use
+## 14. Повторное использование
 
-Time spent and repeated experience can contribute to place attachment, but repetition does not guarantee attachment.
+Проведённое время и повторный опыт могут способствовать привязанности к месту, но повторение не гарантирует привязанности.
 
-Garden may remember:
+Garden может помнить:
 
-- visits;
-- rituals used here;
-- edits;
-- snapshots;
-- user-authored moments.
+- визиты;
+- ритуалы, использованные здесь;
+- правки;
+- снимки;
+- моменты, созданные пользователем.
 
-It does not show:
+Он не показывает:
 
-- visit streak;
-- loyalty score;
-- neglected place;
-- attachment level.
+- серию визитов;
+- балл лояльности;
+- заброшенное место;
+- уровень привязанности.
 
-### Possible history language
+### Возможный язык истории
 
 - «Здесь был создан ритуал…»
 - «Это место выглядело так до появления пруда».
 
-Not:
+Не:
 
-- «Ваше любимое место» unless user marks it.
-
----
-
-## 15. Place memory
-
-Place memory can involve:
-
-- personal events;
-- collective history;
-- physical continuity;
-- change;
-- stories;
-- objects.
-
-Research connects place memory with place identity and attachment, but Garden must not treat the remembered story as objective truth.
-
-### Requirements
-
-- exact dates recoverable;
-- user-authored descriptions;
-- editable groupings;
-- uncertainty preserved;
-- snapshots separated from interpretations.
+- «Ваше любимое место», если пользователь сам это не отметил.
 
 ---
 
-## 16. Place identity
+## 15. Память места
 
-A place can contribute to how someone describes themselves, but Garden must not produce identity claims.
+Память места может включать:
 
-Allowed:
+- личные события;
+- коллективную историю;
+- физическую непрерывность;
+- изменение;
+- истории;
+- объекты.
 
-> «Ты назвала это место “Мастерская книги”.»
+Исследования связывают память места с идентичностью и привязанностью к месту, но Garden не должен относиться к запомненной истории как к объективной истине.
 
-Forbidden:
+### Требования
+
+- точные даты восстановимы;
+- описания, созданные пользователем;
+- редактируемые группировки;
+- сохранённая неопределённость;
+- снимки отделены от интерпретаций.
+
+---
+
+## 16. Идентичность места
+
+Место может способствовать тому, как кто-то описывает себя, но Garden не должен производить утверждения об идентичности.
+
+Разрешено:
+
+> «Ты назвала это место „Мастерская книги“.»
+
+Запрещено:
 
 > «Это доказывает, что творчество — твоя настоящая идентичность.»
 
 ---
 
-## 17. Social places
+## 17. Социальные места
 
-Garden may later contain shared places.
+Garden позже может содержать совместные места.
 
-Possible:
+Возможно:
 
-- shared table;
-- collaborative workshop;
-- garden path between worlds;
-- temporary visiting place.
+- общий стол;
+- совместная мастерская;
+- садовый путь между мирами;
+- временное место для визита.
 
-Risks:
+Риски:
 
-- surveillance;
-- social comparison;
-- unwanted entry;
-- permission confusion;
-- permanent traces;
-- emotional expectations.
+- слежка;
+- социальное сравнение;
+- нежелательный вход;
+- путаница разрешений;
+- постоянные следы;
+- эмоциональные ожидания.
 
 ### Alpha
 
-All places are private.
+Все места приватны.
 
-Shared place architecture requires a separate research cycle.
+Архитектура совместных мест требует отдельного исследовательского цикла.
 
 ---
 
-## 18. Templates
+## 18. Шаблоны
 
-Place templates can reduce blank-canvas anxiety.
+Шаблоны мест могут снизить тревогу пустого холста.
 
-But a template may prescribe:
+Но шаблон может предписывать:
 
-- lifestyle;
-- emotional state;
-- cultural norm;
-- correct ritual;
-- expected object set.
+- образ жизни;
+- эмоциональное состояние;
+- культурную норму;
+- «правильный» ритуал;
+- ожидаемый набор объектов.
 
-### Safe template
+### Безопасный шаблон
 
-A template offers spatial structure, not a life script.
+Шаблон предлагает пространственную структуру, а не жизненный сценарий.
 
-Example:
+Пример:
 
 ```yaml
 template:
@@ -529,25 +529,25 @@ template:
   symbolic_meaning: null
 ```
 
-### User-facing examples
+### Примеры для пользователя
 
-- Open clearing;
-- Sheltered edge;
-- Water place;
-- Workshop;
-- Crossing;
-- Empty ground.
+- Открытая поляна;
+- Укрытый край;
+- Место у воды;
+- Мастерская;
+- Перекрёсток;
+- Пустая земля.
 
-Not:
+Не:
 
-- Healing garden;
-- Productivity zone;
-- Anxiety corner;
-- Successful-self space.
+- Исцеляющий сад;
+- Зона продуктивности;
+- Уголок тревоги;
+- Пространство успешного «я».
 
 ---
 
-## 19. Place lifecycle
+## 19. Жизненный цикл места
 
 ```yaml
 place_state:
@@ -559,125 +559,125 @@ place_state:
   removed:
 ```
 
-These are user choices.
+Это пользовательские выборы.
 
-### Definitions
+### Определения
 
-**Forming** — пользователь ещё собирает место.  
-**Lived** — место используется, без quantitative threshold.  
-**Resting** — сохранено без текущего использования.  
-**Preserved** — пользователь хочет зафиксировать состояние.  
-**Archived** — скрыто из основного мира.  
-**Removed** — удалено с возможностью восстановления там, где возможно.
+**Forming (формируется)** — пользователь ещё собирает место.  
+**Lived (живое)** — место используется, без количественного порога.  
+**Resting (покоится)** — сохранено без текущего использования.  
+**Preserved (сохранено)** — пользователь хочет зафиксировать состояние.  
+**Archived (архивировано)** — скрыто из основного мира.  
+**Removed (удалено)** — удалено с возможностью восстановления там, где возможно.
 
-No automatic transitions from inactivity.
+Никаких автоматических переходов из-за бездействия.
 
 ---
 
-## 20. Change and continuity
+## 20. Изменение и непрерывность
 
-Place attachment can make change meaningful and sometimes difficult.
+Привязанность к месту может делать изменение значимым и иногда трудным.
 
-Garden should support:
+Garden должен поддерживать:
 
-- preview;
-- snapshot before change;
-- undo;
-- variant creation;
-- partial transformation;
-- preserving old version;
-- moving objects without rewriting history.
+- предпросмотр;
+- снимок перед изменением;
+- отмену;
+- создание варианта;
+- частичную трансформацию;
+- сохранение старой версии;
+- перемещение объектов без переписывания истории.
 
-### AI
+### ИИ
 
-AI may offer:
+ИИ может предлагать:
 
 - «Сделать вариант»;
 - «Сохранить текущее состояние»;
 - «Изменить только освещение».
 
-It should not pressure modernization or cleanup.
+Он не должен давить на модернизацию или «уборку».
 
 ---
 
-## 21. Orientation and legibility
+## 21. Ориентация и считываемость
 
-Borrowing cautiously from spatial-image traditions, Garden can use:
+Осторожно заимствуя из традиций пространственного образа, Garden может использовать:
 
-- paths;
-- edges;
-- districts/areas;
-- nodes;
-- landmarks.
+- пути;
+- края;
+- районы/области;
+- узлы;
+- ориентиры.
 
-These are design heuristics, not mandatory ontology.
+Это дизайн-эвристики, а не обязательная онтология.
 
 ### Alpha
 
-Every place should have:
+У каждого места должны быть:
 
-- recognizable name or label;
-- one accessible route;
-- location in list/map;
-- stable landmark or visual signature where useful;
-- back navigation.
-
----
-
-## 22. Place creation flow
-
-### Step 1 — Choose or define spatial quality
-
-- open;
-- sheltered;
-- mixed;
-- empty;
-- dense;
-- water-adjacent.
-
-### Step 2 — Establish boundary and arrival
-
-Optional presets.
-
-### Step 3 — Add a center or leave empty
-
-No completion requirement.
-
-### Step 4 — Add objects
-
-From small, relevant families.
-
-### Step 5 — Name or skip
-
-### Step 6 — Link ritual or memory, or leave unlinked
-
-### Step 7 — Preview accessibility and atmosphere
+- узнаваемое имя или подпись;
+- один доступный маршрут;
+- расположение в списке/карте;
+- стабильный ориентир или визуальная сигнатура, где полезно;
+- навигация назад.
 
 ---
 
-## 23. AI place assistance
+## 22. Поток создания места
 
-AI may:
+### Шаг 1 — Выбрать или задать пространственное качество
 
-- translate intention into spatial alternatives;
-- propose 2–3 layouts;
-- explain practical consequences;
-- check clutter and accessibility;
-- preserve user constraints;
-- generate reversible variants.
+- открытое;
+- укрытое;
+- смешанное;
+- пустое;
+- плотное;
+- у воды.
 
-AI may not:
+### Шаг 2 — Установить границу и прибытие
 
-- diagnose through spatial preferences;
-- call one place psychologically healthy;
-- assign symbolic meaning;
-- optimize attachment;
-- redesign without confirmation;
-- fill empty areas automatically.
+Опциональные пресеты.
+
+### Шаг 3 — Добавить центр или оставить пустым
+
+Никакого требования завершённости.
+
+### Шаг 4 — Добавить объекты
+
+Из небольших релевантных семейств.
+
+### Шаг 5 — Назвать или пропустить
+
+### Шаг 6 — Связать ритуал или память, или оставить несвязанным
+
+### Шаг 7 — Просмотреть доступность и атмосферу
 
 ---
 
-## 24. Place architecture
+## 23. Помощь ИИ с местами
+
+ИИ может:
+
+- переводить намерение в пространственные альтернативы;
+- предлагать 2–3 раскладки;
+- объяснять практические последствия;
+- проверять захламлённость и доступность;
+- сохранять ограничения пользователя;
+- генерировать обратимые варианты.
+
+ИИ не может:
+
+- диагностировать через пространственные предпочтения;
+- называть одно место психологически здоровым;
+- назначать символический смысл;
+- оптимизировать привязанность;
+- перепроектировать без подтверждения;
+- автоматически заполнять пустые области.
+
+---
+
+## 24. Архитектура места
 
 ```yaml
 garden_place:
@@ -707,122 +707,122 @@ garden_place:
 
 ---
 
-## 25. Alpha place set
+## 25. Набор мест Alpha
 
-Recommended starter possibilities:
+Рекомендуемые стартовые возможности:
 
-1. **Open clearing** — low boundary, broad view.
-2. **Sheltered edge** — partial boundary and outward view.
-3. **Water place** — organized around pond or stream.
-4. **Workshop** — denser object-oriented place.
-5. **Crossing** — bridge/path threshold.
-6. **Empty ground** — intentionally almost blank.
+1. **Открытая поляна** — низкая граница, широкий вид.
+2. **Укрытый край** — частичная граница и вид наружу.
+3. **Место у воды** — организовано вокруг пруда или ручья.
+4. **Мастерская** — более плотное объектно-ориентированное место.
+5. **Перекрёсток** — порог моста/пути.
+6. **Пустая земля** — намеренно почти пустое.
 
-### Important
+### Важно
 
-These are starting structures, not six personality types.
-
----
-
-## 26. Alpha experiments
-
-### A — Blank canvas vs spatial templates
-
-Measure:
-
-- start confidence;
-- authorship;
-- conformity;
-- overload.
-
-### B — Place-first vs ritual-first
-
-Compare:
-
-- create place, then link ritual;
-- create ritual, then choose/create place.
-
-### C — Named vs unnamed place
-
-Measure recognition and perceived pressure to create meaning.
-
-### D — Open vs sheltered
-
-Measure preference variation, not psychological diagnosis.
-
-### E — Empty-space permission
-
-Compare neutral emptiness with prompts to add objects.
-
-### F — Repeated use without metrics
-
-Test whether history and snapshots create continuity without visit counts.
+Это стартовые структуры, а не шесть типов личности.
 
 ---
 
-## 27. Candidate principles
+## 26. Эксперименты Alpha
 
-1. Space becomes place through use, meaning and history.
-2. Attachment is not a product KPI.
-3. Boundaries clarify before they restrict.
-4. A center is optional.
-5. Direct navigation always exists.
-6. Prospect/refuge are options, not universal prescriptions.
-7. Visual privacy and data privacy are distinct.
-8. Emptiness is a legitimate material.
-9. Naming is optional and user-owned.
-10. Repetition creates history, not a streak.
-11. Templates describe space, not personality.
-12. All lifecycle changes are user-controlled.
-13. Changes are reversible and snapshot-friendly.
-14. Places are private in Alpha.
-15. AI proposes layouts, not meanings.
+### A — Пустой холст против пространственных шаблонов
+
+Измерять:
+
+- уверенность старта;
+- авторство;
+- конформизм;
+- перегрузку.
+
+### B — «Место прежде всего» против «ритуал прежде всего»
+
+Сравнить:
+
+- создать место, затем связать ритуал;
+- создать ритуал, затем выбрать/создать место.
+
+### C — Названное против неназванного места
+
+Измерять узнавание и воспринимаемое давление создавать смысл.
+
+### D — Открытое против укрытого
+
+Измерять вариацию предпочтений, а не психологический диагноз.
+
+### E — Разрешение на пустое пространство
+
+Сравнить нейтральную пустоту с подсказками добавить объекты.
+
+### F — Повторное использование без метрик
+
+Тестировать, создают ли история и снимки непрерывность без счётчиков визитов.
 
 ---
 
-## 28. What Garden must not claim
+## 27. Принципы-кандидаты
 
-- repeated visits prove attachment;
-- one spatial configuration is universally safe;
-- enclosed places are for introverts;
-- open places indicate confidence;
-- place attachment is always beneficial;
-- every place needs a center;
-- naming creates authentic meaning;
-- a visually hidden place is digitally private;
-- more objects make a place more complete;
-- spatial preferences reveal identity or mental state.
+1. Пространство становится местом через использование, смысл и историю.
+2. Привязанность — не продуктовый KPI.
+3. Границы проясняют прежде, чем ограничивают.
+4. Центр опционален.
+5. Прямая навигация существует всегда.
+6. Обзор/убежище — варианты, а не универсальные предписания.
+7. Визуальная приватность и приватность данных различны.
+8. Пустота — легитимный материал.
+9. Именование опционально и принадлежит пользователю.
+10. Повторение создаёт историю, а не серию.
+11. Шаблоны описывают пространство, а не личность.
+12. Все изменения жизненного цикла контролируются пользователем.
+13. Изменения обратимы и дружественны к снимкам.
+14. Места приватны в Alpha.
+15. ИИ предлагает раскладки, а не смыслы.
 
 ---
 
-## 29. Claim Registry
+## 28. Что Garden не должен заявлять
 
-| Claim | Confidence | Status |
+- повторные визиты доказывают привязанность;
+- одна пространственная конфигурация универсально безопасна;
+- закрытые места — для интровертов;
+- открытые места указывают на уверенность;
+- привязанность к месту всегда полезна;
+- каждому месту нужен центр;
+- именование создаёт подлинный смысл;
+- визуально скрытое место цифрово приватно;
+- больше объектов делает место более завершённым;
+- пространственные предпочтения раскрывают идентичность или психическое состояние.
+
+---
+
+## 29. Реестр утверждений
+
+| Утверждение | Уверенность | Статус |
 |---|---:|---|
-| Place attachment is multidimensional across person, process and place | high | foundation |
-| Time and repeated experience can contribute to attachment | medium-high | foundation, not deterministic |
-| Place memory relates to identity and attachment | medium-high | foundation |
-| Prospect/refuge is a universal preference law | low | rejected |
-| Paths, boundaries and landmarks can support legibility | high as design heuristic | foundation |
-| Naming may support recognition and personal meaning | medium-low | hypothesis |
-| Place-first creation will improve authorship | low | Alpha hypothesis |
-| Empty space can be a deliberate composition choice | normative/design principle | required |
-| Visual enclosure guarantees privacy | rejected | safety boundary |
-| Maximizing attachment is desirable | rejected | product boundary |
+| Привязанность к месту многомерна: человек, процесс и место | высокая | основа |
+| Время и повторный опыт могут способствовать привязанности | средняя–высокая | основа, не детерминистично |
+| Память места связана с идентичностью и привязанностью | средняя–высокая | основа |
+| «Обзор/убежище» — универсальный закон предпочтения | низкая | отвергнуто |
+| Пути, границы и ориентиры могут поддерживать считываемость | высокая как дизайн-эвристика | основа |
+| Именование может поддерживать узнавание и личный смысл | средняя–низкая | гипотеза |
+| Создание «место прежде всего» улучшит авторство | низкая | гипотеза Alpha |
+| Пустое пространство может быть намеренным композиционным выбором | нормативный/дизайнерский принцип | требуется |
+| Визуальное ограждение гарантирует приватность | отвергнуто | граница безопасности |
+| Максимизация привязанности желательна | отвергнуто | граница продукта |
 
 ---
 
-## 30. Verdict
+## 30. Вердикт
 
-A place is not a container waiting to be filled.
+Место — не контейнер, ожидающий заполнения.
 
-It is a relationship that can gradually become recognizable, useful, remembered and personal.
+Это отношение, которое может постепенно стать узнаваемым, полезным, запомненным и личным.
 
-Garden should therefore help a person create:
+Поэтому Garden должен помочь человеку создать:
 
-- enough structure to orient;
-- enough freedom to author;
-- enough continuity to remember;
-- enough reversibility to change.
+- достаточно структуры, чтобы ориентироваться;
+- достаточно свободы, чтобы быть автором;
+- достаточно непрерывности, чтобы помнить;
+- достаточно обратимости, чтобы менять.
 
-> **Garden creates conditions for place. The person creates belonging.**
+> **Garden создаёт условия для места. Человек создаёт принадлежность.**

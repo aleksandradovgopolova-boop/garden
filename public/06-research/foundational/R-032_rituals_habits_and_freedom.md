@@ -18,7 +18,7 @@ source_of_truth: false
 
 ## 1. Главный вопрос
 
-> Как Garden может помогать человеку замечать, сохранять и развивать значимые повторяющиеся практики, не превращая их в задачи, streak, обязанность, норму или систему управления поведением?
+> Как Garden может помогать человеку замечать, сохранять и развивать значимые повторяющиеся практики, не превращая их в задачи, серии (streak), обязанность, норму или систему управления поведением?
 
 ---
 
@@ -26,28 +26,28 @@ source_of_truth: false
 
 Garden различает:
 
-1. **Task** — действие с ожидаемым завершением.
-2. **Habit** — повторяемое поведение.
-3. **Routine** — организованная последовательность действий.
-4. **Ritual** — практика, ценность которой может находиться в самом переживании, значении, контексте и повторении.
+1. **Задача (task)** — действие с ожидаемым завершением.
+2. **Привычка (habit)** — повторяемое поведение.
+3. **Рутина (routine)** — организованная последовательность действий.
+4. **Ритуал (ritual)** — практика, ценность которой может находиться в самом переживании, значении, контексте и повторении.
 
 Эти сущности могут пересекаться, но не являются взаимозаменяемыми.
 
-### Core principle
+### Основной принцип
 
-> **Garden does not manage behavior. It helps people notice and shape meaningful practices.**
+> **Garden не управляет поведением. Он помогает людям замечать и формировать значимые практики.**
 
 ---
 
-## 3. Task
+## 3. Задача (task)
 
-Task обычно имеет:
+Задача обычно имеет:
 
 - формулировку;
 - ожидаемый результат;
 - статус;
 - дедлайн или момент завершения;
-- понятие done.
+- понятие «сделано».
 
 Примеры:
 
@@ -55,13 +55,13 @@ Task обычно имеет:
 - оплатить счёт;
 - записаться к врачу.
 
-Garden может хранить связанные действия, но не должен превращать каждый ритуал в task.
+Garden может хранить связанные действия, но не должен превращать каждый ритуал в задачу.
 
 ---
 
-## 4. Habit
+## 4. Привычка (habit)
 
-Habit — повторяемое поведение, которое может становиться более автоматическим в определённом контексте.
+Привычка — повторяемое поведение, которое может становиться более автоматическим в определённом контексте.
 
 Примеры:
 
@@ -69,7 +69,7 @@ Habit — повторяемое поведение, которое может �
 - открывать книгу перед сном;
 - выходить на прогулку после обеда.
 
-Habit может быть:
+Привычка может быть:
 
 - полезной;
 - нейтральной;
@@ -81,9 +81,9 @@ Garden не маркирует привычки как хорошие и пло�
 
 ---
 
-## 5. Routine
+## 5. Рутина (routine)
 
-Routine — организованная последовательность.
+Рутина — организованная последовательность.
 
 Например:
 
@@ -91,7 +91,7 @@ Routine — организованная последовательность.
 вода → зарядка → душ → завтрак
 ```
 
-Routine может быть:
+Рутина может быть:
 
 - практичной;
 - временной;
@@ -100,13 +100,13 @@ Routine может быть:
 - скучной;
 - поддерживающей.
 
-Routine не обязана иметь символическое значение.
+Рутина не обязана иметь символическое значение.
 
 ---
 
-## 6. Ritual
+## 6. Ритуал (ritual)
 
-Ritual может включать:
+Ритуал может включать:
 
 - повторяемость;
 - последовательность;
@@ -126,17 +126,17 @@ Ritual может включать:
 сесть у окна
 ```
 
-Для habit tracker это четыре поведения.
+Для трекера привычек это четыре поведения.
 
 Для Garden это может быть одно целостное переживание.
 
-### Principle
+### Принцип
 
-> A ritual is not merely a checklist with better language.
+> Ритуал — не просто чек-лист с более красивым языком.
 
 ---
 
-## 7. Ritual does not require transcendence
+## 7. Ритуал не требует трансцендентности
 
 Garden не романтизирует каждую практику.
 
@@ -162,7 +162,7 @@ Garden не романтизирует каждую практику.
 
 ---
 
-## 8. No universal definition of completion
+## 8. Нет универсального определения завершения
 
 Ритуал может завершаться:
 
@@ -171,22 +171,22 @@ Garden не романтизирует каждую практику.
 - когда человек сам почувствовал завершение;
 - без отдельной точки завершения.
 
-### Garden options
+### Варианты Garden
 
-- no completion;
-- manual mark;
-- soft ending;
-- time window;
-- user-authored signal;
-- retrospective note.
+- без завершения;
+- ручная отметка;
+- мягкое окончание;
+- временно́е окно;
+- сигнал, заданный пользователем;
+- ретроспективная заметка.
 
-No default threshold.
+Никакого порога по умолчанию.
 
 ---
 
-## 9. Absence is not failure
+## 9. Отсутствие — не провал
 
-Если ритуал не произошёл, Garden не создаёт отдельное событие failure.
+Если ритуал не произошёл, Garden не создаёт отдельное событие «провал».
 
 Отсутствие записи означает только:
 
@@ -200,54 +200,54 @@ No default threshold.
 - практика потеряна;
 - цель провалена.
 
-### Core rule
+### Основное правило
 
-> **No event is not the same as a failed event.**
+> **Отсутствие события — не то же самое, что проваленное событие.**
 
 ---
 
-## 10. No streak
+## 10. Никаких серий (streak)
 
-Garden Alpha does not use:
+Garden Alpha не использует:
 
-- daily streak;
-- longest streak;
-- broken chain;
-- recovery token;
-- freeze token;
-- missed-day warning;
-- consistency score.
+- ежедневную серию;
+- самую длинную серию;
+- разорванную цепочку;
+- токен восстановления;
+- токен заморозки;
+- предупреждение о пропущенном дне;
+- балл постоянства.
 
-### Why
+### Почему
 
-Streak changes the meaning of repetition:
+Серия меняет смысл повторения:
 
-from:
+с:
 
 > «Я возвращаюсь к практике, когда она мне нужна.»
 
-to:
+на:
 
 > «Я продолжаю, чтобы не потерять число.»
 
-Garden may later show descriptive history only by explicit request.
+Garden позже может показывать описательную историю только по явному запросу.
 
 ---
 
-## 11. Frequency
+## 11. Частота
 
-Frequency may matter practically.
+Частота может иметь практическое значение.
 
-Examples:
+Примеры:
 
-- medication;
-- rehabilitation;
-- professional training;
-- scheduled care.
+- лекарства;
+- реабилитация;
+- профессиональная тренировка;
+- запланированный уход.
 
-But those cases differ from personal ritual.
+Но эти случаи отличаются от личного ритуала.
 
-### Garden distinction
+### Различение в Garden
 
 ```yaml
 frequency:
@@ -256,56 +256,56 @@ frequency:
   safety_critical:
 ```
 
-Personal ritual defaults to descriptive or no frequency.
+Личный ритуал по умолчанию описательный или без частоты.
 
-Safety-critical schedules require a separate domain and must not be romanticized as rituals.
-
----
-
-## 12. Quality
-
-Garden does not score ritual quality.
-
-No:
-
-- five stars;
-- enough/not enough;
-- effective/ineffective;
-- ideal duration;
-- perfect execution;
-- AI praise after every occurrence.
-
-Possible user-authored reflection:
-
-- how it felt;
-- what changed;
-- what was difficult;
-- whether to adjust;
-- free note.
+Критичные к безопасности расписания требуют отдельного домена и не должны романтизироваться как ритуалы.
 
 ---
 
-## 13. Duration
+## 12. Качество
 
-Five minutes can be complete.
+Garden не оценивает качество ритуала.
 
-Two hours can feel unfinished.
+Нет:
 
-Duration is metadata, not value.
+- пяти звёзд;
+- достаточно/недостаточно;
+- эффективно/неэффективно;
+- идеальной длительности;
+- идеального исполнения;
+- похвалы ИИ после каждого вхождения.
 
-### Rule
+Возможная рефлексия, написанная пользователем:
 
-Garden never implies:
-
-- longer is better;
-- more frequent is better;
-- more complex is deeper.
+- как это ощущалось;
+- что изменилось;
+- что было трудным;
+- стоит ли скорректировать;
+- свободная заметка.
 
 ---
 
-## 14. Ritual occurrence
+## 13. Длительность
 
-An occurrence is a user-recorded instance.
+Пять минут могут быть полными.
+
+Два часа могут ощущаться незавершёнными.
+
+Длительность — метаданные, а не ценность.
+
+### Правило
+
+Garden никогда не подразумевает:
+
+- длиннее — лучше;
+- чаще — лучше;
+- сложнее — глубже.
+
+---
+
+## 14. Вхождение ритуала (ritual occurrence)
+
+Вхождение — записанный пользователем экземпляр.
 
 ```yaml
 ritual_occurrence:
@@ -322,42 +322,42 @@ ritual_occurrence:
   source:
 ```
 
-All fields except identity and provenance may be optional.
+Все поля, кроме идентичности и происхождения, могут быть опциональными.
 
 ---
 
-## 15. Record modes
+## 15. Режимы записи
 
-- **None** — practice exists without logging.
-- **Manual** — user saves an occurrence.
-- **Retrospective** — user records later.
-- **Lightweight** — one quiet action.
-- **Detailed** — optional note and components.
-- **Imported** — from another source with provenance.
+- **Нет (none)** — практика существует без логирования.
+- **Ручной (manual)** — пользователь сохраняет вхождение.
+- **Ретроспективный (retrospective)** — пользователь записывает позже.
+- **Лёгкий (lightweight)** — одно тихое действие.
+- **Детальный (detailed)** — опциональная заметка и компоненты.
+- **Импортированный (imported)** — из другого источника с происхождением.
 
-### Principle
+### Принцип
 
-A ritual remains real even when it is not logged.
+Ритуал остаётся реальным, даже когда он не залогирован.
 
 ---
 
-## 16. Ritual lineage
+## 16. Родословная ритуала (ritual lineage)
 
-A ritual may evolve.
+Ритуал может эволюционировать.
 
-Example:
-
-```text
-tea → book
-```
-
-later:
+Пример:
 
 ```text
-tea → music → book → candle
+чай → книга
 ```
 
-Garden should support lineage:
+позже:
+
+```text
+чай → музыка → книга → свеча
+```
+
+Garden должен поддерживать родословную:
 
 ```yaml
 ritual_lineage:
@@ -370,30 +370,30 @@ ritual_lineage:
   user_note:
 ```
 
-### Important distinction
+### Важное различие
 
-A version records configuration.
+Версия записывает конфигурацию.
 
-Lineage records continuity perceived by the user.
+Родословная записывает непрерывность, воспринимаемую пользователем.
 
-The system does not decide whether a change created a new ritual.
+Система не решает, создало ли изменение новый ритуал.
 
 ---
 
-## 17. One action in multiple rituals
+## 17. Одно действие в нескольких ритуалах
 
-An action may belong to several contexts.
+Действие может принадлежать нескольким контекстам.
 
-Example:
+Пример:
 
-`walk` may belong to:
+`прогулка` может принадлежать:
 
-- morning;
-- recovery;
-- creative thinking;
-- time with a close person.
+- утру;
+- восстановлению;
+- творческому мышлению;
+- времени с близким человеком.
 
-Garden therefore avoids rigid ownership.
+Поэтому Garden избегает жёсткого владения.
 
 ```yaml
 ritual_component_link:
@@ -404,74 +404,74 @@ ritual_component_link:
 
 ---
 
-## 18. Components
+## 18. Компоненты
 
-A ritual may contain:
+Ритуал может содержать:
 
-- action;
-- object;
-- place;
-- person;
-- sound;
-- light;
-- text;
-- preparation;
-- transition;
-- ending.
+- действие;
+- объект;
+- место;
+- человека;
+- звук;
+- свет;
+- текст;
+- подготовку;
+- переход;
+- окончание.
 
-Components can be:
+Компоненты могут быть:
 
-- required by user;
-- optional;
-- common;
-- remembered;
-- no longer used.
+- обязательными по решению пользователя;
+- опциональными;
+- частыми;
+- запомненными;
+- больше не используемыми.
 
-Garden does not convert all components into checkboxes.
-
----
-
-## 19. Ritual and place
-
-A ritual may be:
-
-- tied to one place;
-- possible in several places;
-- independent of place;
-- moved over time.
-
-Place can support ritual recognition, but does not authenticate it.
-
-A ritual performed elsewhere is not invalid.
+Garden не превращает все компоненты в чекбоксы.
 
 ---
 
-## 20. Ritual and time
+## 19. Ритуал и место
 
-A ritual may relate to:
+Ритуал может быть:
 
-- clock time;
-- daypart;
-- event;
-- season;
-- epoch;
-- subjective readiness;
-- another ritual.
+- привязан к одному месту;
+- возможен в нескольких местах;
+- независим от места;
+- перемещён со временем.
 
-Examples:
+Место может поддерживать распознавание ритуала, но не удостоверяет его.
 
-- after waking;
-- before sleep;
-- when returning home;
-- during rain;
-- when work ends;
-- when needed.
-
-Garden does not force calendar schedules.
+Ритуал, выполненный в другом месте, не является недействительным.
 
 ---
 
-## 21. Ritual lifecycle
+## 20. Ритуал и время
+
+Ритуал может относиться к:
+
+- времени по часам;
+- части дня;
+- событию;
+- сезону;
+- эпохе;
+- субъективной готовности;
+- другому ритуалу.
+
+Примеры:
+
+- после пробуждения;
+- перед сном;
+- при возвращении домой;
+- во время дождя;
+- когда заканчивается работа;
+- когда нужно.
+
+Garden не навязывает календарные расписания.
+
+---
+
+## 21. Жизненный цикл ритуала
 
 ```yaml
 ritual_state:
@@ -484,115 +484,115 @@ ritual_state:
   ended:
 ```
 
-All transitions are user-controlled.
+Все переходы контролируются пользователем.
 
-### No automatic states
+### Никаких автоматических состояний
 
-- inactive;
-- failed;
-- abandoned;
-- broken;
-- neglected.
-
----
-
-## 22. Ending a ritual
-
-A ritual may end because:
-
-- it no longer fits;
-- circumstances changed;
-- the person chooses another form;
-- it belonged to an epoch;
-- it completed its role.
-
-Ending is not failure.
-
-Garden may preserve:
-
-- history;
-- lineage;
-- objects;
-- memories;
-- user explanation.
+- неактивный;
+- проваленный;
+- заброшенный;
+- сломанный;
+- запущенный.
 
 ---
 
-## 23. AI role
+## 22. Завершение ритуала
 
-AI may help:
+Ритуал может закончиться, потому что:
 
-- notice repeated patterns in user-provided data;
-- ask whether a practice feels meaningful;
-- help name or describe;
-- suggest alternative forms;
-- identify practical friction;
-- preserve lineage;
-- compare versions.
+- он больше не подходит;
+- изменились обстоятельства;
+- человек выбирает другую форму;
+- он принадлежал эпохе;
+- он выполнил свою роль.
 
-AI may not:
+Завершение — не провал.
 
-- declare a ritual from behavior alone;
-- prescribe a habit as necessary;
-- diagnose avoidance;
-- shame inconsistency;
-- infer values from repetition;
-- optimize frequency without a user-defined goal.
+Garden может сохранить:
+
+- историю;
+- родословную;
+- объекты;
+- воспоминания;
+- объяснение пользователя.
 
 ---
 
-## 24. Pattern detection
+## 23. Роль ИИ
 
-Pattern detection is sensitive.
+ИИ может помочь:
 
-Requirements:
+- заметить повторяющиеся паттерны в предоставленных пользователем данных;
+- спросить, ощущается ли практика значимой;
+- помочь назвать или описать;
+- предложить альтернативные формы;
+- выявить практическое трение;
+- сохранить родословную;
+- сравнить версии.
 
-- opt-in;
-- explain data source;
-- show uncertainty;
-- ask before creating a ritual;
-- allow dismissal;
-- no repeated nudging;
-- no hidden behavioral profile.
+ИИ не может:
 
-Possible wording:
+- объявить ритуал только по поведению;
+- прописать привычку как необходимую;
+- диагностировать избегание;
+- стыдить за непоследовательность;
+- выводить ценности из повторения;
+- оптимизировать частоту без заданной пользователем цели.
+
+---
+
+## 24. Обнаружение паттернов
+
+Обнаружение паттернов чувствительно.
+
+Требования:
+
+- согласие (opt-in);
+- объяснение источника данных;
+- показ неопределённости;
+- вопрос перед созданием ритуала;
+- возможность отклонить;
+- никакого повторного подталкивания;
+- никакого скрытого поведенческого профиля.
+
+Возможная формулировка:
 
 > «В нескольких записях появляется чай и чтение вечером. Хочешь рассмотреть это как одну практику?»
 
-Not:
+Не:
 
 > «Мы обнаружили твой вечерний ритуал.»
 
 ---
 
-## 25. Suggestions
+## 25. Предложения
 
-AI suggestion should be framed as an option.
+Предложение ИИ должно быть обрамлено как вариант.
 
-Examples:
+Примеры:
 
-- simplify;
-- shorten;
-- move;
-- split;
-- combine;
-- pause;
-- remove a component;
-- create a lighter version.
+- упростить;
+- сократить;
+- переместить;
+- разделить;
+- объединить;
+- приостановить;
+- убрать компонент;
+- создать более лёгкую версию.
 
-No default recommendation to intensify.
+Никакой рекомендации усилить по умолчанию.
 
-### Important
+### Важно
 
-“Do less” and “stop” are valid suggestions.
+«Делать меньше» и «остановиться» — допустимые предложения.
 
 ---
 
-## 26. Reflection
+## 26. Рефлексия
 
-Reflection is optional.
+Рефлексия опциональна.
 
-Possible prompts:
+Возможные подсказки:
 
 - Что здесь было важно?
 - Что хочется сохранить?
@@ -600,7 +600,7 @@ Possible prompts:
 - Эта практика всё ещё твоя?
 - Нужна ли ей другая форма?
 
-Avoid:
+Избегать:
 
 - Почему ты не выполнила?
 - Что помешало быть последовательной?
@@ -609,109 +609,109 @@ Avoid:
 
 ---
 
-## 27. Social rituals
+## 27. Социальные ритуалы
 
-A ritual may include others.
+Ритуал может включать других.
 
-Risks:
+Риски:
 
-- consent;
-- unequal expectations;
-- exposing private meaning;
-- shared history;
-- changes by one participant.
+- согласие;
+- неравные ожидания;
+- раскрытие приватного смысла;
+- общая история;
+- изменения одним участником.
 
-Alpha ritual records remain private.
+Записи ритуалов Alpha остаются приватными.
 
-Shared ritual architecture requires separate research.
+Архитектура совместных ритуалов требует отдельного исследования.
 
 ---
 
-## 28. Metrics
+## 28. Метрики
 
-Garden does not use ritual frequency as the north star.
+Garden не использует частоту ритуалов как главный ориентир.
 
-Possible product metrics:
+Возможные продуктовые метрики:
 
-- user-created ritual retained by choice;
-- ritual edited;
-- ritual archived without friction;
-- manual mode use;
-- export success;
-- perceived autonomy;
-- absence guilt;
-- usefulness of lineage.
+- ритуал, созданный пользователем и сохранённый по выбору;
+- отредактированный ритуал;
+- ритуал, архивированный без трения;
+- использование ручного режима;
+- успех экспорта;
+- воспринимаемая автономия;
+- вина за отсутствие;
+- полезность родословной.
 
-### Guardrails
+### Ограничители
 
-- streak anxiety;
-- perceived judgment;
-- unwanted reminders;
-- AI overreach;
-- pressure to log;
-- pressure to intensify.
+- тревога серии;
+- воспринимаемое осуждение;
+- нежелательные напоминания;
+- избыточное вмешательство ИИ;
+- давление логировать;
+- давление усиливать.
 
 ---
 
 ## 29. Trigger Round
 
-### Problem
+### Проблема
 
-How can Garden support repetition without converting it into compliance?
+Как Garden может поддерживать повторение, не превращая его в соблюдение?
 
-### Trigger 1 — Human-centric
+### Триггер 1 — Human-centric
 
-**Prompt:** «А что если не создавать привычку?»
+**Карточка:** «А что если не создавать привычку?»
 
-**Hypothesis:** Garden first helps notice existing practices and asks whether they deserve form.
+**Гипотеза:** Garden сначала помогает заметить существующие практики и спрашивает, заслуживают ли они формы.
 
-**Outcome:** accepted direction.
+**Результат:** принятое направление.
 
-### Trigger 2 — Storytelling
+### Триггер 2 — Сторителлинг
 
-**Prompt:** «А что если история уже происходит?»
+**Карточка:** «А что если история уже происходит?»
 
-**Hypothesis:** Ritual history may predate creation of the Garden entity.
+**Гипотеза:** История ритуала может предшествовать созданию сущности Garden.
 
-**Outcome:** accepted architecture through retrospective occurrences.
+**Результат:** принятая архитектура через ретроспективные вхождения.
 
-### Trigger 3 — Business Design
+### Триггер 3 — Бизнес-дизайн
 
-**Prompt:** «А что если бросить вызов главному тренду?»
+**Карточка:** «А что если бросить вызов главному тренду?»
 
-**Hypothesis:** Garden rejects streak as both product mechanic and strategic position.
+**Гипотеза:** Garden отвергает серию и как продуктовую механику, и как стратегическую позицию.
 
-**Outcome:** accepted boundary and brand hypothesis.
+**Результат:** принятая граница и брендовая гипотеза.
 
-### Trigger 4 — Innovation
+### Триггер 4 — Инновации
 
-**Prompt:** «А что если убрать понятие выполнения?»
+**Карточка:** «А что если убрать понятие выполнения?»
 
-**Hypothesis:** Ritual supports occurrence, experience, preservation, transformation and ending instead of binary completion.
+**Гипотеза:** Ритуал поддерживает вхождение, переживание, сохранение, трансформацию и завершение вместо бинарного завершения.
 
-**Outcome:** Alpha experiment.
+**Результат:** эксперимент Alpha.
 
-### Trigger 5 — Naming
+### Триггер 5 — Именование
 
-**Prompt:** «А что если назвать через действие?»
+**Карточка:** «А что если назвать через действие?»
 
-**Hypothesis:** User can name a ritual through a lived phrase rather than a category.
+**Гипотеза:** Пользователь может назвать ритуал через прожитую фразу, а не категорию.
 
-Examples:
+Примеры:
 
 - «Читать у окна»
 - «Вернуться к себе после работы»
 - «Пицца и музыка в пятницу»
 
-**Outcome:** candidate naming pattern.
+**Результат:** кандидат в паттерн именования.
 
-### Rejected interpretation
+### Отвергнутая интерпретация
 
-Automatic habit coaching based on inactivity is rejected.
+Автоматический коучинг привычек на основе бездействия отвергается.
 
 ---
 
-## 30. Ritual architecture
+## 30. Архитектура ритуала
 
 ```yaml
 garden_ritual:
@@ -732,128 +732,128 @@ garden_ritual:
   provenance:
 ```
 
-### Invariants
+### Инварианты
 
-- no streak fields;
-- no failed occurrence;
-- no quality score;
-- no automatic lifecycle transition;
-- no inferred meaning;
-- no required logging;
-- no AI-created ritual without confirmation.
-
----
-
-## 31. Alpha ritual set
-
-1. Create from scratch.
-2. Create retrospectively from an existing practice.
-3. Optional place and time relations.
-4. Components without mandatory checklist.
-5. No completion by default.
-6. Quiet manual occurrence.
-7. Optional reflection.
-8. Lineage and version history.
-9. Rest, transform, archive or end.
-10. AI pattern suggestion only on request or explicit opt-in.
-11. No streak.
-12. No consistency score.
+- никаких полей серий;
+- никаких проваленных вхождений;
+- никакой оценки качества;
+- никакого автоматического перехода жизненного цикла;
+- никакого выведенного смысла;
+- никакого обязательного логирования;
+- никакого созданного ИИ ритуала без подтверждения.
 
 ---
 
-## 32. Alpha experiments
+## 31. Набор ритуалов Alpha
 
-### A — Completion vs occurrence language
-
-Measure:
-
-- pressure;
-- clarity;
-- perceived value;
-- understanding.
-
-### B — Streak vs descriptive history vs no frequency
-
-Measure guilt, motivation and meaning.
-
-### C — Checklist components vs holistic ritual
-
-Measure usefulness and fragmentation.
-
-### D — Retrospective creation
-
-Test whether users can recognize existing practices without planning a new habit.
-
-### E — Lineage
-
-Measure whether evolution feels more faithful than replacement.
-
-### F — No-log ritual
-
-Test whether users understand that a ritual can exist without recording.
+1. Создание с нуля.
+2. Создание ретроспективно из существующей практики.
+3. Опциональные связи с местом и временем.
+4. Компоненты без обязательного чек-листа.
+5. Без завершения по умолчанию.
+6. Тихое ручное вхождение.
+7. Опциональная рефлексия.
+8. Родословная и история версий.
+9. Покой, трансформация, архив или завершение.
+10. Предложение паттерна ИИ только по запросу или явному согласию.
+11. Никаких серий.
+12. Никакого балла постоянства.
 
 ---
 
-## 33. Candidate principles
+## 32. Эксперименты Alpha
 
-1. Ritual is not a decorated task.
-2. No event is not a failed event.
-3. No streak.
-4. Logging is optional.
-5. Completion is optional.
-6. Duration is not value.
-7. Quality is not scored.
-8. Frequency is not moral.
-9. Components need not be checkboxes.
-10. One action may belong to several rituals.
-11. Lineage preserves continuity without forcing sameness.
-12. Ending is not failure.
-13. AI notices only with consent.
-14. AI does not prescribe meaning.
-15. Doing less is a valid evolution.
-16. Manual and retrospective creation are equal.
-17. Rituals can exist outside Garden.
+### A — Язык завершения против языка вхождения
 
----
+Измерять:
 
-## 34. What Garden must not claim
+- давление;
+- ясность;
+- воспринимаемую ценность;
+- понимание.
 
-- repetition proves meaning;
-- consistency proves commitment;
-- longer rituals are deeper;
-- missed days damage a ritual;
-- logging is required for awareness;
-- AI can discover true rituals from behavior;
-- every routine should become a ritual;
-- ending means failure;
-- frequency reveals values;
-- streaks are necessary for motivation;
-- rituals are inherently beneficial;
-- Garden creates meaning on behalf of the user.
+### B — Серия против описательной истории против отсутствия частоты
+
+Измерять вину, мотивацию и смысл.
+
+### C — Компоненты-чек-лист против целостного ритуала
+
+Измерять полезность и фрагментацию.
+
+### D — Ретроспективное создание
+
+Тестировать, могут ли пользователи распознавать существующие практики, не планируя новую привычку.
+
+### E — Родословная
+
+Измерять, ощущается ли эволюция вернее замены.
+
+### F — Ритуал без логирования
+
+Тестировать, понимают ли пользователи, что ритуал может существовать без записи.
 
 ---
 
-## 35. Claim Registry
+## 33. Принципы-кандидаты
 
-| Claim | Confidence | Status |
+1. Ритуал — не украшенная задача.
+2. Отсутствие события — не проваленное событие.
+3. Никаких серий.
+4. Логирование опционально.
+5. Завершение опционально.
+6. Длительность — не ценность.
+7. Качество не оценивается.
+8. Частота не морализируется.
+9. Компоненты не обязаны быть чекбоксами.
+10. Одно действие может принадлежать нескольким ритуалам.
+11. Родословная сохраняет непрерывность, не навязывая одинаковость.
+12. Завершение — не провал.
+13. ИИ замечает только с согласия.
+14. ИИ не прописывает смысл.
+15. Делать меньше — допустимая эволюция.
+16. Ручное и ретроспективное создание равны.
+17. Ритуалы могут существовать вне Garden.
+
+---
+
+## 34. Что Garden не должен заявлять
+
+- повторение доказывает смысл;
+- постоянство доказывает приверженность;
+- более длинные ритуалы глубже;
+- пропущенные дни повреждают ритуал;
+- логирование обязательно для осознанности;
+- ИИ может обнаруживать истинные ритуалы по поведению;
+- каждая рутина должна стать ритуалом;
+- завершение означает провал;
+- частота раскрывает ценности;
+- серии необходимы для мотивации;
+- ритуалы полезны по своей природе;
+- Garden создаёт смысл за пользователя.
+
+---
+
+## 35. Реестр утверждений
+
+| Утверждение | Уверенность | Статус |
 |---|---:|---|
-| Habit, routine, task and ritual are distinct but overlapping concepts | high | foundation |
-| Streaks are necessary for sustained behavior | low | rejected |
-| Logging is necessary for a ritual to exist | rejected | product boundary |
-| Holistic ritual representation may reduce fragmentation | medium-low | Alpha hypothesis |
-| Retrospective recognition may support authorship | medium | Alpha hypothesis |
-| Absence should be recorded as failure | rejected | boundary |
-| Ritual lineage may preserve continuity | medium | product hypothesis |
-| AI can reliably infer personal meaning from repetition | low | rejected |
-| Optional reflection may support adaptation | medium | candidate |
-| Ending a ritual can be a legitimate lifecycle event | high | foundation |
+| Привычка, рутина, задача и ритуал — разные, но пересекающиеся понятия | высокая | основа |
+| Серии необходимы для устойчивого поведения | низкая | отвергнуто |
+| Логирование необходимо для существования ритуала | отвергнуто | граница продукта |
+| Целостное представление ритуала может снижать фрагментацию | средняя–низкая | гипотеза Alpha |
+| Ретроспективное распознавание может поддерживать авторство | средняя | гипотеза Alpha |
+| Отсутствие следует записывать как провал | отвергнуто | граница |
+| Родословная ритуала может сохранять непрерывность | средняя | продуктовая гипотеза |
+| ИИ может надёжно выводить личный смысл из повторения | низкая | отвергнуто |
+| Опциональная рефлексия может поддерживать адаптацию | средняя | кандидат |
+| Завершение ритуала может быть легитимным событием жизненного цикла | высокая | основа |
 
 ---
 
-## 36. Verdict
+## 36. Вердикт
 
-Garden should not build a better cage for habits.
+Garden не должен строить лучшую клетку для привычек.
 
-It should help a person notice the forms of repetition that already carry life, choose what to preserve, change what no longer fits and let go without failure.
+Он должен помогать человеку замечать формы повторения, которые уже несут жизнь, выбирать, что сохранить, менять то, что больше не подходит, и отпускать без провала.
 
-> **A ritual is not something Garden makes the person obey. It is something the person may choose to recognize as their own.**
+> **Ритуал — не то, чему Garden заставляет человека подчиняться. Это то, что человек может выбрать признать своим.**

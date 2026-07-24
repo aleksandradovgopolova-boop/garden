@@ -26,7 +26,7 @@ source_of_truth: false
 
 Свет в Garden должен проектироваться как две связанные, но независимые системы:
 
-### World Light
+### Свет мира (World Light)
 
 - небо;
 - солнце;
@@ -37,14 +37,14 @@ source_of_truth: false
 - глубина;
 - ощущение времени и погоды.
 
-### Interface Light
+### Свет интерфейса (Interface Light)
 
 - контраст текста;
 - поверхности;
-- focus states;
+- состояния фокуса;
 - выбранные объекты;
 - навигация;
-- accessibility.
+- доступность.
 
 ### Основной принцип
 
@@ -52,23 +52,23 @@ source_of_truth: false
 
 ---
 
-## 3. Brightness, lightness и luminance
+## 3. Яркость, светлота и яркостная величина (brightness, lightness, luminance)
 
 Эти понятия не равны друг другу.
 
-### Luminance
+### Яркостная величина (luminance)
 
 Физически измеримая величина света, приходящего от поверхности или экрана в направлении наблюдателя.
 
-### Brightness
+### Яркость (brightness)
 
 Перцептивное ощущение того, насколько область кажется излучающей или отражающей много света.
 
-### Lightness
+### Светлота (lightness)
 
 Оценка яркости поверхности относительно белого или аналогично освещённой области.
 
-CIE colour and appearance models подчёркивают, что brightness and lightness являются перцептивными атрибутами, зависящими от условий наблюдения и адаптации.
+Модели цвета и восприятия CIE подчёркивают, что яркость и светлота являются перцептивными атрибутами, зависящими от условий наблюдения и адаптации.
 
 ### Для Garden
 
@@ -109,8 +109,8 @@ CIE colour and appearance models подчёркивают, что brightness and
 
 - автоматически выделять «правильный» ритуал;
 - подсвечивать пропущенный объект;
-- создавать скрытый priority score;
-- вести пользователя к engagement-цели продукта.
+- создавать скрытый балл приоритета;
+- вести пользователя к цели продукта по вовлечённости.
 
 ---
 
@@ -130,13 +130,13 @@ CIE colour and appearance models подчёркивают, что brightness and
 
 ### Возможные режимы
 
-- dawn;
-- daylight;
-- overcast;
-- dusk;
-- night;
-- lantern light;
-- user-created local light.
+- рассвет;
+- дневной свет;
+- пасмурность;
+- сумерки;
+- ночь;
+- свет фонаря;
+- локальный свет, созданный пользователем.
 
 Эти режимы являются эстетическими.
 
@@ -147,17 +147,17 @@ CIE colour and appearance models подчёркивают, что brightness and
 - спокойствие;
 - грусть;
 - завершение;
-- crisis.
+- кризис.
 
 ---
 
-## 6. Дневной свет как inspiration, не обещание
+## 6. Дневной свет как вдохновение, а не обещание
 
-Систематический обзор 2024 года по daylight in indoor environments включил 33 исследования и нашёл перспективные, но неоднородные данные о restorative outcomes. Авторы отдельно подчёркивают роль visual discomfort и недостаточную ясность механизмов.
+Систематический обзор 2024 года по дневному свету в помещениях включил 33 исследования и нашёл перспективные, но неоднородные данные о восстановительных исходах. Авторы отдельно подчёркивают роль зрительного дискомфорта и недостаточную ясность механизмов.
 
-### Garden conclusion
+### Вывод Garden
 
-Можно использовать качества daylight:
+Можно использовать качества дневного света:
 
 - изменение;
 - мягкие градиенты;
@@ -173,26 +173,26 @@ CIE colour and appearance models подчёркивают, что brightness and
 
 ---
 
-## 7. Circadian claims
+## 7. Заявления о циркадных ритмах
 
-Реальный свет влияет на circadian biology через спектр, интенсивность, длительность и время воздействия.
+Реальный свет влияет на циркадную биологию через спектр, интенсивность, длительность и время воздействия.
 
 Но Garden является экранным продуктом и не должен заявлять:
 
-- circadian optimization;
+- циркадную оптимизацию;
 - улучшение сна;
 - гормональную регуляцию;
 - лечение нарушений ритма.
 
-### Rule
+### Правило
 
-Garden can synchronize aesthetic light with local time only as:
+Garden может синхронизировать эстетический свет с локальным временем только как:
 
-- optional ambience;
-- user-controlled behavior;
-- non-medical feature.
+- опциональную атмосферу;
+- поведение под контролем пользователя;
+- немедицинскую функцию.
 
-It cannot present this as a health intervention.
+Он не может представлять это как медицинскую интервенцию.
 
 ---
 
@@ -200,321 +200,321 @@ It cannot present this as a health intervention.
 
 Возможные режимы:
 
-### Fixed
+### Фиксированный (fixed)
 
-User selects one light scene.
+Пользователь выбирает одну световую сцену.
 
-### Manual
+### Ручной (manual)
 
-User changes the light at any time.
+Пользователь меняет свет в любой момент.
 
-### Local-time
+### По локальному времени (local-time)
 
-Garden follows device time after opt-in.
+Garden следует времени устройства после согласия.
 
-### Gentle cycle
+### Мягкий цикл (gentle cycle)
 
-A fictional slow cycle independent of real time.
+Вымышленный медленный цикл, независимый от реального времени.
 
-### Rules
+### Правила
 
-- no automatic lock;
-- no removal of content at night;
-- no “too late” state;
-- no forced dawn;
-- no reward for opening at a particular time;
-- night-shift users must not receive incorrect day-language.
-
----
-
-## 9. Night mode is not merely dark mode
-
-A night garden requires:
-
-- readable values;
-- controlled local lights;
-- preserved path visibility;
-- reduced glare;
-- visible focus;
-- no crushed shadows;
-- no inaccessible low-contrast text.
-
-### Equal-status principle
-
-Night is not:
-
-- premium;
-- dangerous;
-- sad;
-- less functional;
-- a reward state.
-
-It is a complete aesthetic world.
+- никакой автоматической блокировки;
+- никакого удаления контента ночью;
+- никакого состояния «слишком поздно»;
+- никакого принудительного рассвета;
+- никакой награды за открытие в определённое время;
+- пользователи ночных смен не должны получать неверный «дневной» язык.
 
 ---
 
-## 10. Overcast and diffuse light
+## 9. Ночной режим — не просто тёмная тема
 
-Overcast light can provide:
+Ночной сад требует:
 
-- low directional contrast;
-- clear material readability;
-- quiet atmosphere;
-- reduced hard-shadow complexity.
+- читаемых значений;
+- контролируемых локальных источников света;
+- сохранённой видимости путей;
+- сниженных бликов;
+- видимого фокуса;
+- никаких «раздавленных» теней;
+- никакого недоступного низкоконтрастного текста.
 
-But it can also appear:
+### Принцип равного статуса
 
-- flat;
-- lifeless;
-- low-contrast.
+Ночь не является:
 
-### Garden use
+- премиальной;
+- опасной;
+- грустной;
+- менее функциональной;
+- наградным состоянием.
 
-Use subtle value separation, material variation and depth cues.
-
-Do not make overcast the visual language of inactivity.
-
----
-
-## 11. Dappled and moving light
-
-Moving light through leaves or water can make the world feel alive.
-
-A 2026 Journal of Environmental Psychology study investigated motion types in abstract light patterns and stress recovery, showing that this remains an emerging research area rather than an established interface rule.
-
-### Risks
-
-- distraction;
-- visual fatigue;
-- motion sickness;
-- flicker-like effects;
-- reduced text readability;
-- performance cost.
-
-### Rule
-
-- ambient movement is optional;
-- low amplitude;
-- slow;
-- never behind reading content;
-- disabled in reduced-motion mode;
-- no essential information carried by movement.
+Это полноценный эстетический мир.
 
 ---
 
-## 12. Glare and discomfort
+## 10. Пасмурный и рассеянный свет
 
-Digital Garden may create discomfort through:
+Пасмурный свет может давать:
 
-- very bright local lights on dark scenes;
-- abrupt transitions;
-- saturated bloom;
-- reflections;
-- flashing water;
-- high dynamic range without control;
-- white modals over night scenes.
+- низкий направленный контраст;
+- ясную читаемость материалов;
+- тихую атмосферу;
+- сниженную сложность жёстких теней.
 
-### Requirements
+Но он также может выглядеть:
 
-- cap local contrast;
-- provide brightness control;
-- smooth transitions;
-- avoid bloom over text;
-- test HDR and SDR;
-- provide neutral interface surfaces;
-- allow static light.
+- плоским;
+- безжизненным;
+- низкоконтрастным.
 
----
+### Использование в Garden
 
-## 13. Shadows
+Используйте тонкое разделение значений, вариацию материалов и подсказки глубины.
 
-Shadows create:
-
-- depth;
-- grounding;
-- object separation;
-- time and direction.
-
-But deep or dynamic shadows can:
-
-- hide controls;
-- reduce object recognition;
-- imply danger;
-- create visual noise.
-
-### Garden rules
-
-- interactive objects stay legible;
-- important controls never exist only in shadow;
-- shadows do not encode lifecycle;
-- user can reduce scene contrast.
+Не делайте пасмурность визуальным языком бездействия.
 
 ---
 
-## 14. Local light sources
+## 11. Пятнистый и движущийся свет
 
-Potential objects:
+Движущийся свет сквозь листья или воду может делать мир живым.
 
-- lantern;
-- window;
-- candle-like glow;
-- fire;
-- reflected water light;
-- bioluminescent fictional object.
+Исследование 2026 года в Journal of Environmental Psychology изучало типы движения в абстрактных световых паттернах и восстановление после стресса, показав, что это остаётся зарождающейся областью, а не устоявшимся интерфейсным правилом.
 
-### Safety and cultural caution
+### Риски
 
-- open fire is symbolic/aesthetic, not a suggested real ritual;
-- candles require no mystical or therapeutic claim;
-- culturally identifiable lanterns require provenance;
-- local lights do not become rewards for completion.
+- отвлечение;
+- зрительная усталость;
+- укачивание;
+- эффекты, похожие на мерцание;
+- сниженная читаемость текста;
+- нагрузка на производительность.
 
-### User ownership
+### Правило
 
-The user places and controls local lights.
-
----
-
-## 15. Light and materials
-
-Different materials need distinct light behavior:
-
-- water reflects and transmits;
-- stone has weight and texture;
-- wood absorbs and scatters;
-- glass transmits and reflects;
-- fabric softens;
-- foliage creates layered translucency.
-
-### Product consequence
-
-Material identity cannot rely only on texture assets. Lighting and shading are part of object readability.
+- фоновое движение опционально;
+- низкая амплитуда;
+- медленно;
+- никогда за читаемым контентом;
+- отключено в режиме уменьшенного движения;
+- никакая существенная информация не переносится движением.
 
 ---
 
-## 16. Light transitions
+## 12. Блики и дискомфорт
 
-Transitions should:
+Цифровой Garden может создавать дискомфорт через:
 
-- be predictable;
-- allow interruption;
-- avoid abrupt full-screen changes;
-- respect reduced motion;
-- preserve focus;
-- not block interaction.
+- очень яркие локальные источники на тёмных сценах;
+- резкие переходы;
+- насыщенное свечение (bloom);
+- отражения;
+- сверкающую воду;
+- высокий динамический диапазон без контроля;
+- белые модальные окна поверх ночных сцен.
 
-### Duration categories
+### Требования
 
-- immediate for accessibility-critical state;
-- short for UI;
-- slow and optional for atmosphere.
-
-No transition should be long merely to appear cinematic.
-
----
-
-## 17. Motion and accessibility
-
-W3C guidance states that non-essential interaction-triggered motion should be disableable, and `prefers-reduced-motion` can be used to honour user settings.
-
-### Garden requirements
-
-- reduced-motion mode;
-- static-light option;
-- pause/stop for auto-moving ambient content;
-- no parallax requirement;
-- no camera drift;
-- no flashing;
-- no light pulses used as reminders;
-- no automatic zoom to active ritual.
+- ограничить локальный контраст;
+- предоставить контроль яркости;
+- плавные переходы;
+- избегать свечения поверх текста;
+- тестировать HDR и SDR;
+- предоставлять нейтральные поверхности интерфейса;
+- разрешать статичный свет.
 
 ---
 
-## 18. Light and focus
+## 13. Тени
 
-The selected object must remain visible across:
+Тени создают:
 
-- day;
-- dusk;
-- night;
-- overcast;
-- colour-vision modes;
-- high contrast.
+- глубину;
+- «заземление»;
+- разделение объектов;
+- время и направление.
 
-Selection uses:
+Но глубокие или динамические тени могут:
 
-- outline;
-- handle;
-- label;
-- optional controlled glow.
+- скрывать элементы управления;
+- снижать распознавание объектов;
+- подразумевать опасность;
+- создавать визуальный шум.
 
-Glow alone is insufficient.
+### Правила Garden
 
----
-
-## 19. Interface surfaces over the world
-
-Panels and modals must not inherit uncontrolled world lighting.
-
-### UI surface rules
-
-- defined surface tokens;
-- stable text contrast;
-- limited translucency;
-- backdrop blur optional;
-- no glassmorphism that harms readability;
-- night/day variants tested separately.
-
-### Principle
-
-> The interface can belong to the world without becoming visually submerged in it.
+- интерактивные объекты остаются читаемыми;
+- важные элементы управления никогда не существуют только в тени;
+- тени не кодируют жизненный цикл;
+- пользователь может снизить контраст сцены.
 
 ---
 
-## 20. Safety mode
+## 14. Локальные источники света
 
-Safety mode:
+Возможные объекты:
 
-- removes atmospheric transitions;
-- uses neutral high-contrast surfaces;
-- disables ambient motion;
-- avoids metaphorical light language;
-- keeps direct information visible.
+- фонарь;
+- окно;
+- свечение как от свечи;
+- огонь;
+- отражённый свет воды;
+- вымышленный биолюминесцентный объект.
 
-Not:
+### Безопасность и культурная осторожность
+
+- открытый огонь символичен/эстетичен, а не предлагаемый реальный ритуал;
+- свечи не требуют мистических или терапевтических заявлений;
+- культурно узнаваемые фонари требуют указания происхождения;
+- локальные источники света не становятся наградами за завершение.
+
+### Владение пользователя
+
+Пользователь размещает и контролирует локальные источники света.
+
+---
+
+## 15. Свет и материалы
+
+Разным материалам нужно отличное поведение света:
+
+- вода отражает и пропускает;
+- камень имеет вес и текстуру;
+- дерево поглощает и рассеивает;
+- стекло пропускает и отражает;
+- ткань смягчает;
+- листва создаёт слоистую полупрозрачность.
+
+### Следствие для продукта
+
+Идентичность материала не может опираться только на текстурные ассеты. Освещение и затенение — часть читаемости объекта.
+
+---
+
+## 16. Световые переходы
+
+Переходы должны:
+
+- быть предсказуемыми;
+- допускать прерывание;
+- избегать резких полноэкранных изменений;
+- уважать уменьшенное движение;
+- сохранять фокус;
+- не блокировать взаимодействие.
+
+### Категории длительности
+
+- немедленно для состояния, критичного к доступности;
+- коротко для UI;
+- медленно и опционально для атмосферы.
+
+Ни один переход не должен быть длинным лишь для того, чтобы выглядеть кинематографично.
+
+---
+
+## 17. Движение и доступность
+
+Руководство W3C гласит, что несущественное движение, запускаемое взаимодействием, должно быть отключаемым, а `prefers-reduced-motion` можно использовать для учёта настроек пользователя.
+
+### Требования Garden
+
+- режим уменьшенного движения;
+- опция статичного света;
+- пауза/остановка для автодвижущегося фонового контента;
+- никакого требования параллакса;
+- никакого дрейфа камеры;
+- никакого мерцания;
+- никаких световых пульсаций в роли напоминаний;
+- никакого автоматического зума к активному ритуалу.
+
+---
+
+## 18. Свет и фокус
+
+Выбранный объект должен оставаться видимым при:
+
+- дне;
+- сумерках;
+- ночи;
+- пасмурности;
+- режимах цветового зрения;
+- высоком контрасте.
+
+Выбор использует:
+
+- контур;
+- маркер;
+- подпись;
+- опциональное контролируемое свечение.
+
+Одного свечения недостаточно.
+
+---
+
+## 19. Поверхности интерфейса поверх мира
+
+Панели и модальные окна не должны наследовать неконтролируемое освещение мира.
+
+### Правила поверхностей UI
+
+- определённые токены поверхностей;
+- стабильный контраст текста;
+- ограниченная полупрозрачность;
+- опциональное размытие фона;
+- никакого гласморфизма, вредящего читаемости;
+- ночные/дневные варианты тестируются отдельно.
+
+### Принцип
+
+> Интерфейс может принадлежать миру, не погружаясь в него визуально.
+
+---
+
+## 20. Режим безопасности
+
+Режим безопасности:
+
+- убирает атмосферные переходы;
+- использует нейтральные высококонтрастные поверхности;
+- отключает фоновое движение;
+- избегает метафорического языка света;
+- держит прямую информацию видимой.
+
+Не:
 
 > «В саду стало темнее».
 
-Better:
+Лучше:
 
-> direct literal safety message.
-
----
-
-## 21. Light must not moralize
-
-Forbidden mappings:
-
-- bright = successful;
-- dark = failed;
-- sunrise = growth;
-- sunset = completion;
-- shadow = hidden trauma;
-- spotlight = important life direction;
-- extinguished lantern = neglected ritual;
-- storm flash = crisis inference.
-
-Allowed:
-
-- user-selected aesthetic;
-- actual or fictional time;
-- object material;
-- navigation and focus;
-- explicit user-authored symbolism.
+> прямое буквальное сообщение безопасности.
 
 ---
 
-## 22. Light architecture
+## 21. Свет не должен морализировать
+
+Запрещённые соответствия:
+
+- яркий = успешный;
+- тёмный = провалившийся;
+- восход = рост;
+- закат = завершение;
+- тень = скрытая травма;
+- прожектор = важное направление жизни;
+- потухший фонарь = заброшенный ритуал;
+- вспышка бури = вывод о кризисе.
+
+Разрешено:
+
+- выбранная пользователем эстетика;
+- реальное или вымышленное время;
+- материал объекта;
+- навигация и фокус;
+- явная символика, заданная пользователем.
+
+---
+
+## 22. Архитектура света
 
 ```yaml
 world_light:
@@ -558,85 +558,85 @@ accessibility:
 
 ---
 
-## 23. Alpha experiments
+## 23. Эксперименты Alpha
 
-### A — Fixed vs local-time light
+### A — Фиксированный свет против света по локальному времени
 
-Test:
+Тестировать:
 
-- ownership;
-- comfort;
-- incorrect assumptions;
-- perceived pressure;
-- night-shift fit.
+- владение;
+- комфорт;
+- неверные предположения;
+- воспринимаемое давление;
+- соответствие ночным сменам.
 
-### B — Static vs gentle motion
+### B — Статичное против мягкого движения
 
-Test:
+Тестировать:
 
-- vitality;
-- distraction;
-- fatigue;
-- reduced-motion preference.
+- живость;
+- отвлечение;
+- усталость;
+- предпочтение уменьшенного движения.
 
-### C — Dusk/night usability
+### C — Пригодность сумерек/ночи
 
-Test:
+Тестировать:
 
-- object recognition;
-- text contrast;
-- path legibility;
-- glare.
+- распознавание объектов;
+- контраст текста;
+- считываемость путей;
+- блики.
 
-### D — Local lights
+### D — Локальные источники света
 
-Test whether user-placed lights:
+Тестировать, увеличивают ли размещённые пользователем источники света:
 
-- increase ownership;
-- create hierarchy;
-- become interpreted as rewards.
+- владение;
+- иерархию;
+- восприятие как наград.
 
-### E — World/UI separation
+### E — Разделение мира/UI
 
-Compare:
+Сравнить:
 
-- deeply translucent panels;
-- stable opaque/translucent hybrid surfaces.
-
----
-
-## 24. Candidate principles
-
-1. World light and UI light are separate.
-2. Light creates space, not judgment.
-3. Real-time sync is optional.
-4. Night is a complete world.
-5. No circadian or therapeutic claims.
-6. Motion is optional and slow.
-7. Glare is a design failure.
-8. Accessibility overrides cinematic effect.
-9. Local lights belong to the user.
-10. Light never encodes success or failure.
-11. Materials require lighting-specific treatment.
-12. Safety mode is literal and stable.
+- глубоко полупрозрачные панели;
+- стабильные непрозрачные/полупрозрачные гибридные поверхности.
 
 ---
 
-## 25. What Garden must not claim
+## 24. Принципы-кандидаты
 
-- that screen daylight restores cognition;
-- that dawn mode improves mood;
-- that night mode supports sleep;
-- that warm light is emotionally safe;
-- that cool light increases focus;
-- that dynamic light is biophilic treatment;
-- that local-time sync is circadian design;
-- that darkness reflects internal state.
+1. Свет мира и свет UI раздельны.
+2. Свет создаёт пространство, а не суждение.
+3. Синхронизация с реальным временем опциональна.
+4. Ночь — полноценный мир.
+5. Никаких циркадных или терапевтических заявлений.
+6. Движение опционально и медленно.
+7. Блики — провал дизайна.
+8. Доступность важнее кинематографического эффекта.
+9. Локальные источники света принадлежат пользователю.
+10. Свет никогда не кодирует успех или провал.
+11. Материалы требуют специфической обработки светом.
+12. Режим безопасности буквален и стабилен.
 
 ---
 
-## 26. Verdict
+## 25. Что Garden не должен заявлять
 
-Light should make Garden feel alive without making the user feel watched, interpreted or timed.
+- что экранный дневной свет восстанавливает познание;
+- что режим рассвета улучшает настроение;
+- что ночной режим поддерживает сон;
+- что тёплый свет эмоционально безопасен;
+- что холодный свет повышает фокус;
+- что динамический свет — биофильное лечение;
+- что синхронизация с локальным временем — циркадный дизайн;
+- что тьма отражает внутреннее состояние.
 
-> **The world may change its light. It must never use light to tell the person what their life means.**
+---
+
+## 26. Вердикт
+
+Свет должен делать Garden живым, не заставляя пользователя чувствовать себя под наблюдением, интерпретируемым или подгоняемым по времени.
+
+> **Мир может менять свой свет. Он никогда не должен использовать свет, чтобы сообщить человеку, что означает его жизнь.**

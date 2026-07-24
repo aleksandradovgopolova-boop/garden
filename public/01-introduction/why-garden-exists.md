@@ -1,5 +1,5 @@
 ---
-title: "Why Garden Exists"
+title: "Зачем существует Garden"
 status: accepted
 owner: "Product"
 updated: 2026-07-18
@@ -9,11 +9,11 @@ wowrepo:
   order: 2
   visibility: public
 ---
-# Why Garden Exists
-Most digital products ask people to produce, perform, react, optimize or return on schedule.
+# Зачем существует Garden
+Большинство цифровых продуктов просят людей производить, соответствовать, реагировать, оптимизировать или возвращаться по расписанию.
 
-Garden begins from another premise:
+Garden исходит из другой предпосылки:
 
-> A digital place may be valuable even when nothing is being completed.
+> Цифровое место может быть ценным даже тогда, когда ничего не завершается.
 
-Garden explores software where absence creates no debt, time creates history rather than pressure, rituals are recognized rather than enforced, AI remains a proposal, and returning matters more than posting.
+Garden исследует программное обеспечение, в котором отсутствие не создаёт долга, время создаёт историю, а не давление, ритуалы признаются, а не навязываются, ИИ остаётся предложением, а возвращение важнее публикации.

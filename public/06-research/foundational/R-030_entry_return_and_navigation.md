@@ -26,12 +26,12 @@ source_of_truth: false
 
 Навигация Garden должна поддерживать два равноправных способа существования:
 
-1. **Spatial mode** — человек перемещается по миру и местам.
-2. **Direct mode** — человек мгновенно открывает нужное через список, поиск, историю или ссылку.
+1. **Пространственный режим (spatial mode)** — человек перемещается по миру и местам.
+2. **Прямой режим (direct mode)** — человек мгновенно открывает нужное через список, поиск, историю или ссылку.
 
-### Core principle
+### Основной принцип
 
-> **Movement may create experience. Access must never depend on movement.**
+> **Движение может создавать опыт. Доступ никогда не должен зависеть от движения.**
 
 ---
 
@@ -61,7 +61,7 @@ source_of_truth: false
 
 ---
 
-## 4. Entry
+## 4. Вход (entry)
 
 Вход в Garden не должен каждый раз начинаться с одной и той же главной страницы.
 
@@ -70,35 +70,35 @@ source_of_truth: false
 - последнее открытое место;
 - выбранное домашнее место;
 - конкретный ритуал;
-- snapshot;
-- search result;
-- notification target;
-- shared link later;
-- safety mode.
+- снимок;
+- результат поиска;
+- цель уведомления;
+- позже — общая ссылка;
+- режим безопасности.
 
-### User control
+### Контроль пользователя
 
 Пользователь выбирает:
 
 - куда возвращаться по умолчанию;
 - сохранять ли последнюю позицию;
-- открывать ли Garden в quiet overview;
+- открывать ли Garden в тихом обзоре;
 - входить ли сразу в конкретное место.
 
 ---
 
-## 5. Return
+## 5. Возвращение (return)
 
 Возвращение после паузы не является отдельным ритуалом реабилитации.
 
 Нет:
 
-- recap, который невозможно пропустить;
+- сводки, которую невозможно пропустить;
 - «ты давно не была»;
 - обязательного тура изменений;
-- backlog;
-- celebration of return;
-- hidden updates.
+- бэклога;
+- празднования возвращения;
+- скрытых обновлений.
 
 Допустимо:
 
@@ -106,7 +106,7 @@ source_of_truth: false
 - предложить открыть последнее место;
 - открыть нейтральный обзор.
 
-### Copy
+### Текст
 
 > «Продолжить с того места, где ты остановилась.»
 
@@ -116,52 +116,52 @@ source_of_truth: false
 
 ---
 
-## 6. Spatial navigation
+## 6. Пространственная навигация
 
-Spatial mode может включать:
+Пространственный режим может включать:
 
-- pan;
-- zoom;
+- панорамирование (pan);
+- масштабирование (zoom);
 - переход между местами;
-- paths;
-- landmarks;
-- map;
-- place overview;
-- camera presets.
+- пути;
+- ориентиры;
+- карту;
+- обзор места;
+- пресеты камеры.
 
-### Requirements
+### Требования
 
-- no forced walking;
-- no artificial travel time;
-- no stamina;
-- no locked routes;
-- no mandatory animation;
-- no hidden critical controls in space.
-
----
-
-## 7. Direct navigation
-
-Direct mode includes:
-
-- global search;
-- place list;
-- ritual list;
-- recent;
-- favorites chosen by user;
-- history;
-- command palette;
-- deep links.
-
-### Rule
-
-Every spatial destination has a direct equivalent.
-
-Every direct destination can reveal its place context where relevant.
+- никакой принудительной ходьбы;
+- никакого искусственного времени в пути;
+- никакой «выносливости»;
+- никаких заблокированных маршрутов;
+- никакой обязательной анимации;
+- никаких скрытых критичных элементов управления в пространстве.
 
 ---
 
-## 8. Orientation
+## 7. Прямая навигация
+
+Прямой режим включает:
+
+- глобальный поиск;
+- список мест;
+- список ритуалов;
+- недавнее;
+- избранное, выбранное пользователем;
+- историю;
+- командную палитру;
+- глубокие ссылки.
+
+### Правило
+
+У каждого пространственного места назначения есть прямой эквивалент.
+
+Каждое прямое место назначения может раскрывать свой пространственный контекст, где это уместно.
+
+---
+
+## 8. Ориентация
 
 Пользователь должен понимать:
 
@@ -172,18 +172,18 @@ Every direct destination can reveal its place context where relevant.
 - какой режим открыт;
 - изменяет ли он мир или только смотрит.
 
-### Minimum orientation set
+### Минимальный набор ориентации
 
-- place name;
-- breadcrumb or spatial context;
-- back/home;
-- map/list switch;
-- edit/view mode indicator;
-- privacy indicator.
+- название места;
+- «хлебные крошки» или пространственный контекст;
+- назад/домой;
+- переключение карты/списка;
+- индикатор режима редактирования/просмотра;
+- индикатор приватности.
 
 ---
 
-## 9. Map
+## 9. Карта
 
 Карта может помогать видеть:
 
@@ -197,333 +197,333 @@ Every direct destination can reveal its place context where relevant.
 Но карта не должна:
 
 - превращаться в карту уровней;
-- показывать completion;
-- подсвечивать undiscovered areas;
-- создавать fog of war;
+- показывать завершённость;
+- подсвечивать неоткрытые области;
+- создавать «туман войны»;
 - ранжировать места;
 - намекать, что сад недостаточно заполнен.
 
 ### Alpha
 
-Simple schematic map.
+Простая схематическая карта.
 
-Not a miniature simulation.
-
----
-
-## 10. Search
-
-Search is a primary capability, not an emergency exit from spatial design.
-
-Search can find:
-
-- place;
-- ritual;
-- object;
-- memory;
-- epoch;
-- snapshot;
-- user-authored text.
-
-### Search result
-
-Each result shows:
-
-- literal title;
-- entity type;
-- place context;
-- date where relevant;
-- privacy;
-- direct open;
-- reveal in world.
+Не миниатюрная симуляция.
 
 ---
 
-## 11. Recent and favorites
+## 10. Поиск
 
-### Recent
+Поиск — первичная возможность, а не аварийный выход из пространственного дизайна.
 
-Generated from actual use.
+Поиск может найти:
 
-Must not imply preference.
+- место;
+- ритуал;
+- объект;
+- воспоминание;
+- эпоху;
+- снимок;
+- текст, написанный пользователем.
 
-### Favorites
+### Результат поиска
 
-Explicitly selected by the user.
+Каждый результат показывает:
 
-Garden does not calculate:
-
-- favorite place;
-- most important ritual;
-- strongest memory;
-- best route.
-
----
-
-## 12. Paths
-
-Paths may support:
-
-- orientation;
-- visual composition;
-- transitions;
-- place connection.
-
-They do not:
-
-- gate access;
-- indicate progress;
-- represent life stages automatically;
-- force sequence.
-
-A place may have no path and remain directly accessible.
+- буквальное название;
+- тип сущности;
+- контекст места;
+- дату, где уместно;
+- приватность;
+- прямое открытие;
+- раскрытие в мире.
 
 ---
 
-## 13. Camera
+## 11. Недавнее и избранное
 
-Camera behavior strongly affects comfort.
+### Недавнее (recent)
 
-Requirements:
+Генерируется из фактического использования.
 
-- stable defaults;
-- no automatic dramatic movement;
-- no unsolicited zoom;
-- no forced first-person view;
-- reduced-motion option;
-- reset view;
-- remembered per-place preference.
+Не должно подразумевать предпочтение.
 
-### Modes
+### Избранное (favorites)
 
-- overview;
-- place;
-- detail;
-- list.
+Явно выбрано пользователем.
 
-No cinematic mode by default.
+Garden не вычисляет:
+
+- любимое место;
+- самый важный ритуал;
+- самое сильное воспоминание;
+- лучший маршрут.
 
 ---
 
-## 14. Mode clarity
+## 12. Пути
 
-Garden distinguishes:
+Пути могут поддерживать:
 
-- View;
-- Edit;
-- Review;
-- Archive;
-- Safety.
+- ориентацию;
+- визуальную композицию;
+- переходы;
+- связь мест.
 
-The user always knows whether an action:
+Они не:
 
-- only changes view;
-- changes layout;
-- changes data;
-- changes history;
-- affects permissions.
+- ограничивают доступ;
+- указывают на прогресс;
+- представляют жизненные стадии автоматически;
+- навязывают последовательность.
 
-No invisible mode switching.
+У места может не быть пути, и оно остаётся напрямую доступным.
 
 ---
 
-## 15. Breadcrumbs
+## 13. Камера
 
-Breadcrumbs can be spatial and semantic.
+Поведение камеры сильно влияет на комфорт.
 
-Example:
+Требования:
+
+- стабильные значения по умолчанию;
+- никакого автоматического драматического движения;
+- никакого непрошеного зума;
+- никакого принудительного вида от первого лица;
+- опция уменьшенного движения;
+- сброс вида;
+- запоминаемое предпочтение для каждого места.
+
+### Режимы
+
+- обзор;
+- место;
+- деталь;
+- список.
+
+Никакого кинематографического режима по умолчанию.
+
+---
+
+## 14. Ясность режима
+
+Garden различает:
+
+- Просмотр;
+- Редактирование;
+- Обзор;
+- Архив;
+- Безопасность.
+
+Пользователь всегда знает, изменяет ли действие:
+
+- только вид;
+- раскладку;
+- данные;
+- историю;
+- разрешения.
+
+Никакого невидимого переключения режимов.
+
+---
+
+## 15. «Хлебные крошки»
+
+«Хлебные крошки» могут быть пространственными и семантическими.
+
+Пример:
 
 ```text
-Garden → Water Place → Bench → Memory
+Garden → Место у воды → Лавка → Воспоминание
 ```
 
-This helps connect:
+Это помогает связать:
 
-- world;
-- place;
-- object;
-- content.
+- мир;
+- место;
+- объект;
+- содержимое.
 
-Breadcrumbs are optional visually but always available in accessible navigation.
-
----
-
-## 16. One place vs whole garden
-
-Garden should not force constant zooming between global and local.
-
-Possible entry scopes:
-
-- whole garden;
-- selected place;
-- current ritual;
-- object detail.
-
-The user may spend weeks in one place without seeing the whole garden.
-
-That is not incomplete usage.
+«Хлебные крошки» опциональны визуально, но всегда доступны в доступной навигации.
 
 ---
 
-## 17. Attention and distraction
+## 16. Одно место против всего сада
 
-Navigation should avoid:
+Garden не должен принуждать к постоянному переключению масштаба между глобальным и локальным.
 
-- moving highlights;
-- flashing landmarks;
-- animated undiscovered areas;
-- constant route suggestions;
-- attention-seeking creatures;
-- contextual popups during movement.
+Возможные области входа:
 
-### Quiet navigation
+- весь сад;
+- выбранное место;
+- текущий ритуал;
+- деталь объекта.
 
-Controls appear:
+Пользователь может провести недели в одном месте, не видя весь сад.
 
-- on intent;
-- on focus;
-- in edit mode;
-- through keyboard;
-- through command palette.
+Это не неполное использование.
 
 ---
 
-## 18. Accessibility
+## 17. Внимание и отвлечение
 
-Spatial interfaces can exclude users with:
+Навигация должна избегать:
 
-- motor limitations;
-- low vision;
-- vestibular sensitivity;
-- cognitive load sensitivity;
-- screen-reader use;
-- limited device performance.
+- движущихся подсветок;
+- мигающих ориентиров;
+- анимированных неоткрытых областей;
+- постоянных предложений маршрута;
+- привлекающих внимание существ;
+- контекстных всплывающих окон во время движения.
 
-### Requirements
+### Тихая навигация
 
-- full list/tree representation;
-- keyboard operation;
-- screen-reader labels;
-- no precision dragging requirement;
-- reduced motion;
-- zoom-independent text;
-- direct open;
-- logical focus order;
-- no audio-only orientation.
+Элементы управления появляются:
+
+- по намерению;
+- при фокусе;
+- в режиме редактирования;
+- через клавиатуру;
+- через командную палитру.
 
 ---
 
-## 19. Mobile navigation
+## 18. Доступность
 
-Mobile requires a different interaction model.
+Пространственные интерфейсы могут исключать пользователей с:
 
-Avoid:
+- моторными ограничениями;
+- слабым зрением;
+- вестибулярной чувствительностью;
+- чувствительностью к когнитивной нагрузке;
+- использованием скринридера;
+- ограниченной производительностью устройства.
 
-- tiny freeform canvas;
-- gesture-only controls;
-- hidden edge gestures;
-- accidental layout changes.
+### Требования
 
-### Alpha mobile
-
-- place cards;
-- direct open;
-- simple pan/zoom;
-- edit handles;
-- map/list switch;
-- bottom navigation where needed.
-
----
-
-## 20. Notifications and deep links
-
-A notification may open directly to:
-
-- ritual;
-- place;
-- memory review;
-- setting.
-
-It must not drop the user into an unexplained world position.
-
-Deep link landing shows:
-
-- what opened;
-- where it belongs;
-- how to exit;
-- privacy context.
+- полное представление списком/деревом;
+- работа с клавиатуры;
+- подписи для скринридера;
+- никакого требования точного перетаскивания;
+- уменьшенное движение;
+- текст, не зависящий от зума;
+- прямое открытие;
+- логичный порядок фокуса;
+- никакой ориентации только через аудио.
 
 ---
 
-## 21. History navigation
+## 19. Мобильная навигация
 
-History may be navigated through:
+Мобильные устройства требуют иной модели взаимодействия.
 
-- timeline;
-- epochs;
-- snapshots;
-- changes;
-- place history.
+Избегать:
 
-No single mandatory chronology.
+- крошечного свободного холста;
+- управления только жестами;
+- скрытых краевых жестов;
+- случайных изменений раскладки.
 
-The user can return from history to current state clearly.
+### Мобильная Alpha
+
+- карточки мест;
+- прямое открытие;
+- простое панорамирование/зум;
+- маркеры редактирования;
+- переключение карты/списка;
+- нижняя навигация, где нужно.
+
+---
+
+## 20. Уведомления и глубокие ссылки
+
+Уведомление может открывать напрямую:
+
+- ритуал;
+- место;
+- обзор воспоминания;
+- настройку.
+
+Оно не должно бросать пользователя в необъяснённую позицию в мире.
+
+Приземление по глубокой ссылке показывает:
+
+- что открылось;
+- к чему это относится;
+- как выйти;
+- контекст приватности.
+
+---
+
+## 21. Навигация по истории
+
+По истории можно перемещаться через:
+
+- временну́ю шкалу;
+- эпохи;
+- снимки;
+- изменения;
+- историю места.
+
+Никакой единственной обязательной хронологии.
+
+Пользователь может ясно вернуться из истории в текущее состояние.
 
 ---
 
 ## 22. Trigger Round
 
-### Problem
+### Проблема
 
-How can navigation preserve the experience of a world without making access slow or theatrical?
+Как навигация может сохранить опыт мира, не делая доступ медленным или театральным?
 
-### Trigger 1 — Innovation
+### Триггер 1 — Инновации
 
-**Prompt:** «А что если до решения всего один клик или тап?»
+**Карточка:** «А что если до решения всего один клик или тап?»
 
-**Hypothesis:** Every important entity can be opened directly from global navigation.
+**Гипотеза:** Каждую важную сущность можно открыть напрямую из глобальной навигации.
 
-**Outcome:** accepted principle.
+**Результат:** принятый принцип.
 
-### Trigger 2 — Human-centric
+### Триггер 2 — Human-centric
 
-**Prompt:** «А что если идея ограничивает выбор?»
+**Карточка:** «А что если идея ограничивает выбор?»
 
-**Hypothesis:** Spatial and direct navigation must remain equal, not primary and fallback.
+**Гипотеза:** Пространственная и прямая навигация должны оставаться равными, а не «основной» и «запасной».
 
-**Outcome:** accepted boundary.
+**Результат:** принятая граница.
 
-### Trigger 3 — Graphic Design
+### Триггер 3 — Графический дизайн
 
-**Prompt:** «А что если создать структуру?»
+**Карточка:** «А что если создать структуру?»
 
-**Hypothesis:** A stable hierarchy of Garden → Place → Object → Content can improve orientation.
+**Гипотеза:** Стабильная иерархия Garden → Место → Объект → Содержимое может улучшить ориентацию.
 
-**Outcome:** candidate architecture.
+**Результат:** архитектура-кандидат.
 
-### Trigger 4 — Storytelling
+### Триггер 4 — Сторителлинг
 
-**Prompt:** «А что если поделить на части?»
+**Карточка:** «А что если поделить на части?»
 
-**Hypothesis:** Garden may be experienced place by place rather than as one continuous world.
+**Гипотеза:** Garden можно переживать место за местом, а не как один непрерывный мир.
 
-**Outcome:** accepted direction.
+**Результат:** принятое направление.
 
-### Trigger 5 — Business Design
+### Триггер 5 — Бизнес-дизайн
 
-**Prompt:** «А что если людям нравится работать за вас?»
+**Карточка:** «А что если людям нравится работать за вас?»
 
-**Hypothesis:** Users may create their own shortcuts, home places and navigation structures.
+**Гипотеза:** Пользователи могут создавать собственные ярлыки, домашние места и структуры навигации.
 
-**Outcome:** candidate personalization.
+**Результат:** кандидат в персонализацию.
 
-### Rejected interpretation
+### Отвергнутая интерпретация
 
-Adding travel friction to make the world feel larger is rejected when it slows access or turns rituals into game traversal.
+Добавление трения путешествия, чтобы мир казался больше, отвергается, когда оно замедляет доступ или превращает ритуалы в игровое перемещение.
 
 ---
 
-## 23. Navigation architecture
+## 23. Архитектура навигации
 
 ```yaml
 garden_navigation:
@@ -558,109 +558,109 @@ garden_navigation:
 
 ---
 
-## 24. Alpha navigation set
+## 24. Набор навигации Alpha
 
-1. Quiet overview.
-2. Place list.
-3. Simple schematic map.
-4. Global search.
-5. Recent.
-6. User favorites.
-7. Direct deep links.
-8. Breadcrumbs.
-9. View/Edit mode distinction.
-10. Reduced-motion and list-only mode.
-
----
-
-## 25. Alpha experiments
-
-### A — Spatial-first vs equal dual navigation
-
-Measure:
-
-- orientation;
-- delight;
-- speed;
-- frustration;
-- perceived gamefulness.
-
-### B — Last place vs quiet overview entry
-
-Measure preference and continuity.
-
-### C — Map vs place list
-
-Measure comprehension and accessibility.
-
-### D — Breadcrumb visibility
-
-Measure context understanding.
-
-### E — Travel animation
-
-Compare optional transition and instant open.
-
-### F — One-place usage
-
-Test whether Garden still feels complete when a user ignores the global world.
+1. Тихий обзор.
+2. Список мест.
+3. Простая схематическая карта.
+4. Глобальный поиск.
+5. Недавнее.
+6. Избранное пользователя.
+7. Прямые глубокие ссылки.
+8. «Хлебные крошки».
+9. Различение режимов Просмотр/Редактирование.
+10. Режим уменьшенного движения и «только список».
 
 ---
 
-## 26. Candidate principles
+## 25. Эксперименты Alpha
 
-1. Movement creates experience; access never depends on movement.
-2. Spatial and direct navigation are equal.
-3. Search is primary.
-4. Every destination has a direct route.
-5. Every direct result can reveal spatial context.
-6. No forced walking or travel time.
-7. No fog of war or completion map.
-8. Entry point is user-controlled.
-9. Return has no guilt ritual.
-10. Mode is always visible.
-11. Recent is not favorite.
-12. Accessibility is not a fallback.
-13. One-place usage is complete.
-14. Camera never performs meaning.
-15. Navigation does not simulate progress.
+### A — «Пространственный прежде всего» против равной двойной навигации
+
+Измерять:
+
+- ориентацию;
+- радость;
+- скорость;
+- фрустрацию;
+- воспринимаемую «игровизну».
+
+### B — Последнее место против входа в тихий обзор
+
+Измерять предпочтение и непрерывность.
+
+### C — Карта против списка мест
+
+Измерять понимание и доступность.
+
+### D — Видимость «хлебных крошек»
+
+Измерять понимание контекста.
+
+### E — Анимация путешествия
+
+Сравнить опциональный переход и мгновенное открытие.
+
+### F — Использование одного места
+
+Тестировать, ощущается ли Garden полноценным, когда пользователь игнорирует глобальный мир.
 
 ---
 
-## 27. What Garden must not claim
+## 26. Принципы-кандидаты
 
-- spatial navigation is more meaningful than direct access;
-- slower movement increases attachment;
-- a map must reveal the whole world;
-- frequent return means a place is important;
-- recent means favorite;
-- one-place usage is incomplete;
-- physical paths represent psychological progress;
-- hidden areas create curiosity without cost;
-- camera movement can safely direct emotion;
-- spatial interfaces are inherently intuitive.
+1. Движение создаёт опыт; доступ никогда не зависит от движения.
+2. Пространственная и прямая навигация равны.
+3. Поиск первичен.
+4. У каждого места назначения есть прямой маршрут.
+5. Каждый прямой результат может раскрыть пространственный контекст.
+6. Никакой принудительной ходьбы или времени в пути.
+7. Никакого «тумана войны» или карты завершённости.
+8. Точка входа контролируется пользователем.
+9. У возвращения нет ритуала вины.
+10. Режим всегда виден.
+11. Недавнее — не избранное.
+12. Доступность — не запасной вариант.
+13. Использование одного места полноценно.
+14. Камера никогда не «играет» смысл.
+15. Навигация не симулирует прогресс.
 
 ---
 
-## 28. Claim Registry
+## 27. Что Garden не должен заявлять
 
-| Claim | Confidence | Status |
+- пространственная навигация значимее прямого доступа;
+- более медленное движение увеличивает привязанность;
+- карта должна раскрывать весь мир;
+- частое возвращение означает, что место важно;
+- недавнее означает избранное;
+- использование одного места неполно;
+- физические пути представляют психологический прогресс;
+- скрытые области создают любопытство без цены;
+- движение камеры может безопасно направлять эмоцию;
+- пространственные интерфейсы интуитивны по своей природе.
+
+---
+
+## 28. Реестр утверждений
+
+| Утверждение | Уверенность | Статус |
 |---|---:|---|
-| Landmarks and stable structure can support orientation | high | foundation |
-| Spatial navigation alone is sufficient for accessibility | rejected | boundary |
-| Direct search weakens the world metaphor | low | rejected |
-| Dual navigation may balance experience and efficiency | medium | Alpha hypothesis |
-| Travel friction increases meaning | low | rejected |
-| User-controlled entry may support continuity | medium | Alpha hypothesis |
-| Breadcrumbs may improve context | medium-high | candidate |
-| Recent use indicates preference | low | rejected |
-| One-place usage can be complete | normative/product principle | required |
-| Navigation should expose mode and privacy context | high | safety foundation |
+| Ориентиры и стабильная структура могут поддерживать ориентацию | высокая | основа |
+| Одной пространственной навигации достаточно для доступности | отвергнуто | граница |
+| Прямой поиск ослабляет метафору мира | низкая | отвергнуто |
+| Двойная навигация может уравновесить опыт и эффективность | средняя | гипотеза Alpha |
+| Трение путешествия увеличивает смысл | низкая | отвергнуто |
+| Контролируемый пользователем вход может поддерживать непрерывность | средняя | гипотеза Alpha |
+| «Хлебные крошки» могут улучшать контекст | средняя–высокая | кандидат |
+| Недавнее использование указывает на предпочтение | низкая | отвергнуто |
+| Использование одного места может быть полноценным | нормативный/продуктовый принцип | требуется |
+| Навигация должна раскрывать режим и контекст приватности | высокая | основа безопасности |
 
 ---
 
-## 29. Verdict
+## 29. Вердикт
 
-Garden should be a world a person can move through, but never a world they must traverse to reach themselves.
+Garden должен быть миром, через который человек может двигаться, но никогда — миром, который нужно пройти, чтобы добраться до себя.
 
-> **You may wander. You may also arrive directly. Both are Garden.**
+> **Ты можешь бродить. Ты также можешь прийти напрямую. И то, и другое — Garden.**

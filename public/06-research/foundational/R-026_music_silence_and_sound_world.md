@@ -18,7 +18,7 @@ source_of_truth: false
 
 ## 1. Главный вопрос
 
-> Как звук может делать Garden живым, пространственным и узнаваемым, не управляя эмоциями человека, не перегружая внимание, не превращаясь в повторяющийся soundtrack и не становясь обязательным каналом интерфейса?
+> Как звук может делать Garden живым, пространственным и узнаваемым, не управляя эмоциями человека, не перегружая внимание, не превращаясь в повторяющийся саундтрек и не становясь обязательным каналом интерфейса?
 
 ---
 
@@ -26,10 +26,10 @@ source_of_truth: false
 
 Garden должен различать четыре звуковых слоя:
 
-1. **Ambient soundscape** — ветер, вода, листья, дождь, животные и пространство.
-2. **Music** — опциональный художественный слой.
-3. **Interaction sound** — короткая обратная связь на действия.
-4. **Accessibility audio** — speech, earcons and assistive cues.
+1. **Фоновый звуковой ландшафт (ambient soundscape)** — ветер, вода, листья, дождь, животные и пространство.
+2. **Музыка (music)** — опциональный художественный слой.
+3. **Звук взаимодействия (interaction sound)** — короткая обратная связь на действия.
+4. **Аудио доступности (accessibility audio)** — речь, earcons и вспомогательные подсказки.
 
 Они имеют разные цели и отдельные настройки.
 
@@ -39,12 +39,12 @@ Garden должен различать четыре звуковых слоя:
 
 ---
 
-## 3. Acoustic environment и soundscape
+## 3. Акустическая среда и звуковой ландшафт (acoustic environment и soundscape)
 
 ISO 12913 различает:
 
-- **acoustic environment** — физические звуки в среде;
-- **soundscape** — то, как эта акустическая среда воспринимается человеком в конкретном контексте.
+- **акустическую среду (acoustic environment)** — физические звуки в среде;
+- **звуковой ландшафт (soundscape)** — то, как эта акустическая среда воспринимается человеком в конкретном контексте.
 
 Следовательно, «правильный» набор звуков не существует независимо от:
 
@@ -82,16 +82,16 @@ wind.mp3
 - выключенный «настоящий опыт»;
 - неполную подписку.
 
-### Silent Garden
+### Тихий Garden (Silent Garden)
 
 Все функции доступны без звука:
 
 - создание;
 - навигация;
 - размещение;
-- review;
-- lifecycle;
-- safety;
+- обзор;
+- жизненный цикл;
+- безопасность;
 - уведомления.
 
 ### Правило
@@ -100,11 +100,11 @@ wind.mp3
 
 ---
 
-## 5. Natural sounds
+## 5. Природные звуки (natural sounds)
 
-Метаанализ 2024 года по natural sounds и stress reduction обнаружил в целом более благоприятные результаты по части физиологических показателей по сравнению с тишиной, но эффекты были неоднородными, а по психологическим показателям преимущества были непоследовательны.
+Метаанализ 2024 года по природным звукам и снижению стресса обнаружил в целом более благоприятные результаты по части физиологических показателей по сравнению с тишиной, но эффекты были неоднородными, а по психологическим показателям преимущества были непоследовательны.
 
-### Garden conclusion
+### Вывод Garden
 
 Можно использовать звуки:
 
@@ -121,21 +121,21 @@ wind.mp3
 - улучшение сна;
 - терапевтический эффект.
 
-Цифровой soundscape является художественной средой, не лечением.
+Цифровой звуковой ландшафт является художественной средой, не лечением.
 
 ---
 
-## 6. Ambient soundscape
+## 6. Фоновый звуковой ландшафт
 
-Ambient sound should feel:
+Фоновый звук должен ощущаться:
 
-- spatial;
-- sparse;
-- variable;
-- non-demanding;
-- consistent with the scene.
+- пространственным;
+- разреженным;
+- вариативным;
+- ненавязчивым;
+- согласованным со сценой.
 
-### Layers
+### Слои
 
 ```yaml
 ambience:
@@ -148,402 +148,402 @@ ambience:
   human_made_optional:
 ```
 
-### Rules
+### Правила
 
-- layers independently adjustable;
-- no short obvious loops;
-- no constant high-frequency detail;
-- sound density configurable;
-- quiet moments remain;
-- no sound reacts morally to ritual states.
-
----
-
-## 7. Repetition and auditory fatigue
-
-Even pleasant sound becomes tiring when:
-
-- loop length is short;
-- timing is predictable;
-- the same bird call repeats;
-- frequency range is dense;
-- volume never changes;
-- silence never occurs;
-- the listener cannot control it.
-
-### Garden requirements
-
-- procedural or long-form variation;
-- randomized but ecologically plausible intervals;
-- minimum silence windows;
-- species-call limits;
-- session-aware repetition protection;
-- persistent user volume settings.
-
-### No-go
-
-A three-minute ambient loop repeated indefinitely.
+- слои настраиваются независимо;
+- никаких коротких очевидных зацикленностей;
+- никакой постоянной высокочастотной детализации;
+- плотность звука настраиваема;
+- тихие моменты сохраняются;
+- никакой звук не реагирует морально на состояния ритуалов.
 
 ---
 
-## 8. Music
+## 7. Повторение и слуховая усталость
 
-Music can influence emotion and be used intentionally for emotion regulation. Reviews also show that effects vary by:
+Даже приятный звук становится утомительным, когда:
 
-- personal preference;
-- familiarity;
-- task;
-- lyrics;
-- arousal;
-- context;
-- individual differences.
+- длина зацикленности короткая;
+- тайминг предсказуем;
+- один и тот же крик птицы повторяется;
+- частотный диапазон плотный;
+- громкость никогда не меняется;
+- тишины никогда не бывает;
+- слушатель не может это контролировать.
 
-Background music can have beneficial, null or detrimental effects on cognition. Lyrics are often more disruptive for language-related tasks.
+### Требования Garden
 
-### Garden position
+- процедурная или длинная вариация;
+- рандомизированные, но экологически правдоподобные интервалы;
+- минимальные окна тишины;
+- лимиты на крики видов;
+- защита от повторения с учётом сессии;
+- сохраняемые пользовательские настройки громкости.
 
-Music is:
+### Недопустимо
 
-- optional;
-- explicitly chosen;
-- separate from ambient sound;
-- never automatically personalized through inferred mood;
-- not presented as therapeutic.
+Трёхминутная фоновая зацикленность, повторяемая бесконечно.
+
+---
+
+## 8. Музыка
+
+Музыка может влиять на эмоцию и намеренно использоваться для регуляции эмоций. Обзоры также показывают, что эффекты различаются по:
+
+- личному предпочтению;
+- знакомости;
+- задаче;
+- тексту песни;
+- возбуждению (arousal);
+- контексту;
+- индивидуальным различиям.
+
+Фоновая музыка может иметь полезное, нулевое или вредное влияние на познание. Тексты песен часто более разрушительны для языковых задач.
+
+### Позиция Garden
+
+Музыка:
+
+- опциональна;
+- явно выбрана;
+- отделена от фонового звука;
+- никогда не персонализируется автоматически через выведенное настроение;
+- не представлена как терапевтическая.
 
 ### Alpha
 
-No continuous default soundtrack.
+Никакого постоянного саундтрека по умолчанию.
 
-Possible:
+Возможно:
 
-- 2–3 optional instrumental pieces;
-- user-provided or external music integration later;
-- no lyrics in focused review by default;
-- full silence remains equal-status.
-
----
-
-## 9. Music must not steer the person
-
-Forbidden:
-
-- sad music after a difficult review;
-- uplifting music after completion;
-- tense music during “important” decisions;
-- personalized mood correction;
-- soundtrack based on inferred emotions;
-- music that signals success or failure.
-
-Allowed:
-
-- user-selected scene music;
-- aesthetic theme;
-- explicit ritual-specific choice;
-- manual playback.
-
-### Principle
-
-> The user may use music to shape their experience. Garden does not use music to shape the user.
+- 2–3 опциональных инструментальных произведения;
+- позже интеграция пользовательской или внешней музыки;
+- никаких текстов в сфокусированном обзоре по умолчанию;
+- полная тишина остаётся равностатусной.
 
 ---
 
-## 10. Interface sounds
+## 9. Музыка не должна направлять человека
 
-Interaction sounds can communicate:
+Запрещено:
 
-- placement;
-- selection;
-- save;
-- undo;
-- opening;
-- closing.
+- грустная музыка после трудного обзора;
+- воодушевляющая музыка после завершения;
+- напряжённая музыка во время «важных» решений;
+- персонализированная коррекция настроения;
+- саундтрек на основе выведенных эмоций;
+- музыка, сигнализирующая успех или провал.
 
-They should be:
+Разрешено:
 
-- short;
-- quiet;
-- materially consistent;
-- optional;
-- non-celebratory;
-- accompanied by visual feedback.
+- выбранная пользователем музыка сцены;
+- эстетическая тема;
+- явный выбор для конкретного ритуала;
+- ручное воспроизведение.
 
-### Examples
+### Принцип
 
-- soft stone placement;
-- paper fold for archive;
-- subtle wood contact;
-- quiet water touch.
-
-### Avoid
-
-- reward fanfare;
-- victory chime;
-- streak sound;
-- sad failure tone;
-- casino-like sparkle;
-- escalating notification cue.
+> Пользователь может использовать музыку, чтобы формировать свой опыт. Garden не использует музыку, чтобы формировать пользователя.
 
 ---
 
-## 11. Auditory icons and earcons
+## 10. Звуки интерфейса
 
-### Auditory icon
+Звуки взаимодействия могут передавать:
 
-A recognizable real-world sound representing an action.
+- размещение;
+- выбор;
+- сохранение;
+- отмену;
+- открытие;
+- закрытие.
 
-Example:
+Они должны быть:
 
-- paper movement for archive.
+- короткими;
+- тихими;
+- материально согласованными;
+- опциональными;
+- непразднующими;
+- сопровождаемыми визуальной обратной связью.
+
+### Примеры
+
+- мягкое размещение камня;
+- сгиб бумаги для архива;
+- тонкий контакт дерева;
+- тихое касание воды.
+
+### Избегать
+
+- наградной фанфары;
+- победного звона;
+- звука серии (streak);
+- грустного тона провала;
+- искры «как в казино»;
+- нарастающей подсказки уведомления.
+
+---
+
+## 11. Слуховые иконки и earcons
+
+### Слуховая иконка (auditory icon)
+
+Узнаваемый реальный звук, представляющий действие.
+
+Пример:
+
+- движение бумаги для архива.
 
 ### Earcon
 
-An abstract musical or tonal cue learned through use.
+Абстрактная музыкальная или тональная подсказка, усваиваемая через использование.
 
-These can support fast interaction and accessibility, but users may need to learn their meaning.
+Они могут поддерживать быстрое взаимодействие и доступность, но пользователям может понадобиться выучить их значение.
 
-### Garden rule
+### Правило Garden
 
-- use sparingly;
-- provide text/visual equivalent;
-- allow preview and disable;
-- do not rely on cultural universality;
-- no hidden emotional meaning.
+- использовать экономно;
+- предоставлять текстовый/визуальный эквивалент;
+- разрешать предпрослушивание и отключение;
+- не полагаться на культурную универсальность;
+- никакого скрытого эмоционального смысла.
 
 ---
 
-## 12. Accessibility audio
+## 12. Аудио доступности
 
-Audio can support users through:
+Аудио может поддерживать пользователей через:
 
-- screen readers;
-- spoken labels;
+- скринридеры;
+- озвученные подписи;
 - earcons;
-- spatial orientation;
-- confirmation cues.
+- пространственную ориентацию;
+- подтверждающие подсказки.
 
-But ambient sound must not interfere with assistive audio.
+Но фоновый звук не должен мешать вспомогательному аудио.
 
-### Requirements
+### Требования
 
-- separate ambience and assistive channels;
-- automatic ambience ducking during speech;
-- full keyboard/list navigation;
-- captions or labels for informative sounds;
-- monaural compatibility;
-- no essential spatial-audio-only information;
-- hearing-device testing where possible.
+- раздельные каналы фона и вспомогательного аудио;
+- автоматическое приглушение фона (ducking) во время речи;
+- полная навигация с клавиатуры/списком;
+- субтитры или подписи для информативных звуков;
+- совместимость с моно;
+- никакой существенной информации только через пространственное аудио;
+- тестирование со слуховыми устройствами, где возможно.
 
 ---
 
-## 13. Spatial audio
+## 13. Пространственное аудио
 
-Spatial audio may help:
+Пространственное аудио может помочь:
 
-- locate water;
-- understand place boundaries;
-- feel depth;
-- identify movement.
+- локализовать воду;
+- понять границы места;
+- ощутить глубину;
+- определить движение.
 
-Risks:
+Риски:
 
-- headphone dependence;
-- motion sickness or disorientation;
-- inaccessible meaning;
-- inconsistent device support;
-- privacy concerns in public spaces.
+- зависимость от наушников;
+- укачивание или дезориентация;
+- недоступный смысл;
+- непоследовательная поддержка устройств;
+- вопросы приватности в публичных пространствах.
 
 ### Alpha
 
-Simple stereo positioning only.
+Только простое стереопозиционирование.
 
-No core navigation depends on spatial audio.
-
----
-
-## 14. Sound and materials
-
-Material sounds should match visual behavior.
-
-- stone sounds weighted;
-- wood sounds muted;
-- ceramic sounds clear but not sharp;
-- paper sounds light;
-- water responds softly;
-- fabric is nearly silent.
-
-One sound family should not be reused across incompatible materials.
-
-### Rule
-
-Sound supports material recognition but never becomes the sole cue.
+Никакая базовая навигация не зависит от пространственного аудио.
 
 ---
 
-## 15. Animal sound
+## 14. Звук и материалы
 
-Ambient creatures:
+Звуки материалов должны соответствовать визуальному поведению.
 
-- do not call for the user;
-- do not sound distressed;
-- do not announce rarity;
-- do not trigger notifications;
-- do not repeat too frequently.
+- камень звучит увесисто;
+- дерево звучит приглушённо;
+- керамика звучит ясно, но не резко;
+- бумага звучит легко;
+- вода откликается мягко;
+- ткань почти беззвучна.
 
-Separate controls:
+Одно звуковое семейство не должно повторно использоваться для несовместимых материалов.
 
-- birds;
-- insects;
-- frogs;
-- aquatic ambience.
+### Правило
 
-No surprise close or loud calls.
+Звук поддерживает распознавание материала, но никогда не становится единственной подсказкой.
 
 ---
 
-## 16. Weather sound
+## 15. Звук животных
 
-Weather can include:
+Фоновые существа:
 
-- light rain;
-- distant rain;
-- wind;
-- leaf movement;
-- soft thunder only by explicit choice.
+- не зовут пользователя;
+- не звучат страдающими;
+- не объявляют редкость;
+- не запускают уведомления;
+- не повторяются слишком часто.
 
-### Forbidden by default
+Раздельные средства контроля:
 
-- sudden thunder;
-- storm alarm;
-- strong low-frequency rumble;
-- sound tied to user “state”;
-- weather audio that overrides quiet mode.
+- птицы;
+- насекомые;
+- лягушки;
+- водный фон.
 
----
-
-## 17. Notification sound
-
-Garden notifications are external to the garden soundscape.
-
-Requirements:
-
-- off by default or selected during support setup;
-- no emotional character;
-- no creature call;
-- no garden distress;
-- no escalating sequence;
-- respects OS settings and quiet hours.
-
-### Not allowed
-
-- bird reminding the user;
-- wilting sound;
-- “garden needs you” cue;
-- sound after missed ritual.
+Никаких внезапных близких или громких криков.
 
 ---
 
-## 18. Review mode
+## 16. Звук погоды
 
-Focused review should default to:
+Погода может включать:
 
-- silence;
-- or very low, explicitly selected ambience.
+- лёгкий дождь;
+- отдалённый дождь;
+- ветер;
+- движение листьев;
+- мягкий гром только по явному выбору.
 
-Music is off unless chosen.
+### Запрещено по умолчанию
 
-Why:
-
-- language processing;
-- emotional sensitivity;
-- accessibility;
-- reduced manipulation.
-
-### Exit
-
-When review ends, audio does not play a success sound.
+- внезапный гром;
+- штормовая тревога;
+- сильный низкочастотный гул;
+- звук, привязанный к «состоянию» пользователя;
+- звук погоды, перекрывающий тихий режим.
 
 ---
 
-## 19. Safety mode
+## 17. Звук уведомлений
 
-Safety mode:
+Уведомления Garden внешни по отношению к звуковому ландшафту сада.
 
-- disables music and decorative audio;
-- preserves assistive speech;
-- uses only necessary interface feedback;
-- avoids calming-sound promises;
-- never masks urgency with ambient sound.
+Требования:
 
----
+- выключены по умолчанию или выбраны при настройке поддержки;
+- никакого эмоционального характера;
+- никакого крика существа;
+- никакого «страдания сада»;
+- никакой нарастающей последовательности;
+- уважают настройки ОС и тихие часы.
 
-## 20. Personalization
+### Не разрешено
 
-User may control:
-
-- master volume;
-- ambience;
-- music;
-- interface sounds;
-- animal sounds;
-- weather;
-- speech;
-- sound density;
-- dynamic range;
-- stereo/spatial effects.
-
-Garden does not infer preferences from:
-
-- diagnosis;
-- age;
-- culture;
-- mood;
-- personality.
+- птица, напоминающая пользователю;
+- звук увядания;
+- подсказка «сад нуждается в тебе»;
+- звук после пропущенного ритуала.
 
 ---
 
-## 21. Dynamic range and comfort
+## 18. Режим обзора
 
-Garden must avoid:
+Сфокусированный обзор по умолчанию использует:
 
-- sudden volume changes;
-- loud transients;
-- bass-heavy effects;
-- high-frequency fatigue;
-- sound masking of speech;
-- default maximum volume.
+- тишину;
+- или очень тихий, явно выбранный фон.
 
-### Provide
+Музыка выключена, если не выбрана.
 
-- loudness normalization;
-- dynamic-range control;
-- gentle fades;
-- preview;
-- safe default level;
-- device-level respect.
+Почему:
 
----
+- обработка языка;
+- эмоциональная чувствительность;
+- доступность;
+- сниженная манипуляция.
 
-## 22. Privacy
+### Выход
 
-Sound settings may reveal:
-
-- accessibility needs;
-- environment;
-- habits;
-- device use.
-
-Garden should not:
-
-- activate microphone for ambience;
-- infer location from sound;
-- analyze surrounding audio;
-- store listening behavior for psychological profiling.
-
-Microphone use requires a separate, explicit use case and GDR.
+Когда обзор заканчивается, аудио не воспроизводит звук успеха.
 
 ---
 
-## 23. Sound architecture
+## 19. Режим безопасности
+
+Режим безопасности:
+
+- отключает музыку и декоративное аудио;
+- сохраняет вспомогательную речь;
+- использует только необходимую обратную связь интерфейса;
+- избегает обещаний успокаивающего звука;
+- никогда не маскирует срочность фоновым звуком.
+
+---
+
+## 20. Персонализация
+
+Пользователь может контролировать:
+
+- общую громкость;
+- фон;
+- музыку;
+- звуки интерфейса;
+- звуки животных;
+- погоду;
+- речь;
+- плотность звука;
+- динамический диапазон;
+- стерео/пространственные эффекты.
+
+Garden не выводит предпочтения из:
+
+- диагноза;
+- возраста;
+- культуры;
+- настроения;
+- личности.
+
+---
+
+## 21. Динамический диапазон и комфорт
+
+Garden должен избегать:
+
+- внезапных изменений громкости;
+- громких транзиентов;
+- эффектов с тяжёлым басом;
+- усталости от высоких частот;
+- маскировки речи звуком;
+- максимальной громкости по умолчанию.
+
+### Предоставить
+
+- нормализацию громкости;
+- контроль динамического диапазона;
+- мягкие затухания;
+- предпрослушивание;
+- безопасный уровень по умолчанию;
+- уважение к настройкам устройства.
+
+---
+
+## 22. Приватность
+
+Настройки звука могут раскрывать:
+
+- потребности доступности;
+- среду;
+- привычки;
+- использование устройства.
+
+Garden не должен:
+
+- активировать микрофон ради фона;
+- выводить местоположение из звука;
+- анализировать окружающее аудио;
+- хранить поведение прослушивания для психологического профилирования.
+
+Использование микрофона требует отдельного явного сценария и GDR.
+
+---
+
+## 23. Архитектура звука
 
 ```yaml
 soundscape:
@@ -576,134 +576,134 @@ soundscape:
 
 ---
 
-## 24. Alpha sound set
+## 24. Звуковой набор Alpha
 
-### Ambient
+### Фон
 
-- soft air;
-- one foliage layer;
-- one water layer;
-- sparse fictional bird;
-- optional light rain.
+- мягкий воздух;
+- один слой листвы;
+- один слой воды;
+- разреженная вымышленная птица;
+- опциональный лёгкий дождь.
 
-### Interaction
+### Взаимодействие
 
-- place object;
-- move;
-- save;
-- undo;
-- archive.
+- разместить объект;
+- переместить;
+- сохранить;
+- отменить;
+- архивировать.
 
-### Music
+### Музыка
 
-- off by default;
-- maximum 2–3 optional instrumental environments.
+- выключена по умолчанию;
+- максимум 2–3 опциональных инструментальных окружения.
 
-### Modes
+### Режимы
 
-- Silent;
-- Minimal;
-- Living;
-- Custom.
+- Тихий;
+- Минимальный;
+- Живой;
+- Пользовательский.
 
-These are density settings, not personality types.
-
----
-
-## 25. Alpha experiments
-
-### A — Silence vs ambient sound
-
-Measure:
-
-- liveliness;
-- comfort;
-- fatigue;
-- ownership;
-- distraction.
-
-### B — Short loop vs variable soundscape
-
-Measure repetition detection and irritation.
-
-### C — Music vs no music in review
-
-Measure clarity, emotional pressure and preference.
-
-### D — Material interaction sounds
-
-Measure comprehension and delight without reward interpretation.
-
-### E — Sound density
-
-Test Silent, Minimal and Living.
-
-### F — Accessibility coexistence
-
-Test screen reader plus ambience and audio ducking.
+Это настройки плотности, а не типы личности.
 
 ---
 
-## 26. Candidate principles
+## 25. Эксперименты Alpha
 
-1. Silence is a complete mode.
-2. Ambient, music, interface and accessibility audio are separate.
-3. Sound never carries essential meaning alone.
-4. No therapeutic claims.
-5. No emotion inference or correction.
-6. No short obvious loops.
-7. User controls every sound layer.
-8. Review defaults to silence.
-9. Interface sound confirms, never rewards obedience.
-10. Animals never call for the user.
-11. Safety mode removes decorative audio.
-12. Accessibility speech has priority.
-13. No microphone-based profiling.
-14. Quiet is part of the world.
+### A — Тишина против фонового звука
+
+Измерять:
+
+- живость;
+- комфорт;
+- усталость;
+- владение;
+- отвлечение.
+
+### B — Короткая зацикленность против вариативного звукового ландшафта
+
+Измерять обнаружение повторения и раздражение.
+
+### C — Музыка против отсутствия музыки в обзоре
+
+Измерять ясность, эмоциональное давление и предпочтение.
+
+### D — Звуки взаимодействия с материалами
+
+Измерять понимание и радость без интерпретации как награды.
+
+### E — Плотность звука
+
+Тестировать Тихий, Минимальный и Живой.
+
+### F — Сосуществование с доступностью
+
+Тестировать скринридер вместе с фоном и приглушением аудио.
 
 ---
 
-## 27. What Garden must not claim
+## 26. Принципы-кандидаты
 
-- nature sounds reliably reduce stress for every user;
-- music improves focus;
-- a soundtrack regulates emotion safely;
-- bird sounds are universally pleasant;
-- spatial audio improves wellbeing;
-- silence means disengagement;
-- sound preference reveals personality;
-- Garden music is music therapy;
-- ambient audio reproduces being in nature.
+1. Тишина — полноценный режим.
+2. Фон, музыка, интерфейс и аудио доступности раздельны.
+3. Звук никогда не несёт существенный смысл в одиночку.
+4. Никаких терапевтических заявлений.
+5. Никакого вывода или коррекции эмоций.
+6. Никаких коротких очевидных зацикленностей.
+7. Пользователь контролирует каждый звуковой слой.
+8. Обзор по умолчанию тих.
+9. Звук интерфейса подтверждает, но никогда не награждает за послушание.
+10. Животные никогда не зовут пользователя.
+11. Режим безопасности убирает декоративное аудио.
+12. Вспомогательная речь имеет приоритет.
+13. Никакого профилирования на основе микрофона.
+14. Тишина — часть мира.
 
 ---
 
-## 28. Claim Registry
+## 27. Что Garden не должен заявлять
 
-| Claim | Confidence | Status |
+- звуки природы надёжно снижают стресс у каждого пользователя;
+- музыка улучшает фокус;
+- саундтрек безопасно регулирует эмоцию;
+- звуки птиц универсально приятны;
+- пространственное аудио улучшает благополучие;
+- тишина означает отстранённость;
+- предпочтение звука раскрывает личность;
+- музыка Garden — музыкальная терапия;
+- фоновое аудио воспроизводит пребывание на природе.
+
+---
+
+## 28. Реестр утверждений
+
+| Утверждение | Уверенность | Статус |
 |---|---:|---|
-| Soundscape is a perceptual construct in context, distinct from physical acoustic environment | high | foundation |
-| Natural sounds may support some stress-related outcomes on average | medium | limited evidence |
-| Natural sounds are always better than silence | low | rejected |
-| Music can influence emotion regulation | high | foundation, contextual |
-| Background music reliably improves cognitive performance | low | rejected |
-| Repetition can create auditory fatigue | high by auditory-design practice | foundation |
-| Variable ambience will increase ownership | low | Alpha hypothesis |
-| Interface sounds can support recognition | medium-high | design foundation |
-| Audio-only information is accessible | rejected | accessibility boundary |
-| Silence is an equal-status experience | normative/product principle | required |
+| Звуковой ландшафт — перцептивный конструкт в контексте, отличный от физической акустической среды | высокая | основа |
+| Природные звуки могут поддерживать некоторые связанные со стрессом исходы в среднем | средняя | ограниченное свидетельство |
+| Природные звуки всегда лучше тишины | низкая | отвергнуто |
+| Музыка может влиять на регуляцию эмоций | высокая | основа, контекстная |
+| Фоновая музыка надёжно улучшает когнитивную результативность | низкая | отвергнуто |
+| Повторение может создавать слуховую усталость | высокая по практике звукового дизайна | основа |
+| Вариативный фон повысит владение | низкая | гипотеза Alpha |
+| Звуки интерфейса могут поддерживать распознавание | средняя–высокая | основа дизайна |
+| Информация только через аудио доступна | отвергнуто | граница доступности |
+| Тишина — равностатусный опыт | нормативный/продуктовый принцип | требуется |
 
 ---
 
-## 29. Verdict
+## 29. Вердикт
 
-Garden should have a sound world, but it should never require the person to hear it.
+У Garden должен быть звуковой мир, но он никогда не должен требовать от человека его слышать.
 
-Its best sound may sometimes be:
+Его лучший звук иногда может быть:
 
-- water at a distance;
-- one bird;
-- leaves;
-- a quiet object placed;
-- or nothing.
+- вода вдалеке;
+- одна птица;
+- листья;
+- тихо размещённый объект;
+- или ничто.
 
 > **Тишина — не пустой Garden. Это Garden, который ничего не требует от слуха.**

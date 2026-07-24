@@ -1,5 +1,5 @@
 ---
-title: "The World of Garden"
+title: "Мир Garden"
 status: accepted
 owner: "Product"
 updated: 2026-07-18
@@ -9,14 +9,14 @@ wowrepo:
   order: 1
   visibility: public
 ---
-# The World of Garden
-- **Garden** — the whole user-owned environment.
-- **Place** — a space authored by the person.
-- **Atmosphere** — light, sound and motion chosen for a Place.
-- **Object** — something that helps form the Place.
-- **Ritual** — a meaningful practice without streaks or missed states.
-- **Memory** — something the user explicitly chose to preserve.
-- **Preview** — a proposed change that has not been applied.
-- **History** — committed versions that can be inspected and undone.
+# Мир Garden
+- **Garden** — вся принадлежащая пользователю среда.
+- **Место (Place)** — пространство, созданное человеком.
+- **Атмосфера (Atmosphere)** — свет, звук и движение, выбранные для Места.
+- **Объект (Object)** — то, что помогает сформировать Место.
+- **Ритуал (Ritual)** — значимая практика без серий (streaks) и состояний «пропущено».
+- **Воспоминание (Memory)** — то, что пользователь явно решил сохранить.
+- **Предпросмотр (Preview)** — предложенное изменение, которое ещё не применено.
+- **История (History)** — зафиксированные версии, которые можно изучить и отменить.
 
-Read the formal model in [Garden entities](garden-entities.md), or explore the [Garden Atlas](../05-atlas/garden-atlas.md).
+Прочитайте формальную модель в разделе [Сущности Garden](garden-entities.md) или изучите [Атлас Garden](../05-atlas/garden-atlas.md).

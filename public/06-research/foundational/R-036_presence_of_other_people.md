@@ -1,5 +1,5 @@
 ---
-title: "R-036 — Presence of Other People Without a Social Network"
+title: "R-036 — Присутствие других людей без социальной сети"
 status: accepted
 owner: "Research"
 updated: 2026-07-18
@@ -7,58 +7,58 @@ review_cycle: quarterly
 source_of_truth: false
 ---
 
-# R-036 — Presence of Other People Without a Social Network
+# R-036 — Присутствие других людей без социальной сети
 
-## Core question
-How may another person be present without turning Garden into a social platform?
+## Ключевой вопрос
+Как другой человек может присутствовать, не превращая Garden в социальную платформу?
 
-## Decision
-Presence is contextual, not networked.
+## Решение
+Присутствие контекстное, а не сетевое.
 
-Allowed forms:
-- mentioned in user-authored text;
-- participant in a memory;
-- invited viewer of one place;
-- participant in one shared ritual;
-- co-author of a specific entity;
-- temporary guest.
+Разрешённые формы:
+- упоминание в тексте, написанном пользователем;
+- участник воспоминания;
+- приглашённый зритель одного места;
+- участник одного совместного ритуала;
+- соавтор конкретной сущности;
+- временный гость.
 
-## Rejected social layer
-- followers;
-- likes;
-- public feed;
-- profile discovery;
-- friend recommendations;
-- popularity metrics;
-- social ranking.
+## Отвергнутый социальный слой
+- подписчики;
+- лайки;
+- публичная лента;
+- обнаружение профилей;
+- рекомендации друзей;
+- метрики популярности;
+- социальное ранжирование.
 
-## Shared place rule
-A shared place never exposes unrelated private parts of a Garden. Ownership, edit history, departure and revocation must be explicit.
+## Правило совместного места
+Совместное место никогда не раскрывает не связанные с ним приватные части Garden. Владение, история правок, уход и отзыв доступа должны быть явными.
 
-## Ending a relationship
-Garden must support leaving, revoking access, exporting one’s contributions and freezing shared entities. It must not resurface shared memories after access ends unless explicitly requested.
+## Завершение отношений
+Garden должен поддерживать уход, отзыв доступа, экспорт своих вкладов и заморозку совместных сущностей. Он не должен вновь показывать совместные воспоминания после завершения доступа, если это не запрошено явно.
 
 ## Trigger Round
 ```yaml
 trigger_round:
-  problem: collaboration drifts into social pressure
+  problem: сотрудничество сползает в социальное давление
   selected_cards:
-    - Human-centric: reduce comparison
-    - Storytelling: allow traces without a feed
-    - Business Design: define exit before entry
+    - Human-centric: снизить сравнение
+    - Storytelling: разрешить следы без ленты
+    - Business Design: определить выход раньше входа
   generated_hypotheses:
-    - people can be present through places rather than profiles
-    - departure architecture is required before collaboration
+    - люди могут присутствовать через места, а не через профили
+    - архитектура ухода необходима до сотрудничества
   conflicts_with_garden:
-    - public identity performance
-    - infinite social discovery
+    - демонстрация публичной идентичности
+    - бесконечное социальное обнаружение
   experiments:
-    - read-only invited place
-    - graceful departure
+    - приглашённое место только для чтения
+    - бережный уход
   rejected_directions:
-    - social graph
-    - engagement feed
+    - социальный граф
+    - лента вовлечения
 ```
 
-## Principle
-A person appears where they were invited, not everywhere the system can connect them.
+## Принцип
+Человек появляется там, куда его пригласили, а не везде, где система может его связать.

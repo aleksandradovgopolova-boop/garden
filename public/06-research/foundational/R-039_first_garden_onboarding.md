@@ -1,5 +1,5 @@
 ---
-title: "R-039 — First Garden"
+title: "R-039 — Первый Garden"
 status: accepted
 owner: "Research"
 updated: 2026-07-18
@@ -7,69 +7,69 @@ review_cycle: quarterly
 source_of_truth: false
 ---
 
-# R-039 — First Garden
+# R-039 — Первый Garden
 
-## Core question
-What is the smallest first experience that lets a person understand Garden?
+## Ключевой вопрос
+Каков наименьший первый опыт, позволяющий человеку понять Garden?
 
-## Decision
-The first experience begins with one place.
+## Решение
+Первый опыт начинается с одного места.
 
-Not a profile. Not a life survey. Not a personality test. Not a graph.
+Не профиль. Не опрос о жизни. Не тест личности. Не граф.
 
-> Begin with somewhere you would like to return to.
+> Начните с места, в которое вам хотелось бы возвращаться.
 
-## First-session path
+## Путь первой сессии
 ```text
-Welcome
-→ choose blank or guided start
-→ create one place
-→ set atmosphere
-→ add one object
-→ optionally name the place
-→ optionally create one ritual
-→ leave
-→ return directly
+Приветствие
+→ выбрать пустой или направляемый старт
+→ создать одно место
+→ задать атмосферу
+→ добавить один объект
+→ по желанию назвать место
+→ по желанию создать один ритуал
+→ уйти
+→ вернуться напрямую
 ```
 
-## Rules
-- every step may be skipped;
-- no forced emotional disclosure;
-- no productivity goal;
-- no invitation requirement;
-- no completion meter;
-- no reward for compliance.
+## Правила
+- любой шаг можно пропустить;
+- никакого принудительного эмоционального раскрытия;
+- никакой цели продуктивности;
+- никакого требования приглашения;
+- никакого индикатора завершённости;
+- никакой награды за послушание.
 
-## First AI assistance
-AI asks whether help is wanted, proposes a bounded change and shows Preview before Apply.
+## Первая помощь ИИ
+ИИ спрашивает, нужна ли помощь, предлагает ограниченное изменение и показывает Предпросмотр перед Применением.
 
-## First value moment
-The person leaves and later returns to a preserved place that remains recognizably theirs.
+## Первый момент ценности
+Человек уходит и позже возвращается к сохранённому месту, которое остаётся узнаваемо его собственным.
 
-## Success criteria
-The person understands Place, can edit atmosphere, recognizes authorship, can leave without penalty and does not mistake Garden for a game, tracker or notes app.
+## Критерии успеха
+Человек понимает Место, может редактировать атмосферу, распознаёт авторство, может уйти без штрафа и не принимает Garden за игру, трекер или приложение для заметок.
 
 ## Trigger Round
 ```yaml
 trigger_round:
-  problem: onboarding can over-explain and classify the person
+  problem: онбординг может переобъяснять и классифицировать человека
   selected_cards:
-    - Human-centric: begin with action
-    - Storytelling: first return matters more than first build
-    - Graphic Design: make emptiness intentional
+    - Human-centric: начать с действия
+    - Storytelling: первое возвращение важнее первой постройки
+    - Graphic Design: сделать пустоту намеренной
   generated_hypotheses:
-    - one preserved place can explain the product
-    - leaving is part of onboarding
+    - одно сохранённое место может объяснить продукт
+    - уход — часть онбординга
   conflicts_with_garden:
-    - completion meter
-    - personality quiz
+    - индикатор завершённости
+    - тест личности
   experiments:
-    - blank versus guided start
-    - first-return test
+    - пустой старт против направляемого
+    - тест первого возвращения
   rejected_directions:
-    - long setup wizard
-    - life-goal onboarding
+    - длинный мастер настройки
+    - онбординг вокруг жизненных целей
 ```
 
-## Principle
-The first Garden is not built. It is begun.
+## Принцип
+Первый Garden не строится. Он начинается.

@@ -1,5 +1,5 @@
 ---
-title: "Garden Product Boundaries"
+title: "Границы продукта Garden"
 status: accepted
 owner: "Product"
 updated: 2026-07-18
@@ -7,23 +7,23 @@ review_cycle: quarterly
 source_of_truth: true
 ---
 
-# Garden Product Boundaries
+# Границы продукта Garden
 
-Garden must never drift into a second brain, knowledge graph, productivity tracker, social network, AI therapist, RPG, life simulator or maintenance-demanding pet world.
-
----
-
-## Imported source: `garden_anti_patterns_v0_1.md`
-
-# Garden Anti-patterns v0.1
-
-Garden must not become a second brain, knowledge graph, notes app, productivity tracker, streak habit app, life simulator, RPG, social network, public identity platform, marketplace, AI therapist, autonomous life manager or Tamagotchi that punishes absence.
+Garden никогда не должен сползать в «второй мозг», граф знаний, трекер продуктивности, социальную сеть, ИИ-терапевта, RPG, симулятор жизни или требующий обслуживания мир-питомец.
 
 ---
 
-## Imported source: `garden_anti_goals_candidate_v0_1.md`
+## Импортированный источник: `garden_anti_patterns_v0_1.md`
 
-# Garden Anti-Goals — Candidate
+# Антипаттерны Garden v0.1
+
+Garden не должен становиться «вторым мозгом», графом знаний, приложением для заметок, трекером продуктивности, приложением привычек с сериями (streaks), симулятором жизни, RPG, социальной сетью, платформой публичной идентичности, маркетплейсом, ИИ-терапевтом, автономным «менеджером жизни» или тамагочи, наказывающим за отсутствие.
+
+---
+
+## Импортированный источник: `garden_anti_goals_candidate_v0_1.md`
+
+# Антицели Garden — кандидат
 
 **Версия:** 0.1  
 **Дата:** 16 июля 2026  
@@ -31,194 +31,194 @@ Garden must not become a second brain, knowledge graph, notes app, productivity 
 
 ---
 
-Garden is not trying to become:
+Garden не стремится стать:
 
-## 1. A habit-compliance machine
+## 1. Машиной соблюдения привычек
 
-No:
+Нет:
 
-- streak as core value;
-- punishment after a miss;
-- obedience praise;
-- automatic escalation;
-- “never break the chain”.
+- серии (streak) как основной ценности;
+- наказания после пропуска;
+- похвалы за послушание;
+- автоматической эскалации;
+- «никогда не разрывай цепочку».
 
-## 2. An AI therapist or diagnostic system
+## 2. ИИ-терапевтом или диагностической системой
 
-No:
+Нет:
 
-- diagnosis;
-- clinical treatment claims;
-- crisis-monitoring promise;
-- attachment-style verdict;
-- trauma-story generation;
-- medical recommendations outside a regulated pathway.
+- диагноза;
+- заявлений о клиническом лечении;
+- обещания мониторинга кризиса;
+- вердикта о типе привязанности;
+- генерации истории травмы;
+- медицинских рекомендаций вне регулируемого пути.
 
-## 3. A companion that needs the user
+## 3. Компаньоном, которому нужен пользователь
 
-No:
+Нет:
 
-- “I missed you”;
-- emotional debt;
-- exclusive bond;
-- jealous or needy persona;
-- avatar suffering after absence;
-- simulated friendship as retention.
+- «Я скучал по тебе»;
+- эмоционального долга;
+- эксклюзивной связи;
+- ревнивого или нуждающегося персонажа;
+- страдающего аватара после отсутствия;
+- симуляции дружбы ради удержания.
 
-## 4. A life score
+## 4. Оценкой жизни
 
-No:
+Нет:
 
 - Garden Score;
-- flourishing score;
-- productivity score;
-- emotional stability score;
-- ranking against other people;
-- hidden psychological risk profile.
+- балла процветания;
+- балла продуктивности;
+- балла эмоциональной стабильности;
+- ранжирования относительно других людей;
+- скрытого профиля психологического риска.
 
-## 5. An endless introspection engine
+## 5. Двигателем бесконечной интроспекции
 
-No:
+Нет:
 
-- infinite follow-up questions;
-- daily depth as a norm;
-- insight count;
-- repeated causal storytelling;
-- engagement through rumination.
+- бесконечных уточняющих вопросов;
+- ежедневной глубины как нормы;
+- счётчика инсайтов;
+- повторяющегося причинного сторителлинга;
+- вовлечения через руминацию.
 
-## 6. A total memory of the person
+## 6. Тотальной памятью о человеке
 
-No:
+Нет:
 
-- hidden identity summary;
-- indefinite AI hypotheses;
-- cross-domain leakage;
-- sensitive profiling;
-- memory used for persuasion;
-- deleted material resurfacing.
+- скрытого резюме идентичности;
+- бессрочных гипотез ИИ;
+- утечки между доменами;
+- чувствительного профилирования;
+- памяти, используемой для убеждения;
+- всплывания удалённого материала.
 
-## 7. A social network around inner life
+## 7. Социальной сетью вокруг внутренней жизни
 
-No:
+Нет:
 
-- public diary;
-- feed;
-- follower graph;
-- leaderboards;
-- public streaks;
-- automatic miss disclosure;
-- employer/family monitoring.
+- публичного дневника;
+- ленты;
+- графа подписчиков;
+- таблиц лидеров;
+- публичных серий (streaks);
+- автоматического раскрытия пропусков;
+- мониторинга со стороны работодателя/семьи.
 
-## 8. A garden that judges
+## 8. Садом, который судит
 
-No:
+Нет:
 
-- dying garden after inactivity;
-- weeds as emotions or people;
-- pests as relationships;
-- bloom as human worth;
-- fruit as productivity;
-- compulsory growth.
+- умирающего сада после бездействия;
+- сорняков как эмоций или людей;
+- вредителей как отношений;
+- цветения как человеческой ценности;
+- плодов как продуктивности;
+- обязательного роста.
 
-## 9. A self-care layer over harmful systems
+## 9. Слоем «заботы о себе» поверх вредных систем
 
-No:
+Нет:
 
-- resilience program instead of workload change;
-- breathing exercise instead of safety;
-- “better boundaries” instead of responsibility;
-- employee wellbeing surveillance;
-- coping presented as root-cause resolution.
+- программы устойчивости вместо изменения нагрузки;
+- дыхательного упражнения вместо безопасности;
+- «лучших границ» вместо ответственности;
+- слежки за благополучием сотрудников;
+- совладания, представленного как устранение первопричины.
 
-## 10. A certainty machine
+## 10. Машиной определённости
 
-No:
+Нет:
 
-- hidden motives stated as facts;
-- one natural solution;
-- confident cross-domain advice;
-- past behavior treated as destiny;
-- optimism replacing evidence;
-- anti-expertise language.
+- скрытых мотивов, заявленных как факты;
+- единственного «естественного» решения;
+- уверенных советов между доменами;
+- прошлого поведения как судьбы;
+- оптимизма вместо доказательств;
+- языка против экспертизы.
 
-## 11. A data-extraction business
+## 11. Бизнесом по извлечению данных
 
-No:
+Нет:
 
-- advertising based on intimate content;
-- sale of personal data;
-- provider training on production content;
-- privacy as a premium feature;
-- raw diary text in analytics;
-- unrestricted employee browsing.
+- рекламы на основе интимного содержания;
+- продажи персональных данных;
+- обучения провайдера на продакшн-контенте;
+- приватности как премиум-функции;
+- сырого текста дневника в аналитике;
+- неограниченного просмотра со стороны сотрудников.
 
-## 12. A super-app before evidence
+## 12. Супер-приложением до появления доказательств
 
-No:
+Нет:
 
-- full ecosystem in Alpha;
-- community before moderation;
-- wearables before measurement value;
-- immersive garden before core utility;
-- content-library arms race;
-- autonomous agents before bounded workflow.
-
----
-
-## The anti-goal test
-
-Before building a feature, ask:
-
-1. Does it increase the person’s agency or the product’s control?
-2. Does it help life or mainly increase use?
-3. Does it require more data than the value justifies?
-4. Does it turn uncertainty into a confident story?
-5. Does it create guilt, comparison or dependency?
-6. Does it hide a relationship or structural problem?
-7. Can the person refuse, correct, delete and leave?
-8. Would Garden still build it if engagement were not a success metric?
+- полной экосистемы в Alpha;
+- сообщества до модерации;
+- носимых устройств до подтверждённой ценности измерений;
+- иммерсивного сада до базовой полезности;
+- гонки библиотек контента;
+- автономных агентов до ограниченного рабочего процесса.
 
 ---
 
-## Imported source: `garden_metaphor_safety_matrix_v0_1.md`
+## Тест на антицель
 
-# Garden Metaphor Safety Matrix
+Прежде чем строить функцию, спросите:
+
+1. Увеличивает ли она субъектность человека или контроль продукта?
+2. Помогает ли она жизни или в основном увеличивает использование?
+3. Требует ли она больше данных, чем оправдывает ценность?
+4. Превращает ли она неопределённость в уверенную историю?
+5. Создаёт ли она вину, сравнение или зависимость?
+6. Скрывает ли она проблему отношений или структурную проблему?
+7. Может ли человек отказаться, исправить, удалить и уйти?
+8. Стал бы Garden строить это, если бы вовлечённость не была метрикой успеха?
+
+---
+
+## Импортированный источник: `garden_metaphor_safety_matrix_v0_1.md`
+
+# Матрица безопасности метафор Garden
 
 **Версия:** 0.1  
 **Статус:** working standard
 
-| Image | Potential value | Main risk | Default |
+| Образ | Потенциальная ценность | Основной риск | По умолчанию |
 |---|---|---|---|
-| Garden as space | Coexistence, attention, context | Total-life ontology | Allowed lightly |
-| Seed | Beginning, possibility | Small must become large | Optional |
-| Soil | Conditions and resources | Naturalizes structural inequality | Allowed for practice context |
-| Water/light | Resources | Simplifies complex needs | Optional |
-| Growth | Change | Endless improvement imperative | Off by default in evaluation |
-| Bloom | Visibility, expression | Beauty/productivity score | Brand art only, no status |
-| Fruit/harvest | Outcome | Worth equals usefulness | Avoid as progress metric |
-| Season | Change, limited resource | Determinism and passive waiting | User-controlled |
-| Dormancy | Invisible process, rest | Romanticizes depression/distress | Conditional |
-| Roots | History, belonging | Essentialism and family obligation | User-authored |
-| Transplanting | Context change | Life as simple relocation | User-authored |
-| Pruning | Limits, focus | Violence, relationship simplification | Restricted |
-| Weeds | Unwanted competition | Rejection of feelings/people | Prohibited for inner states/people |
-| Pests | External threat | Dehumanization | Prohibited for people |
-| Disease | Need for intervention | Medicalization/diagnosis | Prohibited as wellbeing status |
-| Decay | Natural change | Punishment and mortality cue | No absence feedback |
-| Compost | Transformation | Forced post-traumatic growth | User-authored only |
-| Mycorrhiza | Interdependence | False science/altruism narrative | Explicitly metaphorical |
-| Gardener | Care and agency | Control hierarchy | User only, conditional |
-| AI gardener | Guidance | Ownership/dependency | Internal name, not relational claim |
+| Сад как пространство | Сосуществование, внимание, контекст | Онтология «всей жизни» | Разрешено умеренно |
+| Семя | Начало, возможность | «Малое обязано стать большим» | Опционально |
+| Почва | Условия и ресурсы | Натурализует структурное неравенство | Разрешено для контекста практики |
+| Вода/свет | Ресурсы | Упрощает сложные потребности | Опционально |
+| Рост | Изменение | Императив бесконечного улучшения | По умолчанию выключено в оценке |
+| Цветение | Видимость, выражение | Оценка красоты/продуктивности | Только бренд-арт, без статуса |
+| Плод/урожай | Результат | Ценность = полезность | Избегать как метрику прогресса |
+| Сезон | Изменение, ограниченный ресурс | Детерминизм и пассивное ожидание | Под контролем пользователя |
+| Покой (dormancy) | Невидимый процесс, отдых | Романтизирует депрессию/дистресс | Условно |
+| Корни | История, принадлежность | Эссенциализм и семейные обязательства | Задаёт пользователь |
+| Пересадка | Смена контекста | Жизнь как простой переезд | Задаёт пользователь |
+| Обрезка | Границы, фокус | Насилие, упрощение отношений | Ограничено |
+| Сорняки | Нежелательная конкуренция | Отвержение чувств/людей | Запрещено для внутренних состояний/людей |
+| Вредители | Внешняя угроза | Дегуманизация | Запрещено применительно к людям |
+| Болезнь | Потребность во вмешательстве | Медикализация/диагноз | Запрещено как статус благополучия |
+| Увядание | Естественное изменение | Наказание и напоминание о смертности | Никакой обратной связи по отсутствию |
+| Компост | Трансформация | Принудительный посттравматический рост | Только по замыслу пользователя |
+| Микориза | Взаимозависимость | Ложно-научный/альтруистический нарратив | Явно метафорично |
+| Садовник | Забота и субъектность | Иерархия контроля | Только пользователь, условно |
+| ИИ-садовник | Руководство | Владение/зависимость | Внутреннее имя, не реляционное заявление |
 
-## Required test
+## Обязательный тест
 
-For every use:
+Для каждого использования:
 
-- literal translation;
-- rejected-use response;
-- cultural review;
-- accessibility review;
-- systemic-context check;
-- medical-claim check;
-- moral-score check;
-- AI-authority check.
+- буквальный перевод;
+- реакция на отклонённое использование;
+- культурная проверка;
+- проверка доступности;
+- проверка системного контекста;
+- проверка на медицинские заявления;
+- проверка на моральную оценку;
+- проверка на «авторитет ИИ».

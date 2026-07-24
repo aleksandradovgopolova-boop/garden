@@ -1,5 +1,5 @@
 ---
-title: "R-037 — Emotion Without Interpretation"
+title: "R-037 — Эмоция без интерпретации"
 status: accepted
 owner: "Research"
 updated: 2026-07-18
@@ -7,62 +7,62 @@ review_cycle: quarterly
 source_of_truth: false
 ---
 
-# R-037 — Emotion Without Interpretation
+# R-037 — Эмоция без интерпретации
 
-## Core question
-How can Garden receive emotional experience without diagnosing or explaining the person?
+## Ключевой вопрос
+Как Garden может принимать эмоциональный опыт, не диагностируя и не объясняя человека?
 
-## Decision
-Garden may hold user-authored emotional language and literal self-report. It does not infer inner truth.
+## Решение
+Garden может хранить эмоциональный язык, написанный пользователем, и буквальный самоотчёт. Он не выводит внутреннюю «истину».
 
-> Garden can witness expression. It cannot claim interpretation.
+> Garden может быть свидетелем выражения. Он не может претендовать на интерпретацию.
 
-## Allowed
-- free text;
-- user-selected words;
-- optional private mood marker;
-- “I do not know”;
-- silence;
-- deletion;
-- no response.
+## Разрешено
+- свободный текст;
+- выбранные пользователем слова;
+- опциональный приватный маркер настроения;
+- «Я не знаю»;
+- молчание;
+- удаление;
+- отсутствие ответа.
 
-## Forbidden
-- diagnosis;
-- personality scoring;
-- trauma inference;
-- attachment-style inference;
-- emotional prediction;
-- hidden risk ranking;
-- “you are actually feeling…”;
-- therapeutic positioning.
+## Запрещено
+- диагноз;
+- оценка личности;
+- вывод травмы;
+- вывод типа привязанности;
+- эмоциональное предсказание;
+- скрытое ранжирование рисков;
+- «на самом деле вы чувствуете…»;
+- терапевтическое позиционирование.
 
-## AI response
-AI may reflect literal wording, ask a gentle question, help rewrite a reflection or reduce stimulation when asked. It may not claim clinical authority or use vulnerability for retention.
+## Ответ ИИ
+ИИ может отразить буквальную формулировку, задать мягкий вопрос, помочь переписать рефлексию или снизить стимуляцию по просьбе. Он не может претендовать на клинический авторитет или использовать уязвимость ради удержания.
 
-## Right to silence
-No entry means only that no entry was made. Garden cannot infer deterioration, avoidance or disengagement.
+## Право на молчание
+Отсутствие записи означает лишь то, что запись не была сделана. Garden не может выводить ухудшение, избегание или отстранённость.
 
 ## Trigger Round
 ```yaml
 trigger_round:
-  problem: emotional features become surveillance or pseudo-therapy
+  problem: эмоциональные функции становятся слежкой или псевдотерапией
   selected_cards:
-    - Human-centric: let the person name the experience
-    - Storytelling: preserve first-person voice
-    - Innovation: design for silence
+    - Human-centric: пусть человек сам называет опыт
+    - Storytelling: сохранить голос от первого лица
+    - Innovation: проектировать под молчание
   generated_hypotheses:
-    - literal reflection is safer than inferred mood
-    - no-response mode should exist
+    - буквальное отражение безопаснее выведенного настроения
+    - должен существовать режим «без ответа»
   conflicts_with_garden:
-    - diagnosis
-    - emotional scoring
+    - диагноз
+    - оценка эмоций
   experiments:
-    - literal reflection assistant
-    - user-defined vocabulary
+    - ассистент буквального отражения
+    - словарь, заданный пользователем
   rejected_directions:
-    - AI therapist
-    - passive emotion detection
+    - ИИ-терапевт
+    - пассивное распознавание эмоций
 ```
 
-## Principle
-Emotional meaning belongs to the person who lived it.
+## Принцип
+Эмоциональный смысл принадлежит тому, кто его прожил.

@@ -18,7 +18,7 @@ source_of_truth: false
 
 ## 1. Главный вопрос
 
-> Как человек создаёт и изменяет Garden вместе с AI так, чтобы система помогала формулировать, собирать и пробовать варианты, но не подменяла авторство, не применяла изменения молча и не превращала пользователя в редактора чужой версии его собственного мира?
+> Как человек создаёт и изменяет Garden вместе с ИИ так, чтобы система помогала формулировать, собирать и пробовать варианты, но не подменяла авторство, не применяла изменения молча и не превращала пользователя в редактора чужой версии его собственного мира?
 
 ---
 
@@ -26,18 +26,18 @@ source_of_truth: false
 
 Garden должен различать:
 
-1. **View** — наблюдение без изменения.
-2. **Draft** — подготовка изменений вне текущего мира.
-3. **Preview** — просмотр последствий.
-4. **Apply** — явное принятие.
-5. **Undo** — быстрый возврат.
-6. **Version** — сохранённое состояние.
-7. **Proposal** — предложение AI или другого автора.
-8. **Commit** — зафиксированное пользовательское изменение.
+1. **Просмотр (view)** — наблюдение без изменения.
+2. **Черновик (draft)** — подготовка изменений вне текущего мира.
+3. **Предпросмотр (preview)** — просмотр последствий.
+4. **Применение (apply)** — явное принятие.
+5. **Отмена (undo)** — быстрый возврат.
+6. **Версия (version)** — сохранённое состояние.
+7. **Предложение (proposal)** — предложение ИИ или другого автора.
+8. **Фиксация (commit)** — зафиксированное пользовательское изменение.
 
-### Core principle
+### Основной принцип
 
-> **AI may expand the field of possibilities. Only the user decides what becomes real.**
+> **ИИ может расширять поле возможностей. Только пользователь решает, что становится реальным.**
 
 ---
 
@@ -65,11 +65,11 @@ Garden хранит не только данные, но и:
 
 ---
 
-## 4. View and Edit
+## 4. Просмотр и редактирование (view и edit)
 
-View и Edit должны быть различимы всегда.
+Просмотр и редактирование должны быть различимы всегда.
 
-### View
+### Просмотр
 
 - можно перемещаться;
 - открывать;
@@ -78,7 +78,7 @@ View и Edit должны быть различимы всегда.
 - просматривать историю;
 - не менять структуру.
 
-### Edit
+### Редактирование
 
 - можно размещать;
 - перемещать;
@@ -88,30 +88,30 @@ View и Edit должны быть различимы всегда.
 - удалять;
 - создавать варианты.
 
-### Requirements
+### Требования
 
 - явный индикатор режима;
-- no accidental drag;
-- no hidden autosave of structural change;
-- выход из Edit не теряет draft без предупреждения;
-- все изменения перечислены перед apply при массовом действии.
+- никакого случайного перетаскивания;
+- никакого скрытого автосохранения структурного изменения;
+- выход из редактирования не теряет черновик без предупреждения;
+- все изменения перечислены перед применением при массовом действии.
 
 ---
 
-## 5. Draft-first authoring
+## 5. Авторство «черновик прежде всего» (draft-first)
 
-Сложные изменения должны сначала существовать как draft.
+Сложные изменения должны сначала существовать как черновик.
 
 Примеры:
 
 - новая композиция места;
 - перестройка маршрутов;
-- AI-generated layout;
+- сгенерированная ИИ раскладка;
 - сезонный вариант;
 - изменение нескольких объектов;
 - импорт структуры.
 
-Draft:
+Черновик:
 
 - не влияет на текущий Garden;
 - может быть сохранён;
@@ -121,9 +121,9 @@ Draft:
 
 ---
 
-## 6. Preview
+## 6. Предпросмотр
 
-Preview показывает:
+Предпросмотр показывает:
 
 - что изменится;
 - какие объекты затронуты;
@@ -133,24 +133,24 @@ Preview показывает:
 - какие данные удалятся;
 - можно ли вернуть.
 
-### Preview is not persuasion
+### Предпросмотр — не убеждение
 
-Preview не должен:
+Предпросмотр не должен:
 
 - делать новый вариант визуально «правильнее»;
 - скрывать потери;
-- использовать эмоциональный copy;
-- подталкивать принять AI-предложение.
+- использовать эмоциональный текст;
+- подталкивать принять предложение ИИ.
 
 ---
 
-## 7. Apply
+## 7. Применение
 
 Изменение становится частью мира только после явного действия.
 
-### Apply levels
+### Уровни применения
 
-#### Immediate
+#### Немедленное
 
 Для малых обратимых изменений:
 
@@ -158,57 +158,57 @@ Preview не должен:
 - смена света;
 - переименование.
 
-#### Confirmed
+#### С подтверждением
 
 Для заметных структурных изменений:
 
 - удалить место;
-- заменить layout;
-- изменить privacy;
+- заменить раскладку;
+- изменить приватность;
 - архивировать связанную систему;
-- применить AI-generated variant.
+- применить сгенерированный ИИ вариант.
 
-#### Typed confirmation
+#### С вводом подтверждения
 
 Только для редких действительно разрушительных действий.
 
-Garden не использует excessive confirmation fatigue.
+Garden не использует чрезмерную усталость от подтверждений.
 
 ---
 
-## 8. Undo and recovery
+## 8. Отмена и восстановление
 
-Undo должен быть:
+Отмена должна быть:
 
-- доступным;
-- понятным;
-- не скрытым во временном toast;
-- применимым к пространственным изменениям;
-- доступным через историю.
+- доступной;
+- понятной;
+- не скрытой во временном тосте;
+- применимой к пространственным изменениям;
+- доступной через историю.
 
-### Recovery layers
+### Слои восстановления
 
-1. Immediate undo.
-2. Session history.
-3. Version restore.
-4. Trash/recovery period.
-5. Export backup.
+1. Немедленная отмена.
+2. История сессии.
+3. Восстановление версии.
+4. Корзина/период восстановления.
+5. Резервная копия через экспорт.
 
-No destructive action without a recovery story where technically feasible.
+Никакого разрушительного действия без сценария восстановления там, где это технически осуществимо.
 
 ---
 
-## 9. Versions
+## 9. Версии
 
-Garden version is a preserved state of:
+Версия Garden — сохранённое состояние:
 
-- place;
-- object arrangement;
-- ritual system;
-- atmosphere;
-- whole garden.
+- места;
+- расположения объектов;
+- системы ритуалов;
+- атмосферы;
+- всего сада.
 
-### Version metadata
+### Метаданные версии
 
 ```yaml
 version:
@@ -223,47 +223,47 @@ version:
   change_summary:
 ```
 
-### Rules
+### Правила
 
-- user may name versions;
-- AI labels are suggestions;
-- exact history remains;
-- old versions are not called outdated;
-- restoring creates a new current version instead of erasing history.
-
----
-
-## 10. Proposals
-
-AI changes are proposals.
-
-A proposal includes:
-
-- intent understood by AI;
-- assumptions;
-- affected scope;
-- generated result;
-- alternatives;
-- risks;
-- reversibility;
-- confidence where relevant.
-
-### Proposal statuses
-
-- generated;
-- viewed;
-- edited;
-- accepted;
-- partially accepted;
-- rejected;
-- expired by user choice;
-- archived.
-
-Rejected proposals do not return as nudges.
+- пользователь может именовать версии;
+- метки ИИ — предложения;
+- точная история сохраняется;
+- старые версии не называются устаревшими;
+- восстановление создаёт новую текущую версию вместо стирания истории.
 
 ---
 
-## 11. Partial acceptance
+## 10. Предложения
+
+Изменения ИИ — это предложения.
+
+Предложение включает:
+
+- намерение, понятое ИИ;
+- допущения;
+- затрагиваемую область;
+- сгенерированный результат;
+- альтернативы;
+- риски;
+- обратимость;
+- уверенность, где уместно.
+
+### Статусы предложения
+
+- сгенерировано;
+- просмотрено;
+- отредактировано;
+- принято;
+- частично принято;
+- отклонено;
+- истекло по выбору пользователя;
+- архивировано.
+
+Отклонённые предложения не возвращаются как подталкивания.
+
+---
+
+## 11. Частичное принятие
 
 Пользователь может принять:
 
@@ -274,61 +274,61 @@ Rejected proposals do not return as nudges.
 - только часть текста;
 - только один из нескольких ритуалов.
 
-### Principle
+### Принцип
 
-> AI output is decomposable.
+> Вывод ИИ разложим на части.
 
-Garden avoids all-or-nothing acceptance.
-
----
-
-## 12. AI assumptions
-
-When AI proposes a change, it should surface assumptions such as:
-
-- intended use;
-- object priority;
-- accessibility constraints;
-- desired density;
-- preservation requirements;
-- privacy scope.
-
-The user can correct assumptions before generation.
-
-AI must not infer:
-
-- psychological need;
-- hidden life goal;
-- personality;
-- emotional symbolism;
-- preferred level of growth.
+Garden избегает принятия «всё или ничего».
 
 ---
 
-## 13. Explainability
+## 12. Допущения ИИ
 
-Explainability in Garden is practical, not performative.
+Когда ИИ предлагает изменение, он должен выявлять допущения, такие как:
 
-Useful explanation:
+- предполагаемое использование;
+- приоритет объектов;
+- ограничения доступности;
+- желаемая плотность;
+- требования к сохранению;
+- область приватности.
 
-- why an object was placed there;
-- which constraint was respected;
-- why a route changed;
-- what trade-off exists;
-- what was preserved.
+Пользователь может исправить допущения до генерации.
 
-Not useful:
+ИИ не должен выводить:
 
-- theatrical chain-of-thought;
-- pseudo-psychological reasoning;
-- confidence theatre;
-- vague “AI magic”.
+- психологическую потребность;
+- скрытую жизненную цель;
+- личность;
+- эмоциональную символику;
+- предпочитаемый уровень роста.
 
 ---
 
-## 14. User intent as an editable object
+## 13. Объяснимость
 
-For substantial work, Garden may store a user-editable brief:
+Объяснимость в Garden практична, а не показна.
+
+Полезное объяснение:
+
+- почему объект размещён здесь;
+- какое ограничение было соблюдено;
+- почему маршрут изменился;
+- какой существует компромисс;
+- что было сохранено.
+
+Бесполезно:
+
+- театральная «цепочка рассуждений»;
+- псевдопсихологическое обоснование;
+- театр уверенности;
+- расплывчатая «магия ИИ».
+
+---
+
+## 14. Намерение пользователя как редактируемый объект
+
+Для существенной работы Garden может хранить редактируемый пользователем бриф:
 
 ```yaml
 authoring_intent:
@@ -342,202 +342,202 @@ authoring_intent:
   privacy:
 ```
 
-This brief belongs to the user and can be edited or deleted.
+Этот бриф принадлежит пользователю и может быть отредактирован или удалён.
 
-AI should not silently expand the goal.
-
----
-
-## 15. Manual creation remains complete
-
-Garden must remain usable without AI.
-
-Manual authoring includes:
-
-- create place;
-- place object;
-- link ritual;
-- rename;
-- set atmosphere;
-- create snapshot;
-- manage history.
-
-AI is acceleration and divergence, not the only route to creation.
+ИИ не должен молча расширять цель.
 
 ---
 
-## 16. AI intensity
+## 15. Ручное создание остаётся полноценным
 
-Possible settings:
+Garden должен оставаться пригодным к использованию без ИИ.
 
-- **Off** — no AI suggestions.
-- **On request** — AI appears only after explicit invocation.
-- **Assistive** — contextual suggestions without auto-apply.
-- **Collaborative** — active proposal generation within a declared session.
+Ручное авторство включает:
 
-No autonomous mode in Alpha.
+- создать место;
+- разместить объект;
+- связать ритуал;
+- переименовать;
+- задать атмосферу;
+- создать снимок;
+- управлять историей.
 
----
-
-## 17. Editing language
-
-Garden avoids judgmental language.
-
-Use:
-
-- current;
-- proposed;
-- previous;
-- alternative;
-- preserved;
-- removed;
-- changed.
-
-Avoid:
-
-- improved;
-- fixed;
-- optimized;
-- cleaner;
-- better;
-- mature;
-- outdated,
-
-unless the user explicitly defines the criterion.
+ИИ — ускорение и расхождение, а не единственный путь к созданию.
 
 ---
 
-## 18. Bulk changes
+## 16. Интенсивность ИИ
 
-Bulk changes are high-risk.
+Возможные настройки:
 
-Requirements:
+- **Выключено (off)** — никаких предложений ИИ.
+- **По запросу (on request)** — ИИ появляется только после явного вызова.
+- **Вспомогательный (assistive)** — контекстные предложения без автоприменения.
+- **Коллаборативный (collaborative)** — активная генерация предложений в рамках объявленной сессии.
 
-- scope preview;
-- affected entity count;
-- before/after comparison;
-- exclusions;
-- partial apply;
-- undo;
-- version created automatically where appropriate.
-
-Examples:
-
-- change all materials;
-- move all rituals from one place;
-- archive an epoch;
-- apply a new visual system.
+Никакого автономного режима в Alpha.
 
 ---
 
-## 19. Import and generation
+## 17. Язык редактирования
 
-Imported or generated content must preserve provenance.
+Garden избегает осуждающего языка.
 
-For each entity:
+Использовать:
 
-- source;
-- imported at;
-- generated by;
-- original file/reference;
-- transformations;
-- user edits.
+- текущее;
+- предложенное;
+- предыдущее;
+- альтернативное;
+- сохранённое;
+- удалённое;
+- изменённое.
 
-No generated object should appear indistinguishable from user-authored history.
+Избегать:
 
----
+- улучшенное;
+- исправленное;
+- оптимизированное;
+- чище;
+- лучше;
+- зрелое;
+- устаревшее,
 
-## 20. Deletion
-
-Deletion must distinguish:
-
-- unlink;
-- hide;
-- archive;
-- move to trash;
-- permanently delete.
-
-The UI must explain what happens to linked:
-
-- rituals;
-- memories;
-- versions;
-- places;
-- exports.
-
-No object disappears because its parent was edited without showing consequences.
+если пользователь явно не определил критерий.
 
 ---
 
-## 21. Collaboration readiness
+## 18. Массовые изменения
 
-Even though Alpha is private, architecture should prepare for:
+Массовые изменения имеют высокий риск.
 
-- author identity;
-- proposal;
-- comment;
-- approval;
-- version;
-- conflict;
-- restore.
+Требования:
 
-Shared editing requires separate research, but provenance begins now.
+- предпросмотр области;
+- число затрагиваемых сущностей;
+- сравнение до/после;
+- исключения;
+- частичное применение;
+- отмена;
+- версия создаётся автоматически, где уместно.
+
+Примеры:
+
+- изменить все материалы;
+- переместить все ритуалы из одного места;
+- архивировать эпоху;
+- применить новую визуальную систему.
+
+---
+
+## 19. Импорт и генерация
+
+Импортированный или сгенерированный контент должен сохранять происхождение.
+
+Для каждой сущности:
+
+- источник;
+- импортировано в;
+- сгенерировано;
+- исходный файл/ссылка;
+- трансформации;
+- правки пользователя.
+
+Ни один сгенерированный объект не должен выглядеть неотличимым от истории, созданной пользователем.
+
+---
+
+## 20. Удаление
+
+Удаление должно различать:
+
+- отвязать;
+- скрыть;
+- архивировать;
+- переместить в корзину;
+- удалить безвозвратно.
+
+Интерфейс должен объяснять, что происходит со связанными:
+
+- ритуалами;
+- воспоминаниями;
+- версиями;
+- местами;
+- экспортами.
+
+Ни один объект не исчезает из-за редактирования его родителя без показа последствий.
+
+---
+
+## 21. Готовность к совместной работе
+
+Хотя Alpha приватна, архитектура должна готовиться к:
+
+- идентичности автора;
+- предложению;
+- комментарию;
+- одобрению;
+- версии;
+- конфликту;
+- восстановлению.
+
+Совместное редактирование требует отдельного исследования, но происхождение начинается уже сейчас.
 
 ---
 
 ## 22. Trigger Round
 
-### Problem
+### Проблема
 
-How can AI participate deeply in creation without becoming the invisible author?
+Как ИИ может глубоко участвовать в создании, не становясь невидимым автором?
 
-### Trigger 1 — Human-centric
+### Триггер 1 — Human-centric
 
-**Prompt:** «А что если создавать для одного человека?»
+**Карточка:** «А что если создавать для одного человека?»
 
-**Hypothesis:** AI begins from a user-editable brief rather than a generic template.
+**Гипотеза:** ИИ начинает с редактируемого пользователем брифа, а не с обобщённого шаблона.
 
-**Outcome:** accepted direction.
+**Результат:** принятое направление.
 
-### Trigger 2 — Innovation
+### Триггер 2 — Инновации
 
-**Prompt:** «А что если до решения всего один клик или тап?»
+**Карточка:** «А что если до решения всего один клик или тап?»
 
-**Hypothesis:** Small safe changes may be applied in one action with immediate undo.
+**Гипотеза:** Малые безопасные изменения можно применять одним действием с немедленной отменой.
 
-**Outcome:** candidate with reversibility boundary.
+**Результат:** кандидат с границей обратимости.
 
-### Trigger 3 — Graphic Design
+### Триггер 3 — Графический дизайн
 
-**Prompt:** «А что если создать структуру?»
+**Карточка:** «А что если создать структуру?»
 
-**Hypothesis:** Authoring flow follows Draft → Preview → Apply → Version.
+**Гипотеза:** Поток авторства следует схеме Черновик → Предпросмотр → Применение → Версия.
 
-**Outcome:** accepted architecture.
+**Результат:** принятая архитектура.
 
-### Trigger 4 — Storytelling
+### Триггер 4 — Сторителлинг
 
-**Prompt:** «А что если ваша история развивается прямо сейчас?»
+**Карточка:** «А что если ваша история развивается прямо сейчас?»
 
-**Hypothesis:** Creation history itself may be preserved as versions and proposals.
+**Гипотеза:** Саму историю создания можно сохранять как версии и предложения.
 
-**Outcome:** accepted with user control.
+**Результат:** принято при контроле пользователя.
 
-### Trigger 5 — Business Design
+### Триггер 5 — Бизнес-дизайн
 
-**Prompt:** «А что если людям нравится работать за вас?»
+**Карточка:** «А что если людям нравится работать за вас?»
 
-**Hypothesis:** User effort in shaping AI output is part of ownership, not friction to eliminate entirely.
+**Гипотеза:** Усилие пользователя в формировании вывода ИИ — часть владения, а не трение, которое нужно полностью устранить.
 
-**Outcome:** strategic hypothesis.
+**Результат:** стратегическая гипотеза.
 
-### Rejected interpretation
+### Отвергнутая интерпретация
 
-Fully autonomous “make my garden better” editing is rejected because criteria are ambiguous and authorship becomes invisible.
+Полностью автономное редактирование «сделай мой сад лучше» отвергается, потому что критерии неоднозначны, а авторство становится невидимым.
 
 ---
 
-## 23. Authoring architecture
+## 23. Архитектура авторства
 
 ```yaml
 garden_authoring:
@@ -569,112 +569,112 @@ ai_proposal:
 
 ---
 
-## 24. Alpha authoring set
+## 24. Набор авторства Alpha
 
-1. Explicit View/Edit switch.
-2. Manual creation path.
-3. User-editable brief.
-4. AI on request.
-5. Draft workspace.
-6. Before/after preview.
-7. Partial acceptance.
-8. Immediate undo.
-9. Version history.
-10. Trash and recovery.
-11. Provenance.
-12. AI intensity setting.
-
----
-
-## 25. Alpha experiments
-
-### A — Direct generation vs editable brief
-
-Measure:
-
-- fit;
-- authorship;
-- correction effort;
-- trust.
-
-### B — Auto-apply vs proposal
-
-Measure speed, anxiety and perceived control.
-
-### C — Whole-result vs partial acceptance
-
-Measure ownership and usefulness.
-
-### D — Visible assumptions
-
-Measure clarity and correction quality.
-
-### E — Version labels
-
-Compare AI-generated, literal and user-authored labels.
-
-### F — Manual-only session
-
-Verify Garden remains complete without AI.
+1. Явное переключение Просмотр/Редактирование.
+2. Путь ручного создания.
+3. Редактируемый пользователем бриф.
+4. ИИ по запросу.
+5. Рабочее пространство черновика.
+6. Предпросмотр до/после.
+7. Частичное принятие.
+8. Немедленная отмена.
+9. История версий.
+10. Корзина и восстановление.
+11. Происхождение.
+12. Настройка интенсивности ИИ.
 
 ---
 
-## 26. Candidate principles
+## 25. Эксперименты Alpha
 
-1. AI proposes; user commits.
-2. View and Edit are always distinct.
-3. Complex changes begin as drafts.
-4. Preview shows losses as well as gains.
-5. Reversibility is default.
-6. AI output is decomposable.
-7. Assumptions are visible and editable.
-8. Manual creation is complete.
-9. Rejected proposals do not return.
-10. Provenance is preserved.
-11. Restoration creates history, not erasure.
-12. Bulk changes require scope review.
-13. Editing language remains non-judgmental.
-14. AI intensity is user-controlled.
-15. User effort can support ownership.
+### A — Прямая генерация против редактируемого брифа
 
----
+Измерять:
 
-## 27. What Garden must not claim
+- соответствие;
+- авторство;
+- усилие на исправление;
+- доверие.
 
-- AI knows the best form of the garden;
-- generated means improved;
-- faster creation always means better creation;
-- user correction is failure;
-- full automation increases ownership;
-- a beautiful preview justifies hidden loss;
-- old versions are outdated;
-- more AI involvement means more value;
-- AI-generated symbolism reflects the user;
-- manual creation is an inferior mode.
+### B — Автоприменение против предложения
+
+Измерять скорость, тревогу и воспринимаемый контроль.
+
+### C — Целый результат против частичного принятия
+
+Измерять владение и полезность.
+
+### D — Видимые допущения
+
+Измерять ясность и качество исправлений.
+
+### E — Метки версий
+
+Сравнить метки, сгенерированные ИИ, буквальные и созданные пользователем.
+
+### F — Сессия только вручную
+
+Проверить, что Garden остаётся полноценным без ИИ.
 
 ---
 
-## 28. Claim Registry
+## 26. Принципы-кандидаты
 
-| Claim | Confidence | Status |
+1. ИИ предлагает; пользователь фиксирует.
+2. Просмотр и Редактирование всегда различны.
+3. Сложные изменения начинаются как черновики.
+4. Предпросмотр показывает и потери, и выигрыши.
+5. Обратимость — по умолчанию.
+6. Вывод ИИ разложим на части.
+7. Допущения видимы и редактируемы.
+8. Ручное создание полноценно.
+9. Отклонённые предложения не возвращаются.
+10. Происхождение сохраняется.
+11. Восстановление создаёт историю, а не стирание.
+12. Массовые изменения требуют обзора области.
+13. Язык редактирования остаётся неосуждающим.
+14. Интенсивность ИИ контролируется пользователем.
+15. Усилие пользователя может поддерживать владение.
+
+---
+
+## 27. Что Garden не должен заявлять
+
+- ИИ знает лучшую форму сада;
+- сгенерированное означает улучшенное;
+- более быстрое создание всегда означает лучшее создание;
+- исправление пользователем — это провал;
+- полная автоматизация увеличивает владение;
+- красивый предпросмотр оправдывает скрытую потерю;
+- старые версии устарели;
+- больше участия ИИ означает больше ценности;
+- сгенерированная ИИ символика отражает пользователя;
+- ручное создание — неполноценный режим.
+
+---
+
+## 28. Реестр утверждений
+
+| Утверждение | Уверенность | Статус |
 |---|---:|---|
-| Explicit preview and undo can support control | high | foundation |
-| AI auto-apply is necessary for convenience | low | rejected |
-| Editable briefs may improve fit | medium | Alpha hypothesis |
-| Partial acceptance may increase ownership | medium | Alpha hypothesis |
-| Manual mode must remain complete | normative/product boundary | required |
-| Provenance supports trust and recovery | high | foundation |
-| User effort is always desirable | low | rejected |
-| Draft-first flow may reduce anxiety for large changes | medium | Alpha hypothesis |
-| AI explanations should expose assumptions and trade-offs | high | design foundation |
-| Restoring should preserve prior history | high | foundation |
+| Явные предпросмотр и отмена могут поддерживать контроль | высокая | основа |
+| Автоприменение ИИ необходимо для удобства | низкая | отвергнуто |
+| Редактируемые брифы могут улучшить соответствие | средняя | гипотеза Alpha |
+| Частичное принятие может повышать владение | средняя | гипотеза Alpha |
+| Ручной режим должен оставаться полноценным | нормативная/продуктовая граница | требуется |
+| Происхождение поддерживает доверие и восстановление | высокая | основа |
+| Усилие пользователя всегда желательно | низкая | отвергнуто |
+| Поток «черновик прежде всего» может снижать тревогу при больших изменениях | средняя | гипотеза Alpha |
+| Объяснения ИИ должны выявлять допущения и компромиссы | высокая | основа дизайна |
+| Восстановление должно сохранять прежнюю историю | высокая | основа |
 
 ---
 
-## 29. Verdict
+## 29. Вердикт
 
-Garden should not make the user approve a finished world created by someone else.
+Garden не должен заставлять пользователя утверждать готовый мир, созданный кем-то другим.
 
-It should let the person shape possibilities, compare them, keep parts, reject parts and remain visible as the author.
+Он должен позволять человеку формировать возможности, сравнивать их, сохранять части, отвергать части и оставаться видимым как автор.
 
-> **AI can help imagine the garden. Only the person decides what grows into reality.**
+> **ИИ может помочь вообразить сад. Только человек решает, что вырастает в реальность.**
