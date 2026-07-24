@@ -150,7 +150,7 @@ Corpus studies illness communication показывают, что одинако
 
 ## 6. Пользовательская метафора и продуктовая метафора
 
-### User-authored metaphor
+### Метафора, созданная пользователем (user-authored metaphor)
 
 Человек говорит:
 
@@ -162,7 +162,7 @@ Garden может спросить:
 
 > «Что в этом образе для тебя главное: слишком много дел, отсутствие пространства или чувство, что всё требует ухода?»
 
-### Product-imposed metaphor
+### Метафора, навязанная продуктом (product-imposed metaphor)
 
 Garden говорит:
 
@@ -643,30 +643,30 @@ Garden имеет полноценный literal mode без потери фун
 
 ---
 
-## 22. Accessibility
+## 22. Доступность (accessibility)
 
-Nature-rich visuals могут быть:
+Насыщенные природой визуалы могут быть:
 
 - визуально перегруженными;
-- трудными для screen reader;
+- трудными для скринридера;
 - зависимыми от цвета;
 - анимированными;
 - непонятными без культурного знания.
 
 ### Требования
 
-- literal labels;
+- буквальные подписи;
 - текстовые эквиваленты;
-- no color-only meaning;
-- reduced motion;
-- semantic navigation;
-- optional imagery;
-- no hidden status in plant animation;
-- no punishment through visual decay.
+- никакого смысла только через цвет;
+- уменьшенное движение;
+- семантическая навигация;
+- опциональная образность;
+- никакого скрытого статуса в анимации растения;
+- никакого наказания через визуальное увядание.
 
 ---
 
-## 23. Metaphor ownership
+## 23. Владение метафорой (metaphor ownership)
 
 Каждый metaphorical mapping должен отвечать на вопрос:
 
@@ -693,9 +693,9 @@ AI-suggested metaphor не сохраняется как личный язык �
 
 ---
 
-## 24. Layered Metaphor Model
+## 24. Многослойная модель метафоры (Layered Metaphor Model)
 
-### Layer 0 — Literal
+### Слой 0 — Буквальный (literal)
 
 - практика;
 - условие;
@@ -706,28 +706,28 @@ AI-suggested metaphor не сохраняется как личный язык �
 
 Всегда доступен.
 
-### Layer 1 — Brand atmosphere
+### Слой 1 — Атмосфера бренда (brand atmosphere)
 
 - название Garden;
 - мягкие визуальные мотивы;
 - слоган;
 - не влияет на status.
 
-### Layer 2 — Optional language
+### Слой 2 — Опциональный язык (optional language)
 
-- seed;
-- tend;
-- season;
-- soil;
-- garden view.
+- семя (seed);
+- ухаживать (tend);
+- сезон (season);
+- почва (soil);
+- вид сада (garden view).
 
 Настраивается пользователем.
 
-### Layer 3 — User-authored metaphor
+### Слой 3 — Метафора, созданная пользователем (user-authored metaphor)
 
 Собственные образы человека. Garden уточняет значение.
 
-### Layer 4 — Immersive visualization
+### Слой 4 — Иммерсивная визуализация (immersive visualization)
 
 Интерактивный сад. Только если:
 
@@ -739,7 +739,7 @@ AI-suggested metaphor не сохраняется как личный язык �
 
 ---
 
-## 25. Safe, conditional and prohibited patterns
+## 25. Безопасные, условные и запрещённые паттерны
 
 ### Допустимы как мягкий брендовый язык
 
@@ -775,7 +775,7 @@ AI-suggested metaphor не сохраняется как личный язык �
 
 ---
 
-## 26. Metaphor Exit
+## 26. Выход из метафоры (Metaphor Exit)
 
 Пользователь может:
 
@@ -791,7 +791,7 @@ AI-suggested metaphor не сохраняется как личный язык �
 
 ---
 
-## 27. Metaphor Check
+## 27. Проверка метафоры (Metaphor Check)
 
 Перед использованием образа Garden проверяет:
 
@@ -808,7 +808,7 @@ AI-suggested metaphor не сохраняется как личный язык �
 
 ---
 
-## 28. Red-team scenarios
+## 28. Сценарии red-team
 
 - Человек не сделал практику месяц.
 - Человек переживает утрату.
@@ -833,26 +833,26 @@ AI-suggested metaphor не сохраняется как личный язык �
 
 ---
 
-## 29. Claim Registry
+## 29. Реестр утверждений
 
-| Claim ID | Утверждение | Источники | Уверенность | Статус |
+| ID утверждения | Утверждение | Источники | Уверенность | Статус |
 |---|---|---|---|---|
-| R013-C01 | Metaphor can frame attention, reasoning and proposed action | SRC-META-001–004 | средняя–высокая, context-dependent | foundation |
-| R013-C02 | Любая метафора сада автоматически поддерживает wellbeing | нет | отсутствует | rejected |
-| R013-C03 | Health metaphors can increase engagement/intentions in some contexts | SRC-META-005 | средняя, heterogeneous | limited support |
-| R013-C04 | Same metaphor family can be empowering or disempowering | SRC-META-006, 007 | высокая in qualitative corpora | foundation |
-| R013-C05 | User-authored metaphor is always safer | нет | отсутствует | rejected |
-| R013-C06 | Shared exploration of client metaphors can support communication | SRC-META-008, 009 | средняя, therapy contexts | design inspiration |
-| R013-C07 | Garden metaphor inherits benefits of actual nature exposure | нет | отсутствует | rejected |
-| R013-C08 | Growth metaphor can imply teleology and progress norms | conceptual synthesis | средняя | design risk |
-| R013-C09 | Garden metaphor can individualize structural problems | critical synthesis | средняя | red-team requirement |
-| R013-C10 | Weeds/pruning language is harmless when aesthetically gentle | нет | absent | rejected |
-| R013-C11 | Literal mode preserves autonomy and accessibility | no direct Garden evidence | низкая | product hypothesis |
-| R013-C12 | Layered metaphor reduces distortion | no direct evidence | низкая | product hypothesis |
-| R013-C13 | User-controlled metaphor ownership improves fit | qualitative literature + synthesis | средняя | proposed requirement |
-| R013-C14 | A dying garden is an appropriate motivational signal | no | absent | rejected |
-| R013-C15 | Metaphor needs cultural and accessibility testing | SRC-META-007, 010, R-009 | высокая | requirement |
-| R013-C16 | Mycorrhiza is a validated model of human social support | no | absent | rejected |
+| R013-C01 | Метафора может обрамлять внимание, рассуждение и предлагаемое действие | SRC-META-001–004 | средняя–высокая, зависит от контекста | основа |
+| R013-C02 | Любая метафора сада автоматически поддерживает благополучие | нет | отсутствует | отвергнуто |
+| R013-C03 | Метафоры здоровья могут повышать вовлечённость/намерения в некоторых контекстах | SRC-META-005 | средняя, неоднородная | ограниченная поддержка |
+| R013-C04 | Одно семейство метафор может расширять или лишать сил | SRC-META-006, 007 | высокая в качественных корпусах | основа |
+| R013-C05 | Метафора, созданная пользователем, всегда безопаснее | нет | отсутствует | отвергнуто |
+| R013-C06 | Совместное исследование метафор клиента может поддерживать коммуникацию | SRC-META-008, 009 | средняя, терапевтические контексты | вдохновение для дизайна |
+| R013-C07 | Метафора сада наследует пользу реального контакта с природой | нет | отсутствует | отвергнуто |
+| R013-C08 | Метафора роста может подразумевать телеологию и нормы прогресса | концептуальный синтез | средняя | дизайнерский риск |
+| R013-C09 | Метафора сада может индивидуализировать структурные проблемы | критический синтез | средняя | требование red-team |
+| R013-C10 | Язык сорняков/обрезки безвреден, когда эстетически мягок | нет | отсутствует | отвергнуто |
+| R013-C11 | Буквальный режим сохраняет автономию и доступность | нет прямых данных Garden | низкая | продуктовая гипотеза |
+| R013-C12 | Многослойная метафора снижает искажение | нет прямых данных | низкая | продуктовая гипотеза |
+| R013-C13 | Контролируемое пользователем владение метафорой улучшает соответствие | качественная литература + синтез | средняя | предложенное требование |
+| R013-C14 | Умирающий сад — уместный мотивационный сигнал | нет | отсутствует | отвергнуто |
+| R013-C15 | Метафора требует культурного тестирования и тестирования доступности | SRC-META-007, 010, R-009 | высокая | требование |
+| R013-C16 | Микориза — валидированная модель человеческой социальной поддержки | нет | отсутствует | отвергнуто |
 
 ---
 
