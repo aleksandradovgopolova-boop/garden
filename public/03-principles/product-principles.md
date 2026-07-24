@@ -32,7 +32,7 @@ Garden отвергает давление, ранжирование, социа
 
 ## Импортированный источник: `laws_of_garden_v1.md`
 
-# Laws of Garden v1
+# Законы Garden v1
 
 **Дата:** 16 июля 2026  
 **Статус:** `world design laws`
