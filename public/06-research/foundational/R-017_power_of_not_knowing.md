@@ -1,5 +1,5 @@
 ---
-title: "R-017 — Сила незнания: beginner’s mind, наивность и право не знать заранее, что невозможно"
+title: "R-017 — Сила незнания: ум новичка, наивность и право не знать заранее, что невозможно"
 status: accepted
 owner: "Research"
 updated: 2026-07-18
@@ -7,7 +7,7 @@ review_cycle: quarterly
 source_of_truth: false
 ---
 
-# R-017 — Сила незнания: beginner’s mind, наивность и право не знать заранее, что невозможно
+# R-017 — Сила незнания: ум новичка, наивность и право не знать заранее, что невозможно
 
 **Версия:** 0.1  
 **Дата:** 16 июля 2026  
@@ -55,7 +55,7 @@ source_of_truth: false
 - уверенность без основания;
 - ошибочная причинность;
 - игнорирование обратной связи;
-- epistemic trespassing;
+- эпистемическое вторжение (epistemic trespassing);
 - опасный эксперимент;
 - отказ от помощи.
 
@@ -69,7 +69,7 @@ source_of_truth: false
 - «я могу ошибаться»;
 - «здесь нужен другой специалист».
 
-Это основание curiosity and intellectual humility.
+Это основание любопытства и интеллектуальной скромности.
 
 ### Приостановленное знание
 
@@ -89,9 +89,9 @@ source_of_truth: false
 
 - маленький шаг;
 - обратимость;
-- affordable loss;
+- допустимую потерю (affordable loss);
 - ясные границы;
-- feedback;
+- обратную связь;
 - право остановиться;
 - доступ к экспертизе.
 
@@ -101,16 +101,16 @@ source_of_truth: false
 
 ---
 
-## 3. Beginner’s mind
+## 3. Ум новичка (beginner’s mind)
 
-`Shoshin`, или beginner’s mind, происходит из Zen tradition и обычно описывает открытость, любопытство и отсутствие преждевременной уверенности даже при наличии опыта.
+`Shoshin`, или ум новичка (beginner’s mind), происходит из дзен-традиции и обычно описывает открытость, любопытство и отсутствие преждевременной уверенности даже при наличии опыта.
 
 Garden может использовать эту идею только как философское вдохновение.
 
 Он не должен:
 
 - объявлять её научно валидированной универсальной практикой;
-- превращать Zen в декоративный productivity concept;
+- превращать дзен в декоративный концепт продуктивности;
 - утверждать, что экспертный ум хуже;
 - требовать «стать ребёнком»;
 - романтизировать культурно вырванный термин.
@@ -133,7 +133,7 @@ Garden может использовать эту идею только как �
 - оценивать качество;
 - не повторять предотвратимые ошибки.
 
-Исследования novice–expert differences показывают, что эксперты часто организуют задачи через глубокие принципы, а новички сильнее ориентируются на поверхностные признаки.
+Исследования различий «новичок–эксперт» показывают, что эксперты часто организуют задачи через глубокие принципы, а новички сильнее ориентируются на поверхностные признаки.
 
 Следовательно:
 
@@ -145,7 +145,7 @@ Garden может использовать эту идею только как �
 
 ## 5. Что знание может закрывать
 
-### Einstellung effect
+### Эффект установки (Einstellung effect)
 
 Привычное решение может становиться настолько доступным, что человек:
 
@@ -156,16 +156,16 @@ Garden может использовать эту идею только как �
 
 Исследования с шахматными экспертами показали, что знакомая, но неоптимальная комбинация способна направлять внимание и затруднять обнаружение лучшего решения.
 
-### Cognitive entrenchment
+### Когнитивная закостенелость (cognitive entrenchment)
 
 Стабильные экспертные схемы улучшают скорость и качество во многих стандартных ситуациях, но могут ограничивать:
 
 - адаптацию;
-- problem reframing;
+- переформулирование проблемы;
 - генерацию необычных решений;
 - использование идей извне.
 
-### Design fixation
+### Фиксация в дизайне (design fixation)
 
 Ранний пример, знакомая форма или первая «достаточно хорошая» идея способны сузить дальнейший поиск.
 
@@ -197,7 +197,7 @@ Garden может использовать эту идею только как �
 - времени;
 - мотивации;
 - качества обратной связи;
-- того, требуется exploration или execution.
+- того, требуется исследование или исполнение.
 
 ### Точная позиция
 
@@ -207,9 +207,9 @@ Garden должен помогать расширять второе, не ун�
 
 ---
 
-## 7. Curiosity
+## 7. Любопытство (curiosity)
 
-Information-gap theory рассматривает curiosity как реакцию на заметный разрыв между тем, что человек знает, и тем, что хочет узнать.
+Теория информационного разрыва рассматривает любопытство как реакцию на заметный разрыв между тем, что человек знает, и тем, что хочет узнать.
 
 Слишком маленький разрыв неинтересен.
 
@@ -230,13 +230,13 @@ Information-gap theory рассматривает curiosity как реакци�
 
 > «В каких двух ситуациях эта неделя ощущалась чуть живее остальных? Чего мы пока не знаем об их условиях?»
 
-Garden создаёт **bounded unknown**, а не бездонную неопределённость.
+Garden создаёт **ограниченное неизвестное** (bounded unknown), а не бездонную неопределённость.
 
 ---
 
-## 8. Intellectual humility
+## 8. Интеллектуальная скромность (intellectual humility)
 
-Intellectual humility включает признание того, что:
+Интеллектуальная скромность включает признание того, что:
 
 - собственное знание ограничено;
 - убеждение может быть ошибочным;
@@ -264,7 +264,7 @@ Intellectual humility включает признание того, что:
 
 ---
 
-## 9. Actively Open-Minded Thinking
+## 9. Активно открытое мышление (Actively Open-Minded Thinking)
 
 AOT относится к готовности:
 
@@ -273,13 +273,13 @@ AOT относится к готовности:
 - откладывать преждевременное закрытие;
 - размышлять над основанием убеждения.
 
-Исследования связывают AOT с меньшей подверженностью некоторым reasoning errors, суеверным и конспирологическим убеждениям.
+Исследования связывают AOT с меньшей подверженностью некоторым ошибкам рассуждения, суеверным и конспирологическим убеждениям.
 
 ### Ограничение
 
-Open-mindedness не означает, что Garden бесконечно предлагает версии и никогда не принимает решение.
+Открытость ума не означает, что Garden бесконечно предлагает версии и никогда не принимает решение.
 
-Исследование должно иметь точку convergence:
+Исследование должно иметь точку сходимости:
 
 > достаточно ли информации для следующего обратимого шага?
 
@@ -297,7 +297,7 @@ Open-mindedness не означает, что Garden бесконечно пре
 
 может сделать пробел знания видимым.
 
-### Garden use
+### Использование в Garden
 
 Не проверять человека экзаменом.
 
@@ -317,7 +317,7 @@ Open-mindedness не означает, что Garden бесконечно пре
 
 ## 11. Неведение собственной некомпетентности
 
-Исследования metacognitive miscalibration показывают, что люди с низкой компетентностью в конкретной области могут хуже оценивать собственную точность. Однако популярная версия Dunning–Kruger effect часто преувеличивается, а часть формы эффекта может зависеть от статистических особенностей измерения.
+Исследования метакогнитивной рассогласованности показывают, что люди с низкой компетентностью в конкретной области могут хуже оценивать собственную точность. Однако популярная версия эффекта Даннинга–Крюгера часто преувеличивается, а часть формы эффекта может зависеть от статистических особенностей измерения.
 
 Для Garden важен не мем:
 
@@ -327,7 +327,7 @@ Open-mindedness не означает, что Garden бесконечно пре
 
 > **Уверенность человека не является достаточным доказательством компетентности — как и неуверенность не доказывает её отсутствия.**
 
-Поэтому risk assessment не передаётся только субъективной уверенности.
+Поэтому оценка риска не передаётся только субъективной уверенности.
 
 ---
 
@@ -348,7 +348,7 @@ Garden должен поддерживать открытие без ложно�
 
 ---
 
-## 13. Epistemic trespassing
+## 13. Эпистемическое вторжение (epistemic trespassing)
 
 Экспертность в одной области не переносится автоматически в другую.
 
@@ -357,7 +357,7 @@ Garden должен поддерживать открытие без ложно�
 - предприниматель даёт медицинский совет;
 - психолог делает юридический вывод;
 - разработчик объявляет социальную проблему технической;
-- AI превращает языковую правдоподобность в компетенцию.
+- ИИ превращает языковую правдоподобность в компетенцию.
 
 Garden обязан различать:
 
@@ -368,22 +368,22 @@ transfer_justified:
 external_expert_needed:
 ```
 
-AI по определению способен звучать одинаково уверенно в разных доменах. Это делает границы особенно важными.
+ИИ по определению способен звучать одинаково уверенно в разных доменах. Это делает границы особенно важными.
 
 ---
 
-## 14. Psychological safety
+## 14. Психологическая безопасность (psychological safety)
 
-Admitting:
+Признание:
 
 - «не знаю»;
 - «ошиблась»;
 - «нужна помощь»;
 - «гипотеза не сработала»
 
-создаёт interpersonal risk.
+создаёт межличностный риск.
 
-Research on psychological safety in teams links a climate safe for interpersonal risk-taking with learning behavior, including asking questions, seeking feedback and discussing mistakes.
+Исследования психологической безопасности в командах связывают климат, безопасный для межличностного риска, с обучающим поведением, включая вопросы, поиск обратной связи и обсуждение ошибок.
 
 ### Для Garden
 
@@ -396,12 +396,12 @@ Research on psychological safety in teams links a climate safe for interpersonal
 
 Полноценные результаты:
 
-- `Unknown`;
-- `Need help`;
-- `Wrong hypothesis`;
-- `Not enough evidence`;
-- `Stop`;
-- `Changed my mind`.
+- `Неизвестно`;
+- `Нужна помощь`;
+- `Гипотеза неверна`;
+- `Недостаточно данных`;
+- `Стоп`;
+- `Передумал(а)`.
 
 ---
 
@@ -411,11 +411,11 @@ Research on psychological safety in teams links a climate safe for interpersonal
 
 Требование «сначала всё понять» может стать:
 
-- avoidance;
-- perfectionism;
+- избеганием;
+- перфекционизмом;
 - поиском гарантии;
 - бесконечной подготовкой;
-- способом не столкнуться с feedback.
+- способом не столкнуться с обратной связью.
 
 Garden может сказать:
 
@@ -425,31 +425,31 @@ Garden может сказать:
 
 - шаг обратим;
 - цена ограничена;
-- safety constraints известны;
-- feedback появится быстро;
+- ограничения безопасности известны;
+- обратная связь появится быстро;
 - человек может остановиться.
 
 ---
 
-## 16. Effectuation: действие без полного предсказания
+## 16. Эффектуация: действие без полного предсказания
 
-Effectuation research описывает предпринимательское действие в условиях genuine uncertainty.
+Исследования эффектуации (effectuation) описывают предпринимательское действие в условиях подлинной неопределённости.
 
 Вместо полного прогноза используются:
 
 - доступные средства;
-- affordable loss;
+- допустимая потеря (affordable loss);
 - партнёрства;
 - использование неожиданностей;
 - контроль ближайшего действия вместо предсказания будущего.
 
 Важно:
 
-> Effectuation описывалась как форма предпринимательской экспертизы, а не как культ неопытности.
+> Эффектуация описывалась как форма предпринимательской экспертизы, а не как культ неопытности.
 
 Сильный участник неопределённости не «ничего не знает». Он знает, что нельзя надёжно предсказать, и меняет способ действия.
 
-### Garden translation
+### Перевод для Garden
 
 - Что уже есть?
 - Чем можно рискнуть без разрушительного ущерба?
@@ -459,7 +459,7 @@ Effectuation research описывает предпринимательское 
 
 ---
 
-## 17. Affordable loss
+## 17. Допустимая потеря (affordable loss)
 
 Вместо:
 
@@ -469,7 +469,7 @@ Effectuation research описывает предпринимательское 
 
 > «Какую ограниченную потерю я могу принять ради проверки?»
 
-Loss может включать:
+Потеря может включать:
 
 - время;
 - деньги;
@@ -481,7 +481,7 @@ Loss может включать:
 
 ### Запрет
 
-Affordable loss не определяется только материально.
+Допустимая потеря не определяется только материально.
 
 Даже бесплатный эксперимент может быть слишком дорогим, если он:
 
@@ -494,7 +494,7 @@ Affordable loss не определяется только материальн�
 
 ---
 
-## 18. Intelligent experiment, not “fail fast”
+## 18. Умный эксперимент, а не «fail fast»
 
 Романтический лозунг:
 
@@ -504,8 +504,8 @@ Affordable loss не определяется только материальн�
 
 Полезный эксперимент:
 
-- находится в новой или uncertain territory;
-- имеет meaningful purpose;
+- находится в новой или неопределённой территории;
+- имеет осмысленную цель;
 - основан на доступном знании;
 - ограничен по масштабу;
 - не повторяет известную предотвратимую ошибку;
@@ -523,7 +523,7 @@ Affordable loss не определяется только материальн�
 
 ---
 
-## 19. Planning fallacy и Benevolent Hiding Hand
+## 19. Ошибка планирования и «Благосклонная скрывающая рука»
 
 Есть привлекательная идея:
 
@@ -531,7 +531,7 @@ Affordable loss не определяется только материальн�
 
 Иногда это происходит.
 
-Но large-project research показывает, что optimism bias, cost overruns, benefit shortfalls and planning fallacy гораздо более типичны, чем благоприятный «скрывающий сложности» механизм.
+Но исследования крупных проектов показывают, что оптимистическое искажение, перерасход средств, недобор выгод и ошибка планирования гораздо более типичны, чем благоприятный «скрывающий сложности» механизм.
 
 ### Следствие
 
@@ -547,37 +547,37 @@ Garden не должен рекомендовать намеренно не уз
 
 ---
 
-## 20. Hard constraints и soft constraints
+## 20. Жёсткие и мягкие ограничения
 
-### Hard constraints
+### Жёсткие ограничения (hard constraints)
 
 Не приостанавливаются:
 
-- physical safety;
-- consent;
-- law;
-- medical risk;
-- financial ruin;
-- irreversible disclosure;
-- dependency of other people;
-- structural power and retaliation;
-- verified technical limitation.
+- физическая безопасность;
+- согласие;
+- закон;
+- медицинский риск;
+- финансовый крах;
+- необратимое раскрытие;
+- зависимость других людей;
+- структурная власть и возмездие;
+- подтверждённое техническое ограничение.
 
-### Soft constraints
+### Мягкие ограничения (soft constraints)
 
 Могут быть подвергнуты сомнению:
 
 - «так обычно не делают»;
-- conventional sequence;
-- professional etiquette without explicit rule;
-- previous personal failure;
-- assumed identity;
-- current market category;
-- aesthetic convention;
+- условная последовательность;
+- профессиональный этикет без явного правила;
+- предыдущая личная неудача;
+- предполагаемая идентичность;
+- текущая рыночная категория;
+- эстетическая условность;
 - «сначала нужен идеальный план»;
 - «я не человек, который…».
 
-### Unknown constraints
+### Неизвестные ограничения (unknown constraints)
 
 Нужно исследовать:
 
@@ -586,35 +586,35 @@ Garden не должен рекомендовать намеренно не уз
 - чужая готовность;
 - скрытая зависимость;
 - правовой режим;
-- skill requirement.
+- требование к навыку.
 
 ---
 
-## 21. Fact, convention, prediction, identity story
+## 21. Факт, условность, прогноз, история об идентичности
 
 Garden раскладывает препятствие.
 
-### Fact
+### Факт
 
 > «Для подачи заявки требуется сертификат».
 
-### Convention
+### Условность
 
 > «Обычно сначала десять лет работают в отрасли».
 
-### Prediction
+### Прогноз
 
 > «Меня всё равно не выберут».
 
-### Identity story
+### История об идентичности
 
 > «Я не человек, который может это делать».
 
-### Unknown
+### Неизвестное
 
 > «Мы не знаем, как комиссия оценит нестандартный опыт».
 
-### Safety boundary
+### Граница безопасности
 
 > «Эксперимент требует медицинского контроля».
 
@@ -622,169 +622,169 @@ Garden раскладывает препятствие.
 
 ---
 
-## 22. Memory and fresh eyes
+## 22. Память и свежий взгляд
 
-Garden already stores:
+Garden уже хранит:
 
-- prior attempts;
-- outcomes;
-- preferences;
-- hypotheses;
-- patterns.
+- прошлые попытки;
+- исходы;
+- предпочтения;
+- гипотезы;
+- паттерны.
 
-This can create personal Einstellung effect.
+Это может создавать личный эффект установки (Einstellung).
 
-### Risk
+### Риск
 
 > «Ты раньше бросала похожие проекты».
 
-This sentence can be useful evidence or a self-fulfilling ceiling.
+Эта фраза может быть полезным свидетельством или самосбывающимся потолком.
 
-### Fresh Eyes rule
+### Правило свежего взгляда
 
-Before using history to predict:
+Прежде чем использовать историю для прогноза:
 
-1. Ask whether the user wants historical context.
-2. Separate event from identity.
-3. Show differences in current conditions.
-4. Include a no-history view.
-5. Use past failure to design a safer test, not to close possibility.
+1. Спросить, хочет ли пользователь исторический контекст.
+2. Отделить событие от идентичности.
+3. Показать различия в текущих условиях.
+4. Включить вид без истории.
+5. Использовать прошлую неудачу для дизайна более безопасного теста, а не для закрытия возможности.
 
-### Example
+### Пример
 
-Not:
+Не:
 
 > «Учитывая твой паттерн, тебе не стоит снова начинать».
 
-Better:
+Лучше:
 
 > «Две прошлые попытки остановились при ежедневном формате. Это может быть полезно для дизайна нового теста, но не доказывает, что направление тебе не подходит».
 
 ---
 
-## 23. AI can amplify knowledge barriers
+## 23. ИИ может усиливать барьеры знания
 
-AI tends to:
+ИИ склонен:
 
-- retrieve common patterns;
-- normalize conventional sequences;
-- produce plausible constraints;
-- anchor on first framing;
-- repeat memory;
-- sound authoritative;
-- converge quickly on a polished answer.
+- извлекать распространённые паттерны;
+- нормализовать условные последовательности;
+- порождать правдоподобные ограничения;
+- закрепляться на первом обрамлении;
+- повторять память;
+- звучать авторитетно;
+- быстро сходиться к отполированному ответу.
 
-Generative AI can also produce design fixation: early outputs become anchors for the user and model.
+Генеративный ИИ также может порождать фиксацию в дизайне: ранние выводы становятся якорями для пользователя и модели.
 
-### Requirement
+### Требование
 
-Garden must not present the first coherent plan as the natural plan.
+Garden не должен представлять первый связный план как естественный план.
 
-Before convergence it should:
+До схождения он должен:
 
-- generate alternative frames;
-- expose assumptions;
-- ask which constraint is real;
-- include a naive option;
-- include a non-AI/no-action option;
-- avoid using historical profile too early.
-
----
-
-## 24. Productive Unknowing Protocol
-
-### Step 1 — Name the live question
-
-Not «understand myself fully».
-
-A bounded uncertainty:
-
-> «Can this practice fit my current evenings?»
-
-### Step 2 — Sort the barrier
-
-- fact;
-- safety boundary;
-- convention;
-- prediction;
-- identity story;
-- unknown.
-
-### Step 3 — Protect hard constraints
-
-Do not suspend evidence that prevents harm.
-
-### Step 4 — Bracket soft constraints
-
-Temporarily ask:
-
-> «If this were not a rule, what would become possible?»
-
-### Step 5 — Generate naive questions
-
-Maximum three.
-
-- Why is this step necessary?
-- Who says it must be done in this order?
-- What would a person new to the field notice?
-- What is the smallest version?
-- Which old result are we overapplying?
-
-### Step 6 — Seek missing expertise
-
-What knowledge is necessary before action?
-
-### Step 7 — Choose an affordable probe
-
-- reversible;
-- bounded;
-- informative;
-- consent-safe;
-- resource-safe.
-
-### Step 8 — Define learning
-
-What will the test tell us?
-
-### Step 9 — Act outside Garden
-
-No endless ideation.
-
-### Step 10 — Update without identity
-
-- worked in this context;
-- did not work under these conditions;
-- unknown remains;
-- new question;
-- stop.
+- сгенерировать альтернативные обрамления;
+- обнажить допущения;
+- спросить, какое ограничение реально;
+- включить наивный вариант;
+- включить вариант без ИИ/без действия;
+- избегать слишком раннего использования исторического профиля.
 
 ---
 
-## 25. Four epistemic modes
+## 24. Протокол продуктивного незнания
 
-### Learn
+### Шаг 1 — Назвать живой вопрос
 
-Use existing knowledge and instruction.
+Не «понять себя полностью».
 
-### Question
+Ограниченная неопределённость:
 
-Inspect assumptions and conventions.
+> «Может ли эта практика вписаться в мои нынешние вечера?»
 
-### Explore
+### Шаг 2 — Разложить препятствие
 
-Run bounded probes.
+- факт;
+- граница безопасности;
+- условность;
+- прогноз;
+- история об идентичности;
+- неизвестное.
 
-### Decide
+### Шаг 3 — Защитить жёсткие ограничения
 
-Converge using current evidence and values.
+Не приостанавливать доказательства, предотвращающие вред.
 
-Garden should not keep the person permanently in Explore.
+### Шаг 4 — Заключить в скобки мягкие ограничения
+
+Временно спросить:
+
+> «Если бы это не было правилом, что стало бы возможным?»
+
+### Шаг 5 — Сгенерировать наивные вопросы
+
+Максимум три.
+
+- Почему этот шаг необходим?
+- Кто говорит, что нужно делать именно в этом порядке?
+- Что заметил бы человек, новый в этой области?
+- Какова наименьшая версия?
+- Какой старый результат мы чрезмерно применяем?
+
+### Шаг 6 — Найти недостающую экспертизу
+
+Какое знание необходимо до действия?
+
+### Шаг 7 — Выбрать допустимую пробу
+
+- обратимую;
+- ограниченную;
+- информативную;
+- безопасную по согласию;
+- безопасную по ресурсам.
+
+### Шаг 8 — Определить обучение
+
+Что тест нам скажет?
+
+### Шаг 9 — Действовать вне Garden
+
+Никакой бесконечной генерации идей.
+
+### Шаг 10 — Обновить без идентичности
+
+- сработало в этом контексте;
+- не сработало при этих условиях;
+- неизвестное остаётся;
+- новый вопрос;
+- стоп.
 
 ---
 
-## 26. Fresh Eyes Mode
+## 25. Четыре эпистемических режима
 
-Optional session mode.
+### Учиться (learn)
+
+Использовать существующее знание и инструкцию.
+
+### Спрашивать (question)
+
+Исследовать допущения и условности.
+
+### Исследовать (explore)
+
+Запускать ограниченные пробы.
+
+### Решать (decide)
+
+Сходиться, используя текущие данные и ценности.
+
+Garden не должен держать человека постоянно в режиме исследования.
+
+---
+
+## 26. Режим свежего взгляда (Fresh Eyes Mode)
+
+Опциональный режим сессии.
 
 ```yaml
 historical_memory_use: hidden_until_requested
@@ -801,13 +801,13 @@ experiment_budget:
   reversibility:
 ```
 
-The mode does not delete memory. It changes retrieval order.
+Режим не удаляет память. Он меняет порядок извлечения.
 
 ---
 
-## 27. Product language
+## 27. Язык продукта
 
-Useful:
+Полезно:
 
 - «Что мы здесь действительно знаем?»
 - «Что является правилом, а что привычным способом?»
@@ -818,7 +818,7 @@ Useful:
 - «Где нужен эксперт?»
 - «Что заставит нас остановиться?»
 
-Avoid:
+Избегать:
 
 - «Просто попробуй».
 - «Не слушай экспертов».
@@ -831,121 +831,121 @@ Avoid:
 
 ---
 
-## 28. Anti-expertise boundary
+## 28. Граница против антиэкспертизы
 
-Garden does not use beginner’s mind to challenge:
+Garden не использует ум новичка, чтобы оспаривать:
 
-- medical diagnosis or treatment without clinician;
-- engineering safety;
-- law and legal deadlines;
-- safeguarding;
-- consent;
-- evidence of abuse risk;
-- financial solvency;
-- cybersecurity controls;
-- public-health requirements.
+- медицинский диагноз или лечение без клинициста;
+- инженерную безопасность;
+- закон и юридические сроки;
+- защиту уязвимых (safeguarding);
+- согласие;
+- признаки риска абьюза;
+- финансовую платёжеспособность;
+- средства контроля кибербезопасности;
+- требования общественного здравоохранения.
 
-It can help formulate questions for an expert and seek second opinions.
+Он может помочь сформулировать вопросы для эксперта и искать второе мнение.
 
-It cannot replace competence with confidence.
-
----
-
-## 29. Not-knowing and identity
-
-The most valuable suspension may concern personal identity.
-
-Statements such as:
-
-- «I always quit»;
-- «I am not creative»;
-- «I cannot lead»;
-- «I am bad at relationships»;
-- «I need external pressure»;
-- «I am just anxious»
-
-may summarize real experiences but should not function as permanent operating rules.
-
-### Garden response
-
-> «This description has matched some situations. Do you want to treat it as a current fact, a past pattern or a hypothesis we can temporarily set aside?»
-
-This is not positive thinking.
-
-It is refusing to turn a sample of the past into a law of the person.
+Он не может заменить компетентность уверенностью.
 
 ---
 
-## 30. Not-knowing and the good life
+## 29. Незнание и идентичность
 
-R-005 established that Garden cannot decide what a good life is for the user.
+Наиболее ценная приостановка может касаться личной идентичности.
 
-R-017 adds:
+Высказывания вроде:
 
-> The user may also not know yet.
+- «Я всегда бросаю»;
+- «Я не творческий человек»;
+- «Я не могу вести за собой»;
+- «Я плоха в отношениях»;
+- «Мне нужно внешнее давление»;
+- «Я просто тревожная»
 
-Garden should allow:
+могут обобщать реальный опыт, но не должны работать как постоянные операционные правила.
 
-- unfinished values;
-- contradictory desires;
-- experiments in identity;
-- periods without a life plan;
-- choices made for learning;
-- revision without failure.
+### Ответ Garden
 
-Not every uncertainty must become a goal.
+> «Это описание совпадало с некоторыми ситуациями. Хочешь рассматривать его как текущий факт, прошлый паттерн или гипотезу, которую можно временно отложить?»
 
----
+Это не позитивное мышление.
 
-## 31. Not-knowing as an ethical limit of Garden
-
-The idea applies to the product itself.
-
-Garden must be able to say:
-
-- we do not know if this feature helps;
-- this market thesis may be wrong;
-- user interviews cannot prove outcomes;
-- scientific evidence may not transfer;
-- Alpha may not deserve to exist;
-- a simpler tool may be better;
-- the metaphor may fail;
-- the business model may conflict with ethics.
-
-### Research principle
-
-> The foundation is not a monument to certainty. It is a disciplined record of what is known, proposed, rejected and still unknown.
+Это отказ превращать выборку прошлого в закон о человеке.
 
 ---
 
-## 32. Claim Registry
+## 30. Незнание и хорошая жизнь
 
-| Claim ID | Claim | Sources | Confidence | Status |
+R-005 установило, что Garden не может решать, что такое хорошая жизнь для пользователя.
+
+R-017 добавляет:
+
+> Пользователь тоже может пока не знать.
+
+Garden должен допускать:
+
+- незавершённые ценности;
+- противоречивые желания;
+- эксперименты с идентичностью;
+- периоды без жизненного плана;
+- выборы, сделанные ради обучения;
+- пересмотр без неудачи.
+
+Не всякая неопределённость должна стать целью.
+
+---
+
+## 31. Незнание как этический предел Garden
+
+Идея применима к самому продукту.
+
+Garden должен уметь сказать:
+
+- мы не знаем, помогает ли эта функция;
+- этот рыночный тезис может быть неверным;
+- пользовательские интервью не могут доказать результаты;
+- научные данные могут не переноситься;
+- Alpha может не заслуживать существования;
+- более простой инструмент может быть лучше;
+- метафора может не сработать;
+- бизнес-модель может конфликтовать с этикой.
+
+### Исследовательский принцип
+
+> Фундамент — не памятник уверенности. Это дисциплинированная запись того, что известно, предложено, отвергнуто и всё ещё неизвестно.
+
+---
+
+## 32. Реестр утверждений
+
+| ID утверждения | Утверждение | Источники | Уверенность | Статус |
 |---|---|---|---|---|
-| R017-C01 | Prior knowledge can produce fixation and suboptimal reuse | SRC-UNK-001–005 | high in studied tasks | foundation |
-| R017-C02 | Expertise generally reduces creativity | evidence mixed/contextual | rejected | rejected |
-| R017-C03 | Experts often represent deep problem structure better than novices | SRC-UNK-006–008 | high | foundation |
-| R017-C04 | Curiosity can arise from perceived information gaps | SRC-UNK-009, 010 | high as theory/review | foundation |
-| R017-C05 | Greater unknown always produces more curiosity | SRC-UNK-009 | not supported | rejected |
-| R017-C06 | Intellectual humility includes awareness of knowledge limits/fallibility | SRC-UNK-011–013 | high | foundation |
-| R017-C07 | Open-minded thinking involves alternatives, counterevidence and delayed closure | SRC-UNK-014 | high | foundation |
-| R017-C08 | People can overestimate explanatory understanding | SRC-UNK-015 | high in studied mechanisms | foundation |
-| R017-C09 | The popular Dunning–Kruger graph is a simple universal law | SRC-UNK-016, 017 | contested/rejected | constraint |
-| R017-C10 | Psychological safety supports learning behavior and interpersonal risk-taking | SRC-UNK-018 | high in team context | foundation |
-| R017-C11 | Effectuation uses means, affordable loss and control under uncertainty | SRC-UNK-019–021 | medium-high | action inspiration |
-| R017-C12 | Effectuation proves novice ignorance causes innovation | no | absent | rejected |
-| R017-C13 | Ignoring project difficulty typically produces beneficial creativity | SRC-UNK-022–024 | generally not supported | rejected |
-| R017-C14 | Epistemic trespassing is a risk when expertise crosses domains | SRC-UNK-025, 026 | high as philosophical problem | boundary |
-| R017-C15 | AI can cause or reinforce design fixation | SRC-UNK-027, 028 | emerging medium | AI constraint |
-| R017-C16 | Temporarily hiding personal history improves action | no Garden evidence | low | product hypothesis |
-| R017-C17 | Fresh Eyes Mode preserves openness without losing safety | no direct evidence | low | product hypothesis |
-| R017-C18 | Affordable reversible probes are safer than blind optimism | effectuation + risk synthesis | medium | design principle |
-| R017-C19 | Past personal failure predicts future impossibility | no | absent | rejected |
-| R017-C20 | Acknowledged ignorance can coexist with decisive action | synthesis | medium | philosophy candidate |
+| R017-C01 | Предыдущее знание может порождать фиксацию и неоптимальное повторное использование | SRC-UNK-001–005 | высокая в изученных задачах | основа |
+| R017-C02 | Экспертиза в целом снижает креативность | данные смешанные/контекстные | отвергнуто | отвергнуто |
+| R017-C03 | Эксперты часто представляют глубокую структуру проблемы лучше новичков | SRC-UNK-006–008 | высокая | основа |
+| R017-C04 | Любопытство может возникать из воспринимаемых информационных разрывов | SRC-UNK-009, 010 | высокая как теория/обзор | основа |
+| R017-C05 | Большее неизвестное всегда порождает больше любопытства | SRC-UNK-009 | не поддержано | отвергнуто |
+| R017-C06 | Интеллектуальная скромность включает осознание пределов знания/погрешимости | SRC-UNK-011–013 | высокая | основа |
+| R017-C07 | Открытое мышление включает альтернативы, контрдоказательства и отложенное закрытие | SRC-UNK-014 | высокая | основа |
+| R017-C08 | Люди могут переоценивать объяснительное понимание | SRC-UNK-015 | высокая в изученных механизмах | основа |
+| R017-C09 | Популярный график Даннинга–Крюгера — простой универсальный закон | SRC-UNK-016, 017 | оспаривается/отвергнуто | ограничение |
+| R017-C10 | Психологическая безопасность поддерживает обучающее поведение и межличностный риск | SRC-UNK-018 | высокая в командном контексте | основа |
+| R017-C11 | Эффектуация использует средства, допустимую потерю и контроль при неопределённости | SRC-UNK-019–021 | средняя–высокая | вдохновение для действия |
+| R017-C12 | Эффектуация доказывает, что неведение новичка порождает инновации | нет | отсутствует | отвергнуто |
+| R017-C13 | Игнорирование сложности проекта обычно порождает полезную креативность | SRC-UNK-022–024 | в целом не поддержано | отвергнуто |
+| R017-C14 | Эпистемическое вторжение — риск, когда экспертиза пересекает домены | SRC-UNK-025, 026 | высокая как философская проблема | граница |
+| R017-C15 | ИИ может вызывать или усиливать фиксацию в дизайне | SRC-UNK-027, 028 | зарождающаяся средняя | ограничение ИИ |
+| R017-C16 | Временное скрытие личной истории улучшает действие | нет данных Garden | низкая | продуктовая гипотеза |
+| R017-C17 | Режим свежего взгляда сохраняет открытость без потери безопасности | нет прямых данных | низкая | продуктовая гипотеза |
+| R017-C18 | Допустимые обратимые пробы безопаснее слепого оптимизма | эффектуация + синтез риска | средняя | принцип дизайна |
+| R017-C19 | Прошлая личная неудача предсказывает будущую невозможность | нет | отсутствует | отвергнуто |
+| R017-C20 | Признанное неведение может сосуществовать с решительным действием | синтез | средняя | кандидат в философию |
 
 ---
 
-## 33. Main sources
+## 33. Основные источники
 
 - SRC-UNK-001 — Bilalić et al. (2008), Einstellung effect in chess experts.
 - SRC-UNK-002 — Bilalić et al. (2010), mechanism of Einstellung effect.
@@ -979,51 +979,51 @@ Garden must be able to say:
 
 ---
 
-## 34. What this research does not prove
+## 34. Что это исследование не доказывает
 
-R-017 does not prove:
+R-017 не доказывает:
 
-- that ignorance produces innovation;
-- that novices are more creative;
-- that expertise should be ignored;
-- that Garden can reliably classify hard and soft constraints;
-- that Fresh Eyes Mode will improve decisions;
-- that curiosity always feels good;
-- that every identity statement should be suspended;
-- that small experiments are harmless;
-- that intellectual humility can be inferred from language;
-- that all social conventions are arbitrary;
-- that action is better than preparation;
-- that a person must embrace uncertainty;
-- that beginner’s mind is a psychological treatment.
+- что неведение порождает инновации;
+- что новички более креативны;
+- что экспертизу следует игнорировать;
+- что Garden может надёжно классифицировать жёсткие и мягкие ограничения;
+- что режим свежего взгляда улучшит решения;
+- что любопытство всегда ощущается приятно;
+- что каждое утверждение об идентичности следует приостанавливать;
+- что малые эксперименты безвредны;
+- что интеллектуальную скромность можно вывести из языка;
+- что все социальные условности произвольны;
+- что действие лучше подготовки;
+- что человек обязан принять неопределённость;
+- что ум новичка является психологическим лечением.
 
 ---
 
-## 35. Verdict
+## 35. Вердикт
 
-There is power in not knowing — but not because ignorance is pure.
+В незнании есть сила — но не потому, что неведение чисто.
 
-Its power appears when a person:
+Его сила проявляется, когда человек:
 
-- notices the boundary of knowledge;
-- refuses to confuse convention with reality;
-- does not turn the past into identity;
-- asks a question experts have stopped asking;
-- acts before complete certainty when the step is safe;
-- learns from the world;
-- invites expertise where the cost of error is high;
-- updates without shame.
+- замечает границу знания;
+- отказывается путать условность с реальностью;
+- не превращает прошлое в идентичность;
+- задаёт вопрос, который эксперты перестали задавать;
+- действует до полной уверенности, когда шаг безопасен;
+- учится у мира;
+- приглашает экспертизу там, где цена ошибки высока;
+- обновляется без стыда.
 
-Garden should neither say:
+Garden не должен ни говорить:
 
-> «You already know yourself; follow the pattern».
+> «Ты уже знаешь себя; следуй паттерну».
 
-nor:
+ни:
 
-> «Forget everything; anything is possible».
+> «Забудь всё; возможно что угодно».
 
-Its voice is:
+Его голос таков:
 
-> «Here is what we know. Here is what we are assuming. Here is what we do not know yet. Which small, safe action could let reality answer?»
+> «Вот что мы знаем. Вот что мы предполагаем. Вот чего мы пока не знаем. Какое небольшое безопасное действие позволит реальности ответить?»
 
-> **Productive ignorance is not emptiness. It is knowledge held without worship, uncertainty held without paralysis, and action taken without pretending to control the result.**
+> **Продуктивное неведение — не пустота. Это знание, удерживаемое без поклонения, неопределённость, удерживаемая без паралича, и действие, предпринятое без притворства, что результат под контролем.**
