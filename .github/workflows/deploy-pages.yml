@@ -1,17 +1,18 @@
 name: Deploy public site to GitHub Pages
 
-# Builds the WowRepo public surface (public/ -> static HTML via
-# scripts/build_site.py) and publishes it to GitHub Pages.
-# Publication is a deliberate, human-approved step: this runs only on
-# pushes to main (i.e. after a reviewed merge) or manual dispatch.
+# Builds Garden's public surface (public/**) with the WowRepo engine and
+# publishes the result to GitHub Pages. WowRepo ingests the Markdown in
+# document mode (see WOWREPO_MODE below) and dresses it in its own design —
+# not Markdown poured into a docs theme.
+#
+# Publication is a deliberate, human-approved step: this runs only on pushes
+# to main (i.e. after a reviewed merge) or manual dispatch.
 
 on:
   push:
     branches: [main]
     paths:
       - "public/**"
-      - "scripts/build_site.py"
-      - "scripts/requirements.txt"
       - ".github/workflows/deploy-pages.yml"
   workflow_dispatch:
 
@@ -26,29 +27,61 @@ concurrency:
   group: pages
   cancel-in-progress: true
 
+env:
+  # The WowRepo engine repository and the ref to build with. Pin to a tag or
+  # commit here if you want Garden's look frozen to a known-good engine build.
+  WOWREPO_ENGINE_REPO: aleksandradovgopolova-boop/wow-repo
+  WOWREPO_ENGINE_REF: main
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - name: Check out Garden content
+        uses: actions/checkout@v4
+
+      - name: Check out the WowRepo engine
+        uses: actions/checkout@v4
         with:
-          python-version: "3.12"
-      - name: Install build dependencies
-        run: pip install -r scripts/requirements.txt
-      - name: Validate documentation
-        run: python scripts/check_docs.py
-      - name: Build site
-        run: python scripts/build_site.py --out build
+          repository: ${{ env.WOWREPO_ENGINE_REPO }}
+          ref: ${{ env.WOWREPO_ENGINE_REF }}
+          path: .engine
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: .engine/package-lock.json
+
+      - name: Install the engine
+        working-directory: .engine
+        # No browsers are needed to build; skip the Playwright download.
+        env:
+          PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: "1"
+        run: npm ci
+
+      - name: Build the site with WowRepo
+        working-directory: .engine
+        env:
+          # Document mode: ingest Garden's Markdown directly.
+          WOWREPO_MODE: markdown
+          # Absolute path to the content root (the folder holding wowrepo.yml).
+          WOWREPO_ROOT: ${{ github.workspace }}/public
+          # A GitHub Pages project site is served under /<repo>/.
+          WOWREPO_BASE: /garden
+          WOWREPO_SITE: https://aleksandradovgopolova-boop.github.io
+        run: npm run build
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
         with:
           # Enable Pages on first run if it is not configured yet.
           enablement: true
+
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: build
+          path: .engine/dist
 
   deploy:
     needs: build
