@@ -1,0 +1,4 @@
+# Dependencies for scripts/build_site.py (WowRepo static-site preview build).
+# scripts/check_docs.py uses only the standard library and needs nothing here.
+PyYAML>=6.0
+Markdown>=3.5
