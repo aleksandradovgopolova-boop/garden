@@ -2,7 +2,7 @@ from pathlib import Path
 import re,sys,collections
 ROOT=Path(__file__).resolve().parents[1]
 errors=[]; warnings=[]
-required=['README.md','AGENTS.md','public/README.md','public/wowrepo.yml','public/01-introduction/what-is-garden.md','public/02-philosophy/garden-constitution.md','internal/README.md','internal/governance/SOURCE_OF_TRUTH.md','internal/governance/PUBLICATION_POLICY.md','internal/engineering/ai-ops/README.md']
+required=['README.md','AGENTS.md','CLAUDE.md','public/README.md','public/wowrepo.yml','public/01-introduction/what-is-garden.md','public/02-philosophy/garden-constitution.md','internal/README.md','internal/governance/SOURCE_OF_TRUTH.md','internal/governance/PUBLICATION_POLICY.md','internal/engineering/ai-ops/README.md','internal/engineering/ai-ops/evals/README.md','scripts/quality_gates.py']
 for rel in required:
     if not (ROOT/rel).exists(): errors.append(f'Missing required file: {rel}')
 active=[p for p in ROOT.rglob('*.md') if 'archive' not in p.parts and '.git' not in p.parts]

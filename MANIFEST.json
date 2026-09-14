@@ -1,12 +1,12 @@
 {
   "repository": "garden",
-  "version": "3.0-wowrepo-ai-ops",
+  "version": "3.1-ai-ops-kit",
   "created_at": "2026-07-18",
   "public_surface": "public/",
   "internal_surface": "internal/",
   "wowrepo_content_root": "public",
   "public_markdown_count": 54,
-  "internal_markdown_count": 85,
-  "total_file_count": 154,
-  "validation": "Checked 146 active Markdown files.\nErrors: 0; warnings: 0"
+  "internal_markdown_count": 91,
+  "total_file_count": 164,
+  "validation": "Checked 153 active Markdown files.\nErrors: 0; warnings: 0"
 }
