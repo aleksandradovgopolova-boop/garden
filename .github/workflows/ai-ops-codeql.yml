@@ -55,7 +55,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        language: ["javascript-typescript"]   # ← ПОДСТАВЬТЕ свои языки (по строке на язык)
+        language: ["python"]   # ← ПОДСТАВЬТЕ свои языки (по строке на язык)
     steps:
       - uses: actions/checkout@v4
       # ПРЕДПОЛЁТ: включён ли в репозитории code scanning. Без него analyze падает с

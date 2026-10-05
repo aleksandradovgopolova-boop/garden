@@ -34,3 +34,5 @@ The upstream update workflow contained an empty GitHub expression inside a shell
 ## Protected-main compatibility
 
 Installation merged on 2026-10-05 at 14:29:17 Europe/Moscow. Main run 37303245290 exposed an upstream coverage workflow attempting a direct baseline push, rejected correctly by branch protection. Garden preserves read-only permissions and publishes the proposed baseline as a CI artifact for PR review. Managed package checksums remain unchanged.
+
+CodeQL is configured for Python, the actual repository tooling language. The delivered JavaScript default failed with no source code (run 37303456300); no application JavaScript exists yet.
