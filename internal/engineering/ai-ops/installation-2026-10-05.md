@@ -26,3 +26,7 @@ Garden application remains unimplemented. Automatic Kit classification inferred 
 Root ARCHITECTURE, ROADMAP and SECURITY are entry points to existing Garden sources and current repository boundaries. Application architecture/security proposals do not become approved through installation.
 
 Full qualification still requires a bounded application change, independent review, acceptance evidence and rollback. No token cost, productivity gain, research success or production readiness is claimed. Private vulnerability reporting is enabled; repository visibility remains public and Pages remains disabled.
+
+## Delivered workflow correction
+
+The upstream update workflow contained an empty GitHub expression inside a shell comment. GitHub rejected the workflow before execution (run 37300910173). The Garden copy removes that comment token; managed package files remain unchanged. This deliberate delivery-template difference must be preserved or superseded by an upstream fix during updates. Automatic updates remain disabled.
