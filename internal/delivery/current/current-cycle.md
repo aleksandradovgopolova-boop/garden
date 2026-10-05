@@ -1,22 +1,18 @@
 ---
-title: "Current Cycle — Coded Vertical Slice"
+title: "Current Cycle — First Place and Return"
 status: accepted
-owner: "Delivery"
-updated: 2026-07-18
-review_cycle: quarterly
+owner: "aleksandradovgopolova-boop"
+updated: 2026-10-05
+review_cycle: monthly
 source_of_truth: true
 ---
 
-# Current Cycle — Coded Vertical Slice
+# Current Cycle — First Place and Return
 
-## Goal
-Produce a research-ready prototype proving authorship, return, AI Preview and Undo.
+Build the local research slice specified in [First Place and Return](first-place-return-spec.md), approved in [ADR-006](../../decisions/adr/ADR-006-first-place-return-slice.md).
 
-## In scope
-Welcome, First Place, Garden Home, Place View, Atmosphere, Object placement, Ritual, Leave and Return, AI Request, Assumptions, Preview, partial Apply, History, Undo and Privacy/Data stub.
+In scope: one authored Place, atmosphere, fixed objects, explicit save/cancel, local persistence, direct return, keyboard/structured editing, local export/import and deletion.
 
-## Out of scope
-Live AI, production authentication, collaboration, social features, public sharing, marketplace and production backend.
+AI Preview, partial Apply and versioned Undo belong to the following slice. No production backend, authentication, live AI or public deployment is approved. The broader Alpha scope remains a target, not a first-cycle checklist.
 
-## Risks
-Garden is mistaken for a notes app or game; spatial UI blocks accessibility; Preview and committed state are confused; visual ambition delays learning.
+Current phase: P0 repository foundation. Product code and participant results do not yet exist. Completion requires the specification's observable criteria and research evidence, not documentation coverage alone.

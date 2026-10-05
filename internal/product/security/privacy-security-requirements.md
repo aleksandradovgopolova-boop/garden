@@ -2,16 +2,16 @@
 title: "Privacy and Security Product Requirements"
 status: accepted
 owner: "Product + Security"
-updated: 2026-07-18
+updated: 2026-10-05
 review_cycle: quarterly
 source_of_truth: true
 related:
-  - ../../04_ENGINEERING/security/security-architecture.md
+  - ../../engineering/security/security-architecture.md
 ---
 
 # Privacy and Security Product Requirements
 
-This document defines user-facing and product obligations. Technical controls live in `04_ENGINEERING/security/security-architecture.md`.
+This document defines user-facing and product obligations. Technical controls live in `internal/engineering/security/security-architecture.md`.
 
 ## Product requirements
 

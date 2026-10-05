@@ -1,0 +1,8 @@
+# Current accountable maintainer. Add an independent reviewer before requiring
+# code-owner approval; GitHub does not allow authors to approve their own PRs.
+* @aleksandradovgopolova-boop
+/public/ @aleksandradovgopolova-boop
+/internal/decisions/ @aleksandradovgopolova-boop
+/internal/governance/ @aleksandradovgopolova-boop
+/.github/ @aleksandradovgopolova-boop
+/scripts/ @aleksandradovgopolova-boop

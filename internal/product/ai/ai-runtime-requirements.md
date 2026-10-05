@@ -2,16 +2,16 @@
 title: "AI Runtime Product Requirements"
 status: accepted
 owner: "Product + AI"
-updated: 2026-07-18
+updated: 2026-10-05
 review_cycle: quarterly
 source_of_truth: true
 related:
-  - ../../04_ENGINEERING/ai-runtime/runtime-architecture.md
+  - ../../engineering/ai-runtime/runtime-architecture.md
 ---
 
 # AI Runtime Product Requirements
 
-This document defines product-level obligations. The implementation source of truth is `04_ENGINEERING/ai-runtime/runtime-architecture.md`.
+This document defines product-level obligations. The implementation source of truth is `internal/engineering/ai-runtime/runtime-architecture.md`.
 
 ## The runtime MUST
 

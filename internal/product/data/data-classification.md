@@ -1,10 +1,10 @@
 ---
 title: "Garden Data Classification and Privacy Architecture"
-status: accepted
+status: proposed
 owner: "Product"
-updated: 2026-07-18
+updated: 2026-10-05
 review_cycle: quarterly
-source_of_truth: true
+source_of_truth: false
 ---
 
 # Garden Data Classification and Privacy Architecture

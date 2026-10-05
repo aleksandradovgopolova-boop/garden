@@ -2,16 +2,20 @@
 title: "Prototype Delivery Backlog"
 status: accepted
 owner: "Delivery"
-updated: 2026-07-18
+updated: 2026-10-05
 review_cycle: monthly
 source_of_truth: true
 related:
-  - ../../04_ENGINEERING/architecture/prototype-build-plan.md
+  - ../../engineering/architecture/prototype-build-plan.md
 ---
 
 # Prototype Delivery Backlog
 
-The engineering sequence and technical details are defined in `04_ENGINEERING/architecture/prototype-build-plan.md`.
+## Delivery scope clarification — 2026-10-05
+
+This document describes the broader Alpha or later AI research round. The owner-approved first cycle is [First Place and Return](../current/first-place-return-spec.md). AI, Ritual, Memory and versioned Undo are deferred from that first cycle. Its acceptance and participant criteria take precedence for the first round; these broader scenarios are retained for later work.
+
+The engineering sequence and technical details are defined in `internal/engineering/architecture/prototype-build-plan.md`.
 
 ## Delivery milestones
 

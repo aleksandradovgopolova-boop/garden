@@ -1,0 +1,559 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-10-05",
+  "records": [
+    {
+      "id": "ADR-001",
+      "status": "accepted",
+      "path": "internal/decisions/adr/ADR-001-preview-state-separation.md",
+      "heading": "# ADR-001 — Preview State Separation",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": "Existing record on main at 9ffe943; historical approval event not independently verified."
+    },
+    {
+      "id": "ADR-002",
+      "status": "proposed",
+      "path": "internal/decisions/adr/ADR-002-place-renderer-technology.md",
+      "heading": "# ADR-002 — Place Renderer Technology",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": "Existing record on main at 9ffe943; historical approval event not independently verified."
+    },
+    {
+      "id": "ADR-003",
+      "status": "accepted",
+      "path": "internal/decisions/adr/ADR-003-deterministic-ai-prototype.md",
+      "heading": "# ADR-003 — Deterministic AI Before Live AI",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": "Existing record on main at 9ffe943; historical approval event not independently verified."
+    },
+    {
+      "id": "ADR-004",
+      "status": "accepted",
+      "path": "internal/decisions/adr/ADR-004-public-internal-repository-surfaces.md",
+      "heading": "# ADR-004 — Public and Internal Repository Surfaces",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": "Existing record on main at 9ffe943; historical approval event not independently verified."
+    },
+    {
+      "id": "GDR-005",
+      "status": "proposed",
+      "path": "internal/decisions/design-rules.md",
+      "heading": "# GDR-005 — Голос Garden поддерживает субъектность и калиброванное доверие",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": null
+    },
+    {
+      "id": "GDR-006",
+      "status": "proposed",
+      "path": "internal/decisions/design-rules.md",
+      "heading": "# GDR-006 — Базовая сущность Garden: практика, а не привычка",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": null,
+      "superseded_portion": {
+        "scope": "user-facing terminology",
+        "by": "GDR-006A"
+      }
+    },
+    {
+      "id": "GDR-007",
+      "status": "proposed",
+      "path": "internal/decisions/design-rules.md",
+      "heading": "# GDR-007 — Рефлексия Garden должна быть ограниченной и завершаемой",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": null
+    },
+    {
+      "id": "GDR-008",
+      "status": "proposed",
+      "path": "internal/decisions/design-rules.md",
+      "heading": "# GDR-008 — Garden поддерживает выбранное обязательство, но не владеет им",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": null
+    },
+    {
+      "id": "GDR-009",
+      "status": "proposed",
+      "path": "internal/decisions/design-rules.md",
+      "heading": "# GDR-009 — Garden персонализирует стиль по выбору, а не по идентичности",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": null
+    },
+    {
+      "id": "GDR-010",
+      "status": "proposed",
+      "path": "internal/decisions/design-rules.md",
+      "heading": "# GDR-010 — AI Gardener предлагает версии, но не владеет интерпретацией",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": null
+    },
+    {
+      "id": "GDR-011",
+      "status": "proposed",
+      "path": "internal/decisions/design-rules.md",
+      "heading": "# GDR-011 — Измерение Garden является вмешательством, а не нейтральным наблюдением",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": null
+    },
+    {
+      "id": "GDR-012",
+      "status": "proposed",
+      "path": "internal/decisions/design-rules.md",
+      "heading": "# GDR-012 — Privacy and security are product boundaries, not compliance layers",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": null
+    },
+    {
+      "id": "GDR-013",
+      "status": "superseded",
+      "path": "internal/decisions/design-rules.md",
+      "heading": "# GDR-013 — Метафора сада является опциональной линзой, а не моделью человека",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": null,
+      "superseded_by": "GDR-013A"
+    },
+    {
+      "id": "GDR-014",
+      "status": "proposed",
+      "path": "internal/decisions/design-rules.md",
+      "heading": "# GDR-014 — Garden creates narrow social bridges, not a network around inner life",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": null
+    },
+    {
+      "id": "GDR-015",
+      "status": "proposed",
+      "path": "internal/decisions/design-rules.md",
+      "heading": "# GDR-015 — Garden distinguishes relief from source-directed change",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": null
+    },
+    {
+      "id": "GDR-016",
+      "status": "proposed",
+      "path": "internal/decisions/design-rules.md",
+      "heading": "# GDR-016 — Garden competes on agency architecture, not an AI-journal feature bundle",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": null
+    },
+    {
+      "id": "GDR-017",
+      "status": "proposed",
+      "path": "internal/decisions/design-rules.md",
+      "heading": "# GDR-017 — Garden protects acknowledged uncertainty, not blind ignorance",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": null
+    },
+    {
+      "id": "GDR-018",
+      "status": "proposed",
+      "path": "internal/decisions/design-rules.md",
+      "heading": "# GDR-018 — Garden is a persistent player-owned place, not a decorated dashboard",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": null
+    },
+    {
+      "id": "GDR-019",
+      "status": "proposed",
+      "path": "internal/decisions/design-rules.md",
+      "heading": "# GDR-019 — Garden language preserves adult agency and world coherence",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": null
+    },
+    {
+      "id": "GDR-020",
+      "status": "proposed",
+      "path": "internal/decisions/design-rules.md",
+      "heading": "# GDR-020 — Garden uses designed incompleteness rather than finished perfection",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": null
+    },
+    {
+      "id": "GDR-021",
+      "status": "proposed",
+      "path": "internal/decisions/design-rules.md",
+      "heading": "# GDR-021 — Garden learns from garden histories without becoming a cultural collage",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": null
+    },
+    {
+      "id": "GDR-022",
+      "status": "proposed",
+      "path": "internal/decisions/design-rules.md",
+      "heading": "# GDR-022 — Colour belongs to the world, not to a psychological score",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": null
+    },
+    {
+      "id": "GDR-023",
+      "status": "proposed",
+      "path": "internal/decisions/design-rules.md",
+      "heading": "# GDR-023 — Light creates space and atmosphere, not a state of the person",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": null
+    },
+    {
+      "id": "GDR-024",
+      "status": "proposed",
+      "path": "internal/decisions/design-rules.md",
+      "heading": "# GDR-024 — Materials carry chosen history, never punishment",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": null
+    },
+    {
+      "id": "GDR-025",
+      "status": "proposed",
+      "path": "internal/decisions/design-rules.md",
+      "heading": "# GDR-025 — Time adds history, never debt",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": null
+    },
+    {
+      "id": "GDR-026",
+      "status": "proposed",
+      "path": "internal/decisions/design-rules.md",
+      "heading": "# GDR-026 — Garden contains independent ambient life, not dependent digital pets",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": null
+    },
+    {
+      "id": "GDR-027",
+      "status": "proposed",
+      "path": "internal/decisions/design-rules.md",
+      "heading": "# GDR-027 — Silence is a complete Garden; sound creates presence, not emotional control",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": null
+    },
+    {
+      "id": "GDR-028",
+      "status": "proposed",
+      "path": "internal/decisions/design-rules.md",
+      "heading": "# GDR-028 — Objects help form places; they do not assign meaning",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": null
+    },
+    {
+      "id": "GDR-029",
+      "status": "proposed",
+      "path": "internal/decisions/design-rules.md",
+      "heading": "# GDR-029 — Garden creates conditions for place, not attachment",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": null
+    },
+    {
+      "id": "GDR-030",
+      "status": "proposed",
+      "path": "internal/decisions/design-rules.md",
+      "heading": "# GDR-030 — The world may vary; persistent evolution requires authorship",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": null
+    },
+    {
+      "id": "GDR-031",
+      "status": "proposed",
+      "path": "internal/decisions/design-rules.md",
+      "heading": "# GDR-031 — Movement is optional; access is direct",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": null
+    },
+    {
+      "id": "GDR-032",
+      "status": "proposed",
+      "path": "internal/decisions/design-rules.md",
+      "heading": "# GDR-032 — AI proposes; the user commits",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": null
+    },
+    {
+      "id": "GDR-033",
+      "status": "proposed",
+      "path": "internal/decisions/design-rules.md",
+      "heading": "# GDR-033 — Rituals are recognized, not enforced",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": null
+    },
+    {
+      "id": "GDR-034",
+      "status": "proposed",
+      "path": "internal/decisions/design-rules.md",
+      "heading": "# GDR-034 — Garden memory is not a second brain",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": null
+    },
+    {
+      "id": "GDR-035",
+      "status": "proposed",
+      "path": "internal/decisions/design-rules.md",
+      "heading": "# GDR-035 — Garden uses context, not a knowledge graph",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": null
+    },
+    {
+      "id": "GDR-036",
+      "status": "proposed",
+      "path": "internal/decisions/design-rules.md",
+      "heading": "# GDR-036 PRIVACY IS STARTING CONDITION",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": null
+    },
+    {
+      "id": "GDR-037",
+      "status": "proposed",
+      "path": "internal/decisions/design-rules.md",
+      "heading": "# GDR-037 PRESENCE IS CONTEXTUAL NOT SOCIAL",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": null
+    },
+    {
+      "id": "GDR-038",
+      "status": "proposed",
+      "path": "internal/decisions/design-rules.md",
+      "heading": "# GDR-038 GARDEN WITNESSES BUT DOES NOT DIAGNOSE",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": null
+    },
+    {
+      "id": "GDR-039",
+      "status": "proposed",
+      "path": "internal/decisions/design-rules.md",
+      "heading": "# GDR-039 A GARDEN MAY WAIT",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": null
+    },
+    {
+      "id": "GDR-040",
+      "status": "proposed",
+      "path": "internal/decisions/design-rules.md",
+      "heading": "# GDR-040 BEGIN WITH ONE PLACE",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": null
+    },
+    {
+      "id": "GDR-041",
+      "status": "proposed",
+      "path": "internal/decisions/design-rules.md",
+      "heading": "# GDR-041 ALPHA CONSTITUTION",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": null
+    },
+    {
+      "id": "GDR-042",
+      "status": "proposed",
+      "path": "internal/decisions/design-rules.md",
+      "heading": "# GDR-042 — Two equal navigation systems",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": null
+    },
+    {
+      "id": "GDR-043",
+      "status": "proposed",
+      "path": "internal/decisions/design-rules.md",
+      "heading": "# GDR-043 — Preview is a separate state",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": null
+    },
+    {
+      "id": "GDR-044",
+      "status": "proposed",
+      "path": "internal/decisions/design-rules.md",
+      "heading": "# GDR-044 — AI uses minimum context",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": null
+    },
+    {
+      "id": "GDR-045",
+      "status": "proposed",
+      "path": "internal/decisions/design-rules.md",
+      "heading": "# GDR-045 — Design system encodes ethics",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": null
+    },
+    {
+      "id": "GDR-046",
+      "status": "proposed",
+      "path": "internal/decisions/design-rules.md",
+      "heading": "# GDR-046 — HTML prototype before full backend",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": null
+    },
+    {
+      "id": "GDR-047",
+      "status": "proposed",
+      "path": "internal/decisions/design-rules.md",
+      "heading": "# GDR-047 — First value is return",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": null
+    },
+    {
+      "id": "GDR-048",
+      "status": "proposed",
+      "path": "internal/decisions/design-rules.md",
+      "heading": "# GDR-048 — Non-spatial representation is equal",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": null
+    },
+    {
+      "id": "GDR-049",
+      "status": "proposed",
+      "path": "internal/decisions/design-rules.md",
+      "heading": "# GDR-049 — Analytics excludes private content",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": null
+    },
+    {
+      "id": "GDR-050",
+      "status": "proposed",
+      "path": "internal/decisions/design-rules.md",
+      "heading": "# GDR-050 — Test interaction before model quality",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": null
+    },
+    {
+      "id": "GDR-051",
+      "status": "proposed",
+      "path": "internal/decisions/design-rules.md",
+      "heading": "# GDR-051 — Garden is inhabitable, not simulated",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": null
+    },
+    {
+      "id": "GDR-052",
+      "status": "proposed",
+      "path": "internal/decisions/design-rules.md",
+      "heading": "# GDR-052 — World, context and system surfaces are distinct",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": null
+    },
+    {
+      "id": "GDR-053",
+      "status": "proposed",
+      "path": "internal/decisions/design-rules.md",
+      "heading": "# GDR-053 — Motion supports orientation, not reward",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": null
+    },
+    {
+      "id": "GDR-054",
+      "status": "proposed",
+      "path": "internal/decisions/design-rules.md",
+      "heading": "# GDR-054 — Visual accessibility has equal status",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": null
+    },
+    {
+      "id": "OWNER-DECISION-001",
+      "status": "accepted",
+      "path": "internal/decisions/gdr/owner-decision-001-rituals-and-garden-core.md",
+      "heading": "# OWNER-DECISION-001 — Ритуалы и сад остаются ядром Garden",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": "Preserved accepted owner decision dated 2026-07-16; archive source and recovery provenance in record."
+    },
+    {
+      "id": "GDR-013A",
+      "status": "accepted",
+      "path": "internal/decisions/gdr/gdr-013a-player-owned-world.md",
+      "heading": "# GDR-013A — The garden is the core player-owned world, not a score",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [
+        "GDR-013"
+      ],
+      "approval_evidence": "Preserved accepted owner decision dated 2026-07-16; archive source and recovery provenance in record."
+    },
+    {
+      "id": "GDR-006A",
+      "status": "accepted",
+      "path": "internal/decisions/gdr/gdr-006a-ritual-user-core.md",
+      "heading": "# GDR-006A — Ritual is the user-facing core; Practice is the internal parent model",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [
+        "GDR-006"
+      ],
+      "approval_evidence": "Preserved accepted owner decision dated 2026-07-16; archive source and recovery provenance in record."
+    },
+    {
+      "id": "ADR-005",
+      "status": "superseded",
+      "path": "internal/decisions/adr/ADR-005-private-repository-and-publication-disabled.md",
+      "heading": "# ADR-005 — Private Repository and Disabled Publication",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": "Explicit project-owner answer in P0 implementation chat on 2026-10-05; wording recorded in ADR.",
+      "superseded_by": "ADR-007"
+    },
+    {
+      "id": "ADR-006",
+      "status": "accepted",
+      "path": "internal/decisions/adr/ADR-006-first-place-return-slice.md",
+      "heading": "# ADR-006 — First Place and Return Before AI",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [],
+      "approval_evidence": "Explicit project-owner answer in P0 implementation chat on 2026-10-05; wording recorded in ADR."
+    },
+    {
+      "id": "ADR-007",
+      "status": "accepted",
+      "path": "internal/decisions/adr/ADR-007-public-repository-publication-disabled.md",
+      "heading": "# ADR-007 — Public Repository with Publication Disabled",
+      "owner": "aleksandradovgopolova-boop",
+      "supersedes": [
+        "ADR-005"
+      ],
+      "approval_evidence": "Owner said “тогда оставь пока публичным)” after the private-repository protection limitation was explained, 2026-10-05."
+    }
+  ],
+  "unresolved_references": []
+}

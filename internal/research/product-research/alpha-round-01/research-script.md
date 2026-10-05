@@ -2,12 +2,16 @@
 title: "S-010 — Prototype Research Script"
 status: accepted
 owner: "Research"
-updated: 2026-07-18
+updated: 2026-10-05
 review_cycle: quarterly
 source_of_truth: false
 ---
 
 # S-010 — Prototype Research Script
+
+## Delivery scope clarification — 2026-10-05
+
+This document describes the broader Alpha or later AI research round. The owner-approved first cycle is [First Place and Return](../../../delivery/current/first-place-return-spec.md). AI, Ritual, Memory and versioned Undo are deferred from that first cycle. Its acceptance and participant criteria take precedence for the first round; these broader scenarios are retained for later work.
 
 ## Study objective
 

@@ -18,6 +18,10 @@ navigation:
     path: 05-atlas
   - label: Исследования
     path: 06-research
+  - label: Основополагающие исследования
+    path: 06-research/foundational
+  - label: Благодарности
+    path: 09-credits
   - label: Дорожная карта
     path: 07-roadmap
   - label: Частые вопросы
