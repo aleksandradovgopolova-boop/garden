@@ -30,3 +30,7 @@ Full qualification still requires a bounded application change, independent revi
 ## Delivered workflow correction
 
 The upstream update workflow contained an empty GitHub expression inside a shell comment. GitHub rejected the workflow before execution (run 37300910173). The Garden copy removes that comment token; managed package files remain unchanged. This deliberate delivery-template difference must be preserved or superseded by an upstream fix during updates. Automatic updates remain disabled.
+
+## Protected-main compatibility
+
+Installation merged on 2026-10-05 at 14:29:17 Europe/Moscow. Main run 37303245290 exposed an upstream coverage workflow attempting a direct baseline push, rejected correctly by branch protection. Garden preserves read-only permissions and publishes the proposed baseline as a CI artifact for PR review. Managed package checksums remain unchanged.
