@@ -1,0 +1,67 @@
+name: Garden quality
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# Verification only. Pages is disabled. Repository and CI logs are public. Publication
+# requires a separate owner-approved decision and workflow change.
+concurrency:
+  group: garden-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  WOWREPO_ENGINE_REPO: aleksandradovgopolova-boop/wow-repo
+  WOWREPO_ENGINE_REF: d6af5dd934fff8584470599af07b1acda0b33cb1
+  WOWREPO_MODE: markdown
+  WOWREPO_ROOT: ${{ github.workspace }}/public
+  WOWREPO_BASE: /garden
+  WOWREPO_SITE: https://aleksandradovgopolova-boop.github.io
+
+jobs:
+  docs:
+    name: Documentation quality
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r scripts/requirements.txt
+      - run: python scripts/check_docs.py
+      - run: python scripts/sync_repository.py --check
+      - run: python -m unittest discover -s tests -v
+
+  build:
+    name: Public site build
+    needs: docs
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out Garden content
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Check out the pinned WowRepo engine
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          repository: ${{ env.WOWREPO_ENGINE_REPO }}
+          ref: ${{ env.WOWREPO_ENGINE_REF }}
+          path: .engine
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '22.20.0'
+          cache: npm
+          cache-dependency-path: .engine/package-lock.json
+      - name: Install the engine
+        working-directory: .engine
+        env:
+          PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
+        run: npm ci
+      - name: Build the production site
+        working-directory: .engine
+        run: npm run build
+      - name: Verify page coverage, local links and artifact boundary
+        run: python scripts/check_site.py --out .engine/dist

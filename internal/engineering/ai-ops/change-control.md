@@ -2,7 +2,7 @@
 title: "AI OPS Change Control"
 status: accepted
 owner: "Engineering Enablement"
-updated: 2026-07-18
+updated: 2026-10-05
 review_cycle: monthly
 source_of_truth: true
 ---
@@ -37,3 +37,7 @@ The default branch should require:
 - resolved conversations;
 - current branch;
 - code-owner review after real team handles are configured.
+
+## Actual GitHub enforcement
+
+See [GitHub controls](../../governance/github-controls.md): after the owner restored public visibility on 2026-10-05, required PRs, checks, up-to-date branches and resolved conversations were enabled for main, including admins. CODEOWNERS assigns the existing accountable owner. Independent mandatory review requires an owner-authorized second reviewer and is not yet enforced. P0 changes are delivered as an unmerged PR for owner review.

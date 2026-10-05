@@ -2,7 +2,7 @@
 title: "Contributing"
 status: accepted
 owner: "Product"
-updated: 2026-07-18
+updated: 2026-10-05
 review_cycle: quarterly
 source_of_truth: false
 ---
@@ -29,4 +29,4 @@ related:
 ---
 ```
 
-Canon changes require a decision record, cross-functional review and a changelog entry. Superseded material goes to `08_ARCHIVE/`.
+Canon changes require a decision record, cross-functional review and a changelog entry. Superseded material goes to `archive/`.

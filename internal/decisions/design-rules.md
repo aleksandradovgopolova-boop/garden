@@ -2,14 +2,14 @@
 title: "Garden Design Rules"
 status: accepted
 owner: "Architecture"
-updated: 2026-07-18
+updated: 2026-10-05
 review_cycle: quarterly
 source_of_truth: true
 ---
 
 # Garden Design Rules
 
-Consolidated registry. Normalize statuses before implementation.
+Historical proposal collection. Each GDR remains proposed unless the decision registry records an explicit approval. The accepted container status does not approve its embedded proposals. See [Decision Log](decision-log.md) for precedence and unresolved provenance.
 
 ---
 
@@ -93,6 +93,8 @@ R-004 показало, что язык Garden является механизм
 
 **Дата:** 15 июля 2026  
 **Статус:** `proposed`
+
+The user-language portion is superseded by [GDR-006A](gdr/gdr-006a-ritual-user-core.md). Remaining unapproved proposals are not implementation requirements.
 
 ## Контекст
 
@@ -613,7 +615,9 @@ Garden adopts:
 # GDR-013 — Метафора сада является опциональной линзой, а не моделью человека
 
 **Дата:** 15 июля 2026  
-**Статус:** `proposed`
+**Статус:** `superseded`
+
+Superseded by [GDR-013A](gdr/gdr-013a-player-owned-world.md). Retained for historical reasoning; do not implement this framing.
 
 ## Контекст
 
@@ -1636,6 +1640,8 @@ Garden uses a small enumerated set of functional relations and does not develop 
 
 # GDR-036 PRIVACY IS STARTING CONDITION
 
+**Статус:** `proposed`
+
 Privacy is the starting condition of Garden.
 
 ---
@@ -1643,6 +1649,8 @@ Privacy is the starting condition of Garden.
 ## Imported source: `GDR-037_presence_is_contextual_not_social_proposed.md`
 
 # GDR-037 PRESENCE IS CONTEXTUAL NOT SOCIAL
+
+**Статус:** `proposed`
 
 Presence is contextual, not social.
 
@@ -1652,6 +1660,8 @@ Presence is contextual, not social.
 
 # GDR-038 GARDEN WITNESSES BUT DOES NOT DIAGNOSE
 
+**Статус:** `proposed`
+
 Garden witnesses expression but does not diagnose.
 
 ---
@@ -1659,6 +1669,8 @@ Garden witnesses expression but does not diagnose.
 ## Imported source: `GDR-039_a_garden_may_wait_proposed.md`
 
 # GDR-039 A GARDEN MAY WAIT
+
+**Статус:** `proposed`
 
 A Garden may wait; no retention pressure.
 
@@ -1668,6 +1680,8 @@ A Garden may wait; no retention pressure.
 
 # GDR-040 BEGIN WITH ONE PLACE
 
+**Статус:** `proposed`
+
 Onboarding begins with one place.
 
 ---
@@ -1675,6 +1689,8 @@ Onboarding begins with one place.
 ## Imported source: `GDR-041_alpha_constitution_proposed.md`
 
 # GDR-041 ALPHA CONSTITUTION
+
+**Статус:** `proposed`
 
 Alpha tests meaningful return without obligation.
 
@@ -1684,6 +1700,8 @@ Alpha tests meaningful return without obligation.
 
 # GDR-042 — Two equal navigation systems
 
+**Статус:** `proposed`
+
 Spatial and direct navigation are equal.
 
 ---
@@ -1691,6 +1709,8 @@ Spatial and direct navigation are equal.
 ## Imported source: `GDR-043_preview_is_a_separate_state_proposed.md`
 
 # GDR-043 — Preview is a separate state
+
+**Статус:** `proposed`
 
 Preview cannot mutate committed Garden state.
 
@@ -1700,6 +1720,8 @@ Preview cannot mutate committed Garden state.
 
 # GDR-044 — AI uses minimum context
 
+**Статус:** `proposed`
+
 Full-Garden context is prohibited by default.
 
 ---
@@ -1707,6 +1729,8 @@ Full-Garden context is prohibited by default.
 ## Imported source: `GDR-045_design_system_encodes_ethics_proposed.md`
 
 # GDR-045 — Design system encodes ethics
+
+**Статус:** `proposed`
 
 Reversibility, privacy, silence and accessibility are component-level rules.
 
@@ -1716,6 +1740,8 @@ Reversibility, privacy, silence and accessibility are component-level rules.
 
 # GDR-046 — HTML prototype before full backend
 
+**Статус:** `proposed`
+
 Validate the vertical slice with a coded prototype first.
 
 ---
@@ -1723,6 +1749,8 @@ Validate the vertical slice with a coded prototype first.
 ## Imported source: `GDR-047_first_value_is_return_proposed.md`
 
 # GDR-047 — First value is return
+
+**Статус:** `proposed`
 
 The first value moment is not finishing setup. It is leaving and returning to a preserved place.
 
@@ -1732,6 +1760,8 @@ The first value moment is not finishing setup. It is leaving and returning to a 
 
 # GDR-048 — Non-spatial representation is equal
 
+**Статус:** `proposed`
+
 Every spatial Place has a structured, keyboard- and screen-reader-accessible representation with equal functional status.
 
 ---
@@ -1739,6 +1769,8 @@ Every spatial Place has a structured, keyboard- and screen-reader-accessible rep
 ## Imported source: `GDR-049_analytics_excludes_private_content_proposed.md`
 
 # GDR-049 — Analytics excludes private content
+
+**Статус:** `proposed`
 
 Raw memories, rituals, emotional text and AI prompts are not collected in product analytics by default.
 
@@ -1748,6 +1780,8 @@ Raw memories, rituals, emotional text and AI prompts are not collected in produc
 
 # GDR-050 — Test interaction before model quality
 
+**Статус:** `proposed`
+
 The first coded prototype uses deterministic AI proposals before live-model integration so Preview, partial Apply and Undo can be validated independently.
 
 ---
@@ -1755,6 +1789,8 @@ The first coded prototype uses deterministic AI proposals before live-model inte
 ## Imported source: `GDR-051_garden_is_inhabitable_not_simulated_proposed.md`
 
 # GDR-051 — Garden is inhabitable, not simulated
+
+**Статус:** `proposed`
 
 The visual system creates a sense of place without a maintenance-heavy simulated world.
 
@@ -1764,6 +1800,8 @@ The visual system creates a sense of place without a maintenance-heavy simulated
 
 # GDR-052 — World, context and system surfaces are distinct
 
+**Статус:** `proposed`
+
 The interface shows whether the person is inhabiting, editing or operating system controls.
 
 ---
@@ -1772,6 +1810,8 @@ The interface shows whether the person is inhabiting, editing or operating syste
 
 # GDR-053 — Motion supports orientation, not reward
 
+**Статус:** `proposed`
+
 Motion may show continuity but cannot celebrate compliance or create urgency.
 
 ---
@@ -1779,5 +1819,7 @@ Motion may show continuity but cannot celebrate compliance or create urgency.
 ## Imported source: `GDR-054_visual_accessibility_has_equal_status_proposed.md`
 
 # GDR-054 — Visual accessibility has equal status
+
+**Статус:** `proposed`
 
 Structured non-spatial interaction, reduced motion and keyboard access are first-class modes.

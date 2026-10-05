@@ -1,12 +1,28 @@
 {
+  "schema_version": 2,
   "repository": "garden",
-  "version": "3.0-wowrepo-ai-ops",
-  "created_at": "2026-07-18",
-  "public_surface": "public/",
-  "internal_surface": "internal/",
-  "wowrepo_content_root": "public",
+  "content_snapshot": "p0-foundation-2026-10-05",
+  "historical_package_version": "3.0-wowrepo-ai-ops",
+  "visibility": "public",
+  "publication_enabled": false,
+  "candidate_publication_surface": "public/",
+  "team_documentation_surface": "internal/",
+  "total_tracked_file_count": 172,
   "public_markdown_count": 54,
-  "internal_markdown_count": 85,
-  "total_file_count": 154,
-  "validation": "Checked 146 active Markdown files.\nErrors: 0; warnings: 0"
+  "internal_markdown_count": 94,
+  "active_markdown_count": 155,
+  "decision_count": 60,
+  "decision_status_counts": {
+    "accepted": 8,
+    "proposed": 50,
+    "superseded": 2
+  },
+  "ai_ops_kit": {
+    "installed": false,
+    "qualified": false,
+    "candidate_version": "4.9.3",
+    "candidate_commit": "38429f984acb7bde79884327b2916954f796f10c"
+  },
+  "metrics_command": "python scripts/sync_repository.py --check",
+  "validation_command": "python scripts/check_docs.py"
 }

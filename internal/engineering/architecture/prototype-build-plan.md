@@ -2,12 +2,16 @@
 title: "S-009 — Prototype Build Plan"
 status: accepted
 owner: "Engineering"
-updated: 2026-07-18
+updated: 2026-10-05
 review_cycle: quarterly
 source_of_truth: true
 ---
 
 # S-009 — Prototype Build Plan
+
+## Delivery scope clarification — 2026-10-05
+
+This document describes the broader Alpha or later AI research round. The owner-approved first cycle is [First Place and Return](../../delivery/current/first-place-return-spec.md). AI, Ritual, Memory and versioned Undo are deferred from that first cycle. Its acceptance and participant criteria take precedence for the first round; these broader scenarios are retained for later work.
 
 ## Goal
 

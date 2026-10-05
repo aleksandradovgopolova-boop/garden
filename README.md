@@ -1,21 +1,35 @@
 ---
 title: "Garden Repository"
 status: accepted
-owner: "Product"
-updated: 2026-07-18
+owner: "aleksandradovgopolova-boop"
+updated: 2026-10-05
 review_cycle: monthly
 source_of_truth: false
 ---
+
 # Garden Repository
-Garden uses one repository with two surfaces.
+
+Garden is a public product repository containing product/design/research documentation and site-verification tools. The Garden application is not implemented yet.
 
 ```text
-public/    → public product site rendered by WowRepo
-internal/  → private team documentation and AI OPS
+public/    → candidate publication content; publication currently disabled
+internal/  → team product, engineering and delivery documents
+archive/   → historical sources; not active requirements
 ```
 
-Start with [public/README.md](public/README.md) for the product site or [internal/README.md](internal/README.md) for team work.
+All tracked files, including `internal/` and `archive/`, are publicly readable. Directory names and WowRepo exclusions do not provide access control. Only publication-safe material belongs here; confidential material, credentials and raw participant data must stay outside Git. GitHub Pages remains disabled under [ADR-007](internal/decisions/adr/ADR-007-public-repository-publication-disabled.md).
 
-WowRepo receives only `public/`. Public pages never depend on internal access. Internal documents may link to public Canon. Publication requires human review.
+Start with [Source of Truth](internal/governance/SOURCE_OF_TRUTH.md), [Decision Log](internal/decisions/decision-log.md) and [current cycle](internal/delivery/current/current-cycle.md). The first approved slice is [create a Place, save, leave and return](internal/delivery/current/first-place-return-spec.md). AI Preview and Undo follow later. The complete [Alpha](internal/product/alpha/alpha-scope.md) remains the longer-term target.
 
-Run `python scripts/check_docs.py` to validate the repository.
+## Verification
+
+```sh
+python -m pip install -r scripts/requirements.txt
+python scripts/check_docs.py
+python scripts/sync_repository.py --check
+python -m unittest discover -s tests -v
+```
+
+CI builds all 54 candidate publication pages with WowRepo pinned in `.github/workflows/quality.yml`, checks coverage/links and rejects non-public source artifacts. It has no Pages deployment or public artifact upload. `scripts/build_site.py` is a secondary Python preview, not production-rendering evidence.
+
+AI Ops Kit is not installed or qualified. The candidate qualification baseline is 4.9.3 at `38429f984acb7bde79884327b2916954f796f10c`; [the adoption plan](internal/engineering/ai-ops/README.md) defines the bounded pilot.
