@@ -1,0 +1,139 @@
+schema_version: 1
+kind: ai-ops-child-config
+parent:
+  source: git+https://github.com/aleksandradovgopolova-boop/ai-ops-kit.git
+  installed_version: 4.9.3
+  allowed_version_range: '>=4.9.3 <4.9.4'
+  update_channel: qualification
+  update_policy: pr
+  auto_update: false
+standard:
+  version: 3
+  profile: ai-product
+  invariants: []
+project:
+  name: garden
+  documentation_language: ru
+  confidentiality_policy: public
+presets:
+  enabled: []
+adapters:
+  enabled:
+  - codex
+  - generic
+providers:
+  default: openai
+  configured:
+  - id: openai
+    credentials_ref: env:OPENAI_API_KEY
+  fallback_chain: []
+runtimes:
+  default: codex
+  configured:
+  - codex
+  - generic-orchestrator
+openspec:
+  enabled: false
+  profile: core
+  schema: spec-driven
+agents:
+  source: parent-package
+  disabled: []
+  custom: []
+workflows:
+  mappings:
+    bug: QUICK
+    feature: ENGINEERING
+    discovery: PRODUCT
+    research: RESEARCH
+quality_gates:
+  blocking:
+  - intake_completeness
+  - requirements
+  - specification
+  - plan_readiness
+  - implementation_verification
+  - code_review
+  overrides: []
+routing_policy: default
+approval_policy:
+  human_approval_required_for:
+  - protected_paths
+  - destructive
+overlays:
+  project: .ai/project/
+  custom: .ai/custom/
+protected_paths:
+- AGENTS.md
+- .ai-ops.yaml
+- .github/
+- public/02-philosophy/
+- public/03-principles/
+- internal/decisions/
+- internal/governance/
+- internal/product/security/
+- internal/engineering/security/
+- archive/
+confidentiality_policy:
+  send_code_to_external_provider: allowed
+communication:
+  mode: product
+  audience: product
+  detail_level: concise
+  explain_jargon: true
+  technical_details: on_request
+product_operating_model:
+  paths:
+    plan: planning/plan.yaml
+    roadmap: internal/product/roadmap/current-roadmap.md
+  contours:
+    product_strategy:
+      source_of_truth:
+      - internal/product/roadmap/current-roadmap.md
+      - internal/delivery/current/first-place-return-spec.md
+      change_signals:
+      - internal/product/roadmap/**
+      - internal/delivery/current/**
+    planning_execution:
+      source_of_truth:
+      - planning/plan.yaml
+      change_signals:
+      - planning/**
+    system_architecture:
+      source_of_truth:
+      - internal/engineering/architecture/system-overview.md
+      - internal/engineering/frontend/frontend-architecture.md
+      change_signals:
+      - internal/engineering/**
+      - scripts/**
+    data_contracts:
+      source_of_truth:
+      - internal/product/data/entity-model.md
+      change_signals:
+      - internal/product/data/**
+    analytics_learning:
+      source_of_truth:
+      - internal/product/analytics/event-taxonomy.md
+      change_signals:
+      - internal/product/analytics/**
+    research_decisions:
+      source_of_truth:
+      - internal/decisions/registry.json
+      change_signals:
+      - internal/decisions/**
+      - internal/research/**
+    engineering_quality_security:
+      source_of_truth:
+      - internal/engineering/security/security-architecture.md
+      - internal/delivery/quality-gates/definition-of-done.md
+      change_signals:
+      - tests/**
+      - .github/**
+      - internal/engineering/security/**
+      - internal/product/security/**
+    delivery_operations:
+      source_of_truth:
+      - internal/delivery/current/current-cycle.md
+      change_signals:
+      - internal/delivery/**
+      - .github/workflows/**

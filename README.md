@@ -32,4 +32,4 @@ python -m unittest discover -s tests -v
 
 CI builds all 54 candidate publication pages with WowRepo pinned in `.github/workflows/quality.yml`, checks coverage/links and rejects non-public source artifacts. It has no Pages deployment or public artifact upload. `scripts/build_site.py` is a secondary Python preview, not production-rendering evidence.
 
-AI Ops Kit is not installed or qualified. The candidate qualification baseline is 4.9.3 at `38429f984acb7bde79884327b2916954f796f10c`; [the adoption plan](internal/engineering/ai-ops/README.md) defines the bounded pilot.
+AI Ops Kit 4.9.3 is installed from release `v4.9.3` at `ad16611cec1ca65a659f597f7b3b0436df8e78b8`. [Installation evidence and remaining qualification](internal/engineering/ai-ops/installation-2026-10-05.md) distinguish tooling installation from product readiness.
