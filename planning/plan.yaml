@@ -1,0 +1,30 @@
+schema_version: 1
+kind: delivery-plan
+goals:
+  - id: first-place-return
+    status: active
+    outcome:
+      place_persists_after_return: false
+      recovery_and_privacy_acceptance_passed: false
+      moderated_research_gate_completed: false
+work:
+  - id: first-place-architecture
+    title: Choose and document the minimum local research implementation
+    type: architecture
+    goal: first-place-return
+    status: todo
+    owner_role: architect
+    depends_on: []
+    write_scope: [internal/engineering/architecture/]
+    value: high
+    affects: {system_architecture: true, data_contracts: true}
+  - id: first-place-runtime
+    title: Implement Place, Save, Leave and Return against FP acceptance criteria
+    type: engineering
+    goal: first-place-return
+    status: todo
+    owner_role: engineer
+    depends_on: [first-place-architecture]
+    write_scope: [src/, tests/]
+    value: high
+    affects: {system_architecture: true, engineering_quality_security: true}

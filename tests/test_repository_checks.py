@@ -21,7 +21,7 @@ class DocsChecks(unittest.TestCase):
     def setUp(self):
         self.temp = tempfile.TemporaryDirectory()
         self.root = Path(self.temp.name)
-        for directory in ('public', 'internal', 'templates', '.github', 'archive'):
+        for directory in ('public', 'internal', 'templates', '.github', 'archive', 'security'):
             shutil.copytree(ROOT / directory, self.root / directory)
         for file in [*ROOT.glob('*.md'), ROOT / 'MANIFEST.json']:
             shutil.copy(file, self.root)

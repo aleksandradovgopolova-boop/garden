@@ -29,6 +29,6 @@ AI increases throughput only when the system also increases reviewability, safet
 
 ## Kit qualification baseline
 
-The governance described here does not install AI Ops Kit. Garden has no `.ai/`, `.ai-ops.yaml` or qualification evidence yet. Candidate baseline: version 4.9.3, parent commit `38429f984acb7bde79884327b2916954f796f10c`. Install and qualify that exact commit in a separate branch; do not track parent `main` or claim runtime readiness.
+Installed release: AI Ops Kit 4.9.3, tag `v4.9.3`, commit `ad16611cec1ca65a659f597f7b3b0436df8e78b8`. This supersedes the earlier candidate main snapshot. See [installation evidence](installation-2026-10-05.md). Updates require PRs; auto-update is disabled. Full reference-product qualification remains pending.
 
 The pilot must preserve the existing AGENTS.md and Canon, configure source paths and protected paths, produce an effective limited-context pack, pass installation/doctor/validation checks, and complete one bounded change with independent review, acceptance evidence and rollback. The Kit knowledge graph is operational metadata and must never become a semantic graph of Garden users. Define approval/risk mapping before execution.

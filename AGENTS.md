@@ -19,4 +19,4 @@ source_of_truth: true
 
 - Follow the registered accepted decisions; historical proposal collections do not approve their embedded proposals.
 - First cycle: Place, Save, Leave, Return; consult the current slice specification before implementing broader Alpha requirements.
-- AI Ops Kit is not installed; do not claim compatibility or qualification without an evidence-producing pilot.
+- AI Ops Kit 4.9.3 is installed with protected paths and manual updates. Preserve managed checksums; use project overlays. Installation does not complete reference-product qualification. Garden Canon and these instructions take precedence over operational scaffolds.

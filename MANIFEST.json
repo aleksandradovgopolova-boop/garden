@@ -7,10 +7,10 @@
   "publication_enabled": false,
   "candidate_publication_surface": "public/",
   "team_documentation_surface": "internal/",
-  "total_tracked_file_count": 172,
+  "total_tracked_file_count": 917,
   "public_markdown_count": 54,
-  "internal_markdown_count": 94,
-  "active_markdown_count": 155,
+  "internal_markdown_count": 95,
+  "active_markdown_count": 162,
   "decision_count": 60,
   "decision_status_counts": {
     "accepted": 8,
@@ -18,10 +18,11 @@
     "superseded": 2
   },
   "ai_ops_kit": {
-    "installed": false,
+    "installed": true,
     "qualified": false,
-    "candidate_version": "4.9.3",
-    "candidate_commit": "38429f984acb7bde79884327b2916954f796f10c"
+    "version": "4.9.3",
+    "release_commit": "ad16611cec1ca65a659f597f7b3b0436df8e78b8",
+    "managed_file_count": 679
   },
   "metrics_command": "python scripts/sync_repository.py --check",
   "validation_command": "python scripts/check_docs.py"
