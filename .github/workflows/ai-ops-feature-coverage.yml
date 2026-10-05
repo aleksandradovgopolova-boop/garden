@@ -25,7 +25,7 @@ on:
     branches: [main]
   workflow_dispatch: {}
 permissions:
-  contents: write   # нужен лишь чтобы закоммитить засеянный/сниженный baseline на push в main
+  contents: read   # baseline changes must be reviewed through a PR
 concurrency:
   # Отменять УСТАРЕВШИЕ прогоны — но ТОЛЬКО для PR (новый пуш в тот же PR гасит прежний).
   # На push в main / schedule / release / record отмена НЕ применяется: там каждый прогон
@@ -74,18 +74,10 @@ jobs:
               --registry registry/features.yaml \
               --baseline .ai/feature-coverage-baseline.yaml \
               --seed
-      # Персистентность: засеянный/сниженный baseline коммитим ТОЛЬКО на push в main (на PR — читаем,
-      # не пишем: иначе PR тихо двигал бы принятый потолок). Защита от петли — сам GITHUB_TOKEN: пуш
-      # под ним workflow НЕ перезапускает (см. подробный разбор в ai-ops-record.yml; `[skip ci]` не
-      # нужен и вреден — он гасит ВСЕ проверки PR).
-      - name: Закоммитить baseline (только push в main, только если изменился)
-        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-        run: |
-          if [ -z "$(git status --porcelain .ai/feature-coverage-baseline.yaml 2>/dev/null)" ]; then
-            echo "baseline не изменился — коммитить нечего"; exit 0
-          fi
-          git config user.name "ai-ops-feature-coverage"
-          git config user.email "ai-ops-feature-coverage@users.noreply.github.com"
-          git add .ai/feature-coverage-baseline.yaml
-          git commit -m "chore: seed/lower feature-coverage baseline"
-          git push
+      # Garden main is protected: propose baseline changes through a reviewed PR.
+      - name: Save proposed baseline for review
+        uses: actions/upload-artifact@v4
+        with:
+          name: ai-ops-feature-coverage-baseline
+          path: .ai/feature-coverage-baseline.yaml
+          if-no-files-found: error
